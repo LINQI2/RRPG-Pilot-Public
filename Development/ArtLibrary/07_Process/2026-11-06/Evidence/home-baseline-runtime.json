@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: WorldVisible=True Buildings=7 Persons=6 Places=1 Time=38.67997"
+      }
+    ],
+    "isError": false
+  },
+  "id": 24,
+  "jsonrpc": "2.0"
+}

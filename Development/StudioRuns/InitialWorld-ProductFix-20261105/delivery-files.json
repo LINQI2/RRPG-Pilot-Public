@@ -1,0 +1,1808 @@
+[
+  {
+    "path": "Docs/DevelopmentSpecs/README.md",
+    "status": " M",
+    "bytes": 32399,
+    "sha256": "f1eff13775950d8e4dc7f8db438d4f19ee89cb67f2d2300093d29e54d3d858b3",
+    "before": "ac33b46b05906a2be4674c9b26547098cf9831b6ff1552a5a3ca820e724df663"
+  },
+  {
+    "path": "Docs/开发验收交接.md",
+    "status": " M",
+    "bytes": 35159,
+    "sha256": "9fc4b0f9eabf45997764e95c0b5936f12cc51b6f732273b473f988137bceeb83",
+    "before": "929dc3cb30c2bfbfdb7b6b4ec7364f759dc080cd283dc79059ae58cbc93351fa"
+  },
+  {
+    "path": "Docs/文档地图.md",
+    "status": " M",
+    "bytes": 34730,
+    "sha256": "07cff34def488890c367f7e98201ed0b5452e4774ad31c00eef27a97d7ae206e",
+    "before": "f20e54552f3dc075a71d0b0072101217fd235c351b73f7311e4363848af3d346"
+  },
+  {
+    "path": "Docs/项目日志.md",
+    "status": " M",
+    "bytes": 255990,
+    "sha256": "ab7d1d65bad79fb90c529f1508d522c8df3e9cd5b547104e8dd60fb6e8c98549",
+    "before": "ade71534d767b2b11511d1b4fc2036c7610417759e270111f32cb2d46f07879b"
+  },
+  {
+    "path": "Docs/项目状态快照.md",
+    "status": " M",
+    "bytes": 72163,
+    "sha256": "8a5a69ab130664d9ff01e76ab3be6951bb43b0c3666cda89e5fb7ee75f4dbf8c",
+    "before": "4e6712e3bca9b4624e5bb3f633b4b9e33a00f655d5ed9f84808c8233d8d4560e"
+  },
+  {
+    "path": "UnityProject/RRPG1.0game/Assets/Art/Fonts/SourceHanSansCN/RRPG_SourceHanSansCN_Regular_TMP.asset",
+    "status": " M",
+    "bytes": 14976840,
+    "sha256": "7b5717b976bac0d90dce70ba65b4dda0995bf78e8b3fd317ea9918058109c016",
+    "before": "f0f5b901a5ef56a68450803e39510846ccfc38623ab0d3c8654b22f33bcf1681"
+  },
+  {
+    "path": "UnityProject/RRPG1.0game/Assets/Scripts/UI/MainMenuUI.cs",
+    "status": " M",
+    "bytes": 5649,
+    "sha256": "c2862c73291a18feb3a3304ec23f96aa382547bc0d52d5e35ddd1f3419fa8cd9",
+    "before": null
+  },
+  {
+    "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/HomeProductShell.cs",
+    "status": " M",
+    "bytes": 23037,
+    "sha256": "20f81f02e7245b9d241ebb842169fef0875a58b74739d245292bda617af87d16",
+    "before": "fbcb85949f6876557ee1aed56e5261763f30d74b6d0e12e672ce6a813f573878"
+  },
+  {
+    "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ProductHomeReadAdapter.cs",
+    "status": " M",
+    "bytes": 10933,
+    "sha256": "9ea50e9ded64a0ba9ce431eaf14231c7f6e6388959d3e7e3ec0ce48ebce99743",
+    "before": "8d1f849a09e4e1653051dd9988edbeef465adba7b18c624faa7261c5205a39d6"
+  },
+  {
+    "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ProductHomeWorldHost.cs",
+    "status": " M",
+    "bytes": 15839,
+    "sha256": "f5ff39ac316aca3395eb095c4ce26f4f6a524c2af2afd7482d663904bb90f0ac",
+    "before": "67c373945226824be22737e33f8b402f9154d0690557ef506ab4100f98d853e9"
+  },
+  {
+    "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/Runtime/ProductHomeSnapshot.cs",
+    "status": " M",
+    "bytes": 6392,
+    "sha256": "844d1ad4603c280d3aa51c8f03fba175aa80eb70b67cc9938d47081751d1bfc8",
+    "before": "32092e4dbe4fef5f1a14b1ebafddc80689b2895d309fe3108b0fd892e7f652d3"
+  },
+  {
+    "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/Village/VillageVisualPrototypePlayTests.cs",
+    "status": " M",
+    "bytes": 40358,
+    "sha256": "157628bb4fb76d60f09cd0a9fc75c21654219270744ca86cf43e2bfa59b0c101",
+    "before": "e9098d3a16529a04b390aa61f256c939acac848ffba84c1bcffb014890839eca"
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/artifacts/codex-activity.txt",
+    "status": "??",
+    "bytes": 1433,
+    "sha256": "d8e50176f09080f07669d7f59fe2464b03459c39c8cb7df07225e0460c7a6e58",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/artifacts/codex-console.txt",
+    "status": "??",
+    "bytes": 15212,
+    "sha256": "07a3bfbafed25c81fc0e51ecd3b4cebefe7a110bb065c1c0884e94c5578fccae",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/artifacts/codex-continue-activity.txt",
+    "status": "??",
+    "bytes": 951,
+    "sha256": "8fd0460e76cb2601757867ab1995a0e79a8f580f809201b64f8573612d1da861",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/artifacts/codex-edit.txt",
+    "status": "??",
+    "bytes": 10591,
+    "sha256": "d00cdce086912ee9fa3240c0c2e2daade0fe28061cde59857b77a422482f7e0d",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/artifacts/codex-errors.txt",
+    "status": "??",
+    "bytes": 130,
+    "sha256": "6c6d4cb6b17f7bb981d9c7764f6b79859fed8683b337ede75efbcfe06f81afe1",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/artifacts/codex-play-final.txt",
+    "status": "??",
+    "bytes": 5085,
+    "sha256": "6d72340b20df98836299af86b8e0b89de77a96d6fba51a1bb9f34af12b42cf89",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/artifacts/codex-refresh.txt",
+    "status": "??",
+    "bytes": 144,
+    "sha256": "d3ab1dc0e5f26ae7028a9901d85e53d0b01fd8cf28a2d24b664034e72bdd0d62",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/artifacts/codex-refresh02.txt",
+    "status": "??",
+    "bytes": 144,
+    "sha256": "d3ab1dc0e5f26ae7028a9901d85e53d0b01fd8cf28a2d24b664034e72bdd0d62",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/artifacts/codex-refresh05.txt",
+    "status": "??",
+    "bytes": 144,
+    "sha256": "d3ab1dc0e5f26ae7028a9901d85e53d0b01fd8cf28a2d24b664034e72bdd0d62",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/artifacts/codex-resource.txt",
+    "status": "??",
+    "bytes": 933,
+    "sha256": "86b245e9de683defffab354b171330835481664fcf634f0e29718076fa135959",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/artifacts/codex-state-final.txt",
+    "status": "??",
+    "bytes": 280,
+    "sha256": "4f711af7960b5dd32437bdd462604e74014a19235bff26df783bfc229e0d1b59",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/artifacts/codex-state.txt",
+    "status": "??",
+    "bytes": 280,
+    "sha256": "4f711af7960b5dd32437bdd462604e74014a19235bff26df783bfc229e0d1b59",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/artifacts/codex-state02.txt",
+    "status": "??",
+    "bytes": 280,
+    "sha256": "4f711af7960b5dd32437bdd462604e74014a19235bff26df783bfc229e0d1b59",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/artifacts/compiler-verify.log",
+    "status": "??",
+    "bytes": 11517,
+    "sha256": "06e92e4c9d28367e975a9e4ec3219fcb3da3ffbfbe350e47ab26d287771efacc",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/artifacts/mcp-responses.md",
+    "status": "??",
+    "bytes": 3162,
+    "sha256": "fe0cb2a3ee7861cd5c778e99a8e1a4359362ff319dbf8101aef53f91ae2de761",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/codex-before/MainMenuUI.cs",
+    "status": "??",
+    "bytes": 5440,
+    "sha256": "35a9f6637d0d288877b58403a0fb09861e9e0ca51a5b6b0746d03d1be54919bc",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/codex-before/ManagementView.cs",
+    "status": "??",
+    "bytes": 44527,
+    "sha256": "226f44b6aafb1e1680cf38421077dc1fa0579bf485a01c399f86dcdba8f4b5c7",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/codex-before/VillageVisualPrototypePlayTests.cs",
+    "status": "??",
+    "bytes": 37861,
+    "sha256": "89fc87340bfa30d6a41e82c673f829f0430062e288ef962952dfe9e2ae437882",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/doc-before/Docs/DevelopmentSpecs/README.md",
+    "status": "??",
+    "bytes": 31580,
+    "sha256": "3a5c970532428d33fbc0100d26c140fb752613f48caa6762221d9cc710f1c6a8",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/doc-before/Docs/开发验收交接.md",
+    "status": "??",
+    "bytes": 34343,
+    "sha256": "929dc3cb30c2bfbfdb7b6b4ec7364f759dc080cd283dc79059ae58cbc93351fa",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/doc-before/Docs/文档地图.md",
+    "status": "??",
+    "bytes": 33914,
+    "sha256": "f20e54552f3dc075a71d0b0072101217fd235c351b73f7311e4363848af3d346",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/doc-before/Docs/项目日志.md",
+    "status": "??",
+    "bytes": 255174,
+    "sha256": "ade71534d767b2b11511d1b4fc2036c7610417759e270111f32cb2d46f07879b",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/doc-before/Docs/项目状态快照.md",
+    "status": "??",
+    "bytes": 71347,
+    "sha256": "230e03c1cfe8062ad26219595e1f3814e5a71294e11729c60607d2be1b15e330",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/dsh-progress.md",
+    "status": "??",
+    "bytes": 2411,
+    "sha256": "562b6afd455abc1f8f0fdcf0c09ed2e13ccbb4071d00495e771b55e2b9f7868b",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/dsh-result.md",
+    "status": "??",
+    "bytes": 13234,
+    "sha256": "1f3fe53feaf99549660e325852d55c3d21ce901476f17e00bdaa0d89d3c36cad",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/dsh-verification-continuation.md",
+    "status": "??",
+    "bytes": 3826,
+    "sha256": "77b6db66d54074972d985ce863ea55d110a02feddc8209dfd950d78277511cb1",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/dsh-verification-progress.md",
+    "status": "??",
+    "bytes": 2254,
+    "sha256": "3404071500385dfed1d0734f276d330a4aaa54743a31dc9266b388e7c92407ba",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/dsh-verification-result.md",
+    "status": "??",
+    "bytes": 5968,
+    "sha256": "ece709666ee19f7071ca5945363f0c01430a413782eac23856730f2621031ced",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/dsh-work-package.md",
+    "status": "??",
+    "bytes": 5821,
+    "sha256": "0b67466c17078f20f610be116f443cd4815c66b8aa429589c62a547b2db54759",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/execution-record.md",
+    "status": "??",
+    "bytes": 4574,
+    "sha256": "c0b0e8b97210efc825ec9318fd578ccff8adae6d4368ec8f31811b7db5d4d0d1",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/final-protection-state.json",
+    "status": "??",
+    "bytes": 274,
+    "sha256": "5bac2141c8ac2753be2f03148077098de96f3575b2dadd404b95660e2bcdd210",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/producer-play-exit-decision.md",
+    "status": "??",
+    "bytes": 1412,
+    "sha256": "599e13a6f9a3c9806ede03d5505f7ea81bad16a26a7faa2af93dfb5b84122a0e",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/protection-review.json",
+    "status": "??",
+    "bytes": 4952,
+    "sha256": "d0e10a3145180505177138747457b460aaf938627d445ef2d2763c1f6065789d",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/review-before/HomeProductShell.cs",
+    "status": "??",
+    "bytes": 22780,
+    "sha256": "dd5db04b601468428f4326c53fa3a8924e90b2e2c98b3727147bb563ca614add",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/review-before/MainMenuUI.cs",
+    "status": "??",
+    "bytes": 5440,
+    "sha256": "35a9f6637d0d288877b58403a0fb09861e9e0ca51a5b6b0746d03d1be54919bc",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/review-before/ManagementView.cs",
+    "status": "??",
+    "bytes": 44527,
+    "sha256": "226f44b6aafb1e1680cf38421077dc1fa0579bf485a01c399f86dcdba8f4b5c7",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/review-before/ProductHomeReadAdapter.cs",
+    "status": "??",
+    "bytes": 10933,
+    "sha256": "9ea50e9ded64a0ba9ce431eaf14231c7f6e6388959d3e7e3ec0ce48ebce99743",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/review-before/ProductHomeSnapshot.cs",
+    "status": "??",
+    "bytes": 6392,
+    "sha256": "844d1ad4603c280d3aa51c8f03fba175aa80eb70b67cc9938d47081751d1bfc8",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/review-before/ProductHomeWorldHost.cs",
+    "status": "??",
+    "bytes": 15839,
+    "sha256": "f5ff39ac316aca3395eb095c4ce26f4f6a524c2af2afd7482d663904bb90f0ac",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/review-before/VillageVisualPrototypePlayTests.cs",
+    "status": "??",
+    "bytes": 30505,
+    "sha256": "fb4a10382742451a42721b28606901080a7bec168b8c02be0a5c8b04dd9711f1",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/review-before/manifest.json",
+    "status": "??",
+    "bytes": 2772,
+    "sha256": "295b64f03980f5381ad0f7ef971ee2d9d4fa8b5e4031a269d750dba8a3627e13",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/screenshots/a-profile-virtual-place-hidden.png",
+    "status": "??",
+    "bytes": 78503,
+    "sha256": "ef148095e3f7150746d5e57263aadc53e04d981f7c68994688609d154005cbe1",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/screenshots/resources-explicit-view-workplace.png",
+    "status": "??",
+    "bytes": 232202,
+    "sha256": "b1dc1d2bfd40f18756a33fdd2e56b7107bfdcb711d1485ade8768d6449ac98f3",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/screenshots/settings-menu.png",
+    "status": "??",
+    "bytes": 86007,
+    "sha256": "c2e41aa51ceab0c3688106851b5d7dea6a9ad42b802d8fb3bcfaf048158db5d3",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/scripts/backup-review-before.ps1",
+    "status": "??",
+    "bytes": 1789,
+    "sha256": "818fff121859a1016ff185bcecbac0bc8437c32c17f4e27c32606710e6c4b28e",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/scripts/finalize-review.mjs",
+    "status": "??",
+    "bytes": 4198,
+    "sha256": "4edd63079ea67bb505ab5822e675862edb87138016f4ddf08efa9dbe2da88522",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/scripts/reviewer-activity.json",
+    "status": "??",
+    "bytes": 233,
+    "sha256": "27487bac535bab9dbaebf1359fbe0daaa9b15f6fd4f7840c0dca41a05001ec95",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/scripts/reviewer-console.json",
+    "status": "??",
+    "bytes": 31,
+    "sha256": "34b89960eba36e2bfffd70d1abfb226731c7365d8e036259bf010ecb11ad447a",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/scripts/reviewer-continue-activity.json",
+    "status": "??",
+    "bytes": 321,
+    "sha256": "8ec74dc072af4ce239806dfd361970a9fb2e204562ba577b8f0d4e422fd98b65",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/scripts/reviewer-edit.json",
+    "status": "??",
+    "bytes": 220,
+    "sha256": "a471b5d2d12132f4f57ade0a15f664f0723c3d53366486ada30865bd84efbe47",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/scripts/reviewer-errors.json",
+    "status": "??",
+    "bytes": 105,
+    "sha256": "8485e12487653941b00d35c6cb9d4968b69fbaf0dc77fa0c5a55ab46f07fa383",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/scripts/reviewer-mcp.ps1",
+    "status": "??",
+    "bytes": 1392,
+    "sha256": "266b4cfdeba75a29f52d5f0641a7e142d75de32b7010e23ddbb1eba1cd6fe890",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/scripts/reviewer-refresh.json",
+    "status": "??",
+    "bytes": 126,
+    "sha256": "43b7080c4a603be33d8db92d31b114fa8d69fe2f7b782e13bcc294a54f396c74",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/scripts/reviewer-resource.json",
+    "status": "??",
+    "bytes": 222,
+    "sha256": "35a3564ec560aceb0ba7bc298e83598309cc94330a38cdb9692a8c3f0e3d25e4",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/scripts/reviewer-state.json",
+    "status": "??",
+    "bytes": 368,
+    "sha256": "b690f703e7f3bba3a13f96c9fffdc308f2a6c526a7998ee5aa6243dbe132430e",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/scripts/reviewer-tests.json",
+    "status": "??",
+    "bytes": 145,
+    "sha256": "547932c8b061ecb0f09fd00d32341e57c9b61814d22e101a222b32ef01aa4f72",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/scripts/run-compiler-verify.ps1",
+    "status": "??",
+    "bytes": 1141,
+    "sha256": "cacc4a69a06645a3dbff43eceab7ffa1a02b97a286f0bd7dfa0720eeb5e6977a",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/spec-index-before.md",
+    "status": "??",
+    "bytes": 31246,
+    "sha256": "ac33b46b05906a2be4674c9b26547098cf9831b6ff1552a5a3ca820e724df663",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/InitialWorld-ProductFix-20261105/technical-review.md",
+    "status": "??",
+    "bytes": 6902,
+    "sha256": "d5ef20299b32764a0cf5b7c4aacb374b5fad77edf8918fb6abb2b2ecfb62b8ca",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T080331Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "9976141ac93406119938a74999b245e3794f8d2b55b5f4044d75e8266065df6f",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T080331Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T080332Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "d8158c2242c473d4f0aad67b6098386180f502e67d39d40c3c260195b82f67e5",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T080332Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100001Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "e6788af004f91bed13622ace7492a03e597499b4b45047a6d78fbb527aa2f28c",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100001Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100002Z-2/manifest.json",
+    "status": "??",
+    "bytes": 820,
+    "sha256": "626a1bf812740b05b7fdeff0a228d1c09a81caf7ceda7ba1a9a7782a3f811152",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100002Z-2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100002Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "2bc96e0fa743816a3e5c9ed82d70a664c17fed5ad3ccfc2e706695fcf99694db",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100002Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100003Z-2/manifest.json",
+    "status": "??",
+    "bytes": 820,
+    "sha256": "5cde617b60ab33eefe059fa1d39aad3b3fd2125ace39579fa1ca6153f2f1456d",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100003Z-2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100003Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "3ec38892ef5bde8bd07e38a1f1900d9a50701725b01af642acf39f9e76e0c534",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100003Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100114Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "fdc7f6eeb6219d2cd53fe4fb914d9aa391dd598eebbe2a84d864aedac6d59a1d",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100114Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100115Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "d2d23d1e904c189344c72a797e71145824cefd186f88326ce30744a03e0f7f28",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100115Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100116Z-2/manifest.json",
+    "status": "??",
+    "bytes": 820,
+    "sha256": "b4e39bdd7c3ac12967febafc4ef23079b8a62048e17228e0ee55111232a85c87",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100116Z-2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100116Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "6bebe4da2377de6d569e3b631a7c058ca982d1609e4c6e4bbc847a9e6e10349e",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100116Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100117Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "104798ed9704f2a4eb9addba6dee31d8355957749f4307563b2f1e66f9dacfc2",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100117Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100227Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "507f5c45a845492dfb7da59e261d00e8cb31dd960ec7b005f00b958bcf8eda76",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100227Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100228Z-2/manifest.json",
+    "status": "??",
+    "bytes": 820,
+    "sha256": "83ef92a521bd246a2aa9e86ecf5476be413524388dbd1f9432dca4ab4eeabb0d",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100228Z-2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100228Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "99d74a591f50adf97c3e5d2e3862f75bc6dd7372b7b54d76956e630e74a239ab",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100228Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100229Z-2/manifest.json",
+    "status": "??",
+    "bytes": 820,
+    "sha256": "680fe6f842097f63f0d42662a56c0755e0f0bee56b38b6bc6f1af128268159ac",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100229Z-2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100229Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "a2cc84dbf1ada8cda4f85797ba24f6406e364def218c7229eea34035b3a2d6e6",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T100229Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104344Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "bb77c47c6df60cf4abc63ce0629676a969d2bed21e282480726e418ad8881956",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104344Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104345Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "a3c1cb8c2304896ab22fb3753cb480ea43f7722ef2ff108831eb05d8acfe1af0",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104345Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104346Z-2/manifest.json",
+    "status": "??",
+    "bytes": 820,
+    "sha256": "76a98e9674f3d33a2deb8816cfd296da9ff68dfa9f05fc69b2829fc32451f40a",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104346Z-2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104346Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "2842d50821b46e680dd948c5e80d8264355fc4638ce478a57a71fc94034e08b1",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104346Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104347Z-2/manifest.json",
+    "status": "??",
+    "bytes": 820,
+    "sha256": "cb709cbeb370d098fb83203047b1de919513710d742a6c69e42a8d485de20b23",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104347Z-2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104347Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "68fd7fa76f8040bb55721d9e4aeb85b100d7be2321f118f7e6c4101b4daf4b87",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104347Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104348Z-2/manifest.json",
+    "status": "??",
+    "bytes": 820,
+    "sha256": "da0d57cd05998420474b04281a8b18787bdf1d311d71356f7f67adb2b6b2db0a",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104348Z-2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104348Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "3ecaa22fe354532890c72c4d55845cf6781eb73b4ae5515de1f5a6c9c73f7730",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104348Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104502Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "1e34ea9b62c00b83a6dc290711f7655adc7b30fc2d5bb3fec0ea14779fc25b39",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104502Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104503Z-2/manifest.json",
+    "status": "??",
+    "bytes": 820,
+    "sha256": "3f25caf78e065b78d90b662667137a56553d52a877efdbc077d40dcb0f0e5515",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104503Z-2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104503Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "1442eab077a41e06e1887a4484ecae9500cae2c2faec7f24bdf7e7cb86c51f97",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104503Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104504Z-2/manifest.json",
+    "status": "??",
+    "bytes": 820,
+    "sha256": "502a7c905539c59e7363731be614e13553c6ffbc09cc2bf8615dfc3eafc0a7f9",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104504Z-2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104504Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "f204f37706d35b13026e4ca1e35b888509df6cd2a0233109d4f7080fc84b489b",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104504Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104505Z-2/manifest.json",
+    "status": "??",
+    "bytes": 820,
+    "sha256": "20e6ce5ca762b0106af80833759e43e33ebf85a18f908496f52337ef6c8933d5",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104505Z-2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104505Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "040fd818d23affca6166e8db05c05c6ec18d576f5b796183c6af57fcc8a8ab79",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104505Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104506Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "9a844485bac30c490eb51884a11462e00992c4ed5f1b63451e171f9c446d490b",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104506Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104641Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "a27a1cec970bab6e1098fd620bcd79ccb56b43d2c5526c917b27f48e2e75a853",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104641Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104642Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "a77ceeda2a69f415be8aaa31cd8ca3046b3f828d93a9d79dd23374e72e93ac60",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104642Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104643Z-2/manifest.json",
+    "status": "??",
+    "bytes": 820,
+    "sha256": "365128aed6613e0be91f994539b13be6099d1a4fa8c52e51eb8fc76e8b187baa",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104643Z-2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104643Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "311cc63996a462b8943fb6c8436bffdb872a29406474ec683e1bdefc9f77d3c1",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104643Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104644Z-2/manifest.json",
+    "status": "??",
+    "bytes": 820,
+    "sha256": "00521b84140c0aa7ebdbd920033cacb2532a8c2300398ce4318ee14feebb2be3",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104644Z-2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104644Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "8d794acddfd9b59461b05444da918fa3c4474720d428c6633bf5a0827fe88d56",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104644Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104645Z-2/manifest.json",
+    "status": "??",
+    "bytes": 820,
+    "sha256": "dc1ca2be23127efb2dff4391a0c7af367266799f294c9cc139048611cd04f282",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104645Z-2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104645Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "01b5820637e8871044f284cf1994dc69fa50862198244546549d8df72c116f18",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T104645Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105123Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "5b17db41a6e8f320238a1e2c6dfeb0bc7bd127147ed034fa701333be9f6acb02",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105123Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105124Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "a05ba336fdb4c8b9712be1363bdee8b82d0a178e8f1900ebbbbb139ba0504704",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105124Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105125Z-2/manifest.json",
+    "status": "??",
+    "bytes": 820,
+    "sha256": "cdd6355d4b18ca5f1bb46e5ce18311a574833d4a077eac482687ef250f30d30a",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105125Z-2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105125Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "9d64a79a2eb9d84b5d47689f21e7f97f7619488bcb04e73ec41a64844b2f2173",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105125Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105126Z-2/manifest.json",
+    "status": "??",
+    "bytes": 820,
+    "sha256": "96df23e3ad25fb1bcc453280f450ecc853d015254dbc9926f43b7a69063f3c68",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105126Z-2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105126Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "ea79efb6416fd9eee94d7c1c361b4436194e0efc1a78d1bb565ec397d2728810",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105126Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105127Z-2/manifest.json",
+    "status": "??",
+    "bytes": 820,
+    "sha256": "9b707f5431ed12fcc81d6a5641e5382676011f659c0353123fe336f94fb4d609",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105127Z-2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105127Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "2ff2b8f1ff07e8ab479e7bec991dbdd35d49349d591a671403f403af888ad188",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105127Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105309Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "a4c6430f111991414cd5086d9d7ea7e75232c674e3b1ecc736ea54f6103f3221",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105309Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329324Z-ff222f51/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "a375d5f686e08e20b9f75568c2f2c16924ca484531e8d4dfab06c86bbf33ba8d",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329324Z-ff222f51/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329356Z-c8be2d10/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "9032d2e9314c73fc6009b1a2dcf699854f62ba28acd3ae138bf816f0cae8581b",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329356Z-c8be2d10/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329389Z-eeeed9a1/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "f7bb1de2a4a9f7854b081220de52fd587b5e9076d37549f5d4dd842f31ac9643",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329389Z-eeeed9a1/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329417Z-52b4ff42/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "71fc4518b8f5c6faf262f322ae63f28afc3411d7a6ddd068623ceaeeef7860ac",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329417Z-52b4ff42/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329448Z-c493f653/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "e127ca9f994010fc5fe79011dc6885763fad652c27630c275d5c8792c3f87fe6",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329448Z-c493f653/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329485Z-d48ccc12/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "c0df92e618d43c5ed94efae6886c66b2b8128f91027b6795596b881894700d1e",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329485Z-d48ccc12/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329514Z-8839b4d7/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "45aecf1906020d68ca299a04ab536d39f7320beadbaa52d12c239e757d4d60da",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329514Z-8839b4d7/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329543Z-300fc909/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "9c1f392d26e5f63d0a455e19bc407c56eb85e790d721d0b83fee99520ebee740",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329543Z-300fc909/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329574Z-cf9ec50f/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "b903dcfb316b65603fdb8b63056a0aff210106ebdaeb8bdbe4c1d3e29ee47633",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329574Z-cf9ec50f/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329604Z-ea7ea508/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "03e27427a2dd8eb0e2a2342a542a41817d70479011cdeccfeb946639fb629b44",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329604Z-ea7ea508/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329644Z-c632c3d8/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "ee5cd2acfc7c8d6ee74527170ea1cc91449284abc5e29a1e80e631fe822a79c3",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329644Z-c632c3d8/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329678Z-d83ca70d/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "881673d69b1b1b82a034bcbf95308e5a5f28ce724ef489dd7d3147e4759ddb08",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329678Z-d83ca70d/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329709Z-d977f03d/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "884638eab7d40e9af34b5bb2bd05b134cd40bfbac124c986a1c018e0f34dab67",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329709Z-d977f03d/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329745Z-d040de09/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "c3660aa2040d0a1c8d335b33e9dc8e58164bbcf984b01d89a31d2cc3ccc13776",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329745Z-d040de09/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329779Z-5e446fa9/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "1ebaae9eeb80ce7a898af75364c811cb80a7e584da392527aaa4b0b9126f6e96",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329779Z-5e446fa9/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329811Z-2cf99de2/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "82bae0533fb97225842cdcc9da941789a91881f4ab8b430a1cd573bf8a0d8ed7",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329811Z-2cf99de2/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329847Z-80c43330/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "000842492040a3f3ee1d2b809d28b1fa405992c53d4a21c7c3ad4358c6577462",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329847Z-80c43330/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329881Z-d2a7fbfa/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "e796248ce8e6f008db9e3c28d3c0bd50e284e580edf6242249e404d432293898",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329881Z-d2a7fbfa/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329913Z-03d61f42/manifest.json",
+    "status": "??",
+    "bytes": 279,
+    "sha256": "40329c6e7993776d859490a7e0b74dd4cecf46ce49fc7fb45dfbfe744c06dea7",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105329913Z-03d61f42/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105427Z/manifest.json",
+    "status": "??",
+    "bytes": 831,
+    "sha256": "4c2733eb6931545c189e7b2674b8b4cc1b9039b5e19247472544ffd563cf529a",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105427Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105434Z/manifest.json",
+    "status": "??",
+    "bytes": 831,
+    "sha256": "0e804134a621580046eec21dc4bc3fb38002eddc885a7163ea69b58598bf4d6c",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105434Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105718Z/manifest.json",
+    "status": "??",
+    "bytes": 818,
+    "sha256": "9adc61e43bbf40d6cfa02c37849016d3462a9d9b22fa01f71bfc21428c519227",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261027/save-guard/20261105T105718Z/original-save.bin",
+    "status": "??",
+    "bytes": 15518,
+    "sha256": "56a8f2f1731a0c9d0a0475ba0134bd333adb9a9ab1b637e46c5237b0dce3e697",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection-README.md",
+    "status": "??",
+    "bytes": 3483,
+    "sha256": "806a6a7c7a851dcf9a01b27e5b49ee0906a701177c99a7ced9e68e6516cd782f",
+    "before": "1ac6b6104eba3db1e712c5b3cc671a8d87d0527234e3c7ed1d7df96e8caf3934"
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/baseline.json",
+    "status": "??",
+    "bytes": 1789,
+    "sha256": "6d6bc6da45434409b11f246f99ed463266aa9467a3a0526028ad6a9f3ce3aead",
+    "before": "f8e9e192ab9ec29fd1340b8471ebb21ae1f4bec231a7c71b3d12339a3b05daba"
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/baseline/RRPG_SourceHanSansCN_Regular_TMP.asset",
+    "status": "??",
+    "bytes": 14976840,
+    "sha256": "7b5717b976bac0d90dce70ba65b4dda0995bf78e8b3fd317ea9918058109c016",
+    "before": "f0f5b901a5ef56a68450803e39510846ccfc38623ab0d3c8654b22f33bcf1681"
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/growth/20261105T103655Z-iw-productfix-growth-adopt.json",
+    "status": "??",
+    "bytes": 1912,
+    "sha256": "7f4397da3a519b9a8f582f2dd1190f1e0b31541c8d497a9160a98a7bcae21597",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/growth/20261105T104522Z-iw-productfix-review01.json",
+    "status": "??",
+    "bytes": 2494,
+    "sha256": "75b34293200348f3afe7461f1e34047909348440b9a20b24aebf7b3427ec584f",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/growth/20261105T105722Z-iw-productfix-codex-final05.json",
+    "status": "??",
+    "bytes": 1913,
+    "sha256": "bb6f7006d5ff0afea1ede2286a7fc2e8b31990e2d6715e7b3b3b2ea5679128bd",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/history/32b87c67e51205fe3dbc6dde514e7db7e52571252b2a856b851c6fb44d9075c6.asset",
+    "status": "??",
+    "bytes": 14973886,
+    "sha256": "32b87c67e51205fe3dbc6dde514e7db7e52571252b2a856b851c6fb44d9075c6",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/history/d19fd6a1672ccccc05b3fbc842eeb93d327a5727ad6d65e85493170f6d317fee.asset",
+    "status": "??",
+    "bytes": 14972511,
+    "sha256": "d19fd6a1672ccccc05b3fbc842eeb93d327a5727ad6d65e85493170f6d317fee",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/history/e9c04e3d88040b2fbc54ca56a4a157690f8465d15033ad740be33f8bd929f31b.asset",
+    "status": "??",
+    "bytes": 14975836,
+    "sha256": "e9c04e3d88040b2fbc54ca56a4a157690f8465d15033ad740be33f8bd929f31b",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/incidents/20261105T080341Z-iw-productfix-step03/font-after.asset",
+    "status": "??",
+    "bytes": 14972511,
+    "sha256": "d19fd6a1672ccccc05b3fbc842eeb93d327a5727ad6d65e85493170f6d317fee",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/incidents/20261105T080341Z-iw-productfix-step03/incident.json",
+    "status": "??",
+    "bytes": 371,
+    "sha256": "5cb8aea5fb74972c2fbcf6647946757505ce2929080ebb76ba33487e90d3b673",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/incidents/20261105T100237Z-iw-productfix-step05-tests/font-after.asset",
+    "status": "??",
+    "bytes": 14973886,
+    "sha256": "32b87c67e51205fe3dbc6dde514e7db7e52571252b2a856b851c6fb44d9075c6",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/incidents/20261105T100237Z-iw-productfix-step05-tests/incident.json",
+    "status": "??",
+    "bytes": 377,
+    "sha256": "017b99d848caac55d2987e4e12707e844364cd70c2b6a0c05de66daec29ee2f4",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T075945Z-iw-productfix-step01-begin.json",
+    "status": "??",
+    "bytes": 253,
+    "sha256": "bd97b738000e6ca2f7e38bc81bcf9e4739bb05f146c2bfa033d7723922a7ade1",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T075955Z-iw-productfix-step01-end.json",
+    "status": "??",
+    "bytes": 368,
+    "sha256": "9188aadaea2a6e048f6690d9ffd2d965522c9261872c25afc93155d7a3dc3b55",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T080220Z-iw-productfix-step02-begin.json",
+    "status": "??",
+    "bytes": 253,
+    "sha256": "69a17249f919fb21fe8b3c1380341c67d018fa1d81a81a076dbe1aef3f7766f2",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T080312Z-iw-productfix-step02-end.json",
+    "status": "??",
+    "bytes": 368,
+    "sha256": "d0d4c6c04e69214f493126993aeabc5e9b0ec7d7681822c80afa290031b55281",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T080320Z-iw-productfix-step03-begin.json",
+    "status": "??",
+    "bytes": 253,
+    "sha256": "ea75d60a7092bd7962512581fdcae8385919cab0e21aacc0093a513c8e12d442",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T080341Z-iw-productfix-step03-end.json",
+    "status": "??",
+    "bytes": 371,
+    "sha256": "5cb8aea5fb74972c2fbcf6647946757505ce2929080ebb76ba33487e90d3b673",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T095801Z-iw-productfix-step05-tests-begin.json",
+    "status": "??",
+    "bytes": 259,
+    "sha256": "e468527af62d4ec735ba81e7fcad48c260ee80f110ebff8808f163e69f5126cd",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T100237Z-iw-productfix-step05-tests-end.json",
+    "status": "??",
+    "bytes": 377,
+    "sha256": "017b99d848caac55d2987e4e12707e844364cd70c2b6a0c05de66daec29ee2f4",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T103709Z-iw-productfix-gate-smoke-begin.json",
+    "status": "??",
+    "bytes": 229,
+    "sha256": "9336a694ae83dd0c2fd8a9f41968f336eb10ea3c2dc9d09653ea2729e88f74c6",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T103710Z-iw-productfix-gate-smoke-end.json",
+    "status": "??",
+    "bytes": 254,
+    "sha256": "3ba6ceb722af9a35dfa0b205015e6f400e1933ee53d959b00e07e1adaadfe6f4",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T104242Z-iw-productfix-review01-begin.json",
+    "status": "??",
+    "bytes": 227,
+    "sha256": "38a8d01d9002aa001bb091aaa648981cf019b48b0637fa91d087036ce5f7296e",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T104523Z-iw-productfix-review01-end-growth.json",
+    "status": "??",
+    "bytes": 2211,
+    "sha256": "3297423a949a088926952a9cd2917c350267d8c583d8c0a05173fd6d16d5bdae",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T104545Z-iw-productfix-review02-begin.json",
+    "status": "??",
+    "bytes": 227,
+    "sha256": "4e3c22e755a80e4e5e41677bcafdecde8eb2af36e2941f37c2661f41cec91a56",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T104652Z-iw-productfix-review02-end.json",
+    "status": "??",
+    "bytes": 252,
+    "sha256": "28b52756e60738198a475a32c75847e6a096480385091b330dd0dd07f293c892",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T104920Z-iw-productfix-codex-final01-begin.json",
+    "status": "??",
+    "bytes": 232,
+    "sha256": "6fb94f7466326557d0995d5182dcad210237a245fe075b23b203d0be9d9285e0",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T105128Z-iw-productfix-codex-final01-end.json",
+    "status": "??",
+    "bytes": 257,
+    "sha256": "4cc03f13757c379ba67dd7a59c94b04e0bbec71b392d83c235bacfd5c5876141",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T105221Z-iw-productfix-codex-final02-begin.json",
+    "status": "??",
+    "bytes": 232,
+    "sha256": "beec23c7d2a9f6a72118f89f8e0349b08df1940090bb61e189e1fb1c67100223",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T105330Z-iw-productfix-codex-final02-end.json",
+    "status": "??",
+    "bytes": 257,
+    "sha256": "9ff72f69dfcf328ed01dd46e7d0a98079e7849583b6dd3ca1dfd85e2f2bbf8d4",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T105415Z-iw-productfix-codex-final03-begin.json",
+    "status": "??",
+    "bytes": 232,
+    "sha256": "963a0ecb4f73e1439033141c405cdb48da333bf9f482d0de0524feff65a27a1e",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T105439Z-iw-productfix-codex-final03-end.json",
+    "status": "??",
+    "bytes": 257,
+    "sha256": "386e8b00b9cd7346a1b07a0f7b1d3a55ec96c62615f41390fc98454b3084c8ab",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T105536Z-iw-productfix-codex-final04-begin.json",
+    "status": "??",
+    "bytes": 232,
+    "sha256": "b82d5135e89a92f2718b55cf04e488104cd390d00b8c2e329df5e249fb57e6f7",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T105538Z-iw-productfix-codex-final04-end.json",
+    "status": "??",
+    "bytes": 257,
+    "sha256": "b5710befa8a3081de1fac0791ee4af8f4fd60c728561ed3b34f7ad0b06eaae85",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T105658Z-iw-productfix-codex-final05-begin.json",
+    "status": "??",
+    "bytes": 232,
+    "sha256": "c8463a186ac9c70eb2ff1c21f19081aec6676dc7cce26aa697ff788eead0db27",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/font-protection/records/20261105T105723Z-iw-productfix-codex-final05-end-growth.json",
+    "status": "??",
+    "bytes": 1635,
+    "sha256": "58e917aed70c8a03b05983f6ce4e9fcb692b30d597cdc179aadc04288d5ed2c5",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/scripts/font-gate-selftest.ps1",
+    "status": "??",
+    "bytes": 4876,
+    "sha256": "6edb2a928f5e83e1d9ad864ac4b8985e00a02863471a457e30004ba70ed4bf6c",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/scripts/font-guard-core.ps1",
+    "status": "??",
+    "bytes": 14519,
+    "sha256": "8a1b6b2d518eed91f57e45c4965d19eb3eb9ceceb77bdf18cfa91e44a2241588",
+    "before": null
+  },
+  {
+    "path": "Development/StudioRuns/Initialization-20261105/scripts/font-guard.ps1",
+    "status": "??",
+    "bytes": 13545,
+    "sha256": "6935fd9475a3fa5920656016833cf5aacfd9c1449a2df0c01f62528987258a2c",
+    "before": "62906305a273fd3924326accf801d5b82bc14a0d9bd83ecc3999a181078d9586"
+  },
+  {
+    "path": "Docs/DevelopmentSpecs/2026-11-05_RRPG_V17_Initial-World_Product-Experience-Fixes_Development-Spec-V0.1.md",
+    "status": "??",
+    "bytes": 9688,
+    "sha256": "d233ee903f73734e3813c7be57715dddce8168a82e9d5e488698629e0e646d77",
+    "before": null
+  },
+  {
+    "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementView.cs",
+    "status": "??",
+    "bytes": 44597,
+    "sha256": "6c218dafbea1885698aedfd6c15aeba7229b4f9ab91b9c516630969b3ca3ee02",
+    "before": "e02de745c97edac5b2580aa1f9f33af64f7ae5cdac18bd15f65e2136cb702b3c"
+  },
+  {
+    "path": "UnityProject/RRPG1.0game/TestResults/D-onsite-product.png",
+    "status": "??",
+    "bytes": 187808,
+    "sha256": "6443c4c0d491743348a6c7cf307d1e1e4e9da74e4df8831edc46e95002415fa3",
+    "before": "29934264619a8ff1d723eac9b5d41fe0741094f9aeec65af56ec50904fb2073e"
+  }
+]

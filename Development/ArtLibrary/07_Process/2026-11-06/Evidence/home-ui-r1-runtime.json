@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: Shell=True RoundedPanels=29 Frame=23382"
+      }
+    ],
+    "isError": false
+  },
+  "id": 68,
+  "jsonrpc": "2.0"
+}

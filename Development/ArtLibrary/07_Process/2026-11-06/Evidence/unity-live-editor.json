@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "1 result\nisPlaying|isPaused\nfalse|false"
+      }
+    ],
+    "isError": false
+  },
+  "id": 11,
+  "jsonrpc": "2.0"
+}

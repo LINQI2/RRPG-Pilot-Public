@@ -1,0 +1,10 @@
+# Battle HUD icon prompts — 2026-11-08
+
+Built-in image_gen; reference: 02_Candidates/Battle/Icons/icon_attack_r1.png.
+
+## icon_party_flag_r1.png
+Use case: stylized-concept. Asset type: RRPG game UI party button icon, single transparent square sprite. Reference image provides warm painted simple icon style, dark brown soft outline and ochre/cream material palette, not the subject. Draw one small sturdy wooden flagstaff with a single cream linen pennant pointing to the right, muted rust-red triangular patch on the cloth with no emblem or lettering. Pole upright, tiny brass finial, gentle diagonal cloth folds, broad clean silhouette readable at 40 pixels. Object centered, occupies80% square, 10% safety margins. Warm hand-painted flat broad shapes, minimal shading, restrained natural colors. Icon view frontal/slightly elevated, no scenery or perspective ground. Genuine transparent background. No button frame, square tile, blue border, glow, shadows outside object, text, letters, numbers, soldiers, weapons or extra flag. Match reference line weight, no photoreal metal or elaborate texture.
+
+## icon_settings_gear_r1.png
+Use case: stylized-concept. Asset type: RRPG settings UI icon, one isolated square transparent sprite. Reference controls warm painterly broad simple shapes, soft dark-brown outline and natural ochre/cream palette, NOT sword subject. Draw a single small sturdy bronze cogwheel viewed face-on, eight clear chunky teeth, large round open center (transparent hole), restrained ochre highlights on upper-left and warm dark-brown shaded lower-right. Round silhouette with clean readable gaps between teeth at 40px. Centered square composition with10% empty margins. Mild hand-painted surface shading, no scratches or microscopic textures. Genuine transparency outside and inside center hole. No buttons, tile, frame, blue, glow, external cast shadow, text, symbols, letters, numbers, screws, tools, clock, extra objects or scenery. Flat emblem icon rather than a 3D perspective part.
+

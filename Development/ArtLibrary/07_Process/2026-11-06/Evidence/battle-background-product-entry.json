@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: Product HandleNodeClick=True Battle initialized=True NodeKind=Battle"
+      }
+    ],
+    "isError": false
+  },
+  "id": 93,
+  "jsonrpc": "2.0"
+}

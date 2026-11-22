@@ -149,6 +149,7 @@ public class ExpeditionJourneyView : MonoBehaviour, IJourneyPresentationDriver
     private void Awake()
     {
         EnsureHostRefs();
+        ApplyJourneySkin();
         if (eventCard != null) eventCard.Hide();
         // 初始化即 Hidden：Journey 是表现宿主，启动 / 非 Journey 阶段必须不覆盖主界面。
         // Scene 中 Canvas 的 serialized enabled 只作编辑期状态，不得决定运行时启动可见性。
@@ -158,6 +159,26 @@ public class ExpeditionJourneyView : MonoBehaviour, IJourneyPresentationDriver
         if (btnReturn != null) btnReturn.onClick.AddListener(() => { if (ReturnRequested != null) ReturnRequested(); });
         RefreshPauseLabel();
         ApplyPartyStance();
+    }
+
+    // Presentation only: retain the authored HUD, callbacks and encounter lifecycle.
+    private void ApplyJourneySkin()
+    {
+        if (supplyText != null)
+        {
+            var hud = supplyText.transform.parent;
+            if (hud.Find("JourneyStatusPaper") == null)
+            {
+                var panel = HomeProductUI.Panel(hud, "JourneyStatusPaper", new Vector2(0f, 1f),
+                    new Vector2(32f, -28f), new Vector2(650f, 184f), HomeProductUI.Paper);
+                panel.GetComponent<UnityEngine.UI.Image>().raycastTarget = false;
+                panel.SetAsFirstSibling();
+            }
+        }
+        foreach (var text in new[] { supplyText, elapsedDaysText, partyStatusText, messageText })
+            if (text != null) text.color = HomeProductUI.Ink;
+        foreach (var button in new[] { btnPauseResume, btnContinue, btnReturn })
+            if (button != null) HomeProductUI.ApplyButtonSkin(button);
     }
 
     private void Update()
@@ -364,6 +385,7 @@ public class ExpeditionJourneyView : MonoBehaviour, IJourneyPresentationDriver
             if (label != null)
             {
                 label.text = string.IsNullOrEmpty(visual.DisplayName) ? pid : visual.DisplayName;
+                label.color = HomeProductUI.Ink;
                 label.raycastTarget = false;
             }
 
@@ -661,7 +683,7 @@ public class ExpeditionJourneyView : MonoBehaviour, IJourneyPresentationDriver
                 new JourneyEventCardOption
                 {
                     Label = battle ? "进入战斗" : "继续前进",
-                    SubLabel = battle ? "（沿用现有 Battle 入口）" : "（沿用现有 Resolve 行为）",
+                    SubLabel = string.Empty,
                     NodeId = node.NodeId,
                     Role = battle ? JourneyEventOptionRole.EnterBattle : JourneyEventOptionRole.ContinueContent
                 }

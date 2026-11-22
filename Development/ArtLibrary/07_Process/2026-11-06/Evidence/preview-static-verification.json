@@ -1,0 +1,48 @@
+{
+  "javascriptSyntax": "PASS",
+  "imageReferences": [
+    {
+      "kind": "house",
+      "bytes": 934131,
+      "path": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\02_Candidates\\Village\\Buildings\\house_r3.png"
+    },
+    {
+      "kind": "kitchen",
+      "bytes": 921524,
+      "path": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\02_Candidates\\Village\\Buildings\\kitchen_r3.png"
+    },
+    {
+      "kind": "farm",
+      "bytes": 1884732,
+      "path": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\02_Candidates\\Village\\Farms\\farm_r5_candidate.png"
+    },
+    {
+      "kind": "tavern",
+      "bytes": 1056487,
+      "path": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\02_Candidates\\Village\\Places\\tavern_place_r1.png"
+    },
+    {
+      "kind": "person",
+      "bytes": 441955,
+      "path": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\02_Candidates\\Village\\Persons\\person_world_neutral_sw_r1.png"
+    }
+  ],
+  "objectCount": 9,
+  "houseCount": 5,
+  "axes": {
+    "origin": {
+      "x": 680,
+      "y": 160
+    },
+    "u": {
+      "x": 735,
+      "y": 189
+    },
+    "v": {
+      "x": 625,
+      "y": 189
+    }
+  },
+  "browserVisualCheck": "NOT RUN: file protocol rejected by browser URL policy",
+  "runtimeIntegration": "NOT RUN"
+}

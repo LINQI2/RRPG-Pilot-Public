@@ -38,7 +38,7 @@ public sealed class ProductHomeWorldHost : MonoBehaviour
         if(VisualPrototypeEnabled==enabled) return;
         if(enabled) { _baselineAnchors.Clear();foreach(var pair in _anchors) _baselineAnchors[pair.Key]=pair.Value; }
         else { _anchors.Clear();foreach(var pair in _baselineAnchors) _anchors[pair.Key]=pair.Value; }
-        _resolver.PrototypeEnabled=enabled;WorldCamera.SetPrototype(enabled);
+        _resolver.PrototypeEnabled=enabled;BuildingWorldMapper.DimetricEnabled=enabled;WorldCamera.SetPrototype(enabled);
         if(enabled && _prototypeGround==null)
         {
             var ground=new GameObject("R2 Technical Prototype Ground",typeof(HomeVisualPrototype));
@@ -126,7 +126,8 @@ public sealed class ProductHomeWorldHost : MonoBehaviour
                 if(!_prototypeAnchors.TryGetValue(place.PlaceId,out var anchor))
                 {
                     int slot=place.Kind=="Home" ? _prototypeHomeSlots++ : _prototypeOtherSlots++;
-                    anchor=WorldOrigin+(place.Kind=="Home" ? new Vector3(-8.5f+(slot%6)*3.4f,4.2f-(slot/6)*2.5f,0) : new Vector3(-6+(slot%4)*4,-1.2f-(slot/4)*2.5f,0));
+                    var local=place.IsFixedPlace ? new Vector2(5,-2) : place.Kind=="Home" ? new Vector2(-8.5f+(slot%6)*3.4f,4.2f-(slot/6)*2.5f) : new Vector2(-6+(slot%4)*4,-1.2f-(slot/4)*2.5f);
+                    anchor=BuildingWorldMapper.ToPresentation(local);
                     _prototypeAnchors.Add(place.PlaceId,anchor);
                 }
                 _anchors[place.PlaceId]=anchor;
@@ -142,17 +143,26 @@ public sealed class ProductHomeWorldHost : MonoBehaviour
             if(VisualPrototypeEnabled) view.SetSemanticPlace(building!=null);
         }
         var personSlots=new Dictionary<string,int>();
+        var prototypePersonSlots=new Dictionary<Vector3,int>();
         foreach (var person in Snapshot.Persons.OrderBy(p=>p.PersonId,System.StringComparer.Ordinal))
         {
+            string personKey=_resolver.PersonPresentationKey(person,_presentationSource);
             if (!_persons.TryGetValue(person.PersonId,out var view))
             {
-                view=Create(person.PersonId,HomeSelectionKind.Person,_resolver.PresentationKey(person));_persons.Add(person.PersonId,view);
+                view=Create(person.PersonId,HomeSelectionKind.Person,personKey);_persons.Add(person.PersonId,view);
             }
             string slotPlace=person.CurrentPlaceId ?? person.DestinationPlaceId ?? "";
-            personSlots.TryGetValue(slotPlace,out int slot);personSlots[slotPlace]=slot+1;
+            int slot;
+            if(VisualPrototypeEnabled)
+            {
+                // Aliased places can share a world anchor; share display slots, not simulation identity.
+                var slotAnchor=Anchor(slotPlace);
+                prototypePersonSlots.TryGetValue(slotAnchor,out slot);prototypePersonSlots[slotAnchor]=slot+1;
+            }
+            else { personSlots.TryGetValue(slotPlace,out slot);personSlots[slotPlace]=slot+1; }
             Vector3 offset=new Vector3((slot%3-1)*1.45f,-.95f-(slot/3)*.95f,-.1f);
             if(VisualPrototypeEnabled) offset=new Vector3((slot%3-1)*.95f,-.75f-(slot/3)*.7f,-.1f);
-            view.RefreshVisual(_resolver.PresentationKey(person),_resolver);
+            view.RefreshVisual(personKey,_resolver);
             view.ApplyPerson(person,Anchor(person.CurrentPlaceId)+offset,Anchor(person.DestinationPlaceId)+offset);
         }
         if (Selection.Kind==HomeSelectionKind.Person && Snapshot.Person(Selection.Id)==null ||
@@ -201,7 +211,7 @@ public sealed class ProductHomeWorldHost : MonoBehaviour
     {
         var point=WorldCamera.ViewCamera.ScreenToWorldPoint(new Vector3(screen.x,screen.y,10));
         return Physics2D.OverlapPointAll(point,1<<WorldLayer).Select(c=>c.GetComponentInParent<HomeWorldEntityView>())
-            .Where(v=>v!=null && v.isActiveAndEnabled).OrderByDescending(v=>v.Kind==HomeSelectionKind.Person ? 2 : v.Kind==HomeSelectionKind.Building ? 1 : 0).FirstOrDefault();
+            .Where(v=>v!=null && v.isActiveAndEnabled).OrderByDescending(v=>v.Kind==HomeSelectionKind.Person ? 2 : v.Kind==HomeSelectionKind.Building ? 1 : 0).ThenByDescending(v=>v.DepthOrder).FirstOrDefault();
     }
     private void HandleWorldHover(HomeWorldEntityView hovered)
     { foreach(var view in _persons.Values.Concat(_places.Values).Concat(_buildings.Values)) view.SetHovered(view==hovered); }
@@ -235,6 +245,7 @@ public sealed class ProductHomeWorldHost : MonoBehaviour
     }
     private void OnDestroy()
     {
+        BuildingWorldMapper.DimetricEnabled=false;
         var debug=FindObjectOfType<VillageWorldLayer>(true);if (debug!=null) debug.SetDebugOverlayVisible(true);
         _resolver?.Dispose();
     }

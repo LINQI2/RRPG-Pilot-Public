@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: Entered real expedition prep; Confirm=True"
+      }
+    ],
+    "isError": false
+  },
+  "id": 91,
+  "jsonrpc": "2.0"
+}

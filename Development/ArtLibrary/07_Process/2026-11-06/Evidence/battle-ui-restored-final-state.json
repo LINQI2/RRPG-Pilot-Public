@@ -1,0 +1,35 @@
+{
+  "Date": "2026-11-07",
+  "State": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: Play=False Dirty=False Compiling=False"
+      }
+    ],
+    "isError": false
+  },
+  "Console": {
+    "content": [
+      {
+        "type": "text",
+        "text": "0 results\nmessage"
+      }
+    ],
+    "isError": false
+  },
+  "Save": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: SaveUnchanged=True SHA=29600FBC09239F6BC3C8AC423B1C586996D679AF2618E47F30EF047A8F17EF10"
+      }
+    ],
+    "isError": false
+  },
+  "Evidence": [
+    "battle-prep-ui-r4.png",
+    "battle-start-ui-r4.png"
+  ],
+  "Verified": "Real Continue -> Expedition -> Battle prep -> original drag handlers -> Start -> PlayerTurn -> EndTurn -> PlayerTurn; no attack/settlement/return verification"
+}

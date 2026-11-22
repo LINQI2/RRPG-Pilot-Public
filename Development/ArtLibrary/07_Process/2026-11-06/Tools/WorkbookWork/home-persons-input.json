@@ -1,0 +1,44 @@
+[
+  {
+    "key": "hero_001",
+    "front": "person_red_cape_se_r1",
+    "back": "person_red_cape_ne_r1",
+    "cache": "exec-43ad1a38-a291-4356-bedd-4e9c04daddba.png",
+    "promptKey": "red"
+  },
+  {
+    "key": "person_lin_en",
+    "front": "person_green_archer_se_r1",
+    "back": "person_green_archer_ne_r1",
+    "cache": "exec-a6a54dd1-88d8-4b5b-a2c9-0855ad905a1d.png",
+    "promptKey": "green"
+  },
+  {
+    "key": "person_su_wan",
+    "front": "person_purple_mage_se_r1",
+    "back": "person_purple_mage_ne_r1",
+    "cache": "exec-db26d33c-f122-4dcf-92b0-a2190b060400.png",
+    "promptKey": "purple"
+  },
+  {
+    "key": "person_han_zhao",
+    "front": "person_han_zhao_teal_se_r1",
+    "back": "person_han_zhao_teal_ne_r1",
+    "cache": "exec-1a3a2dcb-7bfb-40d3-8af3-9a3035901599.png",
+    "promptKey": "han"
+  },
+  {
+    "key": "person_qiu_shuang",
+    "front": "person_qiu_shuang_ochre_se_r1",
+    "back": "person_qiu_shuang_ochre_ne_r1",
+    "cache": "exec-2a94e970-1761-45d1-b3b5-34596178ed92.png",
+    "promptKey": "qiu"
+  },
+  {
+    "key": "person_wei_an",
+    "front": "person_wei_an_slate_se_r1",
+    "back": "person_wei_an_slate_ne_r1",
+    "cache": "exec-fda6cf1c-7295-4cb8-a906-55d3bbdb1ea3.png",
+    "promptKey": "wei"
+  }
+]

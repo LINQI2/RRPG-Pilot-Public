@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: \"Project=D:/AI_Agent_Lab/rrpg_pilot/repo/UnityProject/RRPG1.0game/Assets\\nPersonBindings:\\nperson_lin_en | default=Assets/Art/Characters/Battle/ChatGPT Image 2026年9月20日 12_48_09 (1).png | journey= | battle= | prep= | portrait=\\nperson_han_zhao | default=Assets/Art/Characters/Battle/ChatGPT Image 2026年9月20日 12_48_09 (1).png | journey= | battle= | prep= | portrait=\\nhero_001 | default=Assets/Art/Characters/Battle/ChatGPT Image 2026年9月19日 20_36_48.png | journey= | battle= | prep= | portrait=\\nperson_su_wan | default=Assets/Art/Characters/Battle/ChatGPT Image 2026年9月20日 12_48_10 (2).png | journey= | battle= | prep= | portrait=\""
+      }
+    ],
+    "isError": false
+  },
+  "id": 82,
+  "jsonrpc": "2.0"
+}

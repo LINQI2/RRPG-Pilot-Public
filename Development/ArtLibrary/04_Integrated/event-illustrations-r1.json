@@ -1,0 +1,35 @@
+[
+  {
+    "Candidate": "02_Candidates/Journey/Backgrounds/event_battle_ruins_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/UI/ArtUpgrade01/event_battle_ruins_r1.png",
+    "SHA256": "067C9F0C234F3D9B358B8DCAD612E5850FEA0FD1520FF2188229CC9F7255E824",
+    "MetaSHA256": "E09B9E20C1EB1503897DCBAF6D04DDFDDE35D052A804BACD9839D72892ED5802",
+    "Host": "SampleScene/ExpeditionJourneyView",
+    "Field": "battleEncounterIllustration",
+    "ProductFlowVerified": true,
+    "VerificationScope": "Real Continue -> departure -> actual battle encounter -> original option enters battle",
+    "FinalArtAccepted": false
+  },
+  {
+    "Candidate": "02_Candidates/Journey/Backgrounds/event_content_rest_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/UI/ArtUpgrade01/event_content_rest_r1.png",
+    "SHA256": "EAD8F827624FD4D22406A543C609E2F6C5AF8BC37115ED1820F5C24A43764424",
+    "MetaSHA256": "4EF57F610842C0EDEC030901FF8AD0C5E10E282CB0F2FEA7901774C21BC42221",
+    "Host": "SampleScene/ExpeditionJourneyView",
+    "Field": "contentEncounterIllustration",
+    "ProductFlowVerified": false,
+    "VerificationScope": "Editor category binding readback and existing renderer module display screenshot passed; fixture labels clearly marked; actual category not reached in real product progression",
+    "FinalArtAccepted": false
+  },
+  {
+    "Candidate": "02_Candidates/Journey/Backgrounds/event_branch_paths_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/UI/ArtUpgrade01/event_branch_paths_r1.png",
+    "SHA256": "55CA28BF332FFC1CD062E7BBB3B585FC6209BEE6CDB63DE263753CD13F8223D7",
+    "MetaSHA256": "D2BCB79BE6795BB734EA8CCF72275FB378BF01B0FD1EDBDED9E34DF68850526A",
+    "Host": "SampleScene/ExpeditionJourneyView",
+    "Field": "branchIllustration",
+    "ProductFlowVerified": false,
+    "VerificationScope": "Editor category binding readback and existing renderer module display screenshot passed; fixture labels clearly marked; actual category not reached in real product progression",
+    "FinalArtAccepted": false
+  }
+]

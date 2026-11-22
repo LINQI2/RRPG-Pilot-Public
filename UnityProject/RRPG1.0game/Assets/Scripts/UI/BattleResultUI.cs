@@ -57,7 +57,7 @@ public class BattleResultUI : MonoBehaviour
         if (titleText != null)
         {
             titleText.text = settlement.IsVictory ? "🎉 战斗胜利" : "💀 战斗失败";
-            titleText.color = settlement.IsVictory ? Color.green : Color.red;
+            titleText.color = settlement.IsVictory ? new Color(.28f, .38f, .18f) : new Color(.60f, .20f, .13f);
         }
 
         if (resultText != null)

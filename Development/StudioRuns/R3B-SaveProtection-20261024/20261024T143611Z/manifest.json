@@ -1,0 +1,58 @@
+{
+  "runId": "20261024T143611Z",
+  "status": "restored",
+  "captureUtc": "2026-10-24T14:36:11.8809947Z",
+  "updatedUtc": "2026-10-24T14:41:36.5436650Z",
+  "sourcePath": "1PUBLIC_USER/AppData/LocalLow/DefaultCompany/RRPG_AI_Pilot\\rrpg_save_p0.json",
+  "sourceExisted": true,
+  "sourceBytes": 13405,
+  "sourceSha256": "4b2b56f6f2b00b81a5e32c520905ad4fdb417d05b8a835924675f57f5502d6aa",
+  "backupFile": "original-save.bin",
+  "backupBytes": 13405,
+  "backupSha256": "4b2b56f6f2b00b81a5e32c520905ad4fdb417d05b8a835924675f57f5502d6aa",
+  "readbackMatchesSource": true,
+  "readbackVerified": true,
+  "restored": true,
+  "restoredUtc": "2026-10-24T14:41:36.5436650Z",
+  "restoreVerifiedUtc": "2026-10-24T14:41:36.5436650Z",
+  "pendingRestore": false,
+  "lastError": null,
+  "restoreReadback": {
+    "exists": true,
+    "bytes": 13405,
+    "sha256": "4b2b56f6f2b00b81a5e32c520905ad4fdb417d05b8a835924675f57f5502d6aa",
+    "bytesEqualSnapshot": true,
+    "readbackVerified": true,
+    "mtimeUtc": "2026-10-24T14:41:36.5436650Z"
+  },
+  "postRunObserved": {
+    "observedBeforeRestoreUtc": "2026-10-24T14:41:36.0000000Z",
+    "sourceExistedBeforeRestore": true,
+    "sourceBytesBeforeRestore": 13402,
+    "sourceSha256BeforeRestore": "a3f6d15f8b9c5c019a33c91658cd64e2721384b8960b9444ba8bbd44deec6bc2",
+    "sourceMtimeUtcBeforeRestore": "2026-10-24T14:39:25.7891163Z",
+    "sourceCtimeUtcBeforeRestore": "2026-10-24T14:33:25.6672726Z",
+    "saveDirectoryFileCountBeforeRestore": 1,
+    "saveDirectoryMtimeUtcBeforeRestore": "2026-10-24T14:39:25.7891163Z",
+    "tmpFilePresent": false,
+    "residualVerdict": "test-produced residual (PlayMode run window 2026-10-24T14:37:36Z~14:39:27Z; residual mtime 14:39:25.789Z inside window; no user progress evidence after run end); backed up with FileMode.CreateNew before precise restore",
+    "residualBackup": "Development/StudioRuns/R3B-UI-20261024/full-play-residual-20261024T144136Z/rrpg_save_p0.after-full-play.bin"
+  },
+  "statusHistory": [
+    {
+      "status": "protective-snapshot",
+      "utc": "2026-10-24T14:36:11.8809947Z",
+      "reason": "pre-full-Play protective snapshot (read-only capture; no test run)",
+      "sha256": "4b2b56f6f2b00b81a5e32c520905ad4fdb417d05b8a835924675f57f5502d6aa"
+    },
+    {
+      "status": "restored",
+      "utc": "2026-10-24T14:41:36.5436650Z",
+      "reason": "post-full-Play precise restore from this runId's verified original-save.bin; residual (13402B/a3f6d15f...) backed up first",
+      "sha256": "4b2b56f6f2b00b81a5e32c520905ad4fdb417d05b8a835924675f57f5502d6aa"
+    }
+  ],
+  "capturedBy": "R3-B full PlayMode regression preflight (read-only snapshot; no test run)",
+  "restoredBy": "R3-B full PlayMode postflight (post-play precise restore only; no test run)",
+  "note": "完整 PlayMode 全集存在大量删除/重写单槽档的写风险（多套 Play 夹具 SetUp/TearDown 无备份 File.Delete，或 NewGame+Save；仅 ManagementShellPlayTests 的 SaveSlotGuard 有持久备份）。本快照只保护本轮运行前真实原字节；运行后须用本 runID 的 original-save.bin 精确写回并回读校验；不是历史 21075B/650c45c4 版本，不覆盖其他跑次。已于 2026-10-24T14:41:36.5436650Z 按本 runID 精确写回并回读 13405B/4b2b56f6… 通过。"
+}

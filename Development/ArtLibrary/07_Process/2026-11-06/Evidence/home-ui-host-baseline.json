@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: \"Project=D:/AI_Agent_Lab/rrpg_pilot/repo/UnityProject/RRPG1.0game/Assets Scene=Assets/Scenes/SampleScene.scene Dirty=False Play=True Shell=ProductHomeShell Mode=ScaleWithScreenSize Ref=(1920.00, 1080.00) Roots=TopHUD;AttentionPanel;SettingsPanel;ProductNavigation;DebugCompatibility;R2VisualProfile;R2PrototypeNotice;VillageFeed;HomeInternalWhitebox;BuildingCatalog;ManagementView;PersonDetail\""
+      }
+    ],
+    "isError": false
+  },
+  "id": 61,
+  "jsonrpc": "2.0"
+}

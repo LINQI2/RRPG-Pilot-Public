@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "<>f__AnonymousType0(System.String,<>f__AnonymousType1(System.String,System.String-1)-1,<>f__AnonymousType2(System.String,System.Boolean)-1): {}\nscenes: Assets/Scenes/SampleScene.scene\nroots: [{name: \"[0]\", typeName: \"<>f__AnonymousType1(System.String,System.String-1)\", props: [{name: name, typeName: System.String, value: Main Camera}, {name: components, typeName: System.String-1, value: [{name: \"[0]\", typeName: System.String, value: UnityEngine.Transform}, {name: \"[1]\", typeName: System.String, value: UnityEngine.Camera}, {name: \"[2]\", typeName: System.String, value: UnityEngine.AudioListener}]}]}, {name: \"[1]\", typeName: \"<>f__AnonymousType1(System.String,System.String-1)\", props: [{name: name, typeName: System.String, value: EventSystem}, {name: components, typeName: System.String-1, value: [{name: \"[0]\", typeName: System.String, value: UnityEngine.Transform}, {name: \"[1]\", typeName: System.String, value: UnityEngine.EventSystems.EventSystem}, {name: \"[2]\", typeName: System.String, value: UnityEngine.EventSystems.StandaloneInputModule}]}]}, {name: \"[2]\", typeName: \"<>f__AnonymousType1(System.String,System.String-1)\", props: [{name: name, typeName: System.String, value: SceneUIHosts}, {name: components, typeName: System.String-1, value: [{name: \"[0]\", typeName: System.String, value: UnityEngine.Transform}]}]}, {name: \"[3]\", typeName: \"<>f__AnonymousType1(System.String,System.String-1)\", props: [{name: name, typeName: System.String, value: VillageTimeDriver}, {name: components, typeName: System.String-1, value: [{name: \"[0]\", typeName: System.String, value: UnityEngine.Transform}, {name: \"[1]\", typeName: System.String, value: VillageTimeDriver}]}]}, {name: \"[4]\", typeName: \"<>f__AnonymousType1(System.String,System.String-1)\", props: [{name: name, typeName: System.String, value: ExpeditionJourneyRoot}, {name: components, typeName: System.String-1, value: [{name: \"[0]\", typeName: System.String, value: UnityEngine.RectTransform}, {name: \"[1]\", typeName: System.String, value: UnityEngine.Canvas}, {name: \"[2]\", typeName: System.String, value: UnityEngine.UI.CanvasScaler}, {name: \"[3]\", typeName: System.String, value: UnityEngine.UI.GraphicRaycaster}, {name: \"[4]\", typeName: System.String, value: ExpeditionJourneyView}, {name: \"[5]\", typeName: System.String, value: ExpeditionJourneyCoordinator}]}]}]\nmenus: [{name: \"[0]\", typeName: \"<>f__AnonymousType2(System.String,System.Boolean)\", props: [{name: name, typeName: System.String, value: MainMenuUI}, {name: active, typeName: System.Boolean, value: true}]}]"
+      }
+    ],
+    "isError": false
+  },
+  "id": 21,
+  "jsonrpc": "2.0"
+}

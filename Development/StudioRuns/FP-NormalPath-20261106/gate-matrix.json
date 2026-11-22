@@ -1,0 +1,30 @@
+[
+  {
+    "id": "G1",
+    "status": "NOT_VERIFIED"
+  },
+  {
+    "id": "G2",
+    "status": "PARTIAL_PREP_ONLY"
+  },
+  {
+    "id": "G3",
+    "status": "PARTIAL_NO_RETURN_ID_PROOF"
+  },
+  {
+    "id": "G4",
+    "status": "HOME_REACHABLE_PARTIAL"
+  },
+  {
+    "id": "G5",
+    "status": "PARTIAL_CARRY_PREFLIGHT"
+  },
+  {
+    "id": "G6",
+    "status": "NOT_VERIFIED_PREP_BRANCH_BLOCKED"
+  },
+  {
+    "id": "G7",
+    "status": "NOT_PASSED_TUTORIAL_ENTRY_MISSING"
+  }
+]

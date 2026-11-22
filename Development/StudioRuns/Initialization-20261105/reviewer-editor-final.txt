@@ -1,0 +1,4 @@
+event: message
+data: {"result":{"content":[{"type":"text","text":"System.String: \u0022project=D:\\\\AI_Agent_Lab\\\\rrpg_pilot\\\\repo\\\\UnityProject\\\\RRPG1.0game\\nversion=2022.3.62t9\\nplaying=False\\ncompiling=False\\nupdating=False\\nscene=Assets/Scenes/SampleScene.scene\\nsceneDirty=False\\nfontSubassets=9\\nfontDirty=0\u0022"}],"isError":false},"id":5,"jsonrpc":"2.0"}
+
+

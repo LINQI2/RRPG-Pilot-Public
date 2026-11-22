@@ -1,0 +1,48 @@
+{
+  "Date": "2026-11-07",
+  "ModalAndClose": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: Person modal blocked world click=True ClosedAndManagementVisible=True"
+      }
+    ],
+    "isError": false
+  },
+  "Search": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: FilteredPopulationRows=1; restored search and scrolled list to bottom"
+      }
+    ],
+    "isError": false
+  },
+  "Save": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: SaveUnchanged=True SHA=2F42500A5E84E70354F5CEA741F66FC881306322D607B6D7485088FCEC3735EF"
+      }
+    ],
+    "isError": false
+  },
+  "State": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: Play=False Dirty=False Compiling=False"
+      }
+    ],
+    "isError": false
+  },
+  "Console": {
+    "content": [
+      {
+        "type": "text",
+        "text": "0 results\nmessage"
+      }
+    ],
+    "isError": false
+  }
+}

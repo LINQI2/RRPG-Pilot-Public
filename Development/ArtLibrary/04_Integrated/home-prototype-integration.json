@@ -1,0 +1,66 @@
+[
+  {
+    "VisualAssetId": "va_village_r2_home",
+    "SourceFile": "Village/R2Prototype/home.png",
+    "Candidate": "02_Candidates/Village/Buildings/house_r3.png",
+    "BeforeSHA256": "F255598EB987B7128B01CB748CF52C0F5611200D21E47DBBBAB5EFC485CBF748",
+    "AfterSHA256": "C9112ACF460A72653C8CBBC26200EC3391C8C6A1BEFF8BFD9FF0C793F795B42D",
+    "Stage": "B prototype integration; not final art acceptance"
+  },
+  {
+    "VisualAssetId": "va_village_r2_kitchen",
+    "SourceFile": "Village/R2Prototype/kitchen.png",
+    "Candidate": "02_Candidates/Village/Buildings/kitchen_r3.png",
+    "BeforeSHA256": "D342C5B69852E9C9F02D30CB62730B184B0AD65D445C221029997EDF7B26207F",
+    "AfterSHA256": "025FA01238BA3A45C08831E7439A2A0335358076965FE4D7489F04D34596E21A",
+    "Stage": "B prototype integration; not final art acceptance"
+  },
+  {
+    "VisualAssetId": "va_village_r2_farm",
+    "SourceFile": "Village/R2Prototype/farm.png",
+    "Candidate": "02_Candidates/Village/Farms/farm_r5_candidate.png",
+    "BeforeSHA256": "1B9D8D5D1BDB761875D24017C2D15F4621EA619B37FFAED1A82D14D6901F4D6C",
+    "AfterSHA256": "F4CEE673723348052EAE5D3924F038F1A342B15488344E034144D58E4686FAC3",
+    "Stage": "B prototype integration; not final art acceptance"
+  },
+  {
+    "VisualAssetId": "va_village_r2_person",
+    "SourceFile": "Village/R2Prototype/person.png",
+    "Candidate": "02_Candidates/Village/Persons/person_world_neutral_sw_r1.png",
+    "BeforeSHA256": "59BA92F9AD70365C018B24FBDC74BA6992FD85C18BE2C9E6451F7B3EB65CFC30",
+    "AfterSHA256": "7B4E80E754FFBA46BB85EA5844748C72FE853DC30544FF96CD0DDE3B35D61E73",
+    "Stage": "B prototype integration; not final art acceptance"
+  },
+  {
+    "VisualAssetId": "va_village_r5_tavern",
+    "SourceFile": "Village/ArtUpgrade01/tavern.png",
+    "Candidate": "02_Candidates/Village/Places/tavern_place_r1.png",
+    "BeforeSHA256": null,
+    "AfterSHA256": "47059963CB339875F0B2A127EBC19E18AC30E8F733D6606598E7EA8DD5F9B6D1",
+    "Stage": "B prototype fixed-place integration; not a buildable building"
+  },
+  {
+    "VisualAssetId": "va_village_r5_grass",
+    "SourceFile": "Village/ArtUpgrade01/grass_surface_r1.png",
+    "Candidate": "02_Candidates/Village/Terrain/grass_surface_r1.png",
+    "BeforeSHA256": null,
+    "AfterSHA256": "3E1B31B2B3D8547DD654D613CB9393C436836A8DE9B655F0856A2541B7F7B6AA",
+    "Stage": "B prototype terrain; decorative only"
+  },
+  {
+    "VisualAssetId": "va_village_r5_earth",
+    "SourceFile": "Village/ArtUpgrade01/earth_surface_r1.png",
+    "Candidate": "02_Candidates/Village/Terrain/earth_surface_r1.png",
+    "BeforeSHA256": null,
+    "AfterSHA256": "EE079476ABB309B032E2BA74688CD7A7E54FD1D26F7A82EE2668D051735AD654",
+    "Stage": "B prototype terrain; decorative only"
+  },
+  {
+    "VisualAssetId": "va_village_r5_person_ne",
+    "SourceFile": "Village/ArtUpgrade01/person_world_neutral_ne_r1.png",
+    "Candidate": "02_Candidates/Village/Persons/person_world_neutral_ne_r1.png",
+    "BeforeSHA256": null,
+    "AfterSHA256": "8B9BA49A7557E079FACE92C7E832B2E4E55C755E00FCCDC9317A628C84A35780",
+    "Stage": "B directional idle sample; two authored views plus mirrors; no walk animation"
+  }
+]

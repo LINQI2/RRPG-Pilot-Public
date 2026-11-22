@@ -1,0 +1,1107 @@
+{
+  "date": "2026-11-06",
+  "baseHead": "4d9ea21ae1799f57a741cae5df58a7685996cc1e",
+  "compilerCommit": "fe11c406ac66f7103e2075e66d4fe21a955eaeac",
+  "candidateCount": 61,
+  "committedCount": 13,
+  "method": "Exact audited paths; ownership and dependency groups; full byte SHA. These are a commit group plus retained product candidates, not a proven full delivery snapshot.",
+  "entries": [
+    {
+      "path": "Development/Config/RRPG_InitialWorld.xlsx",
+      "owner": "Initial World compiler/config",
+      "originalSha256": "A9AC696D6C5A8E638177BF89509B95866D86558DCF344F8F719320AFB3A10E4D",
+      "beforeSha256": "a9ac696d6c5a8e638177bf89509b95866d86558dcf344f8f719320afb3a10e4d",
+      "currentSha256": "a9ac696d6c5a8e638177bf89509b95866d86558dcf344f8f719320afb3a10e4d",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorld workbook / three mirrors / Compiler set"
+      ],
+      "disposition": "COMMITTED fe11c406ac66f7103e2075e66d4fe21a955eaeac",
+      "reason": "snapshot build + InitialWorld16 + validate PASS, exact content matches commit"
+    },
+    {
+      "path": "Development/Generated/StaticConfig/InitialBuilding.json",
+      "owner": "Initial World compiler/config",
+      "originalSha256": "32ABB64BE5C5FBE715B985FAE1D56E6301FDA516D008D85AA6217B3FF64F0015",
+      "beforeSha256": "32abb64be5c5fbe715b985fae1d56e6301fda516d008d85aa6217b3ff64f0015",
+      "currentSha256": "32abb64be5c5fbe715b985fae1d56e6301fda516d008d85aa6217b3ff64f0015",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorld workbook / three mirrors / Compiler set"
+      ],
+      "disposition": "COMMITTED fe11c406ac66f7103e2075e66d4fe21a955eaeac",
+      "reason": "snapshot build + InitialWorld16 + validate PASS, exact content matches commit"
+    },
+    {
+      "path": "Development/Generated/StaticConfig/InitialPopulation.json",
+      "owner": "Initial World compiler/config",
+      "originalSha256": "AE0FE5456266FF6658BD2D2829D987631E74E35EBC0301C3AF1514D87E6BCC65",
+      "beforeSha256": "ae0fe5456266ff6658bd2d2829d987631e74e35ebc0301c3af1514d87e6bcc65",
+      "currentSha256": "ae0fe5456266ff6658bd2d2829d987631e74e35ebc0301c3af1514d87e6bcc65",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorld workbook / three mirrors / Compiler set"
+      ],
+      "disposition": "COMMITTED fe11c406ac66f7103e2075e66d4fe21a955eaeac",
+      "reason": "snapshot build + InitialWorld16 + validate PASS, exact content matches commit"
+    },
+    {
+      "path": "Development/Generated/StaticConfig/InitialWorld.json",
+      "owner": "Initial World compiler/config",
+      "originalSha256": "5AF02464BBF359C62568525CEC1F8C4C11D7FEC8A4CE91852A776399C8DA321B",
+      "beforeSha256": "5af02464bbf359c62568525cec1f8c4c11d7fec8a4ce91852a776399c8da321b",
+      "currentSha256": "5af02464bbf359c62568525cec1f8c4c11d7fec8a4ce91852a776399c8da321b",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorld workbook / three mirrors / Compiler set"
+      ],
+      "disposition": "COMMITTED fe11c406ac66f7103e2075e66d4fe21a955eaeac",
+      "reason": "snapshot build + InitialWorld16 + validate PASS, exact content matches commit"
+    },
+    {
+      "path": "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/CompilerRunner.cs",
+      "owner": "Initial World compiler/config",
+      "originalSha256": "8EA44DA54CCEEC177E2C0E613489AAC9184C0B12258C5C6C4033D7EB701E8821",
+      "beforeSha256": "8ea44da54cceec177e2c0e613489aac9184c0b12258c5c6c4033d7eb701e8821",
+      "currentSha256": "8ea44da54cceec177e2c0e613489aac9184c0b12258c5c6c4033d7eb701e8821",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "HEAD Tools/RRPG.ConfigCompiler projects + package locks",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/DiagnosticCodes.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/EntityRequirements.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldValidator.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldWorkbookSeed.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/PrimaryErrorSummary.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Program.cs",
+        "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldConfigTests.cs",
+        "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldWorkbookSeedTests.cs"
+      ],
+      "disposition": "COMMITTED fe11c406ac66f7103e2075e66d4fe21a955eaeac",
+      "reason": "snapshot build + InitialWorld16 + validate PASS, exact content matches commit"
+    },
+    {
+      "path": "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/DiagnosticCodes.cs",
+      "owner": "Initial World compiler/config",
+      "originalSha256": "3233F327896C53377C877E810F5C0CD565AA332428D9CD4BFA83B192D0D1DA43",
+      "beforeSha256": "3233f327896c53377c877e810f5c0cd565aa332428d9cd4bfa83b192d0d1da43",
+      "currentSha256": "3233f327896c53377c877e810f5c0cd565aa332428d9cd4bfa83b192d0d1da43",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "HEAD Tools/RRPG.ConfigCompiler projects + package locks",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/CompilerRunner.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/EntityRequirements.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldValidator.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldWorkbookSeed.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/PrimaryErrorSummary.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Program.cs",
+        "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldConfigTests.cs",
+        "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldWorkbookSeedTests.cs"
+      ],
+      "disposition": "COMMITTED fe11c406ac66f7103e2075e66d4fe21a955eaeac",
+      "reason": "snapshot build + InitialWorld16 + validate PASS, exact content matches commit"
+    },
+    {
+      "path": "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/EntityRequirements.cs",
+      "owner": "Initial World compiler/config",
+      "originalSha256": "A23EA471E0D09D4D1420EB87190446853D4F4CCFD1AFD2432F316592C50B13ED",
+      "beforeSha256": "a23ea471e0d09d4d1420eb87190446853d4f4ccfd1afd2432f316592c50b13ed",
+      "currentSha256": "a23ea471e0d09d4d1420eb87190446853d4f4ccfd1afd2432f316592c50b13ed",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "HEAD Tools/RRPG.ConfigCompiler projects + package locks",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/CompilerRunner.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/DiagnosticCodes.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldValidator.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldWorkbookSeed.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/PrimaryErrorSummary.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Program.cs",
+        "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldConfigTests.cs",
+        "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldWorkbookSeedTests.cs"
+      ],
+      "disposition": "COMMITTED fe11c406ac66f7103e2075e66d4fe21a955eaeac",
+      "reason": "snapshot build + InitialWorld16 + validate PASS, exact content matches commit"
+    },
+    {
+      "path": "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldValidator.cs",
+      "owner": "Initial World compiler/config",
+      "originalSha256": "B2552DDD1E57579283E018C746C2F014B58073C07D39714726B270A34CDB13EF",
+      "beforeSha256": "b2552ddd1e57579283e018c746c2f014b58073c07d39714726b270a34cdb13ef",
+      "currentSha256": "b2552ddd1e57579283e018c746c2f014b58073c07d39714726b270a34cdb13ef",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "HEAD Tools/RRPG.ConfigCompiler projects + package locks",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/CompilerRunner.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/DiagnosticCodes.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/EntityRequirements.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldWorkbookSeed.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/PrimaryErrorSummary.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Program.cs",
+        "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldConfigTests.cs",
+        "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldWorkbookSeedTests.cs"
+      ],
+      "disposition": "COMMITTED fe11c406ac66f7103e2075e66d4fe21a955eaeac",
+      "reason": "snapshot build + InitialWorld16 + validate PASS, exact content matches commit"
+    },
+    {
+      "path": "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldWorkbookSeed.cs",
+      "owner": "Initial World compiler/config",
+      "originalSha256": "BC5E7D24DECB6E55C52930F7E2534E9FDF35724D4970CCE85C2AAA6CF56EEE20",
+      "beforeSha256": "bc5e7d24decb6e55c52930f7e2534e9fdf35724d4970cce85c2aaa6cf56eee20",
+      "currentSha256": "bc5e7d24decb6e55c52930f7e2534e9fdf35724d4970cce85c2aaa6cf56eee20",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "HEAD Tools/RRPG.ConfigCompiler projects + package locks",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/CompilerRunner.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/DiagnosticCodes.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/EntityRequirements.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldValidator.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/PrimaryErrorSummary.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Program.cs",
+        "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldConfigTests.cs",
+        "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldWorkbookSeedTests.cs"
+      ],
+      "disposition": "COMMITTED fe11c406ac66f7103e2075e66d4fe21a955eaeac",
+      "reason": "snapshot build + InitialWorld16 + validate PASS, exact content matches commit"
+    },
+    {
+      "path": "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/PrimaryErrorSummary.cs",
+      "owner": "Initial World compiler/config",
+      "originalSha256": "E75149314275D816DDE67E7367B72F186EAF456B9C22712741E888095DE27187",
+      "beforeSha256": "e75149314275d816dde67e7367b72f186eaf456b9c22712741e888095de27187",
+      "currentSha256": "e75149314275d816dde67e7367b72f186eaf456b9c22712741e888095de27187",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "HEAD Tools/RRPG.ConfigCompiler projects + package locks",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/CompilerRunner.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/DiagnosticCodes.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/EntityRequirements.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldValidator.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldWorkbookSeed.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Program.cs",
+        "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldConfigTests.cs",
+        "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldWorkbookSeedTests.cs"
+      ],
+      "disposition": "COMMITTED fe11c406ac66f7103e2075e66d4fe21a955eaeac",
+      "reason": "snapshot build + InitialWorld16 + validate PASS, exact content matches commit"
+    },
+    {
+      "path": "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Program.cs",
+      "owner": "Initial World compiler/config",
+      "originalSha256": "1A7B13088565E096F9F457DE578E5FFFAD30349CF441AA54C629AC7653C16085",
+      "beforeSha256": "1a7b13088565e096f9f457de578e5fffad30349cf441aa54c629ac7653c16085",
+      "currentSha256": "1a7b13088565e096f9f457de578e5fffad30349cf441aa54c629ac7653c16085",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "HEAD Tools/RRPG.ConfigCompiler projects + package locks",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/CompilerRunner.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/DiagnosticCodes.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/EntityRequirements.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldValidator.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldWorkbookSeed.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/PrimaryErrorSummary.cs",
+        "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldConfigTests.cs",
+        "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldWorkbookSeedTests.cs"
+      ],
+      "disposition": "COMMITTED fe11c406ac66f7103e2075e66d4fe21a955eaeac",
+      "reason": "snapshot build + InitialWorld16 + validate PASS, exact content matches commit"
+    },
+    {
+      "path": "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldConfigTests.cs",
+      "owner": "Initial World compiler/config",
+      "originalSha256": "1BBFD8995D3CF9DA6185E1CCD32C458D022C74E288F37DC126290DCC352AFC3C",
+      "beforeSha256": "1bbfd8995d3cf9da6185e1ccd32c458d022c74e288f37dc126290dcc352afc3c",
+      "currentSha256": "1bbfd8995d3cf9da6185e1ccd32c458d022c74e288f37dc126290dcc352afc3c",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "HEAD Tools/RRPG.ConfigCompiler projects + package locks",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/CompilerRunner.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/DiagnosticCodes.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/EntityRequirements.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldValidator.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldWorkbookSeed.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/PrimaryErrorSummary.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Program.cs",
+        "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldWorkbookSeedTests.cs"
+      ],
+      "disposition": "COMMITTED fe11c406ac66f7103e2075e66d4fe21a955eaeac",
+      "reason": "snapshot build + InitialWorld16 + validate PASS, exact content matches commit"
+    },
+    {
+      "path": "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldWorkbookSeedTests.cs",
+      "owner": "Initial World compiler/config",
+      "originalSha256": "EC9C0047A877F1C64E2010F8B9BF8B4B17AD32D91964F702E72A9C635299D405",
+      "beforeSha256": "ec9c0047a877f1c64e2010f8b9bf8b4b17ad32d91964f702e72a9c635299d405",
+      "currentSha256": "ec9c0047a877f1c64e2010f8b9bf8b4b17ad32d91964f702e72a9c635299d405",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "HEAD Tools/RRPG.ConfigCompiler projects + package locks",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/CompilerRunner.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/DiagnosticCodes.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/EntityRequirements.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldValidator.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/InitialWorldWorkbookSeed.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Core/PrimaryErrorSummary.cs",
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/Program.cs",
+        "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/InitialWorldConfigTests.cs"
+      ],
+      "disposition": "COMMITTED fe11c406ac66f7103e2075e66d4fe21a955eaeac",
+      "reason": "snapshot build + InitialWorld16 + validate PASS, exact content matches commit"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Editor/StaticConfig/InitialWorldMirrorReader.cs",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "0722D342B8AC56A237B8E25FFD3E27376B588F69FAD9FAE74CF0E47A2E1373B7",
+      "beforeSha256": "0722d342b8ac56a237b8e25ffd3e27376b588f69fad9fae74cf0e47a2e1373b7",
+      "currentSha256": "0722d342b8ac56a237b8e25ffd3e27376b588f69fad9fae74cf0e47a2e1373b7",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Editor/StaticConfig/InitialWorldMirrorReader.cs.meta",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "8E13FFC85D08165384DDDA4EBC82FB3A840EE7A41625EA17E7B4803E953BC0CD",
+      "beforeSha256": "8e13ffc85d08165384ddda4ebc82fb3a840ee7a41625ea17e7b4803e953bc0cd",
+      "currentSha256": "8e13ffc85d08165384ddda4ebc82fb3a840ee7a41625ea17e7b4803e953bc0cd",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Editor/StaticConfig/InitialWorldMirrorReader.cs"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Editor/StaticConfig/StaticConfigBuilder.cs",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "596203D264208513DC74663E0BD2BE9C503DA331BD9E11F83C92576CFF265F89",
+      "beforeSha256": "596203d264208513dc74663e0bd2be9c503da331bd9e11f83c92576cff265f89",
+      "currentSha256": "596203d264208513dc74663e0bd2be9c503da331bd9e11f83c92576cff265f89",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Resources/UI/ManagementView.prefab",
+      "owner": "Management + Product Fix",
+      "originalSha256": "F750ED83EE1C3A7503F3D72A6D5E4900B8C08B16EEFD8ADE6FE485A8C9F1977B",
+      "beforeSha256": "f750ed83ee1c3a7503f3d72a6d5e4900b8c08b16eefd8ade6fe485a8c9f1977b",
+      "currentSha256": "f750ed83ee1c3a7503f3d72a6d5e4900b8c08b16eefd8ade6fe485a8c9f1977b",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "HomeProductShell",
+        "ManagementView.prefab + Meta",
+        "ManagementReadAdapter",
+        "ManagementCommandGateway",
+        "ManagementSnapshot",
+        "HomeSelectionContext",
+        "existing Person/Village/Save authorities"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Resources/UI/ManagementView.prefab.meta",
+      "owner": "Management + Product Fix",
+      "originalSha256": "B1C14B9CC2981DC8427A7D6C8391358BDF6FD81E53245DE0858794E491196559",
+      "beforeSha256": "b1c14b9cc2981dc8427a7d6c8391358bdf6fd81e53245de0858794e491196559",
+      "currentSha256": "b1c14b9cc2981dc8427a7d6c8391358bdf6fd81e53245de0858794e491196559",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Resources/UI/ManagementView.prefab"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Core/PlayerCollection.cs",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "E21688BF00670BAE08ECF318FE4DC10895AFDA636AA84C0EBD644D3A81E8B222",
+      "beforeSha256": "e21688bf00670bae08ecf318fe4dc10895afda636aa84c0ebd644d3a81e8b222",
+      "currentSha256": "e21688bf00670bae08ecf318fe4dc10895afda636aa84c0ebd644d3a81e8b222",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Initialization.meta",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "01ED7F7B005D2D1262F3DD082FAEDC4B5D78A80A0B10EF04EB83EB866411187B",
+      "beforeSha256": "01ed7f7b005d2d1262f3dd082faedc4b5d78a80a0b10ef04eb83eb866411187b",
+      "currentSha256": "01ed7f7b005d2d1262f3dd082faedc4b5d78a80a0b10ef04eb83eb866411187b",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Scripts/Initialization"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Initialization/InitialWorldConfigurationCatalog.cs",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "2BB7A00DCBD94B1431C65F787DFC8302CB4EF46B4911F5583ABD278F09BE8381",
+      "beforeSha256": "2bb7a00dcbd94b1431c65f787dfc8302cb4ef46b4911f5583abd278f09be8381",
+      "currentSha256": "2bb7a00dcbd94b1431c65f787dfc8302cb4ef46b4911f5583abd278f09be8381",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Initialization/InitialWorldConfigurationCatalog.cs.meta",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "C61685AFFD8F004C200CA522750269777F1C8D594B1E34023E4D259C1B6B6F0A",
+      "beforeSha256": "c61685affd8f004c200ca522750269777f1c8d594b1e34023e4d259c1b6b6f0a",
+      "currentSha256": "c61685affd8f004c200ca522750269777f1c8d594b1e34023e4d259c1b6b6f0a",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Scripts/Initialization/InitialWorldConfigurationCatalog.cs"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Save/SaveSystem.cs",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "BC9FEA4F6D64C900A1B25098B2636DF9DFFB7CD86BECF96683D4E962DB21BFFB",
+      "beforeSha256": "bc9fea4f6d64c900a1b25098b2636df9dffb7cd86becf96683d4e962db21bffb",
+      "currentSha256": "bc9fea4f6d64c900a1b25098b2636df9dffb7cd86becf96683d4e962db21bffb",
+      "trackedNow": true,
+      "shared": "shared within V17; no unrelated hunk established",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/StaticConfig/BuildingRegistry.cs",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "8BA51A3E6FD28F6C0EFF167C41B1EC15D54814D88BD65048D6196AFDFBF12C62",
+      "beforeSha256": "8ba51a3e6fd28f6c0eff167c41b1ec15d54814d88bd65048d6196afdfbf12c62",
+      "currentSha256": "8ba51a3e6fd28f6c0eff167c41b1ec15d54814d88bd65048d6196afdfbf12c62",
+      "trackedNow": true,
+      "shared": "shared within V17; no unrelated hunk established",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/StaticConfig/InitialWorldConfigDatabase.cs",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "ADE5F27CA0C9F1891C9B028890775B03F421DD77835B76D0D37606A5A389F32A",
+      "beforeSha256": "ade5f27ca0c9f1891c9b028890775b03f421dd77835b76d0d37606a5a389f32a",
+      "currentSha256": "ade5f27ca0c9f1891c9b028890775b03f421dd77835b76d0d37606a5a389f32a",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/StaticConfig/InitialWorldConfigDatabase.cs.meta",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "92B91C9BBF78A6C79ED5E7F433EDA61BB060F5F3D1D421A533FF4797413EBED3",
+      "beforeSha256": "92b91c9bbf78a6c79ed5e7f433eda61bb060f5f3d1d421a533ff4797413ebed3",
+      "currentSha256": "92b91c9bbf78a6c79ed5e7f433eda61bb060f5f3d1d421a533ff4797413ebed3",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Scripts/StaticConfig/InitialWorldConfigDatabase.cs"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/StaticConfig/RRPGStaticConfigRoot.cs",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "61AE31F4C67088679698C5A1A8EB9B4FE2CF376D75219DDEE72D6F263B77A18A",
+      "beforeSha256": "61ae31f4c67088679698c5a1a8eb9b4fe2cf376d75219ddee72d6f263b77a18a",
+      "currentSha256": "61ae31f4c67088679698c5a1a8eb9b4fe2cf376d75219ddee72d6f263b77a18a",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/StaticConfig/StaticConfigRegistry.cs",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "A69CC2981874003238920A75DC7033856CA9F8C6642A554995027E607999D25F",
+      "beforeSha256": "a69cc2981874003238920a75dc7033856ca9f8c6642a554995027e607999d25f",
+      "currentSha256": "a69cc2981874003238920a75dc7033856ca9f8c6642a554995027e607999d25f",
+      "trackedNow": true,
+      "shared": "shared within V17; no unrelated hunk established",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/BuildingRuntime.cs",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "7F82E113B8E8506BD8AA8D6AADA2FADE9BFE74007133A8B76E96682A2AEA8C08",
+      "beforeSha256": "7f82e113b8e8506bd8aa8d6aada2fade9bfe74007133a8b76e96682a2aea8c08",
+      "currentSha256": "7f82e113b8e8506bd8aa8d6aada2fade9bfe74007133a8b76e96682a2aea8c08",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/HomeBuildingPlacement.cs",
+      "owner": "Management pointer + Initial World buildable filtering",
+      "originalSha256": "28922610FC9C61E8AFEA000571911864D1F8F5B93F44C2E02945FD8CA6295E01",
+      "beforeSha256": "28922610fc9c61e8afea000571911864d1f8f5b93f44c2e02945fd8ca6295e01",
+      "currentSha256": "28922610fc9c61e8afea000571911864d1f8f5b93f44c2e02945fd8ca6295e01",
+      "trackedNow": true,
+      "shared": "shared within V17; no unrelated hunk established",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/HomeWorldCamera.cs",
+      "owner": "Management Editor input seam",
+      "originalSha256": "39CABA4B2F49AA360C2FAB765C4F8819D50951522F9AD5EA7FE92F581A66728F",
+      "beforeSha256": "39caba4b2f49aa360c2fab765c4f8819d50951522f9ad5ea7fe92f581a66728f",
+      "currentSha256": "39caba4b2f49aa360c2fab765c4f8819d50951522f9ad5ea7fe92f581a66728f",
+      "trackedNow": true,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementCommandGateway.cs",
+      "owner": "Management + Product Fix",
+      "originalSha256": "D912BFC9BAEA7C68F3AAD3D77F606FCBD1E27912F0CF59710131A4BD5453CC5E",
+      "beforeSha256": "d912bfc9baea7c68f3aad3d77f606fcbd1e27912f0cf59710131a4bd5453cc5e",
+      "currentSha256": "d912bfc9baea7c68f3aad3d77f606fcbd1e27912f0cf59710131a4bd5453cc5e",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "HomeProductShell",
+        "ManagementView.prefab + Meta",
+        "ManagementReadAdapter",
+        "ManagementCommandGateway",
+        "ManagementSnapshot",
+        "HomeSelectionContext",
+        "existing Person/Village/Save authorities"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementCommandGateway.cs.meta",
+      "owner": "Management + Product Fix",
+      "originalSha256": "95239FFF297B3E3C2AF0DFFB8B9722A4A80F1C5D25A59F42B721CC368E26FF3B",
+      "beforeSha256": "95239fff297b3e3c2af0dffb8b9722a4a80f1c5d25a59f42b721cc368e26ff3b",
+      "currentSha256": "95239fff297b3e3c2af0dffb8b9722a4a80f1c5d25a59f42b721cc368e26ff3b",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementCommandGateway.cs"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementReadAdapter.cs",
+      "owner": "Management + Product Fix",
+      "originalSha256": "752C6A2D8EBB0579AD30792FAB93F4E8B70B56F2D5D933AE0F23CF0457F6FEA7",
+      "beforeSha256": "752c6a2d8ebb0579ad30792fab93f4e8b70b56f2d5d933ae0f23cf0457f6fea7",
+      "currentSha256": "752c6a2d8ebb0579ad30792fab93f4e8b70b56f2d5d933ae0f23cf0457f6fea7",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "HomeProductShell",
+        "ManagementView.prefab + Meta",
+        "ManagementReadAdapter",
+        "ManagementCommandGateway",
+        "ManagementSnapshot",
+        "HomeSelectionContext",
+        "existing Person/Village/Save authorities"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementReadAdapter.cs.meta",
+      "owner": "Management + Product Fix",
+      "originalSha256": "AF93BBB849B2B3E39B764345EC7A246AA909EFC40E53034B43A044FCB610F125",
+      "beforeSha256": "af93bbb849b2b3e39b764345ec7a246aa909efc40e53034b43a044fcb610f125",
+      "currentSha256": "af93bbb849b2b3e39b764345ec7a246aa909efc40e53034b43a044fcb610f125",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementReadAdapter.cs"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementRowView.cs",
+      "owner": "Management + Product Fix",
+      "originalSha256": "D5A2456AB13119635E9C6C31CAC5A7932CEF815A301C3F7536D208741543EEBD",
+      "beforeSha256": "d5a2456ab13119635e9c6c31cac5a7932cef815a301c3f7536d208741543eebd",
+      "currentSha256": "d5a2456ab13119635e9c6c31cac5a7932cef815a301c3f7536d208741543eebd",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "HomeProductShell",
+        "ManagementView.prefab + Meta",
+        "ManagementReadAdapter",
+        "ManagementCommandGateway",
+        "ManagementSnapshot",
+        "HomeSelectionContext",
+        "existing Person/Village/Save authorities"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementRowView.cs.meta",
+      "owner": "Management + Product Fix",
+      "originalSha256": "E6A60F11EE19E9440671C92952CAC4DC9C944569B78CEED0EF15A425B2909132",
+      "beforeSha256": "e6a60f11ee19e9440671c92952cac4dc9c944569b78ceed0ef15a425b2909132",
+      "currentSha256": "e6a60f11ee19e9440671c92952cac4dc9c944569b78ceed0ef15a425b2909132",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementRowView.cs"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementView.cs",
+      "owner": "Management + Product Fix",
+      "originalSha256": "6C218DAFBEA1885698AEDFD6C15AEBA7229B4F9AB91B9C516630969B3CA3EE02",
+      "beforeSha256": "6c218dafbea1885698aedfd6c15aeba7229b4f9ab91b9c516630969b3ca3ee02",
+      "currentSha256": "6c218dafbea1885698aedfd6c15aeba7229b4f9ab91b9c516630969b3ca3ee02",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "HomeProductShell",
+        "ManagementView.prefab + Meta",
+        "ManagementReadAdapter",
+        "ManagementCommandGateway",
+        "ManagementSnapshot",
+        "HomeSelectionContext",
+        "existing Person/Village/Save authorities"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementView.cs.meta",
+      "owner": "Management + Product Fix",
+      "originalSha256": "EF6483AF28AB0418C203EEB71C0D0AB14265BCC41B8C0FDE0F2DD3224DD289AA",
+      "beforeSha256": "ef6483af28ab0418c203eeb71c0d0ab14265bcc41b8c0fde0f2dd3224dd289aa",
+      "currentSha256": "ef6483af28ab0418c203eeb71c0d0ab14265bcc41b8c0fde0f2dd3224dd289aa",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementView.cs"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/Runtime/InitialWorldConfiguration.cs",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "8B568303AFE1848CB4983F9FDE9F4BC659ACA8F25C87F12D6E950721FBAE08D6",
+      "beforeSha256": "8b568303afe1848cb4983f9fde9f4bc659aca8f25c87f12d6e950721fbae08d6",
+      "currentSha256": "8b568303afe1848cb4983f9fde9f4bc659aca8f25c87f12d6e950721fbae08d6",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/Runtime/InitialWorldConfiguration.cs.meta",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "B8F9093FAEC184152763855F259C61A8D49429B8C4415E5FA0E50C7B4B999941",
+      "beforeSha256": "b8f9093faec184152763855f259c61a8d49429b8c4415e5fa0e50c7b4b999941",
+      "currentSha256": "b8f9093faec184152763855f259c61a8d49429b8c4415e5fa0e50c7b4b999941",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Scripts/Village/Runtime/InitialWorldConfiguration.cs"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/Runtime/ManagementSnapshot.cs",
+      "owner": "Management + Product Fix",
+      "originalSha256": "1184F80307E8EF07563193F27433A6983077B7D79A312B1DF57B53AE5ADE1CE6",
+      "beforeSha256": "1184f80307e8ef07563193f27433a6983077b7d79a312b1df57b53ae5ade1ce6",
+      "currentSha256": "1184f80307e8ef07563193f27433a6983077b7d79a312b1df57b53ae5ade1ce6",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "HomeProductShell",
+        "ManagementView.prefab + Meta",
+        "ManagementReadAdapter",
+        "ManagementCommandGateway",
+        "ManagementSnapshot",
+        "HomeSelectionContext",
+        "existing Person/Village/Save authorities"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/Runtime/ManagementSnapshot.cs.meta",
+      "owner": "Management + Product Fix",
+      "originalSha256": "D3C078C686B7F07AF817E94E7BC80CE8A2459735FE2E92A51543AF4201299498",
+      "beforeSha256": "d3c078c686b7f07af817e94e7bc80ce8a2459735fe2e92a51543af4201299498",
+      "currentSha256": "d3c078c686b7f07af817e94e7bc80ce8a2459735fe2e92a51543af4201299498",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Scripts/Village/Runtime/ManagementSnapshot.cs"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/VillageRuntimeBridge.Buildings.cs",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "B2FDB4C86CAB0B4874F31FA079F571002262C0A6FD0238A6366AFBC3A87169D0",
+      "beforeSha256": "b2fdb4c86cab0b4874f31fa079f571002262c0a6fd0238a6366afbc3a87169d0",
+      "currentSha256": "b2fdb4c86cab0b4874f31fa079f571002262c0a6fd0238a6366afbc3a87169d0",
+      "trackedNow": true,
+      "shared": "shared within V17; no unrelated hunk established",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/VillageRuntimeBridge.cs",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "8B618DF392692A91EB6B2E1167DCA1C23AD566BD627A1403B035D51BFBB7CCA5",
+      "beforeSha256": "8b618df392692a91eb6b2e1167dca1c23ad566bd627a1403b035d51bfbb7cca5",
+      "currentSha256": "8b618df392692a91eb6b2e1167dca1c23ad566bd627a1403b035d51bfbb7cca5",
+      "trackedNow": true,
+      "shared": "shared within V17; no unrelated hunk established",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization.meta",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "6E735B24358390590BADFF1A2F6E2342B5B34570DEE2F7DDA132FA0B8CA9A274",
+      "beforeSha256": "6e735b24358390590badff1a2f6e2342b5b34570dee2f7dda132fa0b8ca9a274",
+      "currentSha256": "6e735b24358390590badff1a2f6e2342b5b34570dee2f7dda132fa0b8ca9a274",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorld.Tests.asmdef",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "3064B0454DBDC6FA570F4703C95E6DF0853A298B480049B72140214A82FEDA42",
+      "beforeSha256": "3064b0454dbdc6fa570f4703c95e6df0853a298b480049b72140214a82feda42",
+      "currentSha256": "3064b0454dbdc6fa570f4703c95e6df0853a298b480049b72140214a82feda42",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorld.Tests.asmdef.meta",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "6725DE2BDEC56994527FEBC7ADD346C50A1F5DA6826BBD29ADE1C7F33A6ED37D",
+      "beforeSha256": "6725de2bdec56994527febc7add346c50a1f5da6826bbd29ade1c7f33a6ed37d",
+      "currentSha256": "6725de2bdec56994527febc7add346c50a1f5da6826bbd29ade1c7f33a6ed37d",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorld.Tests.asmdef"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorldConfigPipelineTests.cs",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "4129CE54C71199CFFA08A3F427A210710147B9B1CCEF87FB0FEF3FC51ACF7BAA",
+      "beforeSha256": "4129ce54c71199cffa08a3f427a210710147b9b1ccef87fb0fef3fc51acf7baa",
+      "currentSha256": "4129ce54c71199cffa08a3f427a210710147b9b1ccef87fb0fef3fc51acf7baa",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorldConfigPipelineTests.cs.meta",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "4D66E143449654981F0842B0C39D70F042D1C953809533CADD40D211B47EB975",
+      "beforeSha256": "4d66e143449654981f0842b0c39d70f042d1c953809533cadd40d211b47eb975",
+      "currentSha256": "4d66e143449654981f0842b0c39d70f042d1c953809533cadd40d211b47eb975",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorldConfigPipelineTests.cs"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorldConfigurationTests.cs",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "CD126162B80573D8098889A388329778DC42723E254ADCF0030A9A11DE5DA289",
+      "beforeSha256": "cd126162b80573d8098889a388329778dc42723e254adcf0030a9a11de5da289",
+      "currentSha256": "cd126162b80573d8098889a388329778dc42723e254adcf0030a9a11de5da289",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorldConfigurationTests.cs.meta",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "37BB69B339B2C191EAED798E3BA96846D4D54A28BEE150F7031DCCC570E16D7C",
+      "beforeSha256": "37bb69b339b2c191eaed798e3ba96846d4d54a28bee150f7031dccc570e16d7c",
+      "currentSha256": "37bb69b339b2c191eaed798e3ba96846d4d54a28bee150f7031dccc570e16d7c",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorldConfigurationTests.cs"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorldProductWiringTests.cs",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "9049DECFBC1CCAC36E2053CBEAC1E11422091E2288C5A7FCF00F8E42E292E81C",
+      "beforeSha256": "9049decfbc1ccac36e2053cbeac1e11422091e2288c5a7fcf00f8e42e292e81c",
+      "currentSha256": "9049decfbc1ccac36e2053cbeac1e11422091e2288c5a7fcf00f8e42e292e81c",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorldProductWiringTests.cs.meta",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "06FBB9B13D0ACA5116717673904C36447169ADF72404F2B99491799783A1D15A",
+      "beforeSha256": "06fbb9b13d0aca5116717673904c36447169adf72404f2b99491799783a1d15a",
+      "currentSha256": "06fbb9b13d0aca5116717673904c36447169adf72404f2b99491799783a1d15a",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorldProductWiringTests.cs"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Village/ManagementProjectionTests.cs",
+      "owner": "Management + Product Fix",
+      "originalSha256": "64C8C12482AC1AD22C0AB524E6947138C789A752DF7108233AE137BDD5BA68A7",
+      "beforeSha256": "64c8c12482ac1ad22c0ab524e6947138c789a752df7108233ae137bdd5ba68a7",
+      "currentSha256": "64c8c12482ac1ad22c0ab524e6947138c789a752df7108233ae137bdd5ba68a7",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "HomeProductShell",
+        "ManagementView.prefab + Meta",
+        "ManagementReadAdapter",
+        "ManagementCommandGateway",
+        "ManagementSnapshot",
+        "HomeSelectionContext",
+        "existing Person/Village/Save authorities"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Village/ManagementProjectionTests.cs.meta",
+      "owner": "Management + Product Fix",
+      "originalSha256": "EB42773ED3219876D1C9CC3A6747DC93E6D4605BBC7B89F5721EEC8F3AAF5CF0",
+      "beforeSha256": "eb42773ed3219876d1c9cc3a6747dc93e6d4605bbc7b89f5721eec8f3aaf5cf0",
+      "currentSha256": "eb42773ed3219876d1c9cc3a6747dc93e6d4605bbc7b89f5721eec8f3aaf5cf0",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Village/ManagementProjectionTests.cs"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/InitializationProductPlayTests.cs",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "56CCA5E4CD8913CC1E1A9770366C6A79FAB2A6AB8B38112C86B401F551C0AF39",
+      "beforeSha256": "56cca5e4cd8913cc1e1a9770366c6a79fab2a6ab8b38112c86b401f551c0af39",
+      "currentSha256": "56cca5e4cd8913cc1e1a9770366c6a79fab2a6ab8b38112c86b401f551c0af39",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "InitialWorldConfigurationCatalog",
+        "InitialWorldConfigDatabase",
+        "StaticConfigBuilder + InitialWorldMirrorReader",
+        "StaticConfigRegistry + Root",
+        "SaveSystem + PlayerCollection",
+        "VillageRuntimeBridge + BuildingRuntime"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/InitializationProductPlayTests.cs.meta",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "D965B562FA5992BFB9118231B258CE2624CAE365E84F0037133559984C408464",
+      "beforeSha256": "d965b562fa5992bfb9118231b258ce2624cae365e84f0037133559984c408464",
+      "currentSha256": "d965b562fa5992bfb9118231b258ce2624cae365e84f0037133559984c408464",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/InitializationProductPlayTests.cs"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/ManagementShellPlayTests.cs",
+      "owner": "Management + Product Fix",
+      "originalSha256": "AE58D6BF0D268D143AAFB3E567B43C3C6D3E86176A41D9F7A64460A0AFEF4496",
+      "beforeSha256": "ae58d6bf0d268d143aafb3e567b43c3c6d3e86176a41d9f7a64460a0afef4496",
+      "currentSha256": "ae58d6bf0d268d143aafb3e567b43c3c6d3e86176a41d9f7a64460a0afef4496",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "HomeProductShell",
+        "ManagementView.prefab + Meta",
+        "ManagementReadAdapter",
+        "ManagementCommandGateway",
+        "ManagementSnapshot",
+        "HomeSelectionContext",
+        "existing Person/Village/Save authorities"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/ManagementShellPlayTests.cs.meta",
+      "owner": "Management + Product Fix",
+      "originalSha256": "9DA27352B62EF02BED6E5AC640453677938D3A8FA885DCF896D5799713570404",
+      "beforeSha256": "9da27352b62ef02bed6e5ac640453677938d3a8fa885dcf896d5799713570404",
+      "currentSha256": "9da27352b62ef02bed6e5ac640453677938d3a8fa885dcf896d5799713570404",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/ManagementShellPlayTests.cs"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/Village/TavernFixedPlacePlayTests.cs.meta",
+      "owner": "Initial World runtime/editor + shared V17 foundation",
+      "originalSha256": "899DB3C7BFF12E4C6BEA55C47613CF35345B2C46BB2AAF7114C6631210CE180A",
+      "beforeSha256": "899db3c7bff12e4c6bea55c47613cf35345b2c46bb2aaf7114c6631210ce180a",
+      "currentSha256": "899db3c7bff12e4c6bea55c47613cf35345b2c46bb2aaf7114c6631210ce180a",
+      "trackedNow": false,
+      "shared": "single package or Meta/test pair",
+      "dependencies": [
+        "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/Village/TavernFixedPlacePlayTests.cs"
+      ],
+      "disposition": "RETAINED_UNCOMMITTED",
+      "reason": "Unity binding/compile and product-group test fixture not established; no partial product submission"
+    }
+  ],
+  "managementFixture": {
+    "path": "Development/StudioRuns/R3B-20261022/workspace-baseline.json",
+    "tracked": false,
+    "sha256": "bc7216f125aa0046d116ad23d71e33bd15d9e31d861ce3c317e614429540394e",
+    "absoluteRoot": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo",
+    "baselineCount": 34,
+    "currentMismatches": [
+      "UnityProject/RRPG1.0game/Assets/Art/Fonts/SourceHanSansCN/RRPG_SourceHanSansCN_Regular_TMP.asset"
+    ]
+  },
+  "prefabEvidence": "Development/StudioRuns/V17-FinalCheck-20261106/prefab-dependencies.json",
+  "compilerEvidence": {
+    "trx": "D:/AI_Agent_Lab/audit-results/v17-finalcheck-20261106/compiler-results/initialworld.trx",
+    "validate": "D:/AI_Agent_Lab/audit-results/v17-finalcheck-20261106/compiler-validate.log",
+    "restoreFailure": "private NuGet config denied; not read; no ACL change",
+    "successMethod": "isolated snapshot from HEAD + exact 13 selected files; existing obj restore cache copied, no-restore compilation, 16/16 targeted tests; validate PASS 0 errors 9 warnings"
+  },
+  "notProven": [
+    "Unity current compile",
+    "3 project Prefab GUID bindings",
+    "Builder regeneration from clean source",
+    "runtime tests in independent committed snapshot"
+  ]
+}

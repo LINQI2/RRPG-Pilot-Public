@@ -18,8 +18,8 @@ public sealed class ManagementRowView : MonoBehaviour
     [SerializeField] private Image background;
     [SerializeField] private LayoutElement layout;
 
-    private static readonly Color NormalColor = new Color(.14f, .24f, .24f, 1);
-    private static readonly Color SelectedColor = new Color(.28f, .43f, .36f, 1);
+    private static readonly Color NormalColor = new Color(.88f, .80f, .64f, 1);
+    private static readonly Color SelectedColor = new Color(.92f, .78f, .51f, 1);
 
     public Button Button => button;
 

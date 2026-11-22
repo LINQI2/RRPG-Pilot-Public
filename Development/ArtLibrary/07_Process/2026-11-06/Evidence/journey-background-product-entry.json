@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: \"Journey visible=True Party=2 Background=Assets/Art/Prototype/Journey/ChatGPT Image 2026年9月19日 21_24_25.png Far=RGBA(1.000, 1.000, 1.000, 1.000) Near=RGBA(1.000, 1.000, 1.000, 1.000)\""
+      }
+    ],
+    "isError": false
+  },
+  "id": 92,
+  "jsonrpc": "2.0"
+}

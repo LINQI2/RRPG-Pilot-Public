@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-06",
+  "save": {
+    "originalRestored": true,
+    "sha256": "89625EEF3CE43CB02D55DCC5D93B74C1E46ACF0B30A49CEDA903CB3E1C424948",
+    "bytes": 28994,
+    "sealedFileRemaining": false,
+    "tmpRemaining": false,
+    "testSaveSha256": "02DA092E28C8A95F4E1A381CC37A69CD85FE68611385AC9EC624281561C6A13A",
+    "testSaveEvidence": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\StudioRuns\\FP-NormalPath-20261106\\normalpath-test-save.json",
+    "method": "atomic rename back only after test slot moved out; no overwrite restore"
+  },
+  "fontLabel": "fp-codex-normalpath-01",
+  "fontBeginExit": 0,
+  "fontEndExit": 0,
+  "fontResult": "PASS",
+  "fontSha256": "7b5717b976bac0d90dce70ba65b4dda0995bf78e8b3fd317ea9918058109c016",
+  "playStopped": true,
+  "assetOrSceneSave": false,
+  "codeChanged": false,
+  "gameplayInjection": false,
+  "normalRunner": "Codex computer-use real mouse",
+  "dshRuns": "two accepted turns; neither entered Play; not counted as normal evidence"
+}

@@ -183,7 +183,7 @@ public class ExpeditionIdentityPanel : MonoBehaviour
         _supplyText = supplyGo.AddComponent<TextMeshProUGUI>();
         _supplyText.font = CurrentUIFontAuthority.Default;
         _supplyText.fontSize = 22;
-        _supplyText.color = Color.white;
+        _supplyText.color = HomeProductUI.Ink;
         _supplyText.alignment = TextAlignmentOptions.TopLeft;
         _supplyText.enableWordWrapping = true;
         _supplyText.overflowMode = TextOverflowModes.Overflow;
@@ -234,7 +234,7 @@ public class ExpeditionIdentityPanel : MonoBehaviour
         var panelGo = new GameObject("Panel", typeof(RectTransform));
         panelGo.transform.SetParent(_popupRoot.transform, false);
         var panelImg = panelGo.AddComponent<Image>();
-        panelImg.color = new Color(0.06f, 0.07f, 0.09f, 1f);
+        panelImg.color = HomeProductUI.Paper;
         var panelRt = panelGo.GetComponent<RectTransform>();
         panelRt.anchorMin = new Vector2(0.5f, 0.5f);
         panelRt.anchorMax = new Vector2(0.5f, 0.5f);
@@ -274,7 +274,7 @@ public class ExpeditionIdentityPanel : MonoBehaviour
         _detailText = textGo.AddComponent<TextMeshProUGUI>();
         _detailText.font = CurrentUIFontAuthority.Default;
         _detailText.fontSize = 21;
-        _detailText.color = Color.white;
+        _detailText.color = HomeProductUI.Ink;
         _detailText.alignment = TextAlignmentOptions.TopLeft;
         _detailText.enableWordWrapping = true;
         _detailText.overflowMode = TextOverflowModes.Overflow;
@@ -311,7 +311,7 @@ public class ExpeditionIdentityPanel : MonoBehaviour
         rt.anchoredPosition = anchoredPos;
 
         var img = go.AddComponent<Image>();
-        img.color = new Color(0.22f, 0.34f, 0.5f, 1f);
+        img.color = new Color(.88f, .80f, .64f, 1f);
         img.raycastTarget = true;
         var btn = go.AddComponent<Button>();
         btn.targetGraphic = img;
@@ -324,7 +324,7 @@ public class ExpeditionIdentityPanel : MonoBehaviour
         text.font = CurrentUIFontAuthority.Default;
         text.text = label;
         text.fontSize = 22;
-        text.color = Color.white;
+        text.color = HomeProductUI.Ink;
         text.alignment = TextAlignmentOptions.Center;
         text.enableWordWrapping = true;
         text.overflowMode = TextOverflowModes.Overflow;

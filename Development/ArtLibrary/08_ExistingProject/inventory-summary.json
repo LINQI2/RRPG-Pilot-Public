@@ -1,0 +1,99 @@
+{
+  "TotalFiles": 133,
+  "UniqueContent": 89,
+  "Note": "File inventory only, not live usage or completeness. PNG dimensions only. Fonts/packages/library excluded.",
+  "Directories": [
+    {
+      "Name": "Development\\SourceAssets\\Enemy",
+      "Count": 6
+    },
+    {
+      "Name": "Development\\SourceAssets\\Village",
+      "Count": 3
+    },
+    {
+      "Name": "Development\\SourceAssets\\Village\\A-Tier",
+      "Count": 4
+    },
+    {
+      "Name": "Development\\SourceAssets\\Village\\ArtUpgrade01",
+      "Count": 4
+    },
+    {
+      "Name": "Development\\SourceAssets\\Village\\ArtUpgrade01\\Persons",
+      "Count": 12
+    },
+    {
+      "Name": "Development\\SourceAssets\\Village\\R2Prototype",
+      "Count": 5
+    },
+    {
+      "Name": "Development\\SourceAssets\\Village\\TechnicalProof",
+      "Count": 2
+    },
+    {
+      "Name": "UnityProject\\RRPG1.0game\\Assets\\Art\\Battle\\Background",
+      "Count": 1
+    },
+    {
+      "Name": "UnityProject\\RRPG1.0game\\Assets\\Art\\Characters\\ArtUpgrade01",
+      "Count": 12
+    },
+    {
+      "Name": "UnityProject\\RRPG1.0game\\Assets\\Art\\Characters\\Battle",
+      "Count": 3
+    },
+    {
+      "Name": "UnityProject\\RRPG1.0game\\Assets\\Art\\Prototype\\Battle",
+      "Count": 8
+    },
+    {
+      "Name": "UnityProject\\RRPG1.0game\\Assets\\Art\\Prototype\\Journey",
+      "Count": 12
+    },
+    {
+      "Name": "UnityProject\\RRPG1.0game\\Assets\\Art\\UI\\ArtUpgrade01",
+      "Count": 8
+    },
+    {
+      "Name": "UnityProject\\RRPG1.0game\\Assets\\Art\\UI\\Battle",
+      "Count": 11
+    },
+    {
+      "Name": "UnityProject\\RRPG1.0game\\Assets\\Art\\UI\\Battle\\Card",
+      "Count": 3
+    },
+    {
+      "Name": "UnityProject\\RRPG1.0game\\Assets\\Art\\UI\\Battle\\UnitHUD",
+      "Count": 4
+    },
+    {
+      "Name": "UnityProject\\RRPG1.0game\\Assets\\Generated\\StaticConfig\\Assets\\Enemy",
+      "Count": 6
+    },
+    {
+      "Name": "UnityProject\\RRPG1.0game\\Assets\\Generated\\StaticConfig\\Assets\\Village",
+      "Count": 3
+    },
+    {
+      "Name": "UnityProject\\RRPG1.0game\\Assets\\Generated\\StaticConfig\\Assets\\Village\\A-Tier",
+      "Count": 4
+    },
+    {
+      "Name": "UnityProject\\RRPG1.0game\\Assets\\Generated\\StaticConfig\\Assets\\Village\\ArtUpgrade01",
+      "Count": 4
+    },
+    {
+      "Name": "UnityProject\\RRPG1.0game\\Assets\\Generated\\StaticConfig\\Assets\\Village\\ArtUpgrade01\\Persons",
+      "Count": 12
+    },
+    {
+      "Name": "UnityProject\\RRPG1.0game\\Assets\\Generated\\StaticConfig\\Assets\\Village\\R2Prototype",
+      "Count": 5
+    },
+    {
+      "Name": "UnityProject\\RRPG1.0game\\Assets\\TextMesh Pro\\Sprites",
+      "Count": 1
+    }
+  ]
+}

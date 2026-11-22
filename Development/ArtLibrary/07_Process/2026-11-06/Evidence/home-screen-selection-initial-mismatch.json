@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Tool execution failed for 'Script / Execute': Execution failed (Runtime): System.Exception: Building screen selection mismatch\r\n   at __CodeExecSnippet.__Run in snippet.cs:line 1"
+      }
+    ],
+    "isError": true
+  },
+  "id": 41,
+  "jsonrpc": "2.0"
+}

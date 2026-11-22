@@ -1,0 +1,44 @@
+[
+  {
+    "Candidate": "02_Candidates/Battle/Icons/icon_shield_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/UI/ArtUpgrade01/icon_shield_r1.png",
+    "SHA256": "FBF45AA040184CF4ED5AA4D935C80DB00D1BD6E88299B76E33C09C745C17C844",
+    "MetaSHA256": "017B00AA3753F46EB25305C5707578C43C4A0F5B884A0567C03645E2EE829F13",
+    "ProductFlowVerified": false,
+    "Scope": "Existing BattleUI presentation slots; shield/defend/special status not triggered in product test"
+  },
+  {
+    "Candidate": "02_Candidates/Battle/Icons/icon_attack_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/UI/ArtUpgrade01/icon_attack_r1.png",
+    "SHA256": "8D5B6ABDC7A075EB1F8C6A2665776A41C8BEA1F09E6E1B04CE004B124A81FE2B",
+    "MetaSHA256": "FCBA9087B240D98751BCC713BCAB4D2DCB7BC67E19186A122B76375A48BA7177",
+    "ProductFlowVerified": true,
+    "Scope": "Existing BattleUI presentation slots; shield/defend/special status not triggered in product test"
+  },
+  {
+    "Candidate": "02_Candidates/Battle/Icons/icon_special_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/UI/ArtUpgrade01/icon_special_r1.png",
+    "SHA256": "9688E3625A74B62683C9342AEDDAD225C3CA5393A4E3BF10F762D2D2B5A08528",
+    "MetaSHA256": "01A16B260B3DEB6360D7150F2F4DD18D0614C0FB16712AFE27B49B6A734FCE02",
+    "ProductFlowVerified": false,
+    "Scope": "Existing BattleUI presentation slots; shield/defend/special status not triggered in product test"
+  },
+  {
+    "Candidate": "02_Candidates/Battle/Icons/icon_party_flag_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/UI/ArtUpgrade01/icon_party_flag_r1.png",
+    "SHA256": "DE448A5BEFBFD54FB4A41C8D3D0887094CD0539724CC7B1218A7CE3FD302EC95",
+    "MetaSHA256": "5D73A41C1B7B365E434FB0F093741508F6B66FCE18FE0FB956A58FF066EEECBA",
+    "ProductFlowVerified": true,
+    "Scope": "2026-11-08 final real Continue -> original expedition -> actual encounter -> deployment -> started battle; 64x64 original buttons fully in 1920x1080 screen, 14px gap; screenshot battle-unit-hud-final-r2.png. Visual only; no new button functionality introduced.",
+    "FinalArtAccepted": false
+  },
+  {
+    "Candidate": "02_Candidates/Battle/Icons/icon_settings_gear_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/UI/ArtUpgrade01/icon_settings_gear_r1.png",
+    "SHA256": "A75873EC4CCFC4875B7DE1D3C400C4B4310A74344AECE05A29BC560BF62CE2BC",
+    "MetaSHA256": "6F80F3764469CA7BCC63041818362EBE3F34F1F8604D3E70BAE4112584029006",
+    "ProductFlowVerified": true,
+    "Scope": "2026-11-08 final real Continue -> original expedition -> actual encounter -> deployment -> started battle; 64x64 original buttons fully in 1920x1080 screen, 14px gap; screenshot battle-unit-hud-final-r2.png. Visual only; no new button functionality introduced.",
+    "FinalArtAccepted": false
+  }
+]

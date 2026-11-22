@@ -1,0 +1,78 @@
+{
+  "identity": {
+    "project": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\UnityProject\\RRPG1.0game",
+    "version": "2022.3.62t9",
+    "pending": "",
+    "compiling": false,
+    "compileFailed": false,
+    "playing": false
+  },
+  "result": {
+    "Summary": {
+      "Status": "Passed",
+      "TotalTests": 11,
+      "PassedTests": 11,
+      "FailedTests": 0,
+      "SkippedTests": 0,
+      "Duration": "00:00:03.4939408"
+    },
+    "Results": [
+      {
+        "Name": "RRPG.Management.Tests.ManagementProjectionTests.CapacityFullAndAlreadyAssignedPreserveDomainDiagnosticsWithoutWrite",
+        "Status": "Passed",
+        "Duration": "00:00:00.1510000"
+      },
+      {
+        "Name": "RRPG.Management.Tests.ManagementProjectionTests.ConstructionWorkerKeepsPrimaryAssignment",
+        "Status": "Passed",
+        "Duration": "00:00:00.0170000"
+      },
+      {
+        "Name": "RRPG.Management.Tests.ManagementProjectionTests.LegacyStaticAssignmentIsVisibleRemovableButNotANewTarget",
+        "Status": "Passed",
+        "Duration": "00:00:00.0030000"
+      },
+      {
+        "Name": "RRPG.Management.Tests.ManagementProjectionTests.MissingOrAwayPersonIsRejectedWithoutWrite",
+        "Status": "Passed",
+        "Duration": "00:00:00.0050000"
+      },
+      {
+        "Name": "RRPG.Management.Tests.ManagementProjectionTests.ReadProjectionDoesNotTouchWorldClockOrAuthority",
+        "Status": "Passed",
+        "Duration": "00:00:00.0080000"
+      },
+      {
+        "Name": "RRPG.Management.Tests.ManagementProjectionTests.RemovingAssignmentDuringLaborStopsOldWorkplaceEvidence",
+        "Status": "Passed",
+        "Duration": "00:00:00.0610000"
+      },
+      {
+        "Name": "RRPG.Management.Tests.ManagementProjectionTests.ResourcesAndNutritionFactsComeFromExistingState",
+        "Status": "Passed",
+        "Duration": "00:00:00.0020000"
+      },
+      {
+        "Name": "RRPG.Management.Tests.ManagementProjectionTests.SameDefinitionBuildingsAndRegisteredSlotsStayIndependent",
+        "Status": "Passed",
+        "Duration": "00:00:00.0040000"
+      },
+      {
+        "Name": "RRPG.Management.Tests.ManagementProjectionTests.SameNameDifferentPersonIdsStayIndependentAndFilterIsSessionOnly",
+        "Status": "Passed",
+        "Duration": "00:00:00.0040000"
+      },
+      {
+        "Name": "RRPG.Management.Tests.ManagementProjectionTests.SaveFeedbackUsesExistingBoolAndRespectsWorldLock",
+        "Status": "Passed",
+        "Duration": "00:00:00.0100000"
+      },
+      {
+        "Name": "RRPG.Management.Tests.ManagementProjectionTests.UnderConstructionBuildingHasNoAssignableWorkplaceAndCommandRefuses",
+        "Status": "Passed",
+        "Duration": "00:00:00.0010000"
+      }
+    ]
+  },
+  "observedAt": "2026-10-23T05:24:01.792Z"
+}

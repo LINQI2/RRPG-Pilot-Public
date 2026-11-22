@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: \"BattleUI @ BattleController\\nbattleBackground=Assets/Art/Battle/Background/战斗场景1（草地森林）.png size=(0.00, 0.00)\\nbattleBackgroundPlaceholder=Assets/Art/Prototype/Battle/battle_bg_placeholder.png\\nplayerBodyPlaceholder=Assets/Art/Prototype/Battle/player_body_placeholder.png\\nshieldIconPlaceholder=Assets/Art/Prototype/Battle/shield_placeholder.png\\nintentAttackPlaceholder=Assets/Art/Prototype/Battle/intent_attack_placeholder.png\\nintentDefendPlaceholder=Assets/Art/Prototype/Battle/intent_defend_placeholder.png\\nintentSpecialPlaceholder=Assets/Art/Prototype/Battle/intent_special_placeholder.png\\nprepBodyPlaceholder=\\nExpeditionJourneyView @ ExpeditionJourneyRoot\\nbackgroundImage=Assets/Art/Prototype/Journey/ChatGPT Image 2026年9月19日 21_24_25.png size=(0.00, 0.00)\\nenvFarImage=Assets/Art/Prototype/Journey/journey_env_far_placeholder.png size=(2200.00, 500.00)\\nenvNearImage=Assets/Art/Prototype/Journey/journey_env_near_placeholder.png size=(2200.00, 220.00)\\nbattleEncounterIllustration=Assets/Art/Prototype/Journey/ChatGPT Image 2026年9月19日 22_05_33 (1).png\\ncontentEncounterIllustration=Assets/Art/Prototype/Journey/ChatGPT Image 2026年9月19日 22_05_34 (2).png\\nbranchIllustration=Assets/Art/Prototype/Journey/ChatGPT Image 2026年9月19日 22_05_35 (3).png\\ndefaultPersonBody=Assets/Art/Prototype/Journey/journey_person_default_placeholder.png\""
+      }
+    ],
+    "isError": false
+  },
+  "id": 83,
+  "jsonrpc": "2.0"
+}

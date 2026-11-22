@@ -1,0 +1,86 @@
+[
+  {
+    "Candidate": "02_Candidates/Journey/Persons/person_red_cape_se_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Characters/ArtUpgrade01/person_red_cape_se_r1.png",
+    "SHA256": "84045A40CD6CD9465D74ACF9B0E2C71E8AAB15675109F3B47B5BF3E324290B02",
+    "MetaSHA256": "0CE97C81A6FA0ECD779C49D103D7FF1CE9A7FB78F7038CED34B582A9FF3A3C0E",
+    "SurfaceOverrides": [
+      "Journey",
+      "Battle",
+      "Prep"
+    ],
+    "ProductFlowVerified": true,
+    "VerificationScope": "Real Continue->Expedition->Journey and actual available Battle node->Battle prep card; deployed Battle unit not verified",
+    "FinalArtAccepted": false
+  },
+  {
+    "Candidate": "02_Candidates/Journey/Persons/person_green_archer_se_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Characters/ArtUpgrade01/person_green_archer_se_r1.png",
+    "SHA256": "6CFEA4E8C9A4CB825CDCCC86DC0A1FC77032DAFF030E336477210A91C2ADC266",
+    "MetaSHA256": "36DF0237559678D6AB0A95EA89C01428C23B8611E6CDE4457269041A6E33446C",
+    "SurfaceOverrides": [
+      "Journey",
+      "Battle",
+      "Prep"
+    ],
+    "ProductFlowVerified": true,
+    "VerificationScope": "Real Continue->Expedition->Journey and actual available Battle node->Battle prep card; deployed Battle unit not verified",
+    "FinalArtAccepted": false
+  },
+  {
+    "Candidate": "02_Candidates/Journey/Persons/person_purple_mage_se_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Characters/ArtUpgrade01/person_purple_mage_se_r1.png",
+    "SHA256": "91C0283BCB276E647917AB7A363A3DB1DB1B59CF6E0579BFF0AC0E34FBC1FF87",
+    "MetaSHA256": "772CB874B8868E4297A75ECE64B92A09F40BEFBAC3B6D28B625E4E47B5EC4CEC",
+    "SurfaceOverrides": [
+      "Journey",
+      "Battle",
+      "Prep"
+    ],
+    "ProductFlowVerified": true,
+    "VerificationScope": "2026-11-08: original selection and departure; Journey active body; original deployment and started battle active Body_Visual",
+    "FinalArtAccepted": false
+  },
+  {
+    "Candidate": "02_Candidates/Journey/Persons/person_qiu_shuang_ochre_se_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Characters/ArtUpgrade01/person_qiu_shuang_ochre_se_r1.png",
+    "SHA256": "C85F5FC8A226DDEC9952EABEA0D2AFC686F574EC468FC1BDAAD0C6D2E73A8882",
+    "MetaSHA256": "6BA328275C7CB2D42F5F9F0DDC01083E7A867687C9E0F09AED2497219B57A955",
+    "SurfaceOverrides": [
+      "Journey",
+      "Battle",
+      "Prep"
+    ],
+    "ProductFlowVerified": true,
+    "VerificationScope": "2026-11-08: real Continue -> prep select original buttons -> departure -> Journey active body -> actual battle event option -> original drag deployment -> started battle active Body_Visual; no attack or settlement",
+    "FinalArtAccepted": false
+  },
+  {
+    "Candidate": "02_Candidates/Journey/Persons/person_wei_an_slate_se_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Characters/ArtUpgrade01/person_wei_an_slate_se_r1.png",
+    "SHA256": "67E9F346F2CC85B588DC5FEEC1AD68E5BFB87E3026506B8F1A04BF9B21689C49",
+    "MetaSHA256": "51F8F16AF8028AC94A765E686B20AA414F05652159DB1FE28E17FBC9406564F5",
+    "SurfaceOverrides": [
+      "Journey",
+      "Battle",
+      "Prep"
+    ],
+    "ProductFlowVerified": true,
+    "VerificationScope": "2026-11-08: real Continue -> prep select original buttons -> departure -> Journey active body -> actual battle event option -> original drag deployment -> started battle active Body_Visual; no attack or settlement",
+    "FinalArtAccepted": false
+  },
+  {
+    "Candidate": "02_Candidates/Journey/Persons/person_han_zhao_teal_se_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Characters/ArtUpgrade01/person_han_zhao_teal_se_r1.png",
+    "SHA256": "015314C955AB870DC6EA97ECA44C34934CABBC89A5BE032DEC6EFB38300056DB",
+    "MetaSHA256": "1F056E82A7E3CA2853CEAA7D3339D15979A5ED2A6B5481555FB7AEA30A0EBCA3",
+    "SurfaceOverrides": [
+      "Journey",
+      "Battle",
+      "Prep"
+    ],
+    "ProductFlowVerified": true,
+    "VerificationScope": "2026-11-08: real prep selection -> Journey active new body -> original drag deployment -> actual started battle active Body_Visual; Han Zhao exact appearance key only",
+    "FinalArtAccepted": false
+  }
+]

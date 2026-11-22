@@ -1,0 +1,62 @@
+{
+  "_generated": {
+    "doNotEdit": true,
+    "tool": "RRPG.ConfigCompiler",
+    "formatVersion": "rrpg-static-config-mirror/1",
+    "sourceSha256": "e597eb2a54ce9145353f61aff8b5eef86524e2ab12b7855e35d0ed848616b9b6",
+    "notice": "本文件由 RRPG ConfigCompiler 生成，禁止手工编辑；唯一人工 Authoring Authority 是 XLSX（Development/Config）。"
+  },
+  "irVersion": "rrpg-static-config-mirror/1",
+  "source": {
+    "workbook": "Config/RRPG_InitialWorld.xlsx",
+    "sheet": "InitialPopulation",
+    "machineFieldRow": 1,
+    "typeRow": 2,
+    "ruleRow": 3,
+    "displayHeaderRow": 4,
+    "firstDataRow": 5
+  },
+  "key": [
+    "StableIndex"
+  ],
+  "columns": [
+    {
+      "field": "PersonDefinitionId",
+      "type": "string",
+      "key": false,
+      "rules": []
+    },
+    {
+      "field": "StableIndex",
+      "type": "int",
+      "key": true,
+      "rules": [
+        "key",
+        ">=0"
+      ]
+    }
+  ],
+  "rowCount": 5,
+  "rows": [
+    {
+      "PersonDefinitionId": "person_lin_en",
+      "StableIndex": 1
+    },
+    {
+      "PersonDefinitionId": "person_su_wan",
+      "StableIndex": 2
+    },
+    {
+      "PersonDefinitionId": "person_han_zhao",
+      "StableIndex": 3
+    },
+    {
+      "PersonDefinitionId": "person_qiu_shuang",
+      "StableIndex": 4
+    },
+    {
+      "PersonDefinitionId": "person_wei_an",
+      "StableIndex": 5
+    }
+  ]
+}

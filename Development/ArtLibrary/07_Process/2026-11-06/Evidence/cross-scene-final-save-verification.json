@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: SaveUnchanged=True SHA=29600FBC09239F6BC3C8AC423B1C586996D679AF2618E47F30EF047A8F17EF10"
+      }
+    ],
+    "isError": false
+  },
+  "id": 100,
+  "jsonrpc": "2.0"
+}

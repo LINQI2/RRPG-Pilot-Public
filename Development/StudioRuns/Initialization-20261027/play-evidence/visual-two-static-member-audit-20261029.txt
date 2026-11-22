@@ -1,0 +1,88 @@
+# VillageVisualPrototypePlayTests（实体锚点 / 原型切换两例）静态成员核查 + 保护面实测
+# 阶段 3/4 · 2026-10-29 · 只读反射 / 文件读取（未运行任何测试）
+
+## 1. 源文件（本阶段未改）
+source = UnityProject/RRPG1.0game/Assets/Tests/PlayMode/Village/VillageVisualPrototypePlayTests.cs
+sourceBytes = 18174
+sourceSha256 = 244105d62cbdb4645f56fb2b245e4690c3212f78592ab7edc058762f4282b87a
+sourceMtimeUtc = 2026-10-29T11:14:43Z
+（编译产物 VillageStage1.PlayModeTests.dll 162816 B / c10d0045… / mtime 2026-10-29T11:22:21Z 已包含本文件）
+
+## 2. 反射入口机械核查（实时反射结果）
+SaveSystem.NewGame => overloads=2 paramCounts=[0,1]      # 测试按“同名+实参个数”且要求唯一：0 参调用唯一命中
+SaveSystem.Save => overloads=1 paramCounts=[1]
+SaveSystem.BuildSaveData => overloads=1 paramCounts=[2]  # Domain() 传 (_player, bridge.BuildSaveData()) 唯一
+SaveSystem.GetSavePath => overloads=1 paramCounts=[0]
+Bridge.ResetForTests => overloads=1 paramCounts=[0]
+Bridge.TryPlaceBuilding => overloads=1 paramCounts=[5]   # (string,float,float,out BuildingInstance,out string)
+Bridge.Time => FIELD VillageTime                          # Clock 属性按字段读取正确
+MainMenu.OnContinue => 1 (0 参)
+
+ProductHomeWorldHost（Assembly-CSharp）
+Host.RefreshNow => overloads=1 paramCounts=[0]
+Host.Reconcile => overloads=1 paramCounts=[1]
+Host.SetVisualPrototype => overloads=1 paramCounts=[1]
+HostProperty.BuildingViews => IReadOnlyDictionary`2 getter=True
+HostProperty.PersonViews => IReadOnlyDictionary`2 getter=True
+HostProperty.PlaceViews => IReadOnlyDictionary`2 getter=True
+HostProperty.Selection => HomeSelectionContext getter=True
+HostProperty.Shell => HomeProductShell getter=True
+HostProperty.VisualPrototypeEnabled => Boolean getter=True
+HostProperty.Snapshot => ProductHomeSnapshot getter=True
+
+HomeProductShell.Build => HomeBuildingPlacement
+Build.OpenCatalog => overloads=1 paramCounts=[0]
+Build.Choose => overloads=1 paramCounts=[1]
+Build.SetCandidate => overloads=1 paramCounts=[1]
+Build.Cancel => overloads=1 paramCounts=[0]
+Build.PreviewValid => Boolean
+
+HomeWorldEntityView（Assembly-CSharp）
+View.RefreshSelection => overloads=1 paramCounts=[0]
+ViewProperty.DepthOrder => Int32
+ViewProperty.LabelVisible => Boolean
+ViewProperty.ResolvedSharedAsset => Boolean
+
+DTO 构造（测试内 new 调用合法性）
+ProductHomeSnapshot ctor(persons, places, diagnostics, buildings=opt)  # 4 个参数，测试传 4
+HomePlaceSnapshot ctor(id, name, kind, source, capacity?, assigned, occupants, status, fallback,
+                       buildingInstanceId=opt, drawsWorldEntity=opt=true)  # 测试传 9 个 → Tavern 默认 DrawsWorldEntity=true
+staticWsRefs(`"ws_`) = 0
+prototypeDefaultAssert("A whitebox remains the default") = True
+
+## 3. 与当前正式世界语义的一致性（源码核对，不改断言）
+- Setup 断言 `VisualPrototypeEnabled == false`：A 白模仍是默认档（产品行为，未改）。
+- Test1 放两个真实建筑：`(-8,-4)` farm（3×2）、`(0,-4)` house（2×2）；
+  与默认 7 实例（farm -6,-1.2；kitchen -2,-1.2；house y=4.2）按 `BuildingPlacementValidator.Validate`
+  的严格小于规则不重叠，且都在 `MinX=-12/MaxX=12/MinY=-10/MaxY=8` 内 → 两次 TryPlaceBuilding 合法。
+- Test1 的 `entities` 来自 `BuildingViews`（= Snapshot.Buildings 的全部真实实例），不是 `PlaceViews`；
+  A/B 切换只调 `view.SetVisualPrototype`，不重建实体 → 同一实例 / 同一 collider / 同一 position。
+- Test2 的 `registered` 从 `Snapshot.Places` 中 `PlaceId` 以 `workplace:` 开头的实例岗位派生
+  （正式世界默认 2 个：Farm / Kitchen 实例岗位）；`ProductHomeReadAdapter.LinkedBuildingId` 为
+  Workplace Place 绑定真实 `BuildingInstanceId`，因此 `BuildingInstanceId` 非空、
+  `BuildingViews.Contains(...)` 成立、`DrawsWorldEntity=false` → 不得出现在 `PlaceViews`（不画第二套）。
+- Tavern 活动 Place 是测试合成快照（`HomePlaceSnapshot` 末参默认 true → 需绘制），
+  `_prototypeAnchors` 以 PlaceId 持有会话锚点 → 3 轮出现/消失不回流已注册建筑视图。
+
+## 4. 阶段 2/4（World 三例）宿主门禁结果（只读回看，未重跑）
+testResults：
+MainMenuPhase_DebugViewHidden_UntilTownSimulationActive = Passed / 1558 ms
+Presence_DerivedAndWorldVisible_WithoutAnyManagementPanel_And_SurvivesSimToggle = Passed / 1881 ms
+ProjectCompletion_WorldSiteTrace_PersistsAfterSaveReload_WorldRestored = Passed / 1700 ms
+→ 3/3 Passed，0 fail，0 skip。
+
+该 run 的 3 个 guard（11:31:49Z / 11:31:51Z / 11:31:53Z）：
+status=restored；original-save.bin 实际 SHA == backupSha256；sourceSha256 == backupSha256；当前用户档 SHA == sourceSha256
+→ 3/3 逐字节完整恢复。
+
+## 5. 保护面（本阶段只读实测）
+identity = RRPG_AI_Pilot | DefaultCompany | 2022.3.62t9
+editor = playing=False paused=False compiling=False updating=False
+prefabStage = null
+scene = SampleScene dirty=False roots=5
+baseline 34 = total 34 / same 34 / changed 0 / missing 0
+font = 14961033 B / 3c758e16d62ef8bd36331a6ad26fc00bc165606f6b6bcdfe24da44108c404854 / subAssets=9 / dirty=0
+userSave = exists True / 13134 B / adcf5d8bb0a638ea2d4dc0f7d936c1aaad7492cd19022521010e9f59fd8ceb08 / tmp=0
+Initialization guard = dirs 98 / restored 98 / protective 0 / other 0 / noManifest 0
+（98 = 阶段 1 前 87 + 承诺 8 + World 3）
+R3B guard = dirs 345 / restored 344 / protective 1(既有 20261024T052704Z) / other 0 / noManifest 0

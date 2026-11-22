@@ -1,0 +1,3 @@
+event: message
+data: {"result":{"content":[{"type":"text","text":"System.String: \u0022project=D:\\\\AI_Agent_Lab\\\\rrpg_pilot\\\\repo\\\\UnityProject\\\\RRPG1.0game;playing=False;compiling=False;updating=False;sceneDirty=False\u0022"}],"isError":false},"id":2,"jsonrpc":"2.0"}
+

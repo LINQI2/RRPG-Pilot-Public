@@ -1,0 +1,11 @@
+# 敌人基础候选 R1
+
+## mon_002 骷髅弓手
+
+RRPG enemy production sprite. Image 1 defines identity only: ivory skeleton archer with simple skull face and small red eye glows, worn brick-red hood and ragged short red cloth, brown belt and back quiver, wooden bow. Image 2 is STRICT style and camera reference: warm hand-painted broad shapes, subdued natural colors, soft outlines, adult 5.5-head proportions, orthographic camera looking down about 40 degrees. Replace original side-on chibi rendering with high-angle readable game unit. Skeleton faces southwest/lower-left, opposite the human reference, neutral planted idle stance, bow relaxed and lowered (not drawn or firing). Visible top of hood and shoulder tops; no front-on camera. Full body centered on square genuinely transparent canvas, head at y=12%, feet y=87%, whole bow and quiver inside margins. One creature only, no ground tile, scenery, text, interface, glow particles, animation sheet or external cast shadow. Restrained detail suitable for a 120-pixel tall unit; no gore. Preserve skeleton and archer recognizability.
+
+## mon_001 史莱姆
+
+Built-in image_gen；透明静态身体，未接入Unity。参考旧mon_001身份图及person_red_cape_se_r1风格图。
+
+RRPG enemy production sprite, a single green slime. Image 1 is identity reference: a rounded green gelatin blob with simple dark oval eyes and a broad puddled skirt. Image 2 is STRICT art direction and high orthographic camera reference: warm hand-painted illustration, broad readable color shapes, subtle soft brown-green outlines, restrained highlights. Repaint the original's neon glossy vector look completely into muted moss/sage green with warm light, keeping recognizable slime silhouette. Camera looks down 40 degrees above ground with large visible dome top and a flattened ellipse footprint; creature faces southwest/lower-left toward the player side. Full single creature centered on a square genuine transparent canvas, all edges contained with generous margins, footprint at y=84%, dome starts around y=35%. No ground tile, no scenery, no text, no HUD, no frame, no cast shadow outside body, no floating droplets, no animation sheet. This is a calm neutral combat idle sprite; readable at 100 pixels, no tiny decoration. Match the human reference rendering language without adding human features.

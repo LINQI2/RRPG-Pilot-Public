@@ -24,10 +24,10 @@ public sealed class HomeWorldInspector : MonoBehaviour
         gameObject.AddComponent<GraphicRaycaster>();
         var scaler=gameObject.AddComponent<CanvasScaler>(); scaler.uiScaleMode=CanvasScaler.ScaleMode.ScaleWithScreenSize;
         scaler.referenceResolution=new Vector2(1920,1080); scaler.matchWidthOrHeight=.5f;
-        _panel=new GameObject("ReadonlyInspector",typeof(RectTransform),typeof(Image)); _panel.transform.SetParent(transform,false);
+        _panel=new GameObject("ReadonlyInspector",typeof(RectTransform),typeof(HomePanelImage)); _panel.transform.SetParent(transform,false);
         var rt=_panel.GetComponent<RectTransform>(); rt.anchorMin=rt.anchorMax=new Vector2(1,0); rt.pivot=new Vector2(1,0);
         rt.anchoredPosition=new Vector2(-24,100); rt.sizeDelta=new Vector2(330,350);
-        _panel.GetComponent<Image>().color=new Color(.035f,.075f,.095f,.95f);
+        _panel.GetComponent<Image>().color=HomeProductUI.Paper;
         _text=Text(_panel.transform,"Details",new Vector2(16,-16),new Vector2(298,235));
         _text.alignment=TextAlignmentOptions.TopLeft;
         _workerRows=new GameObject("BuildingCommands",typeof(RectTransform));_workerRows.transform.SetParent(_panel.transform,false);
@@ -111,17 +111,18 @@ public sealed class HomeWorldInspector : MonoBehaviour
         var go=new GameObject(name,typeof(RectTransform),typeof(TextMeshProUGUI));go.transform.SetParent(parent,false);
         var rt=go.GetComponent<RectTransform>(); rt.anchorMin=rt.anchorMax=new Vector2(0,1); rt.pivot=new Vector2(0,1);
         rt.anchoredPosition=position; rt.sizeDelta=size;
-        var text=go.GetComponent<TextMeshProUGUI>();text.font=CurrentUIFontAuthority.Default;text.fontSize=19;text.color=Color.white;
+        var text=go.GetComponent<TextMeshProUGUI>();text.font=CurrentUIFontAuthority.Default;text.fontSize=19;text.color=HomeProductUI.Ink;
         text.raycastTarget=false; text.enableWordWrapping=true; text.overflowMode=TextOverflowModes.Ellipsis;
         return text;
     }
     private static UnityEngine.UI.Button Button(Transform parent,string name,string label,Vector2 position,Vector2 size,System.Action action)
     {
-        var go=new GameObject(name,typeof(RectTransform),typeof(Image),typeof(UnityEngine.UI.Button));go.transform.SetParent(parent,false);
+        var go=new GameObject(name,typeof(RectTransform),typeof(HomePanelImage),typeof(UnityEngine.UI.Button));go.transform.SetParent(parent,false);
         var rt=go.GetComponent<RectTransform>();rt.anchorMin=rt.anchorMax=new Vector2(0,1);rt.pivot=new Vector2(0,1);rt.anchoredPosition=position;rt.sizeDelta=size;
         go.GetComponent<Image>().color=new Color(.16f,.3f,.34f);
         var button=go.GetComponent<UnityEngine.UI.Button>();button.onClick.AddListener(()=>action());
         var text=Text(go.transform,"Label",Vector2.zero,size);text.text=label;text.alignment=TextAlignmentOptions.Center;
+        HomeProductUI.ApplyButtonSkin(button);
         return button;
     }
 }

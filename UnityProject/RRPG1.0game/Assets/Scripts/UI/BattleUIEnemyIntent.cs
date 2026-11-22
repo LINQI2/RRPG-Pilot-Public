@@ -21,10 +21,10 @@ public partial class BattleUI : MonoBehaviour
     public int enemyIntentFontSize = 20;
 
     [Tooltip("Intent 文本颜色")]
-    public Color enemyIntentColor = Color.yellow;
+    public Color enemyIntentColor = new Color(.22f, .17f, .12f);
 
     [Tooltip("AttackRange 文本在敌方卡上的本地偏移（相对卡中心）")]
-    public Vector2 enemyRangeOffset = new Vector2(0f, 100f);
+    public Vector2 enemyRangeOffset = new Vector2(-104f, -93f);
 
     [Tooltip("AttackRange 文本字号")]
     public int enemyRangeFontSize = 14;
@@ -76,6 +76,11 @@ public partial class BattleUI : MonoBehaviour
     {
         var txt = GetOrCreateEnemyCardText(card, childName, offset, fontSize, color);
         if (txt != null) txt.text = text;
+        if (childName == "Text_Range")
+        {
+            var paper = card.transform.Find("Text_RangePaper");
+            if (paper != null) paper.gameObject.SetActive(!string.IsNullOrEmpty(text));
+        }
     }
 
     private TMP_Text GetOrCreateEnemyCardText(GameObject card, string childName,
@@ -93,6 +98,13 @@ public partial class BattleUI : MonoBehaviour
         var txt = tf != null ? tf.GetComponent<TMP_Text>() : null;
         if (txt != null) return txt;
 
+        if (childName == "Text_Range")
+        {
+            var paper = HomeProductUI.Panel(card.transform, "Text_RangePaper", new Vector2(.5f, .5f),
+                offset, new Vector2(86f, 30f), HomeProductUI.Paper);
+            paper.GetComponent<UnityEngine.UI.Image>().raycastTarget = false;
+        }
+
         var go = new GameObject(childName, typeof(RectTransform), typeof(CanvasRenderer), typeof(TextMeshProUGUI));
         go.transform.SetParent(card.transform, false);
 
@@ -100,6 +112,7 @@ public partial class BattleUI : MonoBehaviour
         rt.anchorMin = new Vector2(0.5f, 0.5f);
         rt.anchorMax = new Vector2(0.5f, 0.5f);
         rt.anchoredPosition = offset;
+        if (childName == "Text_Range") rt.sizeDelta = new Vector2(86f, 30f);
 
         txt = go.GetComponent<TMP_Text>();
         txt.font = CurrentUIFontAuthority.Default;

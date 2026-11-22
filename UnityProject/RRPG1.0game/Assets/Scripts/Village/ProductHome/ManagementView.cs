@@ -454,8 +454,8 @@ public sealed class ManagementView : MonoBehaviour
             var image = tabButtons[i].GetComponent<Image>();
             if (image != null)
                 image.color = i == (int)_activeTab
-                    ? new Color(.28f, .43f, .36f, .96f)
-                    : new Color(.14f, .24f, .24f, .94f);
+                    ? new Color(.92f, .78f, .51f, .96f)
+                    : new Color(.88f, .80f, .64f, .94f);
         }
         if (statusFilterButtons == null) return;
         for (int i = 0; i < statusFilterButtons.Length; i++)
@@ -464,8 +464,8 @@ public sealed class ManagementView : MonoBehaviour
             var image = statusFilterButtons[i].GetComponent<Image>();
             if (image != null)
                 image.color = i == (int)_personFilter
-                    ? new Color(.28f, .43f, .36f, .96f)
-                    : new Color(.14f, .24f, .24f, .94f);
+                    ? new Color(.92f, .78f, .51f, .96f)
+                    : new Color(.88f, .80f, .64f, .94f);
         }
     }
 

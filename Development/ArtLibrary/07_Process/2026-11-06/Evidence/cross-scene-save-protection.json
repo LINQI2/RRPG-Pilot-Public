@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: Save backup in ignored Temp; SHA=29600FBC09239F6BC3C8AC423B1C586996D679AF2618E47F30EF047A8F17EF10; Play requested; no new game or save called"
+      }
+    ],
+    "isError": false
+  },
+  "id": 89,
+  "jsonrpc": "2.0"
+}

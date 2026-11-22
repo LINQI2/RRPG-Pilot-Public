@@ -1,0 +1,54 @@
+{
+  "generatedUtc": "2026-11-06T06:11:30Z",
+  "unity": {
+    "project": "D:/AI_Agent_Lab/rrpg_pilot/repo/UnityProject/RRPG1.0game",
+    "version": "2022.3.62t9",
+    "product": "RRPG_AI_Pilot",
+    "isPlaying": false,
+    "isCompiling": false,
+    "isUpdating": false,
+    "activeScene": "Assets/Scenes/SampleScene.scene",
+    "sceneDirty": false,
+    "scriptCompilationFailed": false,
+    "gate": { "label": "v17-resume-01", "beginExit": 0, "endExit": 0, "fontSha256": "7b5717b976bac0d90dce70ba65b4dda0995bf78e8b3fd317ea9918058109c016" }
+  },
+  "prefab": {
+    "path": "Assets/Resources/UI/ManagementView.prefab",
+    "guid": "4a54a9f0d1e97634a93836f4566fd5ce",
+    "sha256_16": "f750ed83ee1c3a75",
+    "metaSha256_16": "b1c14b9cc298",
+    "rootChildren": ["ModalBlocker", "ModalPanel", "Templates"],
+    "totalTransforms": 81,
+    "missingScriptComponents": 0,
+    "buttonCount": 17,
+    "rowTemplates": ["PersonRowTemplate", "WorkplaceRowTemplate", "ConstructionRowTemplate", "ResourceRowTemplate"]
+  },
+  "references": [
+    { "guid": "4a7dfebd6d5993c499d4f9a186b7d2c0", "slot": "m_Script", "path": "Assets/Scripts/Village/ProductHome/ManagementView.cs", "class": "ManagementView", "fileSha256_16": "6c218dafbea1" },
+    { "guid": "f37df54fb96a70c45864d60504325b01", "slot": "m_Script", "path": "Assets/Scripts/Village/ProductHome/ManagementRowView.cs", "class": "ManagementRowView", "fileSha256_16": "d5a2456ab131" },
+    { "guid": "f9418c72505f4cb41ab51da03f9fd2e0", "slot": "m_fontAsset", "path": "Assets/Art/Fonts/SourceHanSansCN/RRPG_SourceHanSansCN_Regular_TMP.asset", "class": "TMP_FontAsset(ASSET)", "fileSha256_16": "7b5717b976ba" },
+    { "guid": "f4688fdb7df04437aeb418b961361dc5", "slot": "m_Script", "path": "Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs", "class": "TextMeshProUGUI", "package": "com.unity.textmeshpro 3.0.9" },
+    { "guid": "2da0c512f12947e489f739169773d7ca", "slot": "m_Script", "path": "Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_InputField.cs", "class": "TMP_InputField", "package": "com.unity.textmeshpro 3.0.9" },
+    { "guid": "4e29b1a8efbd4b44bb3f3716e73f07ff", "slot": "m_Script", "path": "Packages/com.unity.ugui/Runtime/UI/Core/Button.cs", "class": "Button", "package": "com.unity.ugui 1.0.0" },
+    { "guid": "fe87c0e1cc204ed48ad3b37840f39efc", "slot": "m_Script", "path": "Packages/com.unity.ugui/Runtime/UI/Core/Image.cs", "class": "Image", "package": "com.unity.ugui 1.0.0" },
+    { "guid": "31a19414c41e5ae4aae2af33fee712f6", "slot": "m_Script", "path": "Packages/com.unity.ugui/Runtime/UI/Core/Mask.cs", "class": "Mask", "package": "com.unity.ugui 1.0.0" },
+    { "guid": "1aa08ab6e0800fa44ae55d278d1423e3", "slot": "m_Script", "path": "Packages/com.unity.ugui/Runtime/UI/Core/ScrollRect.cs", "class": "ScrollRect", "package": "com.unity.ugui 1.0.0" },
+    { "guid": "3245ec927659c4140ac4f8d17403cc18", "slot": "m_Script", "path": "Packages/com.unity.ugui/Runtime/UI/Core/Layout/ContentSizeFitter.cs", "class": "ContentSizeFitter", "package": "com.unity.ugui 1.0.0" },
+    { "guid": "306cc8c2b49d7114eaa3623786fc2126", "slot": "m_Script", "path": "Packages/com.unity.ugui/Runtime/UI/Core/Layout/LayoutElement.cs", "class": "LayoutElement", "package": "com.unity.ugui 1.0.0" },
+    { "guid": "59f8146938fff824cb5fd77236b75775", "slot": "m_Script", "path": "Packages/com.unity.ugui/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs", "class": "VerticalLayoutGroup", "package": "com.unity.ugui 1.0.0" }
+  ],
+  "resolvedCount": 12,
+  "missingCount": 0,
+  "supportingScripts": [
+    { "path": "Assets/Scripts/Village/ProductHome/ManagementReadAdapter.cs", "sha256_16": "752c6a2d8ebb" },
+    { "path": "Assets/Scripts/Village/ProductHome/ManagementCommandGateway.cs", "sha256_16": "d912bfc9baea" },
+    { "path": "Assets/Scripts/Village/Runtime/ManagementSnapshot.cs", "sha256_16": "1184f80307e8" }
+  ],
+  "builderSignaturesQueriedNotInvoked": ["BuildFromMenu()", "Build(string)", "RebuildFromZero()", "ExecuteBuild()", "ExecuteRebuildFromZero()", "RepoRoot()", "Absolute(string)"],
+  "readOnlyBoundaries": [
+    "未实例化 Prefab 到场景（仅 AssetDatabase 只读加载资源对象）",
+    "未做字体测量、未 SaveAssets、未 Refresh、未 Builder 写入",
+    "未修改 Prefab/Meta/YAML/场景/存档"
+  ],
+  "previousStaticConclusionSuperseded": "上一轮（Editor 关闭时）记录的 3 条未解析 GUID 与 1072/1118 编码 meta 的结论已被本轮 AssetDatabase 实际回读取代：12/12 全部解析，缺失 0。"
+}

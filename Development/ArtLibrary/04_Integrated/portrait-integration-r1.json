@@ -1,0 +1,53 @@
+[
+  {
+    "Candidate": "02_Candidates/Battle/Persons/portrait_red_cape_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Characters/ArtUpgrade01/portrait_red_cape_r1.png",
+    "SHA256": "96A36B19EEB1B5BE54FADDCF5A1878E9F5678A9CE8DD958C2A7357F22C38743E",
+    "MetaSHA256": "1BC3AD2A23F123D48955621AF0427A76B161DB899695361ACE0C94180DB90342",
+    "ProductFlowVerified": true,
+    "Scope": "CardPortrait override only; actual two-person deck verified, purple editor binding only"
+  },
+  {
+    "Candidate": "02_Candidates/Battle/Persons/portrait_green_hood_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Characters/ArtUpgrade01/portrait_green_hood_r1.png",
+    "SHA256": "35B2E208BE3B2F39006D0B7258D31107FE33D8C84B9ECF770D408AD9B3AC8528",
+    "MetaSHA256": "9BDAA6469F89C9883FC9848E3DE77EC7686647B68C4FEA8F754DEC947DE94A5C",
+    "ProductFlowVerified": true,
+    "Scope": "CardPortrait override only; actual two-person deck verified, purple editor binding only"
+  },
+  {
+    "Candidate": "02_Candidates/Battle/Persons/portrait_purple_hat_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Characters/ArtUpgrade01/portrait_purple_hat_r1.png",
+    "SHA256": "CD02A70E70FC93F1916F9ACB7025DC35E5BEA4D6C184A374952D4A43BF233E2F",
+    "MetaSHA256": "2C0B31B0538118C4F6D3A69DABB1964F3666B11A7784E1631FC727014C3FE9ED",
+    "ProductFlowVerified": true,
+    "Scope": "2026-11-08: actual six-person battle first draw shows Su Wan card and purple portrait; screenshot battle-distinct-portraits-turn1-r1.png"
+  },
+  {
+    "Candidate": "02_Candidates/Battle/Persons/portrait_qiu_shuang_ochre_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Characters/ArtUpgrade01/portrait_qiu_shuang_ochre_r1.png",
+    "SHA256": "28E9909FF118A14EE7A2977982F54873D1761FF6F103633D38CAFE395BE100F8",
+    "MetaSHA256": "C5C3B6A3ECB2B26C9199DA4BBF067AFCAFA4AE4749EB916AEFFF10253E6C50FC",
+    "ProductFlowVerified": true,
+    "Scope": "2026-11-08: original Continue -> select all existing people -> actual encounter -> drag deployment -> started battle first draw; active BattleCardView owner portrait verified against real OwnerPersonId; screenshot battle-distinct-portraits-turn1-r1.png",
+    "FinalArtAccepted": false
+  },
+  {
+    "Candidate": "02_Candidates/Battle/Persons/portrait_wei_an_slate_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Characters/ArtUpgrade01/portrait_wei_an_slate_r1.png",
+    "SHA256": "A26BF3496C02038CBC6B07FE314A790133A12E0FE8ED8B8D52AC97FBD16C8B7F",
+    "MetaSHA256": "3CF47900CBD1BEB3BCD04D6168CC2BDE9A21FAD079DE9143E9F9E018D94500EC",
+    "ProductFlowVerified": true,
+    "Scope": "2026-11-08: original Continue -> select all existing people -> actual encounter -> drag deployment -> started battle first draw; active BattleCardView owner portrait verified against real OwnerPersonId; screenshot battle-distinct-portraits-turn1-r1.png",
+    "FinalArtAccepted": false
+  },
+  {
+    "Candidate": "02_Candidates/Battle/Persons/portrait_han_zhao_teal_r1.png",
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Characters/ArtUpgrade01/portrait_han_zhao_teal_r1.png",
+    "SHA256": "C7E305614A84C00463CB0C2A2CBFEBFECD09D4B3C4AD1174C689F9E725CEE067",
+    "MetaSHA256": "529B1932BFC00EEC3422EEE4B03ACB8B742446A02B201C50E595EA9C2DEC0D43",
+    "ProductFlowVerified": true,
+    "Scope": "2026-11-08: original Continue -> select all existing people -> actual encounter -> drag deployment -> started battle first draw; active BattleCardView owner portrait verified against real OwnerPersonId; screenshot battle-distinct-portraits-turn1-r1.png",
+    "FinalArtAccepted": false
+  }
+]

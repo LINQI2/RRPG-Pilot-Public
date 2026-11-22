@@ -1,0 +1,31 @@
+{
+  "Date": "2026-11-08",
+  "Save": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: SaveUnchanged=True SHA=2F42500A5E84E70354F5CEA741F66FC881306322D607B6D7485088FCEC3735EF"
+      }
+    ],
+    "isError": false
+  },
+  "FinalState": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: Play=False Dirty=False Compiling=False"
+      }
+    ],
+    "isError": false
+  },
+  "ConsoleExcludingKnownProbeMissingReference": {
+    "content": [
+      {
+        "type": "text",
+        "text": "0 results\nmessage"
+      }
+    ],
+    "isError": false
+  },
+  "Verification": "Growth/Prep/initial encounter from actual product; corrected event layout and BattleResult are module-only display/callback checks"
+}

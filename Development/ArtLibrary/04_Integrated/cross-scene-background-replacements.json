@@ -1,0 +1,62 @@
+[
+  {
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Battle/Background/战斗场景1（草地森林）.png",
+    "Candidate": "02_Candidates/Battle/Backgrounds/battle_meadow_highview_r1.png",
+    "Backup": "Development/ArtLibrary/08_ExistingProject/BeforeCrossSceneFirstPass/battle-background-original.png",
+    "BeforeSHA256": "0A8C13F2A9881A0B45E3B0227BFA82D3C91898B434D8071296A4F112FF2650EF",
+    "AfterSHA256": "D675F9E479D204C0030F07298A2A7CC9204888B02CA1921737B63F1AAFE07581",
+    "MetaSHA256": "14C8EBC788FE9D555CC0CC7D863911CEA07DFD626DF490AD22EAF5D8B2C72D8C",
+    "Stage": "Background/layer host product rendering verified; whole module first pass incomplete",
+    "ProductFlowVerified": true,
+    "VerificationScope": "Real Continue -> Expedition -> available Battle node -> Battle prep; background rendering only",
+    "MetaUnchanged": true
+  },
+  {
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Prototype/Battle/battle_bg_placeholder.png",
+    "Candidate": "02_Candidates/Battle/Backgrounds/battle_meadow_highview_r1.png",
+    "Backup": "Development/ArtLibrary/08_ExistingProject/BeforeCrossSceneFirstPass/battle-fallback-original.png",
+    "BeforeSHA256": "52AABA6A50D801E29E8EB4660BDB32E657DAECB119652B5168B72A4E154A87EF",
+    "AfterSHA256": "D675F9E479D204C0030F07298A2A7CC9204888B02CA1921737B63F1AAFE07581",
+    "MetaSHA256": "176965D6ED5EF0105A7531EBB5307DCE79995F3E45883BEF56A0E172F72BD66F",
+    "Stage": "Editor fallback reference verified; fallback product path not exercised",
+    "ProductFlowVerified": false,
+    "VerificationScope": "Fallback asset imported/read; normal product uses configured main background",
+    "MetaUnchanged": true
+  },
+  {
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Prototype/Journey/ChatGPT Image 2026年9月19日 21_24_25.png",
+    "Candidate": "02_Candidates/Journey/Backgrounds/journey_trail_highview_r1.png",
+    "Backup": "Development/ArtLibrary/08_ExistingProject/BeforeCrossSceneFirstPass/journey-background-original.png",
+    "BeforeSHA256": "5C02E702921568A7AFB9EB97A30C866425B036DECA5F09045251F6E6A857856D",
+    "AfterSHA256": "073C706770C4336AE7AF2B0156B7FD643B4CFB39B0F16EE1B34F878500D87C34",
+    "MetaSHA256": "FC98536E898FB4F7C3D44059986BD4CAB3A50A33A571E616D3A8E92C124047FC",
+    "Stage": "Background/layer host product rendering verified; whole module first pass incomplete",
+    "ProductFlowVerified": true,
+    "VerificationScope": "Real Continue -> Town -> Confirm -> Journey; background/layer rendering only",
+    "MetaUnchanged": true
+  },
+  {
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Prototype/Journey/journey_env_far_placeholder.png",
+    "Candidate": "02_Candidates/Journey/Terrain/journey_far_foliage_r1.png",
+    "Backup": "Development/ArtLibrary/08_ExistingProject/BeforeCrossSceneFirstPass/journey-far-original.png",
+    "BeforeSHA256": "D24D68814FDB5EDEA9311E6F3DE752997F66885A2B28BBBA6B1F4B47D16FF3BC",
+    "AfterSHA256": "8E85906386A981BBBA07D7D55A57D8DB72124856FACFAD0CA9B4785AE1F9F133",
+    "MetaSHA256": "5B5E5A3EDC1EDF7A29FD8ECF0B9CC87AB1B707B85FA2C33073DC19CEE14ADF09",
+    "Stage": "Background/layer host product rendering verified; whole module first pass incomplete",
+    "ProductFlowVerified": true,
+    "VerificationScope": "Real Continue -> Town -> Confirm -> Journey; background/layer rendering only",
+    "MetaUnchanged": true
+  },
+  {
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Prototype/Journey/journey_env_near_placeholder.png",
+    "Candidate": "02_Candidates/Journey/Terrain/journey_near_grass_r1.png",
+    "Backup": "Development/ArtLibrary/08_ExistingProject/BeforeCrossSceneFirstPass/journey-near-original.png",
+    "BeforeSHA256": "A6572658D4D9824ADDFFB82FDF41316A6C2DA75A841C719C07573C2FC6D42E42",
+    "AfterSHA256": "67F32F065D01D1746E723EA1ED0380DCDB5904801E273C1F2103A6B5EF54F08B",
+    "MetaSHA256": "FDF6FE70FE8CC49A03DE5438222913B7F8D7151BD930C3050D0078A99E495816",
+    "Stage": "Background/layer host product rendering verified; whole module first pass incomplete",
+    "ProductFlowVerified": true,
+    "VerificationScope": "Real Continue -> Town -> Confirm -> Journey; background/layer rendering only",
+    "MetaUnchanged": true
+  }
+]

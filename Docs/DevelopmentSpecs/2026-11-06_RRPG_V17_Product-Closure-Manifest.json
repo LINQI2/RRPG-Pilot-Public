@@ -1,0 +1,397 @@
+{
+  "baseHead": "96db828a57610cff80b9db0fb470d11662cb5950",
+  "paths": [
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Editor/StaticConfig/InitialWorldMirrorReader.cs",
+      "sha256": "0722D342B8AC56A237B8E25FFD3E27376B588F69FAD9FAE74CF0E47A2E1373B7",
+      "gitBlob": "55046b0b96ab609c1b6dbfe07190050c1a57b619",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Editor/StaticConfig/InitialWorldMirrorReader.cs.meta",
+      "sha256": "8E13FFC85D08165384DDDA4EBC82FB3A840EE7A41625EA17E7B4803E953BC0CD",
+      "gitBlob": "d6db746cddb0d04f26c2153f74b365a2095702d4",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Editor/StaticConfig/StaticConfigBuilder.cs",
+      "sha256": "596203D264208513DC74663E0BD2BE9C503DA331BD9E11F83C92576CFF265F89",
+      "gitBlob": "201f4f43baad4b355a85b69eaca5921f90463f8b",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Resources/UI/ManagementView.prefab",
+      "sha256": "F750ED83EE1C3A7503F3D72A6D5E4900B8C08B16EEFD8ADE6FE485A8C9F1977B",
+      "gitBlob": "bb0cbeebf4212179b75766b6c697e8db32d0cd2f",
+      "owner": "R3-B and ProductFix",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Resources/UI/ManagementView.prefab.meta",
+      "sha256": "B1C14B9CC2981DC8427A7D6C8391358BDF6FD81E53245DE0858794E491196559",
+      "gitBlob": "a1baff4ca8f3855afad1d866e4a49416a7b0b2a2",
+      "owner": "R3-B and ProductFix",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Core/PlayerCollection.cs",
+      "sha256": "E21688BF00670BAE08ECF318FE4DC10895AFDA636AA84C0EBD644D3A81E8B222",
+      "gitBlob": "cc94a33860b219f78af041801fd923cf72e91997",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Initialization.meta",
+      "sha256": "01ED7F7B005D2D1262F3DD082FAEDC4B5D78A80A0B10EF04EB83EB866411187B",
+      "gitBlob": "35c4eb7138e1621dd54e3fb068a4e4bb6a7a4928",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Initialization/InitialWorldConfigurationCatalog.cs",
+      "sha256": "2BB7A00DCBD94B1431C65F787DFC8302CB4EF46B4911F5583ABD278F09BE8381",
+      "gitBlob": "bf2f1cfd8f99b4aacca2bddb10cb680d92d0a1f8",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Initialization/InitialWorldConfigurationCatalog.cs.meta",
+      "sha256": "C61685AFFD8F004C200CA522750269777F1C8D594B1E34023E4D259C1B6B6F0A",
+      "gitBlob": "4917bcd0ff5fcacade18fe4dada959d7dd8c78e0",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Save/SaveSystem.cs",
+      "sha256": "BC9FEA4F6D64C900A1B25098B2636DF9DFFB7CD86BECF96683D4E962DB21BFFB",
+      "gitBlob": "b58b164c9458acdec21d7a8fa43b023af6bfe405",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/StaticConfig/BuildingRegistry.cs",
+      "sha256": "8BA51A3E6FD28F6C0EFF167C41B1EC15D54814D88BD65048D6196AFDFBF12C62",
+      "gitBlob": "1f1fbb84893ceaddb2f5b653db2726fe3219f2ad",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/StaticConfig/InitialWorldConfigDatabase.cs",
+      "sha256": "ADE5F27CA0C9F1891C9B028890775B03F421DD77835B76D0D37606A5A389F32A",
+      "gitBlob": "34542a2e02ba2a59b089817f6d0a908d55cf882b",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/StaticConfig/InitialWorldConfigDatabase.cs.meta",
+      "sha256": "92B91C9BBF78A6C79ED5E7F433EDA61BB060F5F3D1D421A533FF4797413EBED3",
+      "gitBlob": "14db29c3b86d2f525b1ed6c794abf34ebf0b44e3",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/StaticConfig/RRPGStaticConfigRoot.cs",
+      "sha256": "61AE31F4C67088679698C5A1A8EB9B4FE2CF376D75219DDEE72D6F263B77A18A",
+      "gitBlob": "6492970a13aa123d595d6782f11682c4907b671f",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/StaticConfig/StaticConfigRegistry.cs",
+      "sha256": "A69CC2981874003238920A75DC7033856CA9F8C6642A554995027E607999D25F",
+      "gitBlob": "a80a0f3fd08584a27fba094c0679acc7e38e819d",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/BuildingRuntime.cs",
+      "sha256": "7F82E113B8E8506BD8AA8D6AADA2FADE9BFE74007133A8B76E96682A2AEA8C08",
+      "gitBlob": "fd2faf7cb7be4ee7d4fd9a4aaf0623082496d62f",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/HomeBuildingPlacement.cs",
+      "sha256": "28922610FC9C61E8AFEA000571911864D1F8F5B93F44C2E02945FD8CA6295E01",
+      "gitBlob": "02cb2560fc8c3563e2cf7a1ed453444958c93051",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/HomeWorldCamera.cs",
+      "sha256": "39CABA4B2F49AA360C2FAB765C4F8819D50951522F9AD5EA7FE92F581A66728F",
+      "gitBlob": "b707c34f10aeaee0fea3fc06b5d57dac96e2d644",
+      "owner": "R3-B and ProductFix",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementCommandGateway.cs",
+      "sha256": "D912BFC9BAEA7C68F3AAD3D77F606FCBD1E27912F0CF59710131A4BD5453CC5E",
+      "gitBlob": "deb5f986888d3fa30368bb834a38a2c2d28eeecf",
+      "owner": "R3-B and ProductFix",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementCommandGateway.cs.meta",
+      "sha256": "95239FFF297B3E3C2AF0DFFB8B9722A4A80F1C5D25A59F42B721CC368E26FF3B",
+      "gitBlob": "49389933206a5a49780d17415d1055e9fd04a4e4",
+      "owner": "R3-B and ProductFix",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementReadAdapter.cs",
+      "sha256": "752C6A2D8EBB0579AD30792FAB93F4E8B70B56F2D5D933AE0F23CF0457F6FEA7",
+      "gitBlob": "eedeb839386881a2f0b3d07e871ea286e0e0f584",
+      "owner": "R3-B and ProductFix",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementReadAdapter.cs.meta",
+      "sha256": "AF93BBB849B2B3E39B764345EC7A246AA909EFC40E53034B43A044FCB610F125",
+      "gitBlob": "b0ba20c36d9a2595598476f6850f701fabd83b16",
+      "owner": "R3-B and ProductFix",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementRowView.cs",
+      "sha256": "D5A2456AB13119635E9C6C31CAC5A7932CEF815A301C3F7536D208741543EEBD",
+      "gitBlob": "826452a4165d596d6412153c1198f4d79bf745d4",
+      "owner": "R3-B and ProductFix",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementRowView.cs.meta",
+      "sha256": "E6A60F11EE19E9440671C92952CAC4DC9C944569B78CEED0EF15A425B2909132",
+      "gitBlob": "0963a39596d170249c21f947662ff364878de236",
+      "owner": "R3-B and ProductFix",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementView.cs",
+      "sha256": "6C218DAFBEA1885698AEDFD6C15AEBA7229B4F9AB91B9C516630969B3CA3EE02",
+      "gitBlob": "efbb52f44d09ad11372d2fc63abaca8417fc8a6b",
+      "owner": "R3-B and ProductFix",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementView.cs.meta",
+      "sha256": "EF6483AF28AB0418C203EEB71C0D0AB14265BCC41B8C0FDE0F2DD3224DD289AA",
+      "gitBlob": "0ba3293ee1ab1ff450d741b922095e8206b6ba7c",
+      "owner": "R3-B and ProductFix",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/Runtime/InitialWorldConfiguration.cs",
+      "sha256": "8B568303AFE1848CB4983F9FDE9F4BC659ACA8F25C87F12D6E950721FBAE08D6",
+      "gitBlob": "96e11539484b807ab00c7a533bc0d1c17e4bc547",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/Runtime/InitialWorldConfiguration.cs.meta",
+      "sha256": "B8F9093FAEC184152763855F259C61A8D49429B8C4415E5FA0E50C7B4B999941",
+      "gitBlob": "eb7c762210c64b496d586aa3d98badcebc42e5ba",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/Runtime/ManagementSnapshot.cs",
+      "sha256": "1184F80307E8EF07563193F27433A6983077B7D79A312B1DF57B53AE5ADE1CE6",
+      "gitBlob": "91f16047b4491e0a203cd9f619644a25a29afb2a",
+      "owner": "R3-B and ProductFix",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/Runtime/ManagementSnapshot.cs.meta",
+      "sha256": "D3C078C686B7F07AF817E94E7BC80CE8A2459735FE2E92A51543AF4201299498",
+      "gitBlob": "cbc0c63f1f5985ff51ef8da092ed2a7ed7292ebf",
+      "owner": "R3-B and ProductFix",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/VillageRuntimeBridge.Buildings.cs",
+      "sha256": "B2FDB4C86CAB0B4874F31FA079F571002262C0A6FD0238A6366AFBC3A87169D0",
+      "gitBlob": "7b3aa2c814fdaa91ba8d7e234313fb597dfb6053",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/VillageRuntimeBridge.cs",
+      "sha256": "8B618DF392692A91EB6B2E1167DCA1C23AD566BD627A1403B035D51BFBB7CCA5",
+      "gitBlob": "d56ee89082a2cf4c549f9436d1d656a04cbd9f5b",
+      "owner": "Initial World and V17 shared foundation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization.meta",
+      "sha256": "6E735B24358390590BADFF1A2F6E2342B5B34570DEE2F7DDA132FA0B8CA9A274",
+      "gitBlob": "981cb02f9d68eeb9b69e16fad082dcda872e41ad",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorld.Tests.asmdef",
+      "sha256": "3064B0454DBDC6FA570F4703C95E6DF0853A298B480049B72140214A82FEDA42",
+      "gitBlob": "fa6e3f75894cb7e9aad753f8df321a81c05134fd",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorld.Tests.asmdef.meta",
+      "sha256": "6725DE2BDEC56994527FEBC7ADD346C50A1F5DA6826BBD29ADE1C7F33A6ED37D",
+      "gitBlob": "4df0f6db1fee3de03452293068be0cf039592e84",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorldConfigPipelineTests.cs",
+      "sha256": "4129CE54C71199CFFA08A3F427A210710147B9B1CCEF87FB0FEF3FC51ACF7BAA",
+      "gitBlob": "a5fb0389e1a97cf467c091e56a10fbac33a8b38e",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorldConfigPipelineTests.cs.meta",
+      "sha256": "4D66E143449654981F0842B0C39D70F042D1C953809533CADD40D211B47EB975",
+      "gitBlob": "bf97d2fec9874ade19ab06a259be4120f91d8888",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorldConfigurationTests.cs",
+      "sha256": "CD126162B80573D8098889A388329778DC42723E254ADCF0030A9A11DE5DA289",
+      "gitBlob": "c88d37b8310f26ec6fc40052b92b763061ee3c07",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorldConfigurationTests.cs.meta",
+      "sha256": "37BB69B339B2C191EAED798E3BA96846D4D54A28BEE150F7031DCCC570E16D7C",
+      "gitBlob": "4d156faf8c4a17bc34ab593f46079ec90b402b08",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorldProductWiringTests.cs",
+      "sha256": "9049DECFBC1CCAC36E2053CBEAC1E11422091E2288C5A7FCF00F8E42E292E81C",
+      "gitBlob": "fd33bf130cdf4304c2b9173f71d1b4293f10db04",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Initialization/InitialWorldProductWiringTests.cs.meta",
+      "sha256": "06FBB9B13D0ACA5116717673904C36447169ADF72404F2B99491799783A1D15A",
+      "gitBlob": "101969660a2fdbdb0cf0a2863eb7d7a643418d02",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Village/ManagementProjectionTests.cs",
+      "sha256": "64C8C12482AC1AD22C0AB524E6947138C789A752DF7108233AE137BDD5BA68A7",
+      "gitBlob": "b50ce1dea4160701cae5559ca3383de1606f104d",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Village/ManagementProjectionTests.cs.meta",
+      "sha256": "EB42773ED3219876D1C9CC3A6747DC93E6D4605BBC7B89F5721EEC8F3AAF5CF0",
+      "gitBlob": "c3e104e6c35bd541b4424d4fb2ba3f682d9d2073",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Village/ProductHomeFoundationTests.cs",
+      "sha256": "2062DB0D1F4D8FA1CBD0C11B55F73E0BB63BFE17FF0CF869721BCA7A79F29829",
+      "gitBlob": "7859b062ab0ac1026972924cc87060aab4ffa34e",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/InitializationProductPlayTests.cs",
+      "sha256": "56CCA5E4CD8913CC1E1A9770366C6A79FAB2A6AB8B38112C86B401F551C0AF39",
+      "gitBlob": "676b282b54e4815fe277c7ae0f52d4ab3b394f4e",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/InitializationProductPlayTests.cs.meta",
+      "sha256": "D965B562FA5992BFB9118231B258CE2624CAE365E84F0037133559984C408464",
+      "gitBlob": "826de716d9f63843e9b4120e7e7af773d894f675",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/Village/BuildingConstructionProductPlayTests.cs",
+      "sha256": "E6BE723BBC193655D04DE086A12DE0B750AC710DF1B1685B73121911DB36AC91",
+      "gitBlob": "289a094ea00bef97ed2c9a099812e5b5aef1d148",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/Village/IntradayActivityProductPlayTests.cs",
+      "sha256": "786C418AD8368E910AFD699EB0AEC998D8EE4A4C731349381F833D85E69D3BE9",
+      "gitBlob": "82aaaff0635eeaa769721a264ebdce5f103dccfd",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/Village/IntradayOnsiteProductPlayTests.cs",
+      "sha256": "7E5097485804F6C20275163E697F82CB6BA9DFD5280BD435B887167CE6F14CF4",
+      "gitBlob": "8bbbae4db788d0c041924862414e20e6a6036748",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/Village/IntradayWorkProductPlayTests.cs",
+      "sha256": "6BC77B8EB557D23F11AECC811D67EA10D679CBAFEC212F6DB1BFBA4066D597BB",
+      "gitBlob": "2e209cc959b5009b4d2693276ab9451d90cdc585",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/Village/ProductHomeFoundationPlayTests.cs",
+      "sha256": "2448F2009506FBCBF5A15525CB5327D59E989609DE45F327CB537B5B79C6BB1E",
+      "gitBlob": "bac7ae71ec887e4aa3c1f6931565a1d32c9d3151",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/Village/TavernFixedPlacePlayTests.cs.meta",
+      "sha256": "899DB3C7BFF12E4C6BEA55C47613CF35345B2C46BB2AAF7114C6631210CE180A",
+      "gitBlob": "05281ccf4d3aa3369be9c317657a31303550df52",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/Village/VillageCommitmentProductIntegrationPlayTests.cs",
+      "sha256": "923FF9982C026663F66FF7D29C5070A24BF2EF957DCF35D545374ED527725720",
+      "gitBlob": "3202dc64c3680f160e909331f0f16171e936afa6",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/Village/VillageWorldProductIntegrationPlayTests.cs",
+      "sha256": "D49513CDD1EDB83102234DBFAD5C31DBA4EC1886B87F2C2790D20F35D2CA83EB",
+      "gitBlob": "05d9e311e5ea5c0ac6c65e5bd613b5ea76d8cede",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/VillageV4/VillageV4ResourceSurplusPlayTests.cs",
+      "sha256": "6AE821E0AC3F4CEC80BD590FC2B284968D5796B7A04774BCDE86E30024D390CC",
+      "gitBlob": "d103d1b1803bc53895808c26a3159734d153c504",
+      "owner": "V17 stable contract regression / default-instance fixture adaptation",
+      "sharedScope": "within accepted V17; no out-of-scope hunk established"
+    }
+  ],
+  "excluded": [
+    "ManagementShellPlayTests.cs and Meta: completed machine-bound acceptance harness; retained on disk, no product type references",
+    "GrowthDataSeedTests and GrowthDataInitializer/assets: unrelated existing work",
+    "TMP,Scene,Plugins,Packages,ProjectSettings,Studio protection/incident files: preserved"
+  ],
+  "editorProof": "Development/StudioRuns/V17-FinalCheck-20261106/editor-prefab-dependencies.json",
+  "review": "DSH keyword-based mixed-file assertion rejected after full Builder diff review: changes are InitialWorld payload/DB arguments, selective generated-asset save, pointer/catalog filter and Editor input seam within V17"
+}

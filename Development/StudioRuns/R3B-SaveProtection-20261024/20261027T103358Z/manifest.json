@@ -1,0 +1,18 @@
+{
+  "runId": "20261027T103358Z",
+  "status": "restored",
+  "captureUtc": "2026-10-27T10:33:58.8481549Z",
+  "updatedUtc": "2026-10-27T10:33:59.4206650Z",
+  "sourcePath": "1PUBLIC_USER/AppData/LocalLow/DefaultCompany/RRPG_AI_Pilot\\rrpg_save_p0.json",
+  "sourceExisted": true,
+  "sourceBytes": 13438,
+  "sourceSha256": "b3831d4dc52f81f4cb74beee6f47c5f89242e705fa62e1c9aac1e31ec6d4b4d3",
+  "backupFile": "original-save.bin",
+  "backupBytes": 13438,
+  "backupSha256": "b3831d4dc52f81f4cb74beee6f47c5f89242e705fa62e1c9aac1e31ec6d4b4d3",
+  "readbackVerified": true,
+  "restored": true,
+  "lastError": null,
+  "capturedBy": "ManagementShellPlayTests.SaveSlotGuard (test-only helper)",
+  "note": "只允许用本 runID 的 original-save.bin 恢复；进程 abort 时 TearDown 不执行，备份留待人工取证，不宣称自动恢复。"
+}

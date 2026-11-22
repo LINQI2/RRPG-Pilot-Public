@@ -1,0 +1,1 @@
+{"testMode":"PlayMode","query":"tests | where fullName contains \"IntradayActivity_RealTownDriver\" or fullName contains \"IntradayOnsite_RealTownVisible\"","includePassingTests":true,"includeMessages":true,"includeStacktrace":true}

@@ -1,0 +1,48 @@
+{
+  "runId": "20261024T142654Z",
+  "status": "restored",
+  "captureUtc": "2026-10-24T14:26:54.5136237Z",
+  "updatedUtc": "2026-10-24T14:33:25.6672726Z",
+  "sourcePath": "1PUBLIC_USER/AppData/LocalLow/DefaultCompany/RRPG_AI_Pilot/rrpg_save_p0.json",
+  "sourceExisted": true,
+  "sourceBytes": 13405,
+  "sourceSha256": "4b2b56f6f2b00b81a5e32c520905ad4fdb417d05b8a835924675f57f5502d6aa",
+  "backupFile": "original-save.bin",
+  "backupBytes": 13405,
+  "backupSha256": "4b2b56f6f2b00b81a5e32c520905ad4fdb417d05b8a835924675f57f5502d6aa",
+  "readbackMatchesSource": true,
+  "readbackVerified": true,
+  "restored": true,
+  "pendingRestore": false,
+  "restoredUtc": "2026-10-24T14:33:25.6672726Z",
+  "restoreVerifiedUtc": "2026-10-24T14:33:25.6672726Z",
+  "restoreMethod": "post-edit restore: File.WriteAllBytes(savePath, original-save.bin bytes) via Unity Editor C# snippet; no product Save/Load/NewGame, no historical 650 restoration, no other run touched",
+  "restoreReadback": {
+    "exists": true,
+    "bytes": 13405,
+    "sha256": "4b2b56f6f2b00b81a5e32c520905ad4fdb417d05b8a835924675f57f5502d6aa",
+    "bytesEqualSnapshot": true,
+    "readbackVerified": true
+  },
+  "postRunObserved": {
+    "observedBetweenUtc": ["2026-10-24T14:26:54.5136237Z", "2026-10-24T14:33:25.6672726Z"],
+    "observationNote": "只读观测在快照后、写回前完成；未记录精确观测时刻，故以该区间为界（写回时刻 14:33:25.6672726Z 由写回回执实测）",
+    "sourceExistedBeforeRestore": false,
+    "saveDirectoryFileCount": 0,
+    "saveDirectoryMtimeUtc": "2026-10-24T14:31:46.8389287Z",
+    "interpretation": "完整 EditMode 全集结束后单槽文件已被夹具删除；目录内 0 文件、无 .tmp、无测试后新写入字节，故无“测试结束后用户真实新进展”可备份，未创建 post-edit 字节备份（不存在可备份字节），也未覆盖任何其它快照"
+  },
+  "statusHistory": [
+    {
+      "from": "protective-snapshot",
+      "to": "restored",
+      "atUtc": "2026-10-24T14:33:25.6672726Z",
+      "reason": "R3-B Pilot 完整 EditMode 无 filter 回归（1513/1513 Passed / 0 skipped）结束后精确写回本轮已验快照并回读 hash 一致",
+      "readback": "13405B / 4b2b56f6f2b00b81a5e32c520905ad4fdb417d05b8a835924675f57f5502d6aa"
+    }
+  ],
+  "lastError": null,
+  "capturedBy": "R3-B full EditMode regression preflight (read-only snapshot; no test run)",
+  "restoredBy": "R3-B full EditMode postflight (post-edit restore only; no test run)",
+  "note": "完整 EditMode 全集存在删除/重写单槽档的写风险（PersonBootstrap/VillageV4/ExpeditionV4F/ProfessionM*/Village*save* 等夹具 SetUp/TearDown 无字节备份地 File.Delete/NewGame+Save）。本快照只保护本轮运行前的真实原字节；本轮运行后该档被删除，已按授权用本 runID 的 original-save.bin 精确写回并回读校验一致。它不是历史 21075B/650c45c4 版本，也未覆盖其他跑次。"
+}

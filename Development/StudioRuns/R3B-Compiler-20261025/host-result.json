@@ -1,0 +1,39 @@
+{
+  "startedAt": "2026-10-25T08:20:45.543Z",
+  "project": "D:/AI_Agent_Lab/rrpg_pilot/repo",
+  "steps": [
+    {
+      "name": "tests",
+      "executable": "C:/Program Files/dotnet/dotnet.exe",
+      "args": [
+        "test",
+        "Tools/RRPG.ConfigCompiler/tests/RRPG.ConfigCompiler.Tests/RRPG.ConfigCompiler.Tests.csproj",
+        "-c",
+        "Release",
+        "--no-build",
+        "--no-restore",
+        "--logger",
+        "trx;LogFileName=compiler.trx",
+        "--results-directory",
+        "D:/AI_Agent_Lab/RRPG_AI_Studio/app/runtime/compiler-gate-20261025/host-test",
+        "-v",
+        "minimal"
+      ],
+      "exitCode": 0
+    },
+    {
+      "name": "validate",
+      "executable": "C:/Program Files/dotnet/dotnet.exe",
+      "args": [
+        "Tools/RRPG.ConfigCompiler/src/RRPG.ConfigCompiler/bin/Release/net10.0/rrpg-config.dll",
+        "validate",
+        "--root",
+        "D:/AI_Agent_Lab/rrpg_pilot/repo"
+      ],
+      "exitCode": 0
+    }
+  ],
+  "finishedAt": "2026-10-25T08:20:55.471Z",
+  "changedProtected": [],
+  "protectedCount": 494
+}

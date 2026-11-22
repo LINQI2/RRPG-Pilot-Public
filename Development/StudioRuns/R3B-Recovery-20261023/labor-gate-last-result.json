@@ -1,0 +1,105 @@
+{
+  "source": "mcp__studio-unity__rql-query (source: testResults)",
+  "note": "由工具返回的 testResults 逐行转录，非磁盘原始 XML/JSON；未覆盖旧 ManagementProjectionTests.json。",
+  "observedAtLocal": "2026-10-23T13:32:23+08:00 (由 Console 中最后一次 ForceSaveFailureForTests 警告序列 13013 推断该次运行结束时间)",
+  "summary": {
+    "Status": "Failed",
+    "TotalTests": 13,
+    "PassedTests": 12,
+    "FailedTests": 1,
+    "SkippedTests": 0
+  },
+  "results": [
+    {
+      "name": "RRPG.Management.Tests.ManagementProjectionTests.CapacityFullAndAlreadyAssignedPreserveDomainDiagnosticsWithoutWrite",
+      "status": "Passed",
+      "durationMs": 55,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "name": "RRPG.Management.Tests.ManagementProjectionTests.ConstructionLaborDoesNotCountTowardPrimaryWorkplace",
+      "status": "Passed",
+      "durationMs": 65,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "name": "RRPG.Management.Tests.ManagementProjectionTests.ConstructionWorkerKeepsPrimaryAssignment",
+      "status": "Passed",
+      "durationMs": 3,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "name": "RRPG.Management.Tests.ManagementProjectionTests.LegacyStaticAssignmentIsVisibleRemovableButNotANewTarget",
+      "status": "Passed",
+      "durationMs": 2,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "name": "RRPG.Management.Tests.ManagementProjectionTests.MissingOrAwayPersonIsRejectedWithoutWrite",
+      "status": "Passed",
+      "durationMs": 1,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "name": "RRPG.Management.Tests.ManagementProjectionTests.ReadProjectionDoesNotTouchWorldClockOrAuthority",
+      "status": "Passed",
+      "durationMs": 5,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "name": "RRPG.Management.Tests.ManagementProjectionTests.RemovingAssignmentDuringLaborStopsOldWorkplaceEvidence",
+      "status": "Passed",
+      "durationMs": 2,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "name": "RRPG.Management.Tests.ManagementProjectionTests.ResourcesAndNutritionFactsComeFromExistingState",
+      "status": "Passed",
+      "durationMs": 2,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "name": "RRPG.Management.Tests.ManagementProjectionTests.SameDefinitionBuildingsAndRegisteredSlotsStayIndependent",
+      "status": "Passed",
+      "durationMs": 3,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "name": "RRPG.Management.Tests.ManagementProjectionTests.SameNameDifferentPersonIdsStayIndependentAndFilterIsSessionOnly",
+      "status": "Passed",
+      "durationMs": 2,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "name": "RRPG.Management.Tests.ManagementProjectionTests.SaveFeedbackUsesExistingBoolAndRespectsWorldLock",
+      "status": "Passed",
+      "durationMs": 3,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "name": "RRPG.Management.Tests.ManagementProjectionTests.UnderConstructionBuildingHasNoAssignableWorkplaceAndCommandRefuses",
+      "status": "Passed",
+      "durationMs": 1,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "name": "RRPG.Management.Tests.ManagementProjectionTests.WorkplaceLaborOnlyCountsActualWorkplaceExecution",
+      "status": "Failed",
+      "durationMs": 7,
+      "message": "  Expected string length 7 but was 13. Strings differ at index 0.\r\n  Expected: \"Success\"\r\n  But was:  \"InvalidWindow\"\r\n  -----------^\r\n",
+      "stackTrace": "at RRPG.Management.Tests.ManagementProjectionTests.CommitRestActivity (System.String personId) [0x000a1] in D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\UnityProject\\RRPG1.0game\\Assets\\Tests\\EditMode\\Village\\ManagementProjectionTests.cs:416\r\nat RRPG.Management.Tests.ManagementProjectionTests.WorkplaceLaborOnlyCountsActualWorkplaceExecution () [0x001bf] in D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\UnityProject\\RRPG1.0game\\Assets\\Tests\\EditMode\\Village\\ManagementProjectionTests.cs:398\r\n"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "_generated": {
+    "doNotEdit": true,
+    "tool": "RRPG.ConfigCompiler",
+    "formatVersion": "rrpg-static-config-mirror/1",
+    "sourceSha256": "9d56382933a57934fceb5565c89fe35fd64827332b387b92522e616f390e5112",
+    "notice": "本文件由 RRPG ConfigCompiler 生成，禁止手工编辑；它记录 SourceAssets 源文件的内容哈希（换图 = 必须重新 build）。"
+  },
+  "irVersion": "rrpg-static-config-mirror/1",
+  "managedRootRelative": "Assets/Generated/StaticConfig/Assets",
+  "assetCount": 34,
+  "sourceSetSha256": "b9d9596f144808b9226842e724ac87796557cc41495e7ca97546aa52bd320cae",
+  "assets": [
+    {
+      "VisualAssetId": "va_enemy_mon_001",
+      "SourceFile": "Enemy/enemy_mon_001.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 807313,
+      "SourceSha256": "08bf0b377abed58a08cf4dff326cad024a004e81a3d964b393dc246c669fdef4",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Enemy/enemy_mon_001.png"
+    },
+    {
+      "VisualAssetId": "va_enemy_mon_002",
+      "SourceFile": "Enemy/enemy_mon_002.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 628380,
+      "SourceSha256": "e93a0dfb95e3cc401945704bb8ea6bab5d1d4818f330d9781e291f546ed80302",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Enemy/enemy_mon_002.png"
+    },
+    {
+      "VisualAssetId": "va_enemy_mon_003",
+      "SourceFile": "Enemy/enemy_mon_003.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 792853,
+      "SourceSha256": "e504fb68722722b9b95a93f74bdd1215c4b4ee085a6a71ff604c36f9a387a007",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Enemy/enemy_mon_003.png"
+    },
+    {
+      "VisualAssetId": "va_enemy_mon_004",
+      "SourceFile": "Enemy/enemy_mon_004.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 1105578,
+      "SourceSha256": "48a70c5f8c2cc52840342bff5ba50ff7459c083021a573dd678b85d9b45da1eb",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Enemy/enemy_mon_004.png"
+    },
+    {
+      "VisualAssetId": "va_enemy_mon_005",
+      "SourceFile": "Enemy/enemy_mon_005.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 1081541,
+      "SourceSha256": "1101a831580d61e81e7c1bdc7760a1bae349340500a5b6817f4d72c0c3ee528b",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Enemy/enemy_mon_005.png"
+    },
+    {
+      "VisualAssetId": "va_enemy_mon_006",
+      "SourceFile": "Enemy/enemy_mon_006.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 1216363,
+      "SourceSha256": "dea6612c6af489669d244658c731b3944641c889280001d5cf87740ca3eb858d",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Enemy/enemy_mon_006.png"
+    },
+    {
+      "VisualAssetId": "va_village_farm_basic",
+      "SourceFile": "Village/farm-proof.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 4633,
+      "SourceSha256": "d1c3f317cc8727b7a77ab44abbaff789c8c646c369a5a1bb6442546580cabbc9",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/farm-proof.png"
+    },
+    {
+      "VisualAssetId": "va_village_farm_visual_b",
+      "SourceFile": "Village/farm-proof-b.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 4978,
+      "SourceSha256": "84f07f563d9370d6d29a95401711bd86ebde2b04d1550da75127a8f31c2c778f",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/farm-proof-b.png"
+    },
+    {
+      "VisualAssetId": "va_village_house_a",
+      "SourceFile": "Village/A-Tier/house-a.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 1991,
+      "SourceSha256": "f9a36fe8b0f8ad6408f6a324ed6758f86b9e3bdf168b3c34357496ec18cd6112",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/A-Tier/house-a.png"
+    },
+    {
+      "VisualAssetId": "va_village_kitchen_a",
+      "SourceFile": "Village/A-Tier/kitchen-a.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 1529,
+      "SourceSha256": "70eeccff19a9c1ee04f162904db82cffa1d793f7c515a6a2542a6a3dabe08c9e",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/A-Tier/kitchen-a.png"
+    },
+    {
+      "VisualAssetId": "va_village_neutral_marker",
+      "SourceFile": "Village/neutral_marker.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 672,
+      "SourceSha256": "dc276b76186e00f94838b5274b169a89788b3cfeaa6bae512b9240ff1114a1a8",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/neutral_marker.png"
+    },
+    {
+      "VisualAssetId": "va_village_person_a",
+      "SourceFile": "Village/A-Tier/person-a.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 2885,
+      "SourceSha256": "8fad00bc3a88ec81863835ab6ae0d1b18be23576e35958a483fe3c1391eac90f",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/A-Tier/person-a.png"
+    },
+    {
+      "VisualAssetId": "va_village_person_hero_001_ne",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_red_cape_ne_r1.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 478237,
+      "SourceSha256": "a031dd3fc46f9e63afde098c7fdc85c7799a32857d1788af10dea7ce8cf482c8",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/ArtUpgrade01/Persons/person_red_cape_ne_r1.png"
+    },
+    {
+      "VisualAssetId": "va_village_person_hero_001_se",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_red_cape_se_r1.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 490267,
+      "SourceSha256": "84045a40cd6cd9465d74acf9b0e2c71e8aab15675109f3b47b5bf3e324290b02",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/ArtUpgrade01/Persons/person_red_cape_se_r1.png"
+    },
+    {
+      "VisualAssetId": "va_village_person_person_han_zhao_ne",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_han_zhao_teal_ne_r1.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 516500,
+      "SourceSha256": "a84dba298981a012682e3c10fba05217b3fbd43f55bed30f085c6bb4af0e6677",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/ArtUpgrade01/Persons/person_han_zhao_teal_ne_r1.png"
+    },
+    {
+      "VisualAssetId": "va_village_person_person_han_zhao_se",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_han_zhao_teal_se_r1.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 503812,
+      "SourceSha256": "015314c955ab870dc6ea97eca44c34934cabbc89a5be032dec6efb38300056db",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/ArtUpgrade01/Persons/person_han_zhao_teal_se_r1.png"
+    },
+    {
+      "VisualAssetId": "va_village_person_person_lin_en_ne",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_green_archer_ne_r1.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 563483,
+      "SourceSha256": "718de850efc4629c767ee48426c030e5da4ee6a9d30e773eb25aa74473a602ee",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/ArtUpgrade01/Persons/person_green_archer_ne_r1.png"
+    },
+    {
+      "VisualAssetId": "va_village_person_person_lin_en_se",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_green_archer_se_r1.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 531430,
+      "SourceSha256": "6cfea4e8c9a4cb825cdccc86dc0a1fc77032daff030e336477210a91c2adc266",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/ArtUpgrade01/Persons/person_green_archer_se_r1.png"
+    },
+    {
+      "VisualAssetId": "va_village_person_person_qiu_shuang_ne",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_qiu_shuang_ochre_ne_r1.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 448160,
+      "SourceSha256": "aca78c4bd2ac5b66f34213c421389836015e8a22bcc65ec239baf07561a554f3",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/ArtUpgrade01/Persons/person_qiu_shuang_ochre_ne_r1.png"
+    },
+    {
+      "VisualAssetId": "va_village_person_person_qiu_shuang_se",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_qiu_shuang_ochre_se_r1.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 477008,
+      "SourceSha256": "c85f5fc8a226ddec9952eabea0d2afc686f574ec468fc1bdaad0c6d2e73a8882",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/ArtUpgrade01/Persons/person_qiu_shuang_ochre_se_r1.png"
+    },
+    {
+      "VisualAssetId": "va_village_person_person_su_wan_ne",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_purple_mage_ne_r1.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 749990,
+      "SourceSha256": "06a7ae163d84bc0bcc450fbb72a39d27853288fa05b332c4c26f4f6a6c587875",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/ArtUpgrade01/Persons/person_purple_mage_ne_r1.png"
+    },
+    {
+      "VisualAssetId": "va_village_person_person_su_wan_se",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_purple_mage_se_r1.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 682873,
+      "SourceSha256": "91c0283bcb276e647917ab7a363a3db1db1b59cf6e0579bff0ac0e34fbc1ff87",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/ArtUpgrade01/Persons/person_purple_mage_se_r1.png"
+    },
+    {
+      "VisualAssetId": "va_village_person_person_wei_an_ne",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_wei_an_slate_ne_r1.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 489648,
+      "SourceSha256": "5e1261870ff1190c98ee0c1c57858e0c850a803411384cbf324736d68ef7591e",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/ArtUpgrade01/Persons/person_wei_an_slate_ne_r1.png"
+    },
+    {
+      "VisualAssetId": "va_village_person_person_wei_an_se",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_wei_an_slate_se_r1.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 506863,
+      "SourceSha256": "67e9f346f2cc85b588dc5feec1ad68e5bfb87e3026506b8f1a04bf9b21689c49",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/ArtUpgrade01/Persons/person_wei_an_slate_se_r1.png"
+    },
+    {
+      "VisualAssetId": "va_village_r2_farm",
+      "SourceFile": "Village/R2Prototype/farm.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 1884732,
+      "SourceSha256": "f4cee673723348052eae5d3924f038f1a342b15488344e034144d58e4686fac3",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/R2Prototype/farm.png"
+    },
+    {
+      "VisualAssetId": "va_village_r2_home",
+      "SourceFile": "Village/R2Prototype/home.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 934131,
+      "SourceSha256": "c9112acf460a72653c8cbbc26200ec3391c8c6a1beff8bfd9ff0c793f795b42d",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/R2Prototype/home.png"
+    },
+    {
+      "VisualAssetId": "va_village_r2_kitchen",
+      "SourceFile": "Village/R2Prototype/kitchen.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 921524,
+      "SourceSha256": "025fa01238ba3a45c08831e7439a2a0335358076965fe4d7489f04d34596e21a",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/R2Prototype/kitchen.png"
+    },
+    {
+      "VisualAssetId": "va_village_r2_person",
+      "SourceFile": "Village/R2Prototype/person.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 441955,
+      "SourceSha256": "7b4e80e754ffba46bb85ea5844748c72fe853dc30544ff96cd0dde3b35d61e73",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/R2Prototype/person.png"
+    },
+    {
+      "VisualAssetId": "va_village_r2_workshop",
+      "SourceFile": "Village/R2Prototype/workshop.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 1585255,
+      "SourceSha256": "c3619ccc9d2de6233dc5244c8b5920fea4c2c22d624147c951c4dfa1bcc3172c",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/R2Prototype/workshop.png"
+    },
+    {
+      "VisualAssetId": "va_village_r5_earth",
+      "SourceFile": "Village/ArtUpgrade01/earth_surface_r1.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 1883517,
+      "SourceSha256": "ee079476abb309b032e2ba74688cd7a7e54fd1d26f7a82ee2668d051735ad654",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/ArtUpgrade01/earth_surface_r1.png"
+    },
+    {
+      "VisualAssetId": "va_village_r5_grass",
+      "SourceFile": "Village/ArtUpgrade01/grass_surface_r1.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 1785114,
+      "SourceSha256": "3e1b31b2b3d8547dd654d613cb9393c436836a8de9b655f0856a2541b7f7b6aa",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/ArtUpgrade01/grass_surface_r1.png"
+    },
+    {
+      "VisualAssetId": "va_village_r5_person_ne",
+      "SourceFile": "Village/ArtUpgrade01/person_world_neutral_ne_r1.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 418834,
+      "SourceSha256": "8b9ba49a7557e079face92c7e832b2e4e55c755e00fccdc9317a628c84a35780",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/ArtUpgrade01/person_world_neutral_ne_r1.png"
+    },
+    {
+      "VisualAssetId": "va_village_r5_tavern",
+      "SourceFile": "Village/ArtUpgrade01/tavern.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 1056487,
+      "SourceSha256": "47059963cb339875f0b2a127ebc19e18ac30e8f733d6606598e7ea8dd5f9b6d1",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/ArtUpgrade01/tavern.png"
+    },
+    {
+      "VisualAssetId": "va_village_tavern_a",
+      "SourceFile": "Village/A-Tier/tavern-a.png",
+      "ImportPreset": "sprite_point_100",
+      "SourceBytes": 1811,
+      "SourceSha256": "aeec7f04494b518830252e4ea469779dd23fdab1e56a10b60ea90e39bb93fbcd",
+      "ManagedAssetPath": "Assets/Generated/StaticConfig/Assets/Village/A-Tier/tavern-a.png"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+    "schema":  "rrpg-review-before/1",
+    "createdUtc":  "2026-11-05T10:42:03.0291433Z",
+    "files":  [
+                  {
+                      "path":  "UnityProject\\RRPG1.0game\\Assets\\Scripts\\Village\\Runtime\\ProductHomeSnapshot.cs",
+                      "backup":  "review-before/ProductHomeSnapshot.cs",
+                      "bytes":  6392,
+                      "sha256":  "844d1ad4603c280d3aa51c8f03fba175aa80eb70b67cc9938d47081751d1bfc8"
+                  },
+                  {
+                      "path":  "UnityProject\\RRPG1.0game\\Assets\\Scripts\\Village\\ProductHome\\ProductHomeReadAdapter.cs",
+                      "backup":  "review-before/ProductHomeReadAdapter.cs",
+                      "bytes":  10933,
+                      "sha256":  "9ea50e9ded64a0ba9ce431eaf14231c7f6e6388959d3e7e3ec0ce48ebce99743"
+                  },
+                  {
+                      "path":  "UnityProject\\RRPG1.0game\\Assets\\Scripts\\Village\\ProductHome\\ProductHomeWorldHost.cs",
+                      "backup":  "review-before/ProductHomeWorldHost.cs",
+                      "bytes":  15839,
+                      "sha256":  "f5ff39ac316aca3395eb095c4ce26f4f6a524c2af2afd7482d663904bb90f0ac"
+                  },
+                  {
+                      "path":  "UnityProject\\RRPG1.0game\\Assets\\Scripts\\Village\\ProductHome\\ManagementView.cs",
+                      "backup":  "review-before/ManagementView.cs",
+                      "bytes":  44527,
+                      "sha256":  "226f44b6aafb1e1680cf38421077dc1fa0579bf485a01c399f86dcdba8f4b5c7"
+                  },
+                  {
+                      "path":  "UnityProject\\RRPG1.0game\\Assets\\Scripts\\Village\\ProductHome\\HomeProductShell.cs",
+                      "backup":  "review-before/HomeProductShell.cs",
+                      "bytes":  22780,
+                      "sha256":  "dd5db04b601468428f4326c53fa3a8924e90b2e2c98b3727147bb563ca614add"
+                  },
+                  {
+                      "path":  "UnityProject\\RRPG1.0game\\Assets\\Scripts\\UI\\MainMenuUI.cs",
+                      "backup":  "review-before/MainMenuUI.cs",
+                      "bytes":  5440,
+                      "sha256":  "35a9f6637d0d288877b58403a0fb09861e9e0ca51a5b6b0746d03d1be54919bc"
+                  },
+                  {
+                      "path":  "UnityProject\\RRPG1.0game\\Assets\\Tests\\PlayMode\\Village\\VillageVisualPrototypePlayTests.cs",
+                      "backup":  "review-before/VillageVisualPrototypePlayTests.cs",
+                      "bytes":  30505,
+                      "sha256":  "fb4a10382742451a42721b28606901080a7bec168b8c02be0a5c8b04dd9711f1"
+                  }
+              ]
+}

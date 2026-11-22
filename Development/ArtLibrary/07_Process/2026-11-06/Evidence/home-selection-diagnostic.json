@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: \"Selected=Person:person_83740ef4017c4f8d82fcee46cfd91914 Farm=building_instance_1 visible=True screen=(843.63, 665.35, 10.00) world=(9995.92, 3.24, 0.00) back=(9995.92, 3.24, 0.00) hits=Building_building_instance_1:PolygonCollider2D:building_instance_1;Body:BoxCollider2D:building_instance_1\""
+      }
+    ],
+    "isError": false
+  },
+  "id": 42,
+  "jsonrpc": "2.0"
+}

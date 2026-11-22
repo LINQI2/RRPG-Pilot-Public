@@ -1,0 +1,20 @@
+{
+  "runId": "20261024T052704Z",
+  "status": "protective-snapshot",
+  "captureUtc": "2026-10-24T05:27:04.5127685Z",
+  "updatedUtc": "2026-10-24T05:30:00Z",
+  "sourcePath": "1PUBLIC_USER/AppData/LocalLow/DefaultCompany/RRPG_AI_Pilot/rrpg_save_p0.json",
+  "sourceExisted": true,
+  "sourceBytes": 13405,
+  "sourceSha256": "4b2b56f6f2b00b81a5e32c520905ad4fdb417d05b8a835924675f57f5502d6aa",
+  "backupFile": "original-save.bin",
+  "backupBytes": 13405,
+  "backupSha256": "4b2b56f6f2b00b81a5e32c520905ad4fdb417d05b8a835924675f57f5502d6aa",
+  "readbackMatchesSource": true,
+  "readbackVerified": true,
+  "restored": false,
+  "pendingRestore": false,
+  "lastError": null,
+  "capturedBy": "R3B-SaveProtection 手工只读保护快照（本包 script-execute 只读读取 SaveSystem.GetSavePath 后写入本目录）",
+  "note": "本 run 是只读保护快照，不是 SaveSlotGuard 待恢复 run：status=protective-snapshot 不阻断后续测试。它不是历史 21075B/650c45c4… 版本，不得用于覆盖其他跑次或“恢复历史档”。"
+}

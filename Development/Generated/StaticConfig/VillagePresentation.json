@@ -1,0 +1,179 @@
+{
+  "_generated": {
+    "doNotEdit": true,
+    "tool": "RRPG.ConfigCompiler",
+    "formatVersion": "rrpg-static-config-mirror/1",
+    "sourceSha256": "4d63729593f2db81453c56465684b3a496936bf245cf98e768e7abbefccea39c",
+    "notice": "本文件由 RRPG ConfigCompiler 生成，禁止手工编辑；唯一人工 Authoring Authority 是 XLSX（Development/Config）。"
+  },
+  "irVersion": "rrpg-static-config-mirror/1",
+  "source": {
+    "workbook": "Config/RRPG_VillagePresentation.xlsx",
+    "sheet": "VillagePresentation",
+    "machineFieldRow": 1,
+    "typeRow": 2,
+    "ruleRow": 3,
+    "displayHeaderRow": 4,
+    "firstDataRow": 5
+  },
+  "key": [
+    "PresentationKey"
+  ],
+  "columns": [
+    {
+      "field": "PresentationKey",
+      "type": "id",
+      "key": true,
+      "rules": []
+    },
+    {
+      "field": "VisualAssetId",
+      "type": "ref:VisualAsset",
+      "key": false,
+      "rules": []
+    }
+  ],
+  "rowCount": 35,
+  "rows": [
+    {
+      "PresentationKey": "village.building.farm.basic",
+      "VisualAssetId": "va_village_farm_basic"
+    },
+    {
+      "PresentationKey": "village.building.farm.construction",
+      "VisualAssetId": "va_village_farm_basic"
+    },
+    {
+      "PresentationKey": "village.building.house.basic",
+      "VisualAssetId": "va_village_house_a"
+    },
+    {
+      "PresentationKey": "village.building.kitchen.basic",
+      "VisualAssetId": "va_village_kitchen_a"
+    },
+    {
+      "PresentationKey": "village.building.neutral",
+      "VisualAssetId": "va_village_neutral_marker"
+    },
+    {
+      "PresentationKey": "village.building.r2.building_farm",
+      "VisualAssetId": "va_village_r2_farm"
+    },
+    {
+      "PresentationKey": "village.building.r2.building_house",
+      "VisualAssetId": "va_village_r2_home"
+    },
+    {
+      "PresentationKey": "village.building.r2.building_kitchen",
+      "VisualAssetId": "va_village_r2_kitchen"
+    },
+    {
+      "PresentationKey": "village.building.r2.building_workshop",
+      "VisualAssetId": "va_village_r2_workshop"
+    },
+    {
+      "PresentationKey": "village.person.art01.hero_001.ne",
+      "VisualAssetId": "va_village_person_hero_001_ne"
+    },
+    {
+      "PresentationKey": "village.person.art01.hero_001.se",
+      "VisualAssetId": "va_village_person_hero_001_se"
+    },
+    {
+      "PresentationKey": "village.person.art01.person_han_zhao.ne",
+      "VisualAssetId": "va_village_person_person_han_zhao_ne"
+    },
+    {
+      "PresentationKey": "village.person.art01.person_han_zhao.se",
+      "VisualAssetId": "va_village_person_person_han_zhao_se"
+    },
+    {
+      "PresentationKey": "village.person.art01.person_lin_en.ne",
+      "VisualAssetId": "va_village_person_person_lin_en_ne"
+    },
+    {
+      "PresentationKey": "village.person.art01.person_lin_en.se",
+      "VisualAssetId": "va_village_person_person_lin_en_se"
+    },
+    {
+      "PresentationKey": "village.person.art01.person_qiu_shuang.ne",
+      "VisualAssetId": "va_village_person_person_qiu_shuang_ne"
+    },
+    {
+      "PresentationKey": "village.person.art01.person_qiu_shuang.se",
+      "VisualAssetId": "va_village_person_person_qiu_shuang_se"
+    },
+    {
+      "PresentationKey": "village.person.art01.person_su_wan.ne",
+      "VisualAssetId": "va_village_person_person_su_wan_ne"
+    },
+    {
+      "PresentationKey": "village.person.art01.person_su_wan.se",
+      "VisualAssetId": "va_village_person_person_su_wan_se"
+    },
+    {
+      "PresentationKey": "village.person.art01.person_wei_an.ne",
+      "VisualAssetId": "va_village_person_person_wei_an_ne"
+    },
+    {
+      "PresentationKey": "village.person.art01.person_wei_an.se",
+      "VisualAssetId": "va_village_person_person_wei_an_se"
+    },
+    {
+      "PresentationKey": "village.person.away",
+      "VisualAssetId": "va_village_person_a"
+    },
+    {
+      "PresentationKey": "village.person.onsite",
+      "VisualAssetId": "va_village_person_a"
+    },
+    {
+      "PresentationKey": "village.person.r2",
+      "VisualAssetId": "va_village_r2_person"
+    },
+    {
+      "PresentationKey": "village.person.r2.ne",
+      "VisualAssetId": "va_village_r5_person_ne"
+    },
+    {
+      "PresentationKey": "village.person.traveling",
+      "VisualAssetId": "va_village_person_a"
+    },
+    {
+      "PresentationKey": "village.place.fixed.Tavern",
+      "VisualAssetId": "va_village_tavern_a"
+    },
+    {
+      "PresentationKey": "village.place.r2.ActiveProject",
+      "VisualAssetId": "va_village_r2_workshop"
+    },
+    {
+      "PresentationKey": "village.place.r2.ActivityPlace",
+      "VisualAssetId": "va_village_r2_workshop"
+    },
+    {
+      "PresentationKey": "village.place.r2.Commons",
+      "VisualAssetId": "va_village_r2_workshop"
+    },
+    {
+      "PresentationKey": "village.place.r2.Construction",
+      "VisualAssetId": "va_village_r2_workshop"
+    },
+    {
+      "PresentationKey": "village.place.r2.Home",
+      "VisualAssetId": "va_village_r2_home"
+    },
+    {
+      "PresentationKey": "village.place.r2.ProjectSite",
+      "VisualAssetId": "va_village_r2_workshop"
+    },
+    {
+      "PresentationKey": "village.place.r2.Workplace",
+      "VisualAssetId": "va_village_r2_farm"
+    },
+    {
+      "PresentationKey": "village.place.r2.fixed.Tavern",
+      "VisualAssetId": "va_village_r5_tavern"
+    }
+  ]
+}

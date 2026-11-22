@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: World=World Settings=False Build=False Speed=Paused SceneDirty=False Compiling=False"
+      }
+    ],
+    "isError": false
+  },
+  "id": 81,
+  "jsonrpc": "2.0"
+}

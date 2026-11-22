@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: Success=True Failure= NoOp=False"
+      }
+    ],
+    "isError": false
+  },
+  "id": 35,
+  "jsonrpc": "2.0"
+}

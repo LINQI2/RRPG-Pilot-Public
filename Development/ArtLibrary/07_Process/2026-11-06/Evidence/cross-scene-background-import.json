@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: \"Assets/Art/Battle/Background/战斗场景1（草地森林）.png | sprite=True | guid=0c337439f049bb94dbce6fa8140660e4 | size=(1672.00, 941.00)\\nAssets/Art/Prototype/Battle/battle_bg_placeholder.png | sprite=True | guid=4b418c99be10e144d9e149d177ea6d14 | size=(1672.00, 941.00)\\nAssets/Art/Prototype/Journey/ChatGPT Image 2026年9月19日 21_24_25.png | sprite=True | guid=3accc400d316c5941bf35a37183e6b35 | size=(1672.00, 941.00) | SceneDirty=False\""
+      }
+    ],
+    "isError": false
+  },
+  "id": 86,
+  "jsonrpc": "2.0"
+}

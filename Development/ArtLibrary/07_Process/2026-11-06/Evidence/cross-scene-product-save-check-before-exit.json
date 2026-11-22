@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: Save unchanged; exit requested for layer imports"
+      }
+    ],
+    "isError": false
+  },
+  "id": 95,
+  "jsonrpc": "2.0"
+}

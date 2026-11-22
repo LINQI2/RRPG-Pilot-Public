@@ -1,0 +1,48 @@
+{
+  "Date": "2026-11-07",
+  "Selection": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: \"ConfirmBefore=False\\nCard=HeroCard_hero_001 pos=(0.00, 0.00) topHit=HeroCard_hero_001\\r\\nText_Name overflow=False\\r\\nText_HP overflow=False\\r\\nText_ATK overflow=False\\r\\nText_Skill overflow=False\\r\\nConfirmAfter=True\\r\\n\""
+      }
+    ],
+    "isError": false
+  },
+  "Continue": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: MenuHidden=True TownActive=True"
+      }
+    ],
+    "isError": false
+  },
+  "Save": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: SaveUnchanged=True SHA=2F42500A5E84E70354F5CEA741F66FC881306322D607B6D7485088FCEC3735EF"
+      }
+    ],
+    "isError": false
+  },
+  "FinalState": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: Play=False Dirty=False Compiling=False"
+      }
+    ],
+    "isError": false
+  },
+  "Console": {
+    "content": [
+      {
+        "type": "text",
+        "text": "0 results\nmessage"
+      }
+    ],
+    "isError": false
+  }
+}

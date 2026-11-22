@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: Visible=True Party=2 FarTexture=1774x887 NearTexture=1774x887 FarRaycast=False NearRaycast=False"
+      }
+    ],
+    "isError": false
+  },
+  "id": 99,
+  "jsonrpc": "2.0"
+}

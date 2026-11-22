@@ -206,7 +206,7 @@ public class ExpeditionUI : MonoBehaviour
                 OnCharacterCardClick(deployable.CardId);
         }
 
-        Log("远征准备：选择角色卡和道具卡");
+        Log("远征准备：选择同行人物");
 
         // V4 Functional Repair：进入准备界面显示「人物详情」入口 + 出征前补给可见性（Popup 默认关闭）
         EnsureIdentityPanel().Show();
@@ -348,7 +348,12 @@ public class ExpeditionUI : MonoBehaviour
         rt.anchoredPosition = new Vector2(startPos.x + col * cardSpacing, startPos.y - row * rowSpacing);
 
         var txt = go.GetComponentInChildren<TMP_Text>();
-        if (txt != null) txt.text = text;
+        if (txt != null)
+        {
+            txt.text = text;
+            txt.fontSize = 16;
+            txt.rectTransform.sizeDelta = new Vector2(-20, 80);
+        }
 
         return go;
     }
@@ -464,7 +469,7 @@ public class ExpeditionUI : MonoBehaviour
         if (card == null) return;
         var img = card.GetComponent<Image>();
         if (img != null)
-            img.color = highlighted ? Color.green : Color.white;
+            img.color = highlighted ? new Color(.92f, .78f, .51f) : HomeProductUI.Paper;
     }
 
     void OnConfirmExpedition()

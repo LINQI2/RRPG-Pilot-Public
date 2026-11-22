@@ -1,0 +1,1 @@
+{"csharpCode":"return \"project=\"+System.IO.Directory.GetParent(UnityEngine.Application.dataPath).FullName+\";playing=\"+UnityEditor.EditorApplication.isPlaying+\";compiling=\"+UnityEditor.EditorApplication.isCompiling+\";updating=\"+UnityEditor.EditorApplication.isUpdating+\";sceneDirty=\"+UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene().isDirty;"}

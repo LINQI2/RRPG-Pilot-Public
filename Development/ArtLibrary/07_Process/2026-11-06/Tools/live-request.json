@@ -1,0 +1,11 @@
+{
+  "id": 103,
+  "method": "tools/call",
+  "jsonrpc": "2.0",
+  "params": {
+    "arguments": {
+      "csharpCode": "string hash;using(var sha=System.Security.Cryptography.SHA256.Create())hash=System.BitConverter.ToString(sha.ComputeHash(System.IO.File.ReadAllBytes(SaveSystem.GetSavePath()))).Replace(\"-\",\"\");return \"Play=\"+UnityEditor.EditorApplication.isPlaying+\" Dirty=\"+UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty+\" SaveUnchanged=\"+(hash==UnityEditor.SessionState.GetString(\"RRPG.Art.SaveSHA\",\"\"));"
+    },
+    "name": "script-execute"
+  }
+}

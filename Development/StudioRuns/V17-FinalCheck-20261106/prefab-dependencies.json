@@ -1,0 +1,35 @@
+{
+  "generatedUtc": "2026-11-06T06:12:00Z",
+  "prefab": "UnityProject/RRPG1.0game/Assets/Resources/UI/ManagementView.prefab",
+  "unityAvailable": false,
+  "unityEvidence": "无 Unity/Tuanjie 进程；localhost:21867 未监听；Temp/TuanjieLockfile 与 UnityLockfile 均不存在；MCP HTTP 探测 WebException。",
+  "whyStaticMetaMatchingFails": {
+    "projectMetaTotal": 1118,
+    "projectMetaPlainHex": 46,
+    "projectMetaEncoded": 1072,
+    "prefabGuidFormat": "32 位十六进制（如 m_Script.guid）",
+    "encodedExample": "ManagementView.cs.meta guid 为 56 字符编码串，而 Prefab 中同一脚本是 32 位 hex",
+    "conclusion": "项目内 95.9% 的 .meta 使用编码 guid，与 Prefab 的十六进制不一致；不做解码猜测，因此项目内 GUID→资产的映射必须由 Unity AssetDatabase 提供，本轮无该能力。"
+  },
+  "summary": { "guidRefs": 12, "resolvedInPackageCache": 9, "unresolved": 3, "fontRefs": 1, "scriptRefs": 11 },
+  "references": [
+    { "guid": "f4688fdb7df04437aeb418b961361dc5", "slot": "m_Script", "resolved": true, "kind": "package", "asset": "com.unity.textmeshpro@3.0.9/Scripts/Runtime/TextMeshProUGUI.cs" },
+    { "guid": "2da0c512f12947e489f739169773d7ca", "slot": "m_Script", "resolved": true, "kind": "package", "asset": "com.unity.textmeshpro@3.0.9/Scripts/Runtime/TMP_InputField.cs" },
+    { "guid": "4e29b1a8efbd4b44bb3f3716e73f07ff", "slot": "m_Script", "resolved": true, "kind": "package", "asset": "com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" },
+    { "guid": "fe87c0e1cc204ed48ad3b37840f39efc", "slot": "m_Script", "resolved": true, "kind": "package", "asset": "com.unity.ugui@1.0.0/Runtime/UI/Core/Image.cs" },
+    { "guid": "31a19414c41e5ae4aae2af33fee712f6", "slot": "m_Script", "resolved": true, "kind": "package", "asset": "com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs" },
+    { "guid": "1aa08ab6e0800fa44ae55d278d1423e3", "slot": "m_Script", "resolved": true, "kind": "package", "asset": "com.unity.ugui@1.0.0/Runtime/UI/Core/ScrollRect.cs" },
+    { "guid": "3245ec927659c4140ac4f8d17403cc18", "slot": "m_Script", "resolved": true, "kind": "package", "asset": "com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs" },
+    { "guid": "306cc8c2b49d7114eaa3623786fc2126", "slot": "m_Script", "resolved": true, "kind": "package", "asset": "com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs" },
+    { "guid": "59f8146938fff824cb5fd77236b75775", "slot": "m_Script", "resolved": true, "kind": "package", "asset": "com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs" },
+    { "guid": "4a7dfebd6d5993c499d4f9a186b7d2c0", "slot": "m_Script", "resolved": false, "kind": "unknown", "asset": null, "note": "不在 PackageCache；项目 .meta 为编码 guid，静态不可解析；可能是 ManagementView/ManagementRowView 之一" },
+    { "guid": "f37df54fb96a70c45864d60504325b01", "slot": "m_Script", "resolved": false, "kind": "unknown", "asset": null, "note": "同上" },
+    { "guid": "f9418c72505f4cb41ab51da03f9fd2e0", "slot": "m_fontAsset", "resolved": false, "kind": "project-font", "asset": null, "note": "Prefab 的 m_fontAsset 引用；项目字体 .meta 亦为编码 guid，需 AssetDatabase 才能确认指向哪个字体资产" }
+  ],
+  "notProven": [
+    "Prefab 的 m_Script 是否精确绑定到 ManagementView / ManagementRowView（未做 Editor 回读，不猜测）。",
+    "m_fontAsset 指向的具体字体资产（无法静态解析编码 meta）。",
+    "是否存在 Missing Script：静态无法判定；由于 3 条未解析引用均为项目内对象，编辑器打开前不能认定缺失。",
+    "未做 Instantiate / 加载进场景 / 字体测量 / 任何序列化写入。"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: STEP 3/5 passed; wait for actual player loop"
+      }
+    ],
+    "isError": false
+  },
+  "id": 71,
+  "jsonrpc": "2.0"
+}

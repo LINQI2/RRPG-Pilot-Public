@@ -1,0 +1,106 @@
+[
+  {
+    "Path": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\02_Candidates\\Village\\Persons\\person_world_neutral_sw_r1.png",
+    "Width": 1254,
+    "Height": 1254,
+    "PixelFormat": "Format32bppArgb",
+    "SHA256": "7B4E80E754FFBA46BB85EA5844748C72FE853DC30544FF96CD0DDE3B35D61E73",
+    "SamplingStride": 4,
+    "FullyTransparentSamples": 84673,
+    "PartialAlphaSamples": 13876,
+    "OpaqueSamples": 47,
+    "MostFrequentAlpha": [
+      {
+        "Alpha": 0,
+        "Samples": 84673
+      },
+      {
+        "Alpha": 253,
+        "Samples": 10478
+      },
+      {
+        "Alpha": 252,
+        "Samples": 1377
+      },
+      {
+        "Alpha": 251,
+        "Samples": 306
+      },
+      {
+        "Alpha": 1,
+        "Samples": 240
+      },
+      {
+        "Alpha": 254,
+        "Samples": 154
+      },
+      {
+        "Alpha": 250,
+        "Samples": 116
+      },
+      {
+        "Alpha": 2,
+        "Samples": 83
+      }
+    ],
+    "ApproxBoundsAlphaAbove8": [
+      436,
+      132,
+      796,
+      1104
+    ],
+    "Note": "Sampled alpha/content bounds, not a full pixel scan. No image modified. Runtime scale/pivot not validated."
+  },
+  {
+    "Path": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\02_Candidates\\Village\\Persons\\person_world_neutral_ne_r1.png",
+    "Width": 1254,
+    "Height": 1254,
+    "PixelFormat": "Format32bppArgb",
+    "SHA256": "8B9BA49A7557E079FACE92C7E832B2E4E55C755E00FCCDC9317A628C84A35780",
+    "SamplingStride": 4,
+    "FullyTransparentSamples": 85577,
+    "PartialAlphaSamples": 12963,
+    "OpaqueSamples": 56,
+    "MostFrequentAlpha": [
+      {
+        "Alpha": 0,
+        "Samples": 85577
+      },
+      {
+        "Alpha": 253,
+        "Samples": 9937
+      },
+      {
+        "Alpha": 252,
+        "Samples": 1385
+      },
+      {
+        "Alpha": 251,
+        "Samples": 287
+      },
+      {
+        "Alpha": 1,
+        "Samples": 197
+      },
+      {
+        "Alpha": 254,
+        "Samples": 124
+      },
+      {
+        "Alpha": 250,
+        "Samples": 118
+      },
+      {
+        "Alpha": 2,
+        "Samples": 99
+      }
+    ],
+    "ApproxBoundsAlphaAbove8": [
+      452,
+      132,
+      788,
+      1092
+    ],
+    "Note": "Sampled alpha/content bounds, not a full pixel scan. No image modified. Runtime scale/pivot not validated."
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: \"Battle preserveAspect=False type=Simple color=RGBA(1.000, 1.000, 1.000, 1.000) Journey preserveAspect=False type=Simple color=RGBA(1.000, 1.000, 1.000, 1.000) SceneDirty=False\""
+      }
+    ],
+    "isError": false
+  },
+  "id": 84,
+  "jsonrpc": "2.0"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: \"PASS: real Continue/Home; EventSystem=1; actual raycast+pointer clicks for Cards, History, close, build catalog/choose/cancel and Settings/close; transparent modal mask blocks; decorative backplates do not block; HUD in viewport; simulation save data unchanged; Screen=1920x1080\""
+      }
+    ],
+    "isError": false
+  },
+  "id": 77,
+  "jsonrpc": "2.0"
+}

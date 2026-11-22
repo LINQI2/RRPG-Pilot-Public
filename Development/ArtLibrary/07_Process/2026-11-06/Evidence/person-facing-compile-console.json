@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "0 results\nlogType|message"
+      }
+    ],
+    "isError": false
+  },
+  "id": 56,
+  "jsonrpc": "2.0"
+}

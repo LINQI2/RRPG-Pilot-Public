@@ -1,0 +1,77 @@
+{
+  "_generated": {
+    "doNotEdit": true,
+    "tool": "RRPG.ConfigCompiler",
+    "formatVersion": "rrpg-static-config-mirror/1",
+    "sourceSha256": "9151009287e3e6ada701f8c0085d6d5ab8029d77be6febe37b3648f6563e52af",
+    "notice": "本文件由 RRPG ConfigCompiler 生成，禁止手工编辑；唯一人工 Authoring Authority 是 XLSX（Development/Config）。"
+  },
+  "irVersion": "rrpg-static-config-mirror/1",
+  "source": {
+    "workbook": "Config/RRPG_InitialWorld.xlsx",
+    "sheet": "InitialWorld",
+    "machineFieldRow": 1,
+    "typeRow": 2,
+    "ruleRow": 3,
+    "displayHeaderRow": 4,
+    "firstDataRow": 5
+  },
+  "key": [
+    "ProfileId"
+  ],
+  "columns": [
+    {
+      "field": "Gold",
+      "type": "int",
+      "key": false,
+      "rules": [
+        ">=0"
+      ]
+    },
+    {
+      "field": "InitialFood",
+      "type": "int",
+      "key": false,
+      "rules": [
+        ">=0"
+      ]
+    },
+    {
+      "field": "InitialHeroId",
+      "type": "string",
+      "key": false,
+      "rules": []
+    },
+    {
+      "field": "InitialIngredients",
+      "type": "int",
+      "key": false,
+      "rules": [
+        ">=0"
+      ]
+    },
+    {
+      "field": "IsDefault",
+      "type": "bool",
+      "key": false,
+      "rules": []
+    },
+    {
+      "field": "ProfileId",
+      "type": "id",
+      "key": true,
+      "rules": []
+    }
+  ],
+  "rowCount": 1,
+  "rows": [
+    {
+      "Gold": 100,
+      "InitialFood": 0,
+      "InitialHeroId": "hero_001",
+      "InitialIngredients": 0,
+      "IsDefault": true,
+      "ProfileId": "iw_default_test"
+    }
+  ]
+}

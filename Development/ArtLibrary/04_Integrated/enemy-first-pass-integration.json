@@ -1,0 +1,69 @@
+[
+  {
+    "MonsterId": "mon_001",
+    "Candidate": "02_Candidates/Battle/Persons/enemy_slime_sw_r1.png",
+    "SourcePath": "Development/SourceAssets/Enemy/enemy_mon_001.png",
+    "GeneratedPath": "UnityProject/RRPG1.0game/Assets/Generated/StaticConfig/Assets/Enemy/enemy_mon_001.png",
+    "BeforeSHA256": "93F141B86F69DB07E6A8A3652484C360AFC878F5E5F9F787EC5D8FC70335DCA0",
+    "AfterSHA256": "08BF0B377ABED58A08CF4DFF326CAD024A004E81A3D964B393DC246C669FDEF4",
+    "Backup": "Development/ArtLibrary/08_ExistingProject/BeforeEnemyFirstPass/enemy_mon_001.png",
+    "ProductFlowVerified": true,
+    "ResolverVerified": true
+  },
+  {
+    "MonsterId": "mon_002",
+    "Candidate": "02_Candidates/Battle/Persons/enemy_skeleton_archer_sw_r1.png",
+    "SourcePath": "Development/SourceAssets/Enemy/enemy_mon_002.png",
+    "GeneratedPath": "UnityProject/RRPG1.0game/Assets/Generated/StaticConfig/Assets/Enemy/enemy_mon_002.png",
+    "BeforeSHA256": "8A8E7836876AE9EA591E135AD90A306B5B25D1AC313FD12EE5B05B61A367DBA0",
+    "AfterSHA256": "E93A0DFB95E3CC401945704BB8EA6BAB5D1D4818F330D9781E291F546ED80302",
+    "Backup": "Development/ArtLibrary/08_ExistingProject/BeforeEnemyFirstPass/enemy_mon_002.png",
+    "ProductFlowVerified": true,
+    "ResolverVerified": true
+  },
+  {
+    "MonsterId": "mon_003",
+    "Candidate": "02_Candidates/Battle/Persons/enemy_wolf_sw_r1.png",
+    "SourcePath": "Development/SourceAssets/Enemy/enemy_mon_003.png",
+    "GeneratedPath": "UnityProject/RRPG1.0game/Assets/Generated/StaticConfig/Assets/Enemy/enemy_mon_003.png",
+    "BeforeSHA256": "5421A021FCBD21EEA19B49258899C3120C3FD4B5C53C61F8EF2158E683D414BD",
+    "AfterSHA256": "E504FB68722722B9B95A93F74BDD1215C4B4EE085A6A71FF604C36F9A387A007",
+    "Backup": "Development/ArtLibrary/08_ExistingProject/BeforeEnemyFirstPass/enemy_mon_003.png",
+    "ProductFlowVerified": true,
+    "ResolverVerified": true,
+    "VerificationScope": "2026-11-08: actual encounter -> original deployment -> started battle; three active enemy_mon_003 bodies and screenshot battle-distinct-portraits-turn1-r1.png"
+  },
+  {
+    "MonsterId": "mon_004",
+    "Candidate": "02_Candidates/Battle/Persons/enemy_knight_sw_r2.png",
+    "SourcePath": "Development/SourceAssets/Enemy/enemy_mon_004.png",
+    "GeneratedPath": "UnityProject/RRPG1.0game/Assets/Generated/StaticConfig/Assets/Enemy/enemy_mon_004.png",
+    "BeforeSHA256": "53EAD04BAD37237C760DA249A2D0A0BE82E4E32609E635968040F5AFE4C86633",
+    "AfterSHA256": "48A70C5F8C2CC52840342BFF5BA50FF7459C083021A573DD678B85D9B45DA1EB",
+    "Backup": "Development/ArtLibrary/08_ExistingProject/BeforeEnemyFirstPass/enemy_mon_004.png",
+    "ProductFlowVerified": true,
+    "ResolverVerified": true
+  },
+  {
+    "MonsterId": "mon_005",
+    "Candidate": "02_Candidates/Battle/Persons/enemy_forest_caster_sw_r1.png",
+    "SourcePath": "Development/SourceAssets/Enemy/enemy_mon_005.png",
+    "GeneratedPath": "UnityProject/RRPG1.0game/Assets/Generated/StaticConfig/Assets/Enemy/enemy_mon_005.png",
+    "BeforeSHA256": "36EEFD716F98FB76A9D2FE81B7583D67DF903F2BFCA63A063FD32DA8DC3DBFDF",
+    "AfterSHA256": "1101A831580D61E81E7C1BDC7760A1BAE349340500A5B6817F4D72C0C3EE528B",
+    "Backup": "Development/ArtLibrary/08_ExistingProject/BeforeEnemyFirstPass/enemy_mon_005.png",
+    "ProductFlowVerified": true,
+    "ResolverVerified": true
+  },
+  {
+    "MonsterId": "mon_006",
+    "Candidate": "02_Candidates/Battle/Persons/enemy_bone_beast_sw_r1.png",
+    "SourcePath": "Development/SourceAssets/Enemy/enemy_mon_006.png",
+    "GeneratedPath": "UnityProject/RRPG1.0game/Assets/Generated/StaticConfig/Assets/Enemy/enemy_mon_006.png",
+    "BeforeSHA256": "900B6B840DC8D322BBCBD5A3CC29C13199746AAB95B4EC0C3EC184F8AD0951B6",
+    "AfterSHA256": "DEA6612C6AF489669D244658C731B3944641C889280001D5CF87740CA3EB858D",
+    "Backup": "Development/ArtLibrary/08_ExistingProject/BeforeEnemyFirstPass/enemy_mon_006.png",
+    "ProductFlowVerified": true,
+    "ResolverVerified": true
+  }
+]

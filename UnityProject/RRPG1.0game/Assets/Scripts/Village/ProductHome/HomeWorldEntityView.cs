@@ -31,16 +31,23 @@ public sealed class HomeWorldEntityView : MonoBehaviour
     private bool _prototype;
     private bool _readableLabel=true;
     private BoxCollider2D _spriteHit;
+    private PolygonCollider2D _footprintHit;
+    private Sprite _frontSprite;
+    private bool _frontFacesRight;
+    private bool _facingFlip;
     public int DepthOrder => _body.sortingOrder;
     public void SetLabelReadability(bool readable) { if(_readableLabel==readable) return;_readableLabel=readable;RefreshSelection(); }
     public void SetVisualPrototype(bool enabled)
     {
         _prototype=enabled;
+        _facingFlip=false;_body.flipX=false;_ring.flipX=false;
         _body.transform.localPosition=Vector3.zero;
         _body.transform.localScale=Kind==HomeSelectionKind.Person ? new Vector3(.38f,.62f,1) : new Vector3(2.25f,1.25f,1);
         GetComponent<BoxCollider2D>().size=Kind==HomeSelectionKind.Person ? new Vector2(.65f,.8f) : new Vector2(2.1f,1.1f);
         GetComponent<BoxCollider2D>().offset=Vector2.zero;
-        _name.transform.localPosition=new Vector3(0,Kind==HomeSelectionKind.Person ? -.5f : .88f,-.05f);
+        GetComponent<BoxCollider2D>().enabled=!enabled || Kind!=HomeSelectionKind.Building;
+        if(_footprintHit!=null) _footprintHit.enabled=enabled;
+        _name.transform.localPosition=new Vector3(0,Kind==HomeSelectionKind.Person ? (enabled ? -.22f : -.5f) : .88f,-.05f);
         _normal=Kind==HomeSelectionKind.Person ? new Color(.92f,.89f,.68f) : new Color(.28f,.52f,.45f);
         if(_spriteHit!=null) _spriteHit.enabled=enabled;
         RefreshSelection();
@@ -57,16 +64,22 @@ public sealed class HomeWorldEntityView : MonoBehaviour
         if(!ResolvedSharedAsset && Diagnostic!=diagnostic) Debug.LogWarning("[ProductHome] "+diagnostic);
         Diagnostic=diagnostic;_body.sprite=sprite;_ring.sprite=sprite;_body.enabled=true;
         if(!_prototype) return;
+        if(Kind==HomeSelectionKind.Person)
+        {
+            _frontSprite=sprite;
+            _frontFacesRight=key.EndsWith(".se",System.StringComparison.Ordinal);
+            ApplyFacing();
+        }
         var size=sprite.bounds.size;
         float width=Kind==HomeSelectionKind.Person ? .72f : 2.25f;
-        float height=Kind==HomeSelectionKind.Person ? 1.1f : 1.9f;
+        float height=Kind==HomeSelectionKind.Person ? 1.5f : 1.9f;
         if(Kind==HomeSelectionKind.Person) width=height*size.x/Mathf.Max(size.y,.001f);
         _body.transform.localScale=new Vector3(width/Mathf.Max(size.x,.001f),height/Mathf.Max(size.y,.001f),1);
-        _body.transform.localPosition=new Vector3(0,Kind==HomeSelectionKind.Person ? .3f : .35f,0);
+        _body.transform.localPosition=new Vector3(0,Kind==HomeSelectionKind.Person ? (.88f-.5f)*height : .35f,0);
         _normal=Color.white;_body.color=Color.white;
         if(Kind==HomeSelectionKind.Person)
         {
-            var collider=GetComponent<BoxCollider2D>();collider.size=new Vector2(width,1.1f);collider.offset=new Vector2(0,.3f);
+            var collider=GetComponent<BoxCollider2D>();collider.size=new Vector2(width*.5f,height*.78f);collider.offset=new Vector2(0,height*.39f);
         }
         UpdateDepth();
     }
@@ -127,6 +140,15 @@ public sealed class HomeWorldEntityView : MonoBehaviour
         _name.text=place.DisplayName;_hoverSummary=place.Status; transform.position=anchor; _target=anchor; _positioned=true;
         // 固定世界场所有自己的美术（如酒馆白模），不使用 Place 的通用绿色 tint。
         if(place.IsFixedPlace) _body.color=Color.white;
+        if(_prototype && place.IsFixedPlace && _body.sprite!=null)
+        {
+            // Fixed-place art has a canvas anchor, but no buildable footprint or BuildingInstance.
+            float scale=5.2f/Mathf.Max(_body.sprite.bounds.size.x,.001f);
+            _body.transform.localScale=new Vector3(scale,scale,1);
+            float height=_body.sprite.bounds.size.y*scale;
+            _body.transform.localPosition=new Vector3(0,height*.20f,0);
+            var hit=GetComponent<BoxCollider2D>();hit.size=new Vector2(3.8f,3.2f);hit.offset=new Vector2(0,.7f);
+        }
         RefreshSelection();
         UpdateDepth();
     }
@@ -146,16 +168,20 @@ public sealed class HomeWorldEntityView : MonoBehaviour
         _body.color=Color.white;_body.sortingOrder=3;
         if(_prototype)
         {
-            float height=building.Width*size.y/Mathf.Max(size.x,.001f);
-            _body.transform.localScale=new Vector3(building.Width/Mathf.Max(size.x,.001f),height/Mathf.Max(size.y,.001f),1);
-            _body.transform.localPosition=new Vector3(0,-building.Depth*.5f+height*.5f,0);
+            float scale=HomeArtCalibration.CanvasWidth(building.DefinitionId,building.Width,building.Depth)/Mathf.Max(size.x,.001f);
+            float height=size.y*scale;
+            _body.transform.localScale=new Vector3(scale,scale,1);
+            _body.transform.localPosition=new Vector3(0,(HomeArtCalibration.AnchorY(building.DefinitionId)-.5f)*height,0);
             if(_spriteHit==null) _spriteHit=_body.gameObject.AddComponent<BoxCollider2D>();
-            _spriteHit.size=new Vector2(size.x,size.y);_spriteHit.enabled=true;
+            _spriteHit.size=new Vector2(size.x*.66f,size.y*.68f);_spriteHit.enabled=true;
+            if(_footprintHit==null) _footprintHit=gameObject.AddComponent<PolygonCollider2D>();
+            _footprintHit.points=new[]{(Vector2)BuildingWorldMapper.Offset(new Vector2(-building.Width*.5f,-building.Depth*.5f)),(Vector2)BuildingWorldMapper.Offset(new Vector2(building.Width*.5f,-building.Depth*.5f)),(Vector2)BuildingWorldMapper.Offset(new Vector2(building.Width*.5f,building.Depth*.5f)),(Vector2)BuildingWorldMapper.Offset(new Vector2(-building.Width*.5f,building.Depth*.5f))};
+            _footprintHit.enabled=true;
             _body.color=building.LifecycleState==BuildingLifecycleState.Completed ? Color.white : new Color(.77f,.79f,.74f,.8f);
         }
         _ring.sortingOrder=2;GetComponent<BoxCollider2D>().size=new Vector2(building.Width,building.Depth);
         HomeBuildingFootprint.SetSize(_footprint,building.Width,building.Depth);
-        _name.transform.localPosition=new Vector3(0,building.Depth*.5f+.3f,-.05f);RefreshSelection();
+        _name.transform.localPosition=new Vector3(0,_prototype ? (building.Width+building.Depth)*.225f+.3f : building.Depth*.5f+.3f,-.05f);RefreshSelection();
         UpdateDepth();
     }
     public void ApplyPerson(HomePersonSnapshot person,Vector3 anchor,Vector3 destination)
@@ -170,7 +196,7 @@ public sealed class HomeWorldEntityView : MonoBehaviour
             if (_destination!=person.DestinationPlaceId) { _travelOrigin=transform.position; _destination=person.DestinationPlaceId; }
             // Never visually arrive before the authority: stop short while still traveling.
             _target=Vector3.Lerp(_travelOrigin,destination,.82f);
-            _body.color=new Color(.6f,.8f,1);
+            _body.color=_prototype ? Color.white : new Color(.6f,.8f,1);
         }
         // Arrival and activity changes update the visual target, never snap an existing person.
         // Actual presence still comes from the snapshot even while presentation catches up.
@@ -194,8 +220,26 @@ public sealed class HomeWorldEntityView : MonoBehaviour
     }
     public void StepPresentation(float seconds)
     {
-        if (PresentationVisible) transform.position=Vector3.MoveTowards(transform.position,_target,Mathf.Max(0,seconds)*2f);
+        if (PresentationVisible)
+        {
+            if(_prototype && Kind==HomeSelectionKind.Person && seconds>0)
+            {
+                var delta=_target-transform.position;
+                if(delta.sqrMagnitude>.0004f)
+                {
+                    if(Mathf.Abs(delta.x)>.025f)_facingFlip=_frontFacesRight ? delta.x<0 : delta.x>0;
+                    ApplyFacing();
+                }
+            }
+            transform.position=Vector3.MoveTowards(transform.position,_target,Mathf.Max(0,seconds)*2f);
+        }
         UpdateDepth();
+    }
+    private void ApplyFacing()
+    {
+        // One authored view with an optional horizontal mirror; no directional asset dependency.
+        _body.sprite=_frontSprite;
+        _ring.sprite=_body.sprite;_body.flipX=_facingFlip;_ring.flipX=_facingFlip;
     }
     public void RefreshSelection()
     {

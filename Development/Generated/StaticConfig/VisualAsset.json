@@ -1,0 +1,217 @@
+{
+  "_generated": {
+    "doNotEdit": true,
+    "tool": "RRPG.ConfigCompiler",
+    "formatVersion": "rrpg-static-config-mirror/1",
+    "sourceSha256": "0757db0db57f94e77c8ab16feab1f8e1063f454682abbc39e1ecc75fc2af0008",
+    "notice": "本文件由 RRPG ConfigCompiler 生成，禁止手工编辑；唯一人工 Authoring Authority 是 XLSX（Development/Config）。"
+  },
+  "irVersion": "rrpg-static-config-mirror/1",
+  "source": {
+    "workbook": "Config/RRPG_VisualAssets.xlsx",
+    "sheet": "VisualAsset",
+    "machineFieldRow": 1,
+    "typeRow": 2,
+    "ruleRow": 3,
+    "displayHeaderRow": 4,
+    "firstDataRow": 5
+  },
+  "key": [
+    "VisualAssetId"
+  ],
+  "columns": [
+    {
+      "field": "ImportPreset",
+      "type": "string",
+      "key": false,
+      "rules": [
+        "allowed=sprite_point_100"
+      ]
+    },
+    {
+      "field": "SourceFile",
+      "type": "string",
+      "key": false,
+      "rules": []
+    },
+    {
+      "field": "VisualAssetId",
+      "type": "id",
+      "key": true,
+      "rules": []
+    }
+  ],
+  "rowCount": 34,
+  "rows": [
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Enemy/enemy_mon_001.png",
+      "VisualAssetId": "va_enemy_mon_001"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Enemy/enemy_mon_002.png",
+      "VisualAssetId": "va_enemy_mon_002"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Enemy/enemy_mon_003.png",
+      "VisualAssetId": "va_enemy_mon_003"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Enemy/enemy_mon_004.png",
+      "VisualAssetId": "va_enemy_mon_004"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Enemy/enemy_mon_005.png",
+      "VisualAssetId": "va_enemy_mon_005"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Enemy/enemy_mon_006.png",
+      "VisualAssetId": "va_enemy_mon_006"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/farm-proof.png",
+      "VisualAssetId": "va_village_farm_basic"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/farm-proof-b.png",
+      "VisualAssetId": "va_village_farm_visual_b"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/A-Tier/house-a.png",
+      "VisualAssetId": "va_village_house_a"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/A-Tier/kitchen-a.png",
+      "VisualAssetId": "va_village_kitchen_a"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/neutral_marker.png",
+      "VisualAssetId": "va_village_neutral_marker"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/A-Tier/person-a.png",
+      "VisualAssetId": "va_village_person_a"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_red_cape_ne_r1.png",
+      "VisualAssetId": "va_village_person_hero_001_ne"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_red_cape_se_r1.png",
+      "VisualAssetId": "va_village_person_hero_001_se"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_han_zhao_teal_ne_r1.png",
+      "VisualAssetId": "va_village_person_person_han_zhao_ne"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_han_zhao_teal_se_r1.png",
+      "VisualAssetId": "va_village_person_person_han_zhao_se"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_green_archer_ne_r1.png",
+      "VisualAssetId": "va_village_person_person_lin_en_ne"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_green_archer_se_r1.png",
+      "VisualAssetId": "va_village_person_person_lin_en_se"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_qiu_shuang_ochre_ne_r1.png",
+      "VisualAssetId": "va_village_person_person_qiu_shuang_ne"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_qiu_shuang_ochre_se_r1.png",
+      "VisualAssetId": "va_village_person_person_qiu_shuang_se"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_purple_mage_ne_r1.png",
+      "VisualAssetId": "va_village_person_person_su_wan_ne"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_purple_mage_se_r1.png",
+      "VisualAssetId": "va_village_person_person_su_wan_se"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_wei_an_slate_ne_r1.png",
+      "VisualAssetId": "va_village_person_person_wei_an_ne"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/ArtUpgrade01/Persons/person_wei_an_slate_se_r1.png",
+      "VisualAssetId": "va_village_person_person_wei_an_se"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/R2Prototype/farm.png",
+      "VisualAssetId": "va_village_r2_farm"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/R2Prototype/home.png",
+      "VisualAssetId": "va_village_r2_home"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/R2Prototype/kitchen.png",
+      "VisualAssetId": "va_village_r2_kitchen"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/R2Prototype/person.png",
+      "VisualAssetId": "va_village_r2_person"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/R2Prototype/workshop.png",
+      "VisualAssetId": "va_village_r2_workshop"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/ArtUpgrade01/earth_surface_r1.png",
+      "VisualAssetId": "va_village_r5_earth"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/ArtUpgrade01/grass_surface_r1.png",
+      "VisualAssetId": "va_village_r5_grass"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/ArtUpgrade01/person_world_neutral_ne_r1.png",
+      "VisualAssetId": "va_village_r5_person_ne"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/ArtUpgrade01/tavern.png",
+      "VisualAssetId": "va_village_r5_tavern"
+    },
+    {
+      "ImportPreset": "sprite_point_100",
+      "SourceFile": "Village/A-Tier/tavern-a.png",
+      "VisualAssetId": "va_village_tavern_a"
+    }
+  ]
+}

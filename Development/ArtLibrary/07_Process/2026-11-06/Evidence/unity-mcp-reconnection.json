@@ -1,0 +1,7 @@
+{
+  "currentCodexEndpoint": "http://localhost:21867/mcp",
+  "initializeResponse": "event: message\ndata: {\"result\":{\"protocolVersion\":\"2024-11-05\",\"capabilities\":{\"logging\":{},\"prompts\":{\"listChanged\":true},\"resources\":{\"listChanged\":true},\"tools\":{\"listChanged\":true}},\"serverInfo\":{\"name\":\"gamedev-mcp-server\",\"version\":\"9.2.13.0\"}},\"id\":1,\"jsonrpc\":\"2.0\"}\n\n",
+  "previousCodexEndpoint": "http://localhost:29387/mcp",
+  "endpoint": "http://127.0.0.1:21867/mcp",
+  "sessionId": "O7AFLk5fOdv1_93gkioSqQ"
+}

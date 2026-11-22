@@ -1,0 +1,1 @@
+{"testMode":"EditMode","query":"tests | where fullName contains \"InitialWorldConfig\" or fullName contains \"InitialWorldProductWiringTests\"","includePassingTests":true,"includeMessages":true,"includeStacktrace":true}

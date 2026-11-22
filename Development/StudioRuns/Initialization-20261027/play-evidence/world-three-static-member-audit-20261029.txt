@@ -1,0 +1,82 @@
+# World 三例（VillageWorldProductIntegrationPlayTests）静态成员核查 + 保护面实测
+# 阶段 2/4 · 2026-10-29 · 只读反射 / 文件读取（未运行任何测试）
+# 来源：Unity Editor 实时反射 + 磁盘只读
+
+## 1. 源文件
+source = UnityProject/RRPG1.0game/Assets/Tests/PlayMode/Village/VillageWorldProductIntegrationPlayTests.cs
+sourceBytes = 27320
+sourceSha256 = d49513cdd1edb83102234dbfad5c31dba4ec1886b87f2c2790d20f35d2ca83eb
+sourceMtimeUtc = 2026-10-29T11:22:19Z（阶段 1/4 同因修正后未再改）
+
+## 2. 本类实际访问的 Bridge 静态成员（机械解析源码 + 反射核对）
+
+bridgeMember.Buildings => PROPERTY BuildingRuntime getter=True static=True
+bridgeMember.IsSimulationActive => FIELD Boolean static=True
+bridgeMember.Projects => FIELD VillageProjectSystem static=True
+bridgeMember.Time => FIELD VillageTime static=True
+bridgeMember.World => FIELD VillageWorldRegistry static=True
+
+bridgeStaticMethod.BuildSaveData => overloads=1 paramCounts=[0]
+bridgeStaticMethod.GetPersonPresence => overloads=1 paramCounts=[1]
+bridgeStaticMethod.ResetForTests => overloads=1 paramCounts=[0]
+bridgeStaticMethod.SetSimulationActive => overloads=1 paramCounts=[1]
+bridgeStaticMethod.TryAssignPerson => overloads=1 paramCounts=[2]
+bridgeStaticMethod.TryStartProject => overloads=1 paramCounts=[2]
+
+saveStaticMethod.GetSavePath => overloads=1 paramCounts=[0]
+saveStaticMethod.NewGame => overloads=2 paramCounts=[0,1]   # 调用点无实参 → 按“实参个数”唯一命中 0 参重载，无 AmbiguousMatch
+saveStaticMethod.Save => overloads=1 paramCounts=[1]
+
+WorldLayerProperty.CanvasVisible => Boolean getter=True
+WorldLayerProperty.MarkerSummary => String getter=True
+WorldLayerProperty.OnsitePanelVisible => Boolean getter=True
+WorldLayerProperty.OnsiteSummary => String getter=True
+
+TownUIProperty.PlayerData => PlayerCollection
+MainMenuMethod.OnContinue => overloads=1 paramCounts=[0]
+
+staticWorkplaceRefs(`"ws_`) = 0
+
+## 3. 结论
+- 本类唯一同类缺陷（把 Buildings property 当 field 读）已在阶段 1/4 同因修正（GetBridgeMember / GetBridgeBuildings），本轮机械核查确认无其它 property/field 混用。
+- 其余成员均为 FIELD，按字段读取正确；NewGame 有 2 个重载但按实参个数定位为唯一。
+- 类内已无任何静态 `ws_*` 岗位引用（正式实例岗位由 Completed building_farm 派生）。
+- 本阶段**未改动任何测试 / 产品文件**（用例体、业务断言、guard 契约保持阶段 1 后状态）。
+
+## 4. 阶段 1/4 宿主门禁结果（只读回看，未重跑）
+testResults（VillageCommitmentProductIntegrationPlayTests，8 例）：
+CommitmentModal_BlocksTownButtons_WhenOpen_AndRestoresAfterClose = Passed / 847 ms
+CommitmentRows_AreGeometricallyVisible_InGameView = Passed / 547 ms
+CommitmentUI_RealTown_AssignAndProject_ClosedLoop_PanelDoesNotPauseSimulation = Passed / 2746 ms
+CommitmentUI_ReflectsRuntimeAfterSaveLoad_MidProject = Passed / 921 ms
+IntradayActivity_RealTownDriver_CommutesThenExecutes_SaveDoesNotComplete = Passed / 6710 ms
+IntradayOnsite_RealTownVisibleClickableCloseDoesNotChangeSimulation = Passed / 863 ms
+IntradayWork_RealTownAssignment_CommutingLaborLunchVisible = Passed / 475 ms
+VillageTMP_LabelsRender_AndKitchenRowsStableAcrossRefresh = Passed / 1315 ms
+→ 8/8 Passed，0 fail，0 skip。
+
+阶段 1 门禁 run 的 8 个 guard（SetUp Capture → TearDown Restore）逐项核验：
+20261029T112517Z:restored,bakOk=True,curEqSrc=True
+20261029T112518Z:restored,bakOk=True,curEqSrc=True
+20261029T112518Z-2:restored,bakOk=True,curEqSrc=True
+20261029T112521Z:restored,bakOk=True,curEqSrc=True
+20261029T112522Z:restored,bakOk=True,curEqSrc=True
+20261029T112529Z:restored,bakOk=True,curEqSrc=True
+20261029T112530Z:restored,bakOk=True,curEqSrc=True
+20261029T112530Z-2:restored,bakOk=True,curEqSrc=True
+（bakOk = original-save.bin 实际 SHA == manifest backupSha256；curEqSrc = 当前用户档 SHA == sourceSha256 == backupSha256）
+→ 8/8 逐字节完整恢复；本轮之前阶段 1 的异常（NRE）在该 host run 的 console 中**未再出现**。
+
+## 5. 保护面（本阶段只读实测）
+identity = RRPG_AI_Pilot | DefaultCompany | 2022.3.62t9
+editor = playing=False paused=False compiling=False updating=False
+prefabStage = null
+scene = SampleScene dirty=False roots=5
+baseline 34 = total 34 / same 34 / changed 0 / missing 0
+font = 14961033 B / 3c758e16d62ef8bd36331a6ad26fc00bc165606f6b6bcdfe24da44108c404854 / subAssets=9 / dirty=0
+userSave = exists True / 13134 B / adcf5d8bb0a638ea2d4dc0f7d936c1aaad7492cd19022521010e9f59fd8ceb08 / tmp=0
+Initialization guard = dirs 95 / restored 95 / protective 0 / other 0 / noManifest 0
+R3B guard = dirs 345 / restored 344 / protective 1(既有 20261024T052704Z) / other 0 / noManifest 0
+Tool_Tests.HasPendingTestRun = False; EditModeLauncher.IsRunning = False; PlaymodeLauncher.IsRunning = False
+playTestsDll = 162816 B / c10d0045ce254b4b2f69c3f3ff9d50978343d3b9f6d0ef60d0929e2d98377735 / mtime 2026-10-29T11:22:21.4591300Z
+（即阶段 1/4 编译产物；本阶段未再改任何 .cs，故无需重新编译 / Refresh）

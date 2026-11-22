@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: \"Project=D:/AI_Agent_Lab/rrpg_pilot/repo/UnityProject/RRPG1.0game/Assets Play=True Scene=Assets/Scenes/SampleScene.scene Dirty=False\""
+      }
+    ],
+    "isError": false
+  },
+  "id": 52,
+  "jsonrpc": "2.0"
+}

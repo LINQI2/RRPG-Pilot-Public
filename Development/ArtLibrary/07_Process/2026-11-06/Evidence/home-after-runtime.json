@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: B=True Buildings=7 Persons=6 Places=1 Frame=6122"
+      }
+    ],
+    "isError": false
+  },
+  "id": 31,
+  "jsonrpc": "2.0"
+}

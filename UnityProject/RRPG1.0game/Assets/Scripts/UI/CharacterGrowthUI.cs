@@ -328,7 +328,7 @@ public class CharacterGrowthUI : MonoBehaviour
 
         _contentRoot = NewRect("Content", canvasGo, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f),
             Vector2.zero, panelSize, false);
-        NewImage(_contentRoot, "Panel_Bg", new Color(0.12f, 0.12f, 0.14f, 0.96f),
+        NewImage(_contentRoot, "Panel_Bg", HomeProductUI.Paper,
             Vector2.zero, panelSize, true);
 
         NewText(_contentRoot, "Title", "人物成长", 40, Color.white, titlePosition, new Vector2(500, 60), false);
@@ -363,7 +363,7 @@ public class CharacterGrowthUI : MonoBehaviour
             var p = persons[i];
             Vector2 pos = new Vector2(0, listStartPosition.y - 60 - i * listSpacingY);
             var card = (RectTransform)NewButton(listRoot, "CharCard_" + p.PersonId, "", pos, listCardSize,
-                _selected == p ? new Color(0.25f, 0.4f, 0.25f, 1f) : new Color(0.2f, 0.2f, 0.25f, 1f),
+                _selected == p ? new Color(.92f, .78f, .51f) : new Color(.88f, .80f, .64f),
                 () => TrySelectPerson(p.PersonId)).transform;
 
             bool can = !HasPendingChoice && CharacterGrowthService.CanLevelUp(p, GrowthConfigProvider.Curve);
@@ -372,12 +372,12 @@ public class CharacterGrowthUI : MonoBehaviour
             string nameText = unavailable
                 ? p.DisplayName + "（未形成职业）"
                 : p.DisplayName + "  Lv." + auth.Level;
-            NewText(card, "Text_Name", nameText, 22, Color.white, new Vector2(-40, 12), new Vector2(260, 30));
+            NewText(card, "Text_Name", nameText, 22, Color.white, new Vector2(0, 12), new Vector2(260, 30));
             string expText = unavailable
                 ? "未形成职业，暂不可成长"
                 : "EXP " + auth.Exp + " / " + CharacterGrowthService.GetExpRequired(p, GrowthConfigProvider.Curve);
             NewText(card, "Text_Exp", expText, 16, can ? Color.yellow : Color.gray,
-                new Vector2(-40, -18), new Vector2(260, 26));
+                new Vector2(0, -18), new Vector2(260, 26));
 
             if (can)
                 NewImage(card, "RedDot", redDotColor, new Vector2(listCardSize.x * 0.5f - 18, listCardSize.y * 0.5f - 18),
@@ -756,7 +756,7 @@ public class CharacterGrowthUI : MonoBehaviour
         t.text = content;
         t.font = CurrentUIFontAuthority.Default;
         t.fontSize = fontSize;
-        t.color = color;
+        t.color = color == Color.gray ? HomeProductUI.MutedInk : HomeProductUI.Ink;
         t.alignment = TextAlignmentOptions.Left;
         t.enableWordWrapping = true;
         t.overflowMode = TextOverflowModes.Overflow;
@@ -768,7 +768,7 @@ public class CharacterGrowthUI : MonoBehaviour
     {
         var rt = NewRect(name, parent, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), pos, size, track);
         var img = rt.gameObject.AddComponent<Image>();
-        img.color = color;
+        img.color = color.grayscale < .6f ? new Color(.88f, .80f, .64f) : color;
         var btn = rt.gameObject.AddComponent<Button>();
         btn.targetGraphic = img;
         if (onClick != null) btn.onClick.AddListener(onClick);
@@ -780,7 +780,7 @@ public class CharacterGrowthUI : MonoBehaviour
             t.text = label;
             t.font = CurrentUIFontAuthority.Default;
             t.fontSize = 20;
-            t.color = Color.white;
+            t.color = HomeProductUI.Ink;
             t.alignment = TextAlignmentOptions.Center;
             t.enableWordWrapping = true;
             t.overflowMode = TextOverflowModes.Ellipsis;

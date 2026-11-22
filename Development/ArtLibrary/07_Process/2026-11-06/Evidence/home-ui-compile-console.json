@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "1 result\nlogType|message\nError|The resource UI/Skin/UISprite.psd could not be loaded from the resource file!"
+      }
+    ],
+    "isError": false
+  },
+  "id": 65,
+  "jsonrpc": "2.0"
+}

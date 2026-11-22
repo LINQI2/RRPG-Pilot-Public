@@ -1,0 +1,108 @@
+{
+  "originalFiles": 1416,
+  "missing": [],
+  "differences": [
+    {
+      "path": "Docs/DevelopmentSpecs/README.md",
+      "state": "changed",
+      "before": "ac33b46b05906a2be4674c9b26547098cf9831b6ff1552a5a3ca820e724df663",
+      "after": "f1eff13775950d8e4dc7f8db438d4f19ee89cb67f2d2300093d29e54d3d858b3"
+    },
+    {
+      "path": "Docs/开发验收交接.md",
+      "state": "changed",
+      "before": "929dc3cb30c2bfbfdb7b6b4ec7364f759dc080cd283dc79059ae58cbc93351fa",
+      "after": "9fc4b0f9eabf45997764e95c0b5936f12cc51b6f732273b473f988137bceeb83"
+    },
+    {
+      "path": "Docs/文档地图.md",
+      "state": "changed",
+      "before": "f20e54552f3dc075a71d0b0072101217fd235c351b73f7311e4363848af3d346",
+      "after": "07cff34def488890c367f7e98201ed0b5452e4774ad31c00eef27a97d7ae206e"
+    },
+    {
+      "path": "Docs/项目日志.md",
+      "state": "changed",
+      "before": "ade71534d767b2b11511d1b4fc2036c7610417759e270111f32cb2d46f07879b",
+      "after": "ab7d1d65bad79fb90c529f1508d522c8df3e9cd5b547104e8dd60fb6e8c98549"
+    },
+    {
+      "path": "Docs/项目状态快照.md",
+      "state": "changed",
+      "before": "4e6712e3bca9b4624e5bb3f633b4b9e33a00f655d5ed9f84808c8233d8d4560e",
+      "after": "8a5a69ab130664d9ff01e76ab3be6951bb43b0c3666cda89e5fb7ee75f4dbf8c"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Art/Fonts/SourceHanSansCN/RRPG_SourceHanSansCN_Regular_TMP.asset",
+      "state": "changed",
+      "before": "f0f5b901a5ef56a68450803e39510846ccfc38623ab0d3c8654b22f33bcf1681",
+      "after": "7b5717b976bac0d90dce70ba65b4dda0995bf78e8b3fd317ea9918058109c016"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/HomeProductShell.cs",
+      "state": "changed",
+      "before": "fbcb85949f6876557ee1aed56e5261763f30d74b6d0e12e672ce6a813f573878",
+      "after": "20f81f02e7245b9d241ebb842169fef0875a58b74739d245292bda617af87d16"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ProductHomeReadAdapter.cs",
+      "state": "changed",
+      "before": "8d1f849a09e4e1653051dd9988edbeef465adba7b18c624faa7261c5205a39d6",
+      "after": "9ea50e9ded64a0ba9ce431eaf14231c7f6e6388959d3e7e3ec0ce48ebce99743"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ProductHomeWorldHost.cs",
+      "state": "changed",
+      "before": "67c373945226824be22737e33f8b402f9154d0690557ef506ab4100f98d853e9",
+      "after": "f5ff39ac316aca3395eb095c4ce26f4f6a524c2af2afd7482d663904bb90f0ac"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/Runtime/ProductHomeSnapshot.cs",
+      "state": "changed",
+      "before": "32092e4dbe4fef5f1a14b1ebafddc80689b2895d309fe3108b0fd892e7f652d3",
+      "after": "844d1ad4603c280d3aa51c8f03fba175aa80eb70b67cc9938d47081751d1bfc8"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/Village/VillageVisualPrototypePlayTests.cs",
+      "state": "changed",
+      "before": "e9098d3a16529a04b390aa61f256c939acac848ffba84c1bcffb014890839eca",
+      "after": "157628bb4fb76d60f09cd0a9fc75c21654219270744ca86cf43e2bfa59b0c101"
+    },
+    {
+      "path": "Development/StudioRuns/Initialization-20261105/font-protection-README.md",
+      "state": "changed",
+      "before": "1ac6b6104eba3db1e712c5b3cc671a8d87d0527234e3c7ed1d7df96e8caf3934",
+      "after": "806a6a7c7a851dcf9a01b27e5b49ee0906a701177c99a7ced9e68e6516cd782f"
+    },
+    {
+      "path": "Development/StudioRuns/Initialization-20261105/font-protection/baseline.json",
+      "state": "changed",
+      "before": "f8e9e192ab9ec29fd1340b8471ebb21ae1f4bec231a7c71b3d12339a3b05daba",
+      "after": "6d6bc6da45434409b11f246f99ed463266aa9467a3a0526028ad6a9f3ce3aead"
+    },
+    {
+      "path": "Development/StudioRuns/Initialization-20261105/font-protection/baseline/RRPG_SourceHanSansCN_Regular_TMP.asset",
+      "state": "changed",
+      "before": "f0f5b901a5ef56a68450803e39510846ccfc38623ab0d3c8654b22f33bcf1681",
+      "after": "7b5717b976bac0d90dce70ba65b4dda0995bf78e8b3fd317ea9918058109c016"
+    },
+    {
+      "path": "Development/StudioRuns/Initialization-20261105/scripts/font-guard.ps1",
+      "state": "changed",
+      "before": "62906305a273fd3924326accf801d5b82bc14a0d9bd83ecc3999a181078d9586",
+      "after": "6935fd9475a3fa5920656016833cf5aacfd9c1449a2df0c01f62528987258a2c"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/ManagementView.cs",
+      "state": "changed",
+      "before": "e02de745c97edac5b2580aa1f9f33af64f7ae5cdac18bd15f65e2136cb702b3c",
+      "after": "6c218dafbea1885698aedfd6c15aeba7229b4f9ab91b9c516630969b3ca3ee02"
+    },
+    {
+      "path": "UnityProject/RRPG1.0game/TestResults/D-onsite-product.png",
+      "state": "changed",
+      "before": "29934264619a8ff1d723eac9b5d41fe0741094f9aeec65af56ec50904fb2073e",
+      "after": "6443c4c0d491743348a6c7cf307d1e1e4e9da74e4df8831edc46e95002415fa3"
+    }
+  ]
+}

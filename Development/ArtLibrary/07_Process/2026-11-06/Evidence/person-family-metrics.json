@@ -1,0 +1,74 @@
+[
+  {
+    "File": "person_world_adult_woman_sw_r1.png",
+    "Canvas": [
+      1254,
+      1254
+    ],
+    "ApproxBounds": [
+      424,
+      140,
+      800,
+      1108
+    ],
+    "RelativeVisibleWidth": 1.044,
+    "RelativeVisibleHeight": 0.996,
+    "BottomDeltaPixels": 4,
+    "SamplingStride": 4,
+    "Note": "Sampled silhouette bounds, not physical body measurements or a validated Unity pivot"
+  },
+  {
+    "File": "person_world_neutral_sw_r1.png",
+    "Canvas": [
+      1254,
+      1254
+    ],
+    "ApproxBounds": [
+      436,
+      132,
+      796,
+      1104
+    ],
+    "RelativeVisibleWidth": 1.0,
+    "RelativeVisibleHeight": 1.0,
+    "BottomDeltaPixels": 0,
+    "SamplingStride": 4,
+    "Note": "Sampled silhouette bounds, not physical body measurements or a validated Unity pivot"
+  },
+  {
+    "File": "person_world_older_man_sw_r1.png",
+    "Canvas": [
+      1254,
+      1254
+    ],
+    "ApproxBounds": [
+      440,
+      136,
+      792,
+      1108
+    ],
+    "RelativeVisibleWidth": 0.978,
+    "RelativeVisibleHeight": 1.0,
+    "BottomDeltaPixels": 4,
+    "SamplingStride": 4,
+    "Note": "Sampled silhouette bounds, not physical body measurements or a validated Unity pivot"
+  },
+  {
+    "File": "person_world_sturdy_sw_r1.png",
+    "Canvas": [
+      1254,
+      1254
+    ],
+    "ApproxBounds": [
+      380,
+      204,
+      864,
+      1100
+    ],
+    "RelativeVisibleWidth": 1.344,
+    "RelativeVisibleHeight": 0.922,
+    "BottomDeltaPixels": -4,
+    "SamplingStride": 4,
+    "Note": "Sampled silhouette bounds, not physical body measurements or a validated Unity pivot"
+  }
+]

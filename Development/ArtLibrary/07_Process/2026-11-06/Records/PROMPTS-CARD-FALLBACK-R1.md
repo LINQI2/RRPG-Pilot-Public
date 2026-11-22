@@ -1,0 +1,5 @@
+# 通用冒险题材卡牌回退插画
+
+Built-in image_gen；不代替专属动作插画；不表达规则效果。
+
+Production illustration for RRPG fantasy adventure card's general fallback art, square image, opaque background. Warm hand-painted storybook game style, broad simple readable shapes and soft dark outlines, ochre cream paper, muted olive green and brick red palette. Overhead three-quarter high camera looking down 45 degrees onto a neatly arranged travel kit: a small closed brown leather field journal with a plain clasp, a folded blank parchment map without marks or lettering, a simple brass compass with no letters, and one green leaf beside a short coil of rope, arranged on a warm wooden tabletop. Centered compact composition filling the square, large silhouettes readable at 150px. Calm neutral adventuring theme suitable for cards without a dedicated illustration; do not depict an attack, a spell or any numeric game effect. Soft directional light upper-left, restrained texture and contrast. No person, no text, no numbers, no icons outside objects, no card frame, no border, no UI, no watermark.

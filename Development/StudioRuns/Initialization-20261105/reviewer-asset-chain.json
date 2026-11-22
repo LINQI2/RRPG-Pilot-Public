@@ -1,0 +1,17 @@
+[
+  {
+    "id": "va_village_house_a",
+    "sourceMatches": true,
+    "generatedMatches": true
+  },
+  {
+    "id": "va_village_kitchen_a",
+    "sourceMatches": true,
+    "generatedMatches": true
+  },
+  {
+    "id": "va_village_person_a",
+    "sourceMatches": true,
+    "generatedMatches": true
+  }
+]

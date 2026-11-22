@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: \"PASS: real Home; 4 A/B transitions; 308 coordinate roundtrips; maxError=0.0003251208; persistent entities=13; diagonal colliders=7; ground meshes=4; textured feathered paths; ghostVisible=True; ghostAnchorError=0.0009765625; no placement/save invoked; frame=7520; world image saved; full GameView capture requested; Screen=1920x1080\""
+      }
+    ],
+    "isError": false
+  },
+  "id": 49,
+  "jsonrpc": "2.0"
+}

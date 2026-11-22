@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: World UI captured; B=True Settings=False Build=False SceneDirty=False"
+      }
+    ],
+    "isError": false
+  },
+  "id": 78,
+  "jsonrpc": "2.0"
+}

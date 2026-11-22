@@ -1,0 +1,32 @@
+{
+  "runId": "20261025T074636Z",
+  "status": "restored",
+  "captureUtc": "2026-10-25T07:46:36.0494858Z",
+  "updatedUtc": "2026-10-25T07:52:38.5490347Z",
+  "restoredUtc": "2026-10-25T07:52:38.5490347Z",
+  "sourcePath": "1PUBLIC_USER/AppData/LocalLow/DefaultCompany/RRPG_AI_Pilot\\rrpg_save_p0.json",
+  "sourceExisted": true,
+  "sourceBytes": 13405,
+  "sourceSha256": "4b2b56f6f2b00b81a5e32c520905ad4fdb417d05b8a835924675f57f5502d6aa",
+  "sourceLastWriteTimeUtc": "2026-10-25T07:42:15.9317885Z",
+  "sourceMtimeUnchanged": true,
+  "backupFile": "original-save.bin",
+  "backupBytes": 13405,
+  "backupSha256": "4b2b56f6f2b00b81a5e32c520905ad4fdb417d05b8a835924675f57f5502d6aa",
+  "readbackVerified": true,
+  "restored": true,
+  "restoreSource": "Development/StudioRuns/R3B-SaveProtection-20261024/20261025T074636Z/original-save.bin",
+  "restoredSavePath": "1PUBLIC_USER/AppData/LocalLow/DefaultCompany/RRPG_AI_Pilot/rrpg_save_p0.json",
+  "restoredSaveBytes": 13405,
+  "restoredSaveSha256": "4b2b56f6f2b00b81a5e32c520905ad4fdb417d05b8a835924675f57f5502d6aa",
+  "preRestoreSaveBytes": 13402,
+  "preRestoreSaveSha256": "4d2562a833aa1d7a301e7da34bf943a8e66e7920734faa6117dbb5e23206f25b",
+  "residueBackupRunId": "20261025T075219Z-residue",
+  "lastError": null,
+  "capturedBy": "R3B full-play current preflight protective snapshot (agent direct file API; no test run)",
+  "note": "capture 阶段 note（保留历史语义）：只允许用本 runID 的 original-save.bin 恢复；capture 时 SaveSlotGuard 视为合法终态 protective-snapshot。恢复后终态以 status/statusHistory 为准。",
+  "statusHistory": [
+    { "status": "protective-snapshot", "atUtc": "2026-10-25T07:46:36.0494858Z", "by": "R3B full-play current preflight protective snapshot" },
+    { "status": "restored", "atUtc": "2026-10-25T07:52:38.5490347Z", "by": "R3B post-play save protection executor", "residueBackupRunId": "20261025T075219Z-residue", "readbackVerified": true }
+  ]
+}

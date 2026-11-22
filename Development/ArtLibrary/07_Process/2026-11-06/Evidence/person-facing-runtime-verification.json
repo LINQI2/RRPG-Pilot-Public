@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: \"PASS: real Home; 4 A/B transitions; 308 coordinate roundtrips; maxError=0.0003251208; persistent entities=13; diagonal colliders=7; ground meshes=4; textured feathered paths; ghostVisible=True; ghostAnchorError=0.0009765625; no placement/save invoked; frame=11573 | PASS: 4 movement quadrants select front/back and mirror; selection sprite agrees; periodic refresh retains orientation; domain save data unchanged. Component probe on real Home view, not a walking-animation acceptance.\""
+      }
+    ],
+    "isError": false
+  },
+  "id": 59,
+  "jsonrpc": "2.0"
+}

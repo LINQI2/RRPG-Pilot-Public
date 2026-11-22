@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: Play=False Dirty=False SaveUnchanged=True"
+      }
+    ],
+    "isError": false
+  },
+  "id": 103,
+  "jsonrpc": "2.0"
+}

@@ -1,0 +1,412 @@
+[
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\visual-target-01.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\01_Direction\\Selected\\visual-target-01.png",
+    "Kind": "art",
+    "Status": "style_selected",
+    "Purpose": "风格参考",
+    "Reason": "采用温暖插画色彩/材质；原镜头与假UI未采用",
+    "SHA256": "F6438ACE0DDF8E1AF1AA78A15D3697D8780D4774377B9E73F046D6503C14C32E",
+    "Bytes": 2534819
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\home-spatial-r4.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\01_Direction\\Selected\\home-spatial-r4.png",
+    "Kind": "art",
+    "Status": "camera_selected",
+    "Purpose": "镜头参考",
+    "Reason": "视角已认可；原朝向与布局需修正",
+    "SHA256": "6DCF6342C1C961B0CF018A35B419CB2AB13D21ABA6F1E313C95A281695B9EA2C",
+    "Bytes": 2480489
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\home-spatial-r5-grid.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\01_Direction\\Working\\home-spatial-r5-grid.png",
+    "Kind": "art",
+    "Status": "alignment_proposal",
+    "Purpose": "网格校准",
+    "Reason": "当前统一斜向网格方案；非运行截图/保存布局",
+    "SHA256": "15AF074A40B52AF377AC3C240F90A1065896A2AADB1E547C5B9823CEAF18AEF9",
+    "Bytes": 2492207
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\house_r3.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\02_Candidates\\Village\\Buildings\\house_r3.png",
+    "Kind": "art",
+    "Status": "candidate",
+    "Purpose": "住宅源图",
+    "Reason": "待统一网格与实机尺寸/遮挡/点击验证",
+    "SHA256": "C9112ACF460A72653C8CBBC26200EC3391C8C6A1BEFF8BFD9FF0C793F795B42D",
+    "Bytes": 934131
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\kitchen_r3.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\02_Candidates\\Village\\Buildings\\kitchen_r3.png",
+    "Kind": "art",
+    "Status": "candidate",
+    "Purpose": "厨房源图",
+    "Reason": "无火烟底图；待网格与实机验证",
+    "SHA256": "025FA01238BA3A45C08831E7439A2A0335358076965FE4D7489F04D34596E21A",
+    "Bytes": 921524
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\farm_r5_candidate.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\02_Candidates\\Village\\Farms\\farm_r5_candidate.png",
+    "Kind": "art",
+    "Status": "candidate",
+    "Purpose": "农田源图",
+    "Reason": "接近3×2投影；Alpha边缘与实机占地待验",
+    "SHA256": "F4CEE673723348052EAE5D3924F038F1A342B15488344E034144D58E4686FAC3",
+    "Bytes": 1884732
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\home-spatial-r3-topdown-control.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\05_Experiments\\CameraControls\\home-spatial-r3-topdown-control.png",
+    "Kind": "art",
+    "Status": "control_only",
+    "Purpose": "镜头对照",
+    "Reason": "极端顶视上限，非当前量产方向",
+    "SHA256": "4C22F234E00B0441228D19F0607B86ABD5F834BC5DC1157EA7739259288D7651",
+    "Bytes": 2515265
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\house_r2_high.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\05_Experiments\\CameraControls\\house_r2_high.png",
+    "Kind": "art",
+    "Status": "control_only",
+    "Purpose": "住宅对照",
+    "Reason": "更高俯视，与当前R4/R5镜头不混用",
+    "SHA256": "161FF2453BA59953ED0C6EFAFB9536A48BAB72D0A99AFDA5167275B3E741F786",
+    "Bytes": 1034228
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\kitchen_r2_high.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\05_Experiments\\CameraControls\\kitchen_r2_high.png",
+    "Kind": "art",
+    "Status": "control_only",
+    "Purpose": "厨房对照",
+    "Reason": "更高俯视，与当前R4/R5镜头不混用",
+    "SHA256": "7EE92A7C60CFB864671FC1FAD279E30FDA737F5F0A450C489EEA51100F6B84FF",
+    "Bytes": 1143681
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\visual-target-02.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\06_Abandoned\\NotSelected\\visual-target-02.png",
+    "Kind": "art",
+    "Status": "not_selected",
+    "Purpose": "未选画风",
+    "Reason": "制作人选择01；02留作历史，不是技术失败",
+    "SHA256": "224EFE7A8352D1B7D00E3C89899E6F35DED2BF8AA7D892C6F29CF51AA3552F2B",
+    "Bytes": 1977002
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\visual-target-03.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\06_Abandoned\\NotSelected\\visual-target-03.png",
+    "Kind": "art",
+    "Status": "not_selected",
+    "Purpose": "未选画风",
+    "Reason": "制作人选择01；03留作历史，不是技术失败",
+    "SHA256": "DBA452FF088613A9EDB462860005DC513574DE1B46E6D4B67CC63093AE2D7A6D",
+    "Bytes": 2352043
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\home-spatial-r2.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\06_Abandoned\\WrongCamera\\home-spatial-r2.png",
+    "Kind": "art",
+    "Status": "rejected",
+    "Purpose": "失败空间图",
+    "Reason": "立面仍高且只生成4栋住宅",
+    "SHA256": "4471AF8EC6DFC938142F3DF4BAAF0A5DD96F0528C96D1A3DD2A8343DBEA1303F",
+    "Bytes": 2748570
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\house_01.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\06_Abandoned\\WrongCamera\\house_01.png",
+    "Kind": "art",
+    "Status": "rejected",
+    "Purpose": "失败住宅",
+    "Reason": "制作人否决平视倾向，不用于游戏",
+    "SHA256": "266F1FD8E0AE68544646F3C55C134011CBF170070A1EB2B9250E8FD156595211",
+    "Bytes": 1614092
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\kitchen_01.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\06_Abandoned\\WrongCamera\\kitchen_01.png",
+    "Kind": "art",
+    "Status": "rejected",
+    "Purpose": "失败厨房",
+    "Reason": "平视倾向且火焰烘焙，不用于游戏",
+    "SHA256": "243A8D1ABEAC4EFC8A1A495AEB3494C23ABBF47203B2593E8A8F1138FECE636C",
+    "Bytes": 1532824
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\farm_r5_square_rejected.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\06_Abandoned\\InvalidFootprint\\farm_r5_square_rejected.png",
+    "Kind": "art",
+    "Status": "rejected",
+    "Purpose": "失败农田",
+    "Reason": "近似投影正方形，不符合3×2",
+    "SHA256": "1FD795EE23F3634999588338635976B86A16C0D2FD3E4EBDD74A06E6F7152D51",
+    "Bytes": 915390
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\farm_r5_background_rejected.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\06_Abandoned\\AlphaBackground\\farm_r5_background_rejected.png",
+    "Kind": "art",
+    "Status": "superseded",
+    "Purpose": "旧农田版本",
+    "Reason": "外围低Alpha底雾多，已由candidate替代",
+    "SHA256": "B90BD7BFDC54E9CA67A41F9446AB6BF9876E21F8490D5CC8E8446BF178667258",
+    "Bytes": 2003030
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\r5-grid-guide.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\01_Direction\\GeometryGuides\\r5-grid-guide.png",
+    "Kind": "art",
+    "Status": "geometry_guide",
+    "Purpose": "网格导引",
+    "Reason": "代码生成的几何图，不是游戏美术",
+    "SHA256": "90D777DBB8670C2BC413C61A1BA14B59D069E2F6283ECC21643F1AF0F3F75848",
+    "Bytes": 93674
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\farm-3x2-grid-guide.png",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\01_Direction\\GeometryGuides\\farm-3x2-grid-guide.png",
+    "Kind": "art",
+    "Status": "geometry_guide",
+    "Purpose": "占地导引",
+    "Reason": "代码生成3×2投影图，不是游戏美术",
+    "SHA256": "30693A0A67549D54485C2F3AD7C7EE0CEE43B3655C30347954913B4964FB0BF3",
+    "Bytes": 50072
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\CURRENT-ART-PROGRESS.md",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Records\\CURRENT-ART-PROGRESS.md",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Records",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "B6C92A35332F6D021C374A4C58D51D1B546C57481F0DB7C3D8660D64E4124E13",
+    "Bytes": 3691
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\Inspect-SourceArt.ps1",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Tools\\Inspect-SourceArt.ps1",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Tools",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "762B898868C0DAAC85A7D642F177F26DBDD009D7D37E9E26DBCC66E0F877615F",
+    "Bytes": 1969
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\inventory_art.ps1",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Tools\\inventory_art.ps1",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Tools",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "905D3B27AA5F09B4924ED8C2563384486232EE34595180916C5B1B721E61DF1C",
+    "Bytes": 1942
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\inventory-summary.json",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Evidence\\inventory-summary.json",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Evidence",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "A0F71DBA1B926D472AD4603B31EEAB1BEC3ED057777ABECFA977738D3559F5B2",
+    "Bytes": 2058
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\Make-FarmGuide.ps1",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Tools\\Make-FarmGuide.ps1",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Tools",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "DD8475D6D3AED9B8207EEB69DF63E0DB9DABF4218A137EA52F32CE3900AF0036",
+    "Bytes": 1051
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\Make-GridGuide.ps1",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Tools\\Make-GridGuide.ps1",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Tools",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "E0A0FA4014368C251D7F26C10EBB96C7F07FB8D5FA753FE8B7D923DA61247206",
+    "Bytes": 2248
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\MARKET-CAMERA-CORRECTION.md",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Records\\MARKET-CAMERA-CORRECTION.md",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Records",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "4580F970385D6FF76975DB232ED61E0835450A651EA4E4B9148D7B5130A24E60",
+    "Bytes": 4915
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\PLAN.md",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Records\\PLAN.md",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Records",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "39E6075C6DC5927EEAA06E8680094C0261160E6441253D50C2DA7CCC3A6FD10B",
+    "Bytes": 8870
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\PROMPTS-BUILDINGS-01.md",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Prompts\\PROMPTS-BUILDINGS-01.md",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Prompts",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "EA82E92A23781B74A75BABE62C341586E8DBD0B3703F8E21B49E8C7C0B0CD1CE",
+    "Bytes": 4899
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\PROMPTS-CAMERA-CORRECTION-2.md",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Prompts\\PROMPTS-CAMERA-CORRECTION-2.md",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Prompts",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "CF34C234742803E79A54EC82DCB50768FB91DA9D69081476C8684B2440AEF11C",
+    "Bytes": 4887
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\PROMPTS-CAMERA-CORRECTION.md",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Prompts\\PROMPTS-CAMERA-CORRECTION.md",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Prompts",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "EEA3F03746AF0DCCA6119BBBE13B226612B6EC1E5E1519FCD05EBDAAD35E3A37",
+    "Bytes": 6007
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\PROMPTS-R4-BUILDINGS.md",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Prompts\\PROMPTS-R4-BUILDINGS.md",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Prompts",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "C50C6A414D7DFC4E19634364A90BEDB61C0B9DEBDDE6B63BDBF03D81459C4F33",
+    "Bytes": 4067
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\PROMPTS-R5-FARM-CUTOUT.md",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Prompts\\PROMPTS-R5-FARM-CUTOUT.md",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Prompts",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "710CDCAD19B14161D0CE8155919A5656AF929814D60E2EBAD2DA247897B43F82",
+    "Bytes": 1040
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\PROMPTS-R5-FARM.md",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Prompts\\PROMPTS-R5-FARM.md",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Prompts",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "5AA2F89207D30C85777B10E8436E2C5A524622D8827710EF068185394D0A586A",
+    "Bytes": 2370
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\PROMPTS-R5-GRID.md",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Prompts\\PROMPTS-R5-GRID.md",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Prompts",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "54AA00407D02174C6CE3308CD6090B95A4C3B520B52B949C416A3C576AAF9D60",
+    "Bytes": 3701
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\PROMPTS.md",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Prompts\\PROMPTS.md",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Prompts",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "02F62BC493CA9A3453E18D33863F40A8FFB1D12E88F13A2CEC16CD80AE23D7E9",
+    "Bytes": 12001
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\R5-GRID-ALIGNMENT.md",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Records\\R5-GRID-ALIGNMENT.md",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Records",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "C87F5874BDB84EE24128F9B567ED34E44C9E001C3C87836863E3C12383F51E00",
+    "Bytes": 4432
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\raster-and-model-inventory.csv",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Evidence\\raster-and-model-inventory.csv",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Evidence",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "3E300D2856C56862961AB1C17BE4FBD1FA2F457E2C65CB0D87FE384805C2E72F",
+    "Bytes": 16326
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\registered-asset-replacement-register.csv",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Evidence\\registered-asset-replacement-register.csv",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Evidence",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "5BC1971745A68C89F197EF667811B80869531BE6BC822E08A8C3C91CBEE7C719",
+    "Bytes": 4336
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\REVIEW.md",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Records\\REVIEW.md",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Records",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "F50DBC089AB33F36AE43A3FC4D47887C2A3F7D9EB7D1D4B6C6ED90E91A0AECFF",
+    "Bytes": 2882
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\source-art-inspection.json",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Evidence\\source-art-inspection.json",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Evidence",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "DCE9726971D606BBCCDD0041D0CB3247B4F33CAC87850B15206BB54C692C7F6C",
+    "Bytes": 10759
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtUpgrade\\2026-11-06\\STYLE-01.md",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Records\\STYLE-01.md",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Records",
+    "Reason": "保留原始提示词、路径与当时结论，不改写历史",
+    "SHA256": "2A22E145DB2A032C119E9BC2609F7BE1FE74EE8B3813400361103B0713662623",
+    "Bytes": 2925
+  },
+  {
+    "Source": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\README.md",
+    "Destination": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\ArtLibrary\\07_Process\\2026-11-06\\Records\\SourceAssets-README-before-organization.md",
+    "Kind": "process",
+    "Status": "historical_record",
+    "Purpose": "Records",
+    "Reason": "原源图目录说明，历史归档",
+    "SHA256": "000E1D1579C2541BD2DED8027F2B1AEAA7DD134569B9F41DEA09B75207A9A60E",
+    "Bytes": 3982
+  }
+]

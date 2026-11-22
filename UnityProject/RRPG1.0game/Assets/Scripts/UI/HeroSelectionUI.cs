@@ -109,7 +109,7 @@ public class HeroSelectionUI : MonoBehaviour
             var rt = go.GetComponent<RectTransform>();
             rt.anchorMin = new Vector2(0.5f, 0.5f);
             rt.anchorMax = new Vector2(0.5f, 0.5f);
-            rt.anchoredPosition = new Vector2(startPosition.x + i * cardSpacing, startPosition.y);
+            rt.anchoredPosition = new Vector2(startPosition.x + (i - (_availableHeroes.Count - 1) * .5f) * cardSpacing, startPosition.y);
 
             // 设置英雄信息
             string skillInfo = "技能：无";
@@ -143,7 +143,7 @@ public class HeroSelectionUI : MonoBehaviour
             // 高亮选中的英雄
             var img = go.GetComponent<Image>();
             if (img != null && _selectedIndex == i)
-                img.color = Color.green;
+                img.color = new Color(.92f, .78f, .51f);
 
             // 绑定点击
             int idx = i;
@@ -163,14 +163,14 @@ public class HeroSelectionUI : MonoBehaviour
         if (_selectedIndex >= 0 && _selectedIndex < _heroCards.Count)
         {
             var prevImg = _heroCards[_selectedIndex].GetComponent<Image>();
-            if (prevImg != null) prevImg.color = Color.white;
+            if (prevImg != null) prevImg.color = HomeProductUI.Paper;
         }
 
         _selectedIndex = index;
 
         // 高亮当前选中的
         var img = _heroCards[index].GetComponent<Image>();
-        if (img != null) img.color = Color.green;
+        if (img != null) img.color = new Color(.92f, .78f, .51f);
 
         if (btnConfirm != null)
             btnConfirm.interactable = true;

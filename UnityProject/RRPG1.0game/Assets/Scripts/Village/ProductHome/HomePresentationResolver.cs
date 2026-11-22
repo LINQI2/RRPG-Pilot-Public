@@ -8,6 +8,17 @@ public sealed class HomePresentationResolver : System.IDisposable
     private Sprite _fallback;
     public bool PrototypeEnabled { get; set; }
     public string PresentationKey(HomePersonSnapshot person) => PrototypeEnabled ? "village.person.r2" : "village.person."+person.PresentationIntent;
+    internal string PersonPresentationKey(HomePersonSnapshot person,PlayerCollection collection)
+    {
+        string fallback=PresentationKey(person);
+        if(!PrototypeEnabled) return fallback;
+        string appearance=PersonVisualResolver.ResolveAppearanceKey(collection,person.PersonId);
+        if(string.IsNullOrEmpty(appearance)) return fallback;
+        string pair="village.person.art01."+appearance;
+        // Single-view art only; replacing a person must not require directional variants.
+        if(TryResolve(pair+".se",out _,out _)) return pair+".se";
+        return fallback;
+    }
     public string PresentationKey(HomePlaceSnapshot place)
     {
         // 固定世界场所：A 用专属固定键，B 用既有 R2 固定键；两者共享同一 Place 身份。

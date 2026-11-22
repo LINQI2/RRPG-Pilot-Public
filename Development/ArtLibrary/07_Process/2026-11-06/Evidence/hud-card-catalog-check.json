@@ -1,0 +1,85 @@
+{
+  "Date": "2026-11-06",
+  "ArtEntries": 43,
+  "ImageGenImages": 41,
+  "GeometryGuides": 2,
+  "AllArtHashesMatch": true,
+  "NavigationLinksChecked": 150,
+  "ExistingProjectFilesUnchanged": 55,
+  "RecordedPrototypeReplacementFiles": 8,
+  "NativeUIArtReplacements": 1,
+  "EnemyReplacementFiles": 12,
+  "NativeBackgroundReplacementFiles": 5,
+  "NativeBackgroundHostTargetsProductVerified": 4,
+  "NativeBackgroundReplacementsPendingProductVerification": 1,
+  "ReadyToIntegrate": 0,
+  "IntegratedPrototypeThisUpgrade": 8,
+  "FinalArtAccepted": 0,
+  "HistoricalPromptsRetainOriginalPaths": true,
+  "StatusCounts": [
+    {
+      "Name": "待接入候选",
+      "Count": 3
+    },
+    {
+      "Name": "当前对齐方案",
+      "Count": 1
+    },
+    {
+      "Name": "敌人已构建并解析（待出场验证）",
+      "Count": 2
+    },
+    {
+      "Name": "敌人已接实机准备画面（首轮候选）",
+      "Count": 4
+    },
+    {
+      "Name": "候选（已接入B实机样板）",
+      "Count": 8
+    },
+    {
+      "Name": "几何导引",
+      "Count": 2
+    },
+    {
+      "Name": "仅实验对照",
+      "Count": 4
+    },
+    {
+      "Name": "卡牌通用回退图已接实机（非专属插画）",
+      "Count": 1
+    },
+    {
+      "Name": "跨场景背景宿主已验证（模块未完成）",
+      "Count": 4
+    },
+    {
+      "Name": "人物已接配置（待产品显示验证）",
+      "Count": 1
+    },
+    {
+      "Name": "人物已接Journey/战斗准备实机（模块未完成）",
+      "Count": 2
+    },
+    {
+      "Name": "未选方向",
+      "Count": 2
+    },
+    {
+      "Name": "已被替代",
+      "Count": 1
+    },
+    {
+      "Name": "已放弃/失败",
+      "Count": 6
+    },
+    {
+      "Name": "已认可视角",
+      "Count": 1
+    },
+    {
+      "Name": "已选画风",
+      "Count": 1
+    }
+  ]
+}

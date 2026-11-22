@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Tool execution failed for 'Script / Execute': Execution failed (Runtime): System.Exception: UI raycast blocked: HomeInternalWhitebox/CloseToWorld\r\n   at HomeUIVerification.Click in snippet.cs:line 21\r\n   at HomeUIVerification.Run in snippet.cs:line 32"
+      }
+    ],
+    "isError": true
+  },
+  "id": 69,
+  "jsonrpc": "2.0"
+}

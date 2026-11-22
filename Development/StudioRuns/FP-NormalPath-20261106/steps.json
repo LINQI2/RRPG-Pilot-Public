@@ -1,0 +1,55 @@
+[
+  {
+    "action": "Enter Play from existing SampleScene",
+    "seq": 0,
+    "actual": "MainMenu; Continue disabled in isolated empty slot",
+    "kind": "normal UI"
+  },
+  {
+    "action": "NewGame -> click hero -> Confirm",
+    "evidence": "screenshots/01-newgame-direct-home.png",
+    "seq": 1,
+    "actual": "Direct Home at 00:02; no Tutorial/Return",
+    "kind": "normal UI"
+  },
+  {
+    "action": "Home Expedition button",
+    "evidence": "screenshots/02-prep-food-zero.png",
+    "seq": 2,
+    "actual": "Formal Prep; Food0, requested4, actual0, firstStepCost2",
+    "kind": "normal UI independent branch"
+  },
+  {
+    "action": "Click disabled Start Adventure",
+    "evidence": "screenshots/03-start-blocked.png",
+    "seq": 3,
+    "actual": "Remains Prep; no Expedition started",
+    "kind": "normal UI"
+  },
+  {
+    "action": "Return to territory from Prep",
+    "seq": 4,
+    "actual": "Home 00:25; cancellation, not Expedition Return",
+    "kind": "normal UI"
+  },
+  {
+    "action": "Settings -> Save and return to MainMenu",
+    "evidence": "screenshots/04-saved-to-main-menu.png",
+    "seq": 5,
+    "actual": "MainMenu Continue enabled",
+    "kind": "normal UI independent save segment"
+  },
+  {
+    "action": "Continue",
+    "evidence": "screenshots/05-continue-home.png",
+    "seq": 6,
+    "actual": "Home at 00:54",
+    "kind": "normal UI"
+  },
+  {
+    "action": "Exit Play, move test slot, atomically restore original slot",
+    "seq": 7,
+    "actual": "Original SHA restored, font end PASS",
+    "kind": "protection cleanup"
+  }
+]

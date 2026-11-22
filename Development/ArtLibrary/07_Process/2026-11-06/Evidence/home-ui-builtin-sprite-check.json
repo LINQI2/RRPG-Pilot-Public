@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: RoundedSprite=False Border=missing"
+      }
+    ],
+    "isError": false
+  },
+  "id": 62,
+  "jsonrpc": "2.0"
+}

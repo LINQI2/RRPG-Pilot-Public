@@ -1,0 +1,59 @@
+# 承诺面板整类 8 例真实失败回执（宿主 run，主开发核 5962afbb-be2f-40c4-8557-e123ecfb062d）
+# 来源：Unity Editor 实时只读查询 testResults / console（本轮 2026-10-29 阶段 1/4 复取）
+# 汇总：8 total / 4 passed / 4 failed / 0 skipped / 10.5794229 s / scope-restored|font|0|632
+# 本文件只保存真实 message / stackTrace，不做任何润色或预填通过。
+
+## 1. RRPG.Village.Tests.VillageCommitmentProductIntegrationPlayTests.CommitmentUI_RealTown_AssignAndProject_ClosedLoop_PanelDoesNotPauseSimulation
+status=Failed durationMs=454
+message="  字段不存在：Buildings\r\n  Expected: not null\r\n  But was:  null\r\n"
+stackTrace=
+at RRPG.Village.Tests.VillageCommitmentProductIntegrationPlayTests.GetBridgeField (System.String name) [0x0000d] in D:\AI_Agent_Lab\rrpg_pilot\repo\UnityProject\RRPG1.0game\Assets\Tests\PlayMode\Village\VillageCommitmentProductIntegrationPlayTests.cs:264
+at RRPG.Village.Tests.VillageCommitmentProductIntegrationPlayTests.InstanceWorkplace (System.String definitionId) [0x00000] in D:\AI_Agent_Lab\rrpg_pilot\repo\UnityProject\RRPG1.0game\Assets\Tests\PlayMode\Village\VillageCommitmentProductIntegrationPlayTests.cs:221
+at RRPG.Village.Tests.VillageCommitmentProductIntegrationPlayTests+<CommitmentUI_RealTown_AssignAndProject_ClosedLoop_PanelDoesNotPauseSimulation>d__32.MoveNext () [0x001a2] in D:\AI_Agent_Lab\rrpg_pilot\repo\UnityProject\RRPG1.0game\Assets\Tests\PlayMode\Village\VillageCommitmentProductIntegrationPlayTests.cs:470
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@1.1.33\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+## 2. RRPG.Village.Tests.VillageCommitmentProductIntegrationPlayTests.CommitmentUI_ReflectsRuntimeAfterSaveLoad_MidProject
+status=Failed durationMs=460
+message="  字段不存在：Buildings\r\n  Expected: not null\r\n  But was:  null\r\n"
+stackTrace=
+at RRPG.Village.Tests.VillageCommitmentProductIntegrationPlayTests.GetBridgeField (System.String name) [0x0000d] in D:\AI_Agent_Lab\rrpg_pilot\repo\UnityProject\RRPG1.0game\Assets\Tests\PlayMode\Village\VillageCommitmentProductIntegrationPlayTests.cs:264
+at RRPG.Village.Tests.VillageCommitmentProductIntegrationPlayTests.InstanceWorkplace (System.String definitionId) [0x00000] in D:\AI_Agent_Lab\rrpg_pilot\repo\UnityProject\RRPG1.0game\Assets\Tests\PlayMode\Village\VillageCommitmentProductIntegrationPlayTests.cs:221
+at RRPG.Village.Tests.VillageCommitmentProductIntegrationPlayTests+<CommitmentUI_ReflectsRuntimeAfterSaveLoad_MidProject>d__33.MoveNext () [0x00117] in D:\AI_Agent_Lab\rrpg_pilot\repo\UnityProject\RRPG1.0game\Assets\Tests\PlayMode\Village\VillageCommitmentProductIntegrationPlayTests.cs:526
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@1.1.33\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+## 3. RRPG.Village.Tests.VillageCommitmentProductIntegrationPlayTests.IntradayWork_RealTownAssignment_CommutingLaborLunchVisible
+status=Failed durationMs=444
+message="  字段不存在：Buildings\r\n  Expected: not null\r\n  But was:  null\r\n"
+stackTrace=
+at RRPG.Village.Tests.VillageCommitmentProductIntegrationPlayTests.GetBridgeField (System.String name) [0x0000d] in D:\AI_Agent_Lab\rrpg_pilot\repo\UnityProject\RRPG1.0game\Assets\Tests\PlayMode\Village\VillageCommitmentProductIntegrationPlayTests.cs:264
+at RRPG.Village.Tests.VillageCommitmentProductIntegrationPlayTests.InstanceWorkplace (System.String definitionId) [0x00000] in D:\AI_Agent_Lab\rrpg_pilot\repo\UnityProject\RRPG1.0game\Assets\Tests\PlayMode\Village\VillageCommitmentProductIntegrationPlayTests.cs:221
+at RRPG.Village.Tests.VillageCommitmentProductIntegrationPlayTests+<IntradayWork_RealTownAssignment_CommutingLaborLunchVisible>d__3.MoveNext () [0x000ec] in D:\AI_Agent_Lab\rrpg_pilot\repo\UnityProject\RRPG1.0game\Assets\Tests\PlayMode\Village\IntradayWorkProductPlayTests.cs:21
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@1.1.33\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+## 4. RRPG.Village.Tests.VillageCommitmentProductIntegrationPlayTests.VillageTMP_LabelsRender_AndKitchenRowsRemainStableAcrossRefresh
+status=Failed durationMs=39
+message=Unhandled log message: '[Exception] NullReferenceException: Object reference not set to an instance of an object'. Use UnityEngine.TestTools.LogAssert.Expect
+stackTrace=
+VillageCommitmentUI.RebuildWorkplaceRows (System.Collections.Generic.Dictionary`2[TKey,TValue] personNames) (at Assets/Scripts/Village/UI/VillageCommitmentUI.cs:313)
+VillageCommitmentUI.Refresh () (at Assets/Scripts/Village/UI/VillageCommitmentUI.cs:251)
+VillageCommitmentUI.Update () (at Assets/Scripts/Village/UI/VillageCommitmentUI.cs:82)
+
+## Console 原始记录（同一 run，sequence 102385）
+sequence=102385 logType=Exception
+message=NullReferenceException: Object reference not set to an instance of an object
+stackTrace=
+VillageCommitmentUI.RebuildWorkplaceRows (System.Collections.Generic.Dictionary`2[TKey,TValue] personNames) (at Assets/Scripts/Village/UI/VillageCommitmentUI.cs:313)
+VillageCommitmentUI.Refresh () (at Assets/Scripts/Village/UI/VillageCommitmentUI.cs:251)
+VillageCommitmentUI.Update () (at Assets/Scripts/Village/UI/VillageCommitmentUI.cs:82)
+
+# 同 run 的 8 次 guard 捕获（SetUp 起点，sequence 102377–102384）：
+[SAVE-CAPTURE] runId=20261029T111857Z existed=True bytes=13134 sha256=adcf5d8bb0a638ea2d4dc0f7d936c1aaad7492cd19022521010e9f59fd8ceb08
+[SAVE-CAPTURE] runId=20261029T111858Z existed=True bytes=13134 sha256=adcf5d8bb0a638ea2d4dc0f7d936c1aaad7492cd19022521010e9f59fd8ceb08
+[SAVE-CAPTURE] runId=20261029T111858Z-2 existed=True bytes=13134 sha256=adcf5d8bb0a638ea2d4dc0f7d936c1aaad7492cd19022521010e9f59fd8ceb08
+[SAVE-CAPTURE] runId=20261029T111859Z existed=True bytes=13134 sha256=adcf5d8bb0a638ea2d4dc0f7d936c1aaad7492cd19022521010e9f59fd8ceb08
+[SAVE-CAPTURE] runId=20261029T111859Z-2 existed=True bytes=13134 sha256=adcf5d8bb0a638ea2d4dc0f7d936c1aaad7492cd19022521010e9f59fd8ceb08
+[SAVE-CAPTURE] runId=20261029T111906Z existed=True bytes=13134 sha256=adcf5d8bb0a638ea2d4dc0f7d936c1aaad7492cd19022521010e9f59fd8ceb08
+[SAVE-CAPTURE] runId=20261029T111907Z existed=True bytes=13134 sha256=adcf5d8bb0a638ea2d4dc0f7d936c1aaad7492cd19022521010e9f59fd8ceb08
+[SAVE-CAPTURE] runId=20261029T111907Z-2 existed=True bytes=13134 sha256=adcf5d8bb0a638ea2d4dc0f7d936c1aaad7492cd19022521010e9f59fd8ceb08
+
+# 该 NRE 出现在全部 8 次捕获之后（即最后一个测试的 SetUp 之后），属于用例体结束 / TearDown 帧窗口。

@@ -197,7 +197,7 @@ public class JourneyEventCardView : MonoBehaviour
         rt.anchoredPosition = new Vector2(0f, index * optionSpacing - centerOffset);
 
         var img = go.AddComponent<Image>();
-        img.color = new Color(0.22f, 0.34f, 0.5f, 1f);
+        img.color = new Color(.88f, .80f, .64f, 1f);
         img.raycastTarget = true;
         var btn = go.AddComponent<Button>();
         btn.targetGraphic = img;
@@ -211,7 +211,7 @@ public class JourneyEventCardView : MonoBehaviour
         text.font = CurrentUIFontAuthority.Default;
         text.text = label;
         text.fontSize = optionFontSize;
-        text.color = option != null && !option.Interactable ? new Color(1f, 1f, 1f, 0.45f) : Color.white;
+        text.color = option != null && !option.Interactable ? new Color(.43f, .35f, .25f, .65f) : HomeProductUI.Ink;
         text.alignment = TextAlignmentOptions.Center;
         text.enableWordWrapping = true;
         text.overflowMode = TextOverflowModes.Overflow;
@@ -226,7 +226,7 @@ public class JourneyEventCardView : MonoBehaviour
             sub.font = CurrentUIFontAuthority.Default;
             sub.text = option.SubLabel;
             sub.fontSize = optionSubFontSize;
-            sub.color = new Color(1f, 1f, 1f, 0.75f);
+            sub.color = HomeProductUI.MutedInk;
             sub.alignment = TextAlignmentOptions.Center;
             sub.raycastTarget = false;
         }

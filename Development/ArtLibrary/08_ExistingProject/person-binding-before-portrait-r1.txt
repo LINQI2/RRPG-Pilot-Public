@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63443b8a9adb1de44af0d4404f5eb477, type: 3}
+  m_Name: PersonVisualBindingCatalog
+  m_EditorClassIdentifier: 
+  entries:
+  - AppearanceKey: person_lin_en
+    DefaultBodySprite: {fileID: 21300000, guid: 684086ccadfdf9b458cf568af23a06f6, type: 3}
+    JourneySpriteOverride: {fileID: 21300000, guid: 05401bcf74d12564792d5de68f3f9f0e, type: 3}
+    BattleSpriteOverride: {fileID: 21300000, guid: 05401bcf74d12564792d5de68f3f9f0e, type: 3}
+    PrepSpriteOverride: {fileID: 21300000, guid: 05401bcf74d12564792d5de68f3f9f0e, type: 3}
+    HeroSelectSpriteOverride: {fileID: 0}
+    CardPortraitSpriteOverride: {fileID: 0}
+    JourneyOffset: {x: 0, y: 0}
+    JourneyScale: 1.5
+    BattleOffset: {x: 0, y: 0}
+    BattleScale: 1.5
+    PrepOffset: {x: 0, y: 0}
+    PrepScale: 1.5
+    HeroSelectOffset: {x: 0, y: 0}
+    HeroSelectScale: 1
+  - AppearanceKey: person_han_zhao
+    DefaultBodySprite: {fileID: 21300000, guid: 684086ccadfdf9b458cf568af23a06f6, type: 3}
+    JourneySpriteOverride: {fileID: 21300000, guid: 05401bcf74d12564792d5de68f3f9f0e, type: 3}
+    BattleSpriteOverride: {fileID: 21300000, guid: 05401bcf74d12564792d5de68f3f9f0e, type: 3}
+    PrepSpriteOverride: {fileID: 21300000, guid: 05401bcf74d12564792d5de68f3f9f0e, type: 3}
+    HeroSelectSpriteOverride: {fileID: 0}
+    CardPortraitSpriteOverride: {fileID: 0}
+    JourneyOffset: {x: 0, y: 0}
+    JourneyScale: 1.5
+    BattleOffset: {x: 0, y: 0}
+    BattleScale: 1.5
+    PrepOffset: {x: 0, y: 0}
+    PrepScale: 1.5
+    HeroSelectOffset: {x: 0, y: 0}
+    HeroSelectScale: 1
+  - AppearanceKey: hero_001
+    DefaultBodySprite: {fileID: 21300000, guid: 2c72ede248978ee428eeab7ae70a8179, type: 3}
+    JourneySpriteOverride: {fileID: 21300000, guid: a1f2a2b4a4c791f4699dd1c82f08a344, type: 3}
+    BattleSpriteOverride: {fileID: 21300000, guid: a1f2a2b4a4c791f4699dd1c82f08a344, type: 3}
+    PrepSpriteOverride: {fileID: 21300000, guid: a1f2a2b4a4c791f4699dd1c82f08a344, type: 3}
+    HeroSelectSpriteOverride: {fileID: 0}
+    CardPortraitSpriteOverride: {fileID: 0}
+    JourneyOffset: {x: 0, y: 0}
+    JourneyScale: 1.5
+    BattleOffset: {x: 0, y: 0}
+    BattleScale: 1.5
+    PrepOffset: {x: 0, y: 0}
+    PrepScale: 1.5
+    HeroSelectOffset: {x: 0, y: 0}
+    HeroSelectScale: 1
+  - AppearanceKey: person_su_wan
+    DefaultBodySprite: {fileID: 21300000, guid: 0ea511779be5428499d4bc53a04d11fb, type: 3}
+    JourneySpriteOverride: {fileID: 21300000, guid: 7bbee454c58fe4b45b0d81f7f7673cf9, type: 3}
+    BattleSpriteOverride: {fileID: 21300000, guid: 7bbee454c58fe4b45b0d81f7f7673cf9, type: 3}
+    PrepSpriteOverride: {fileID: 21300000, guid: 7bbee454c58fe4b45b0d81f7f7673cf9, type: 3}
+    HeroSelectSpriteOverride: {fileID: 0}
+    CardPortraitSpriteOverride: {fileID: 0}
+    JourneyOffset: {x: 0, y: 0}
+    JourneyScale: 1.5
+    BattleOffset: {x: 0, y: 0}
+    BattleScale: 1.5
+    PrepOffset: {x: 0, y: 0}
+    PrepScale: 1.5
+    HeroSelectOffset: {x: 0, y: 0}
+    HeroSelectScale: 1

@@ -1,0 +1,30 @@
+{
+  "Date": "2026-11-07",
+  "Product": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: \"Image_IntentIcon sprite=icon_attack_r1\\r\\nImage_IntentIcon sprite=icon_attack_r1\\r\\nImage_IntentIcon sprite=icon_attack_r1\\r\\nV1Card_bcard_sword_person_1a421ea45c6d466388e18dc140fedb38_0 portrait=portrait_red_cape_r1 cost=1\\r\\nV1Card_bcard_stoke_fire_person_83740ef4017c4f8d82fcee46cfd91914_0 portrait=portrait_green_hood_r1 cost=1\\r\\n\""
+      }
+    ],
+    "isError": false
+  },
+  "Save": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: SaveUnchanged=True SHA=2F42500A5E84E70354F5CEA741F66FC881306322D607B6D7485088FCEC3735EF"
+      }
+    ],
+    "isError": false
+  },
+  "FinalState": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: Play=False Dirty=False"
+      }
+    ],
+    "isError": false
+  }
+}

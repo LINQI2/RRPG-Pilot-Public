@@ -1,0 +1,40 @@
+[
+  {
+    "file": "RRPG_VisualAssets.xlsx",
+    "targetCells": [
+      "A23",
+      "B23",
+      "C23",
+      "D23",
+      "A24",
+      "B24",
+      "C24",
+      "D24",
+      "A25",
+      "B25",
+      "C25",
+      "D25",
+      "A26",
+      "B26",
+      "C26",
+      "D26"
+    ],
+    "allOtherPartsByteIdenticalToOriginal": true,
+    "protectedWorksheetContentUnchanged": true,
+    "allValuesAndFormulasMatchArtifactOutput": true,
+    "sha256": "deae6f03c502f1c23e992a94be88af4042e786f0390330cc57c4d195229a9c3f"
+  },
+  {
+    "file": "RRPG_VillagePresentation.xlsx",
+    "targetCells": [
+      "C26",
+      "A27",
+      "B27",
+      "C27"
+    ],
+    "allOtherPartsByteIdenticalToOriginal": true,
+    "protectedWorksheetContentUnchanged": true,
+    "allValuesAndFormulasMatchArtifactOutput": true,
+    "sha256": "bdcc5369662ad3762f1345c1d78c69d23fb6deed0b3827cb85660a23b302a83d"
+  }
+]

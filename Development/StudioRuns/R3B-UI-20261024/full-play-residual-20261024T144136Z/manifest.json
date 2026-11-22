@@ -1,0 +1,10 @@
+{
+  "purpose": "evidence-only backup of post-full-Play residual single slot before precise restore",
+  "capturedUtc": "2026-10-24T14:41:36.5413713Z",
+  "sourcePath": "1PUBLIC_USER/AppData/LocalLow/DefaultCompany/RRPG_AI_Pilot/rrpg_save_p0.json",
+  "sourceBytes": 13402,
+  "sourceSha256": "a3f6d15f8b9c5c019a33c91658cd64e2721384b8960b9444ba8bbd44deec6bc2",
+  "sourceMtimeUtc": "2026-10-24T14:39:25.7891163Z",
+  "restoredFrom": "R3B-SaveProtection-20261024/20261024T143611Z/original-save.bin",
+  "note": "Not a SaveSlotGuard run (outside protection root, no status field); kept only as evidence of the test-produced residual that was overwritten by the precise restore."
+}

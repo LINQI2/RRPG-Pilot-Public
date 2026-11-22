@@ -1,0 +1,96 @@
+{
+  "_generated": {
+    "doNotEdit": true,
+    "tool": "RRPG.ConfigCompiler",
+    "formatVersion": "rrpg-static-config-mirror/1",
+    "sourceSha256": "acffbc7c045451501d1670707011d7be8d8a411c93d57b9c34143623780327ba",
+    "notice": "本文件由 RRPG ConfigCompiler 生成，禁止手工编辑；唯一人工 Authoring Authority 是 XLSX（Development/Config）。"
+  },
+  "irVersion": "rrpg-static-config-mirror/1",
+  "source": {
+    "workbook": "Config/RRPG_InitialWorld.xlsx",
+    "sheet": "InitialBuilding",
+    "machineFieldRow": 1,
+    "typeRow": 2,
+    "ruleRow": 3,
+    "displayHeaderRow": 4,
+    "firstDataRow": 5
+  },
+  "key": [
+    "StableIndex"
+  ],
+  "columns": [
+    {
+      "field": "BuildingDefinitionId",
+      "type": "ref:BuildingDefinition",
+      "key": false,
+      "rules": []
+    },
+    {
+      "field": "StableIndex",
+      "type": "int",
+      "key": true,
+      "rules": [
+        "key",
+        ">=0"
+      ]
+    },
+    {
+      "field": "WorldX",
+      "type": "float",
+      "key": false,
+      "rules": []
+    },
+    {
+      "field": "WorldY",
+      "type": "float",
+      "key": false,
+      "rules": []
+    }
+  ],
+  "rowCount": 7,
+  "rows": [
+    {
+      "BuildingDefinitionId": "building_farm",
+      "StableIndex": 1,
+      "WorldX": -6,
+      "WorldY": -1.20000004768372
+    },
+    {
+      "BuildingDefinitionId": "building_kitchen",
+      "StableIndex": 2,
+      "WorldX": -2,
+      "WorldY": -1.20000004768372
+    },
+    {
+      "BuildingDefinitionId": "building_house",
+      "StableIndex": 3,
+      "WorldX": -8.5,
+      "WorldY": 4.19999980926514
+    },
+    {
+      "BuildingDefinitionId": "building_house",
+      "StableIndex": 4,
+      "WorldX": -5.09999990463257,
+      "WorldY": 4.19999980926514
+    },
+    {
+      "BuildingDefinitionId": "building_house",
+      "StableIndex": 5,
+      "WorldX": -1.70000004768372,
+      "WorldY": 4.19999980926514
+    },
+    {
+      "BuildingDefinitionId": "building_house",
+      "StableIndex": 6,
+      "WorldX": 1.70000004768372,
+      "WorldY": 4.19999980926514
+    },
+    {
+      "BuildingDefinitionId": "building_house",
+      "StableIndex": 7,
+      "WorldX": 5.09999990463257,
+      "WorldY": 4.19999980926514
+    }
+  ]
+}

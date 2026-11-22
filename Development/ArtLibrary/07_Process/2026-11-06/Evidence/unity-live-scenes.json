@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "1 result\nname|path|isDirty|rootCount\nSampleScene|Assets/Scenes/SampleScene.scene|false|5"
+      }
+    ],
+    "isError": false
+  },
+  "id": 12,
+  "jsonrpc": "2.0"
+}

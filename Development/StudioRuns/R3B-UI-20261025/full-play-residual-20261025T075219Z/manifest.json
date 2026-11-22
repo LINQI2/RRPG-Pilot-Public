@@ -1,0 +1,17 @@
+{
+  "kind": "residue-backup",
+  "runId": "20261025T075219Z-residue",
+  "relatedProtectiveSnapshotRunId": "20261025T074636Z",
+  "capturedUtc": "2026-10-25T07:52:26.7723154Z",
+  "sourcePath": "1PUBLIC_USER/AppData/LocalLow/DefaultCompany/RRPG_AI_Pilot/rrpg_save_p0.json",
+  "sourceBytes": 13402,
+  "sourceSha256": "4d2562a833aa1d7a301e7da34bf943a8e66e7920734faa6117dbb5e23206f25b",
+  "sourceLastWriteTimeUtc": "2026-10-25T07:49:30.6063290Z",
+  "backupFile": "original-save.bin",
+  "backupBytes": 13402,
+  "backupSha256": "4d2562a833aa1d7a301e7da34bf943a8e66e7920734faa6117dbb5e23206f25b",
+  "readbackVerified": true,
+  "restored": false,
+  "reason": "122-test full-play residue written during run window 2026-10-25T07:47:44Z..07:49:34Z (mtime 07:49:30.606Z); differs from protective snapshot 13405B/4b2b56f6...; preserved before exact write-back of 20261025T074636Z snapshot",
+  "capturedBy": "R3B post-play save protection executor (direct file API, CreateNew unique dir)"
+}

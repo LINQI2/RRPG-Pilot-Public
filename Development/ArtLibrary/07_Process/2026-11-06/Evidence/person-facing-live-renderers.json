@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: \"B=True Frame=17966 BodyViews=person_1a421ea45c6d466388e18dc140fedb38:person:flip=True;person_4db41d4744e7444d9b3920c0d800cc8c:person_world_neutral_ne_r1:flip=False;person_742d68f9298c424c9e823f0e2e74a170:person:flip=False;person_83740ef4017c4f8d82fcee46cfd91914:person_world_neutral_ne_r1:flip=False;person_941746518a9b42919200971cef42f537:person:flip=False;person_db721b07838649e098d356a7a434d9ea:person_world_neutral_ne_r1:flip=False\""
+      }
+    ],
+    "isError": false
+  },
+  "id": 60,
+  "jsonrpc": "2.0"
+}

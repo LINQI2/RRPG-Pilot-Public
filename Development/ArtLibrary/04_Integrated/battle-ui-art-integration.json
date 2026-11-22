@@ -1,0 +1,10 @@
+{
+  "Candidate": "02_Candidates/Battle/Backgrounds/card_adventure_fallback_r1.png",
+  "TargetPath": "UnityProject/RRPG1.0game/Assets/Art/Prototype/Battle/card_art_placeholder.png",
+  "BeforeSHA256": "F859B9F2EF63F67E35F6D57E89549C9CA07BB20EA6433D7B5A125CD8AA12A9FD",
+  "AfterSHA256": "309FE79070E2673D0DAA20813C34C4342E5E70E189FABFF8740245F84CF1F1A1",
+  "MetaSHA256": "43B6BC88C0E2FE97168B52E881CA65B7D9F0D3E15EA6BD84F7BCB99C3854E30C",
+  "Backup": "Development/ArtLibrary/08_ExistingProject/card-art-placeholder-before-r1.png",
+  "ProductFlowVerified": true,
+  "Scope": "General fallback art; dedicated card illustrations remain incomplete"
+}

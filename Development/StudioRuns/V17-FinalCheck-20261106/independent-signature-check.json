@@ -1,0 +1,7 @@
+{
+  "method": "Exact source ComputeSignature algorithm: ordinal filenames, BuilderVersion, SupportedFormatVersion and SHA256 raw bytes",
+  "files": 44,
+  "computed": "78f532b6b58d916d67df6300e26bb0db95fc40ffc02c887c162aa8f7a06168ae",
+  "editorRoot": "78f532b6b58d916d67df6300e26bb0db95fc40ffc02c887c162aa8f7a06168ae",
+  "match": true
+}

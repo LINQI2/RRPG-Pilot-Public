@@ -1,0 +1,47 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"result\":{\"Summary\":{\"Status\":\"Passed\",\"TotalTests\":4,\"PassedTests\":4,\"FailedTests\":0,\"SkippedTests\":0,\"Duration\":\"00:00:03.4253230\"},\"Results\":[{\"Name\":\"RRPG.Building.Tests.BuildingPlacementFoundationTests.OverlapRejectedAdjacencyValidAndStalePreviewRevalidated\",\"Status\":\"Passed\",\"Duration\":\"00:00:00.0600000\"},{\"Name\":\"RRPG.Building.Tests.BuildingPlacementFoundationTests.TwoOfSameDefinitionHaveIndependentStableIdentityAndCoordinates\",\"Status\":\"Passed\",\"Duration\":\"00:00:00.0070000\"},{\"Name\":\"RRPG.Building.Tests.BuildingPlacementFoundationTests.UnknownDefinitionAndInvalidAllocatorFailWithoutMutatingCurrent\",\"Status\":\"Passed\",\"Duration\":\"00:00:00.0010000\"},{\"Name\":\"RRPG.ProductHome.Tests.VillageVisualPrototypeTests.PrototypeUsesSharedGeneratedSpritesAndMissingKeyIsExplicit\",\"Status\":\"Passed\",\"Duration\":\"00:00:00.0580000\"}]}}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "Summary": {
+          "Status": "Passed",
+          "TotalTests": 4,
+          "PassedTests": 4,
+          "FailedTests": 0,
+          "SkippedTests": 0,
+          "Duration": "00:00:03.4253230"
+        },
+        "Results": [
+          {
+            "Name": "RRPG.Building.Tests.BuildingPlacementFoundationTests.OverlapRejectedAdjacencyValidAndStalePreviewRevalidated",
+            "Status": "Passed",
+            "Duration": "00:00:00.0600000"
+          },
+          {
+            "Name": "RRPG.Building.Tests.BuildingPlacementFoundationTests.TwoOfSameDefinitionHaveIndependentStableIdentityAndCoordinates",
+            "Status": "Passed",
+            "Duration": "00:00:00.0070000"
+          },
+          {
+            "Name": "RRPG.Building.Tests.BuildingPlacementFoundationTests.UnknownDefinitionAndInvalidAllocatorFailWithoutMutatingCurrent",
+            "Status": "Passed",
+            "Duration": "00:00:00.0010000"
+          },
+          {
+            "Name": "RRPG.ProductHome.Tests.VillageVisualPrototypeTests.PrototypeUsesSharedGeneratedSpritesAndMissingKeyIsExplicit",
+            "Status": "Passed",
+            "Duration": "00:00:00.0580000"
+          }
+        ]
+      }
+    },
+    "isError": false
+  },
+  "id": 37,
+  "jsonrpc": "2.0"
+}

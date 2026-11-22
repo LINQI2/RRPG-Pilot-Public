@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: SaveUnchanged=True BattleRoot=True BackgroundSprite=Assets/Art/Battle/Background/战斗场景1（草地森林）.png"
+      }
+    ],
+    "isError": false
+  },
+  "id": 94,
+  "jsonrpc": "2.0"
+}

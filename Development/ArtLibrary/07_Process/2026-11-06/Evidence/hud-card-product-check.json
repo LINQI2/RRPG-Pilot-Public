@@ -1,0 +1,39 @@
+{
+  "Date": "2026-11-07",
+  "Product": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: \"Turn=回合 1 Draw=抽牌堆 2 Discard=弃牌堆 0\\nCard=V1Card_bcard_prep_cut_person_83740ef4017c4f8d82fcee46cfd91914_0 Art=Assets/Art/Prototype/Battle/card_art_placeholder.png\\nCard=V1Card_bcard_share_meal_person_83740ef4017c4f8d82fcee46cfd91914_0 Art=Assets/Art/Prototype/Battle/card_art_placeholder.png\\n\""
+      }
+    ],
+    "isError": false
+  },
+  "Save": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: SaveUnchanged=True SHA=2F42500A5E84E70354F5CEA741F66FC881306322D607B6D7485088FCEC3735EF"
+      }
+    ],
+    "isError": false
+  },
+  "State": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: Play=False Dirty=False"
+      }
+    ],
+    "isError": false
+  },
+  "ConsoleExcludingBaselineInsufficientSupply": {
+    "content": [
+      {
+        "type": "text",
+        "text": "0 results\nmessage"
+      }
+    ],
+    "isError": false
+  }
+}

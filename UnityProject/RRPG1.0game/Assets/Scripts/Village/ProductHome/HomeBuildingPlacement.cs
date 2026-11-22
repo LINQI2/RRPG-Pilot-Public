@@ -8,8 +8,17 @@ using UnityEngine.UI;
 /// <summary>The only conversion between saved village-local position and Home's presentation offset.</summary>
 public static class BuildingWorldMapper
 {
-    public static Vector3 ToPresentation(Vector2 local) => ProductHomeWorldHost.WorldOrigin+new Vector3(local.x,local.y,0);
-    public static Vector2 ToLocal(Vector3 presentation) => (Vector2)(presentation-ProductHomeWorldHost.WorldOrigin);
+    internal static bool DimetricEnabled { get; set; }
+    internal static Vector3 Offset(Vector2 local) => DimetricEnabled
+        ? new Vector3((local.x-local.y)*.85f,-(local.x+local.y)*.45f,0)
+        : new Vector3(local.x,local.y,0);
+    public static Vector3 ToPresentation(Vector2 local) => ProductHomeWorldHost.WorldOrigin+Offset(local);
+    public static Vector2 ToLocal(Vector3 presentation)
+    {
+        var p=presentation-ProductHomeWorldHost.WorldOrigin;
+        if(!DimetricEnabled) return new Vector2(p.x,p.y);
+        return new Vector2((p.x/.85f-p.y/.45f)*.5f,(-p.x/.85f-p.y/.45f)*.5f);
+    }
 }
 
 /// <summary>Transient catalog and ghost. No instance list, allocator, clock or save state.</summary>
@@ -36,8 +45,8 @@ public sealed class HomeBuildingPlacement : MonoBehaviour
     public void Initialize(ProductHomeWorldHost host)
     {
         _host=host;_resolver=new HomePresentationResolver();
-        _panel=HomeProductUI.Panel(transform,"BuildingCatalog",new Vector2(0,1),new Vector2(24,-105),new Vector2(360,545),new Color(.035f,.07f,.085f,.96f)).gameObject;
-        HomeProductUI.Text(_panel.transform,"Title",new Vector2(0,1),new Vector2(18,-18),new Vector2(320,45),"建造 · C1 白模",26);
+        _panel=HomeProductUI.Panel(transform,"BuildingCatalog",new Vector2(0,1),new Vector2(24,-105),new Vector2(360,545),HomeProductUI.Paper).gameObject;
+        HomeProductUI.Text(_panel.transform,"Title",new Vector2(0,1),new Vector2(18,-18),new Vector2(320,45),"建造",26);
         HomeProductUI.Text(_panel.transform,"Instructions",new Vector2(0,1),new Vector2(18,-65),new Vector2(320,78),"选择建筑后，点击世界放置。\n绿色可放置；红色不可放置。\n右键 / Esc 取消，滚轮缩放。",17);
         _rows=HomeProductUI.Rect(_panel.transform,"CatalogRows",new Vector2(0,1),new Vector2(18,-145),new Vector2(324,200)).gameObject;
         _status=HomeProductUI.Text(_panel.transform,"PlacementStatus",new Vector2(0,1),new Vector2(18,-355),new Vector2(324,78),"",18);
@@ -55,7 +64,7 @@ public sealed class HomeBuildingPlacement : MonoBehaviour
     }
     public void OpenCatalog()
     {
-        Cancel();_host.Shell.CloseSurface();_panel.SetActive(true);_area.SetActive(true);
+        Cancel();_host.Shell.CloseSurface();_panel.SetActive(true);_area.SetActive(true);RefreshArea();
         foreach(Transform child in _rows.transform) Destroy(child.gameObject);
         if(!StaticConfigRegistry.TryGetBuildings(out _definitions,out string failure)) {Diagnostic=failure;RefreshStatus();return;}
         int row=0;
@@ -66,6 +75,10 @@ public sealed class HomeBuildingPlacement : MonoBehaviour
         }
         Diagnostic="请选择建筑";RefreshStatus();
     }
+    private void RefreshArea()
+    {
+        _area.GetComponent<LineRenderer>().SetPositions(new[]{BuildingWorldMapper.ToPresentation(new Vector2(BuildingPlacementValidator.MinX,BuildingPlacementValidator.MinY)),BuildingWorldMapper.ToPresentation(new Vector2(BuildingPlacementValidator.MaxX,BuildingPlacementValidator.MinY)),BuildingWorldMapper.ToPresentation(new Vector2(BuildingPlacementValidator.MaxX,BuildingPlacementValidator.MaxY)),BuildingWorldMapper.ToPresentation(new Vector2(BuildingPlacementValidator.MinX,BuildingPlacementValidator.MaxY))});
+    }
     public bool Choose(string id)
     {
         if(!IsOpen || _definitions==null || !BuildingRegistry.IsFormallyBuildable(id) || !_definitions.TryGetById(id,out var d)) return false;
@@ -74,6 +87,7 @@ public sealed class HomeBuildingPlacement : MonoBehaviour
     }
     public void SetCandidate(Vector2 candidate)
     {
+        RefreshArea();
         Candidate=candidate;
         Diagnostic=VillageRuntimeBridge.Buildings.Preview(_definitions,SelectedDefinitionId,candidate.x,candidate.y);
         _validation=Diagnostic;
@@ -83,12 +97,13 @@ public sealed class HomeBuildingPlacement : MonoBehaviour
         {
             var preview=new HomeBuildingSnapshot("preview",definition.BuildingDefinitionId,definition.DisplayName,candidate.x,candidate.y,definition.FootprintWidth,definition.FootprintDepth,BuildingLifecycleState.UnderConstruction);
             _resolver.TryResolve(_resolver.PresentationKey(preview),out var sprite,out _);_ghost.sprite=sprite;
-            var size=sprite.bounds.size;float scale=definition.FootprintWidth/Mathf.Max(size.x,.001f);
+            var size=sprite.bounds.size;float scale=HomeArtCalibration.CanvasWidth(definition.BuildingDefinitionId,definition.FootprintWidth,definition.FootprintDepth)/Mathf.Max(size.x,.001f);
             _ghost.transform.localScale=new Vector3(scale,scale,1);
-            _ghost.transform.position+=new Vector3(0,-definition.FootprintDepth*.5f+size.y*scale*.5f,0);
+            float lift=(HomeArtCalibration.AnchorY(definition.BuildingDefinitionId)-.5f)*size.y*scale;
+            _ghost.transform.position+=new Vector3(0,lift,0);
             var footprint=_ghost.GetComponentInChildren<LineRenderer>();
             HomeBuildingFootprint.SetSize(footprint,definition.FootprintWidth/scale,definition.FootprintDepth/scale);
-            footprint.transform.localPosition=new Vector3(0,(definition.FootprintDepth*.5f-size.y*scale*.5f)/scale,0);
+            footprint.transform.localPosition=new Vector3(0,-lift/scale,0);
         }
         else if(_definitions.TryGetById(SelectedDefinitionId,out var baseline))
         {
@@ -152,7 +167,7 @@ public static class HomeBuildingFootprint
         SetSize(line,width,depth);return line;
     }
     public static void SetSize(LineRenderer line,float width,float depth)
-    {line.SetPositions(new[]{new Vector3(-width*.5f,-depth*.5f,0),new Vector3(width*.5f,-depth*.5f,0),new Vector3(width*.5f,depth*.5f,0),new Vector3(-width*.5f,depth*.5f,0)});}
+    {line.SetPositions(new[]{BuildingWorldMapper.Offset(new Vector2(-width*.5f,-depth*.5f)),BuildingWorldMapper.Offset(new Vector2(width*.5f,-depth*.5f)),BuildingWorldMapper.Offset(new Vector2(width*.5f,depth*.5f)),BuildingWorldMapper.Offset(new Vector2(-width*.5f,depth*.5f))});}
 }
 internal static class HomeBuildingDefinitionText
 {

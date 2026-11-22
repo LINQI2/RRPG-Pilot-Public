@@ -1,0 +1,22 @@
+[
+  {
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Prefabs/UI/UnitCard.prefab",
+    "Backup": "Development/ArtLibrary/08_ExistingProject/UnitCard-before-unit-hud-20261108.prefab.backup",
+    "BeforeSHA256": "FA7E3B316A33D4B289035DD040545CAD02F56CFC6B48BB56ABEC54B7F7CF403E",
+    "AfterSHA256": "C2698A2374BE7A0B7A211D2FBB8CC46DB050E638CE9541B078F0ABB42F3EF313",
+    "MutationMethod": "Unity Editor MCP only",
+    "ProductFlowVerified": true,
+    "Scope": "Existing UnitCard HP/background/fill/read-only slider, HP font and native ATK badge only; real HP 26/30 with slider 0.8666667 after original EndTurn",
+    "FinalArtAccepted": false
+  },
+  {
+    "TargetPath": "UnityProject/RRPG1.0game/Assets/Scenes/SampleScene.scene",
+    "Backup": "Development/ArtLibrary/08_ExistingProject/SampleScene-before-unit-hud-20261108.scene.backup",
+    "BeforeSHA256": "6B49BC5621C171D02CA8CDC91ED356888C21D0AE72A63FCB41D93B14850004AB",
+    "AfterSHA256": "1F74C5EB5EAC52D2237AC9FEB46F7A5D9131BE18F0D0101FEA9D06CB79084526",
+    "MutationMethod": "Unity Editor MCP only",
+    "ProductFlowVerified": true,
+    "Scope": "Existing BtnParty/BtnSettings image backgrounds, icon children, borders and top-right bounds only; callbacks preserved; final original departure/deployment/start verified",
+    "FinalArtAccepted": false
+  }
+]

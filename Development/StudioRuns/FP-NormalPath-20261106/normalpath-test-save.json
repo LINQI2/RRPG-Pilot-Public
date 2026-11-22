@@ -1,0 +1,458 @@
+{
+    "SaveVersion": 1,
+    "GameVersion": "0.2.3",
+    "SavedAtUnixTime": 1793946914,
+    "Player": {
+        "Gold": 100,
+        "Heroes": [
+            {
+                "HeroId": "hero_001",
+                "PersonId": "person_35168933c2674b609a734625f2fa1e1d",
+                "Level": 1,
+                "Exp": 0,
+                "Injury": 0,
+                "MaxHP": 35,
+                "StarterSlots": [],
+                "UnlockedPoolCardIds": [],
+                "TraitId": "",
+                "TraitLevel": 0,
+                "Hungry": false,
+                "ConsecutiveUnderfedDays": 0
+            }
+        ],
+        "Characters": [
+            {
+                "CharacterId": "char_001",
+                "PersonDefinitionId": "person_lin_en",
+                "DisplayName": "林恩",
+                "PersonId": "person_c3862250e8f94a1886b61bc3d082848b",
+                "Level": 1,
+                "Exp": 0,
+                "CurrentAttack": 20,
+                "Injury": 0,
+                "IsDead": false,
+                "MaxHP": 30,
+                "StarterSlots": [
+                    {
+                        "CardId": "bcard_stoke_fire",
+                        "Proficiency": 1
+                    },
+                    {
+                        "CardId": "bcard_prep_cut",
+                        "Proficiency": 1
+                    },
+                    {
+                        "CardId": "bcard_share_meal",
+                        "Proficiency": 1
+                    }
+                ],
+                "UnlockedPoolCardIds": [],
+                "TraitId": "",
+                "TraitLevel": 0,
+                "HasActiveProfessionProgress": true,
+                "ActiveProfessionProgress": {
+                    "ProfessionId": "profession_test_c",
+                    "ProfessionLevel": 1,
+                    "ProfessionExp": 0,
+                    "UnlockedPoolCardIds": [
+                        "bcard_aim",
+                        "bcard_sword",
+                        "bcard_stoke_fire",
+                        "bcard_prep_cut",
+                        "bcard_share_meal"
+                    ],
+                    "ProfessionTraitLevel": 1
+                },
+                "FormationState": {
+                    "Entries": [],
+                    "FormationWindowOpen": false,
+                    "FormationTargetProfessionId": "",
+                    "IsAmbiguous": false
+                },
+                "LifeHistory": {
+                    "Events": []
+                },
+                "Hungry": false,
+                "ConsecutiveUnderfedDays": 0
+            },
+            {
+                "CharacterId": "char_003",
+                "PersonDefinitionId": "person_su_wan",
+                "DisplayName": "苏晚",
+                "PersonId": "person_e65f58c09de546f2bd219176ec1719f4",
+                "Level": 1,
+                "Exp": 0,
+                "CurrentAttack": 4,
+                "Injury": 0,
+                "IsDead": false,
+                "MaxHP": 25,
+                "StarterSlots": [
+                    {
+                        "CardId": "bcard_lend_hand",
+                        "Proficiency": 1
+                    },
+                    {
+                        "CardId": "bcard_fill_gap",
+                        "Proficiency": 1
+                    },
+                    {
+                        "CardId": "bcard_swap_post",
+                        "Proficiency": 1
+                    }
+                ],
+                "UnlockedPoolCardIds": [],
+                "TraitId": "",
+                "TraitLevel": 0,
+                "HasActiveProfessionProgress": true,
+                "ActiveProfessionProgress": {
+                    "ProfessionId": "profession_test_a",
+                    "ProfessionLevel": 1,
+                    "ProfessionExp": 0,
+                    "UnlockedPoolCardIds": [
+                        "bcard_sword",
+                        "bcard_heal",
+                        "bcard_lend_hand",
+                        "bcard_fill_gap",
+                        "bcard_swap_post"
+                    ],
+                    "ProfessionTraitLevel": 1
+                },
+                "FormationState": {
+                    "Entries": [],
+                    "FormationWindowOpen": false,
+                    "FormationTargetProfessionId": "",
+                    "IsAmbiguous": false
+                },
+                "LifeHistory": {
+                    "Events": []
+                },
+                "Hungry": false,
+                "ConsecutiveUnderfedDays": 0
+            },
+            {
+                "CharacterId": "char_002",
+                "PersonDefinitionId": "person_han_zhao",
+                "DisplayName": "韩昭",
+                "PersonId": "person_d0a8f62a0b7b4a98a1cbcc6b96a305f9",
+                "Level": 1,
+                "Exp": 0,
+                "CurrentAttack": 20,
+                "Injury": 0,
+                "IsDead": false,
+                "MaxHP": 22,
+                "StarterSlots": [
+                    {
+                        "CardId": "bcard_finish_prey",
+                        "Proficiency": 1
+                    },
+                    {
+                        "CardId": "bcard_break_poise",
+                        "Proficiency": 1
+                    },
+                    {
+                        "CardId": "bcard_solo_hunt",
+                        "Proficiency": 1
+                    }
+                ],
+                "UnlockedPoolCardIds": [],
+                "TraitId": "",
+                "TraitLevel": 0,
+                "HasActiveProfessionProgress": true,
+                "ActiveProfessionProgress": {
+                    "ProfessionId": "profession_test_e",
+                    "ProfessionLevel": 1,
+                    "ProfessionExp": 0,
+                    "UnlockedPoolCardIds": [
+                        "bcard_heal",
+                        "bcard_sword",
+                        "bcard_finish_prey",
+                        "bcard_break_poise",
+                        "bcard_solo_hunt"
+                    ],
+                    "ProfessionTraitLevel": 1
+                },
+                "FormationState": {
+                    "Entries": [],
+                    "FormationWindowOpen": false,
+                    "FormationTargetProfessionId": "",
+                    "IsAmbiguous": false
+                },
+                "LifeHistory": {
+                    "Events": []
+                },
+                "Hungry": false,
+                "ConsecutiveUnderfedDays": 0
+            },
+            {
+                "CharacterId": "char_004",
+                "PersonDefinitionId": "person_qiu_shuang",
+                "DisplayName": "邱霜",
+                "PersonId": "person_eb659f396d1e4760a1f382b0c5baaca0",
+                "Level": 1,
+                "Exp": 0,
+                "CurrentAttack": 2,
+                "Injury": 0,
+                "IsDead": false,
+                "MaxHP": 30,
+                "StarterSlots": [
+                    {
+                        "CardId": "bcard_sword",
+                        "Proficiency": 1
+                    }
+                ],
+                "UnlockedPoolCardIds": [],
+                "TraitId": "",
+                "TraitLevel": 0,
+                "HasActiveProfessionProgress": true,
+                "ActiveProfessionProgress": {
+                    "ProfessionId": "profession_test_b",
+                    "ProfessionLevel": 1,
+                    "ProfessionExp": 0,
+                    "UnlockedPoolCardIds": [
+                        "bcard_sword",
+                        "bcard_heal"
+                    ],
+                    "ProfessionTraitLevel": 1
+                },
+                "FormationState": {
+                    "Entries": [],
+                    "FormationWindowOpen": false,
+                    "FormationTargetProfessionId": "",
+                    "IsAmbiguous": false
+                },
+                "LifeHistory": {
+                    "Events": []
+                },
+                "Hungry": false,
+                "ConsecutiveUnderfedDays": 0
+            },
+            {
+                "CharacterId": "char_007_guard",
+                "PersonDefinitionId": "person_wei_an",
+                "DisplayName": "魏安",
+                "PersonId": "person_eaee483819044237ada5a01c8e6f4541",
+                "Level": 1,
+                "Exp": 0,
+                "CurrentAttack": 6,
+                "Injury": 0,
+                "IsDead": false,
+                "MaxHP": 35,
+                "StarterSlots": [
+                    {
+                        "CardId": "bcard_aim",
+                        "Proficiency": 1
+                    },
+                    {
+                        "CardId": "bcard_heal",
+                        "Proficiency": 2
+                    }
+                ],
+                "UnlockedPoolCardIds": [],
+                "TraitId": "",
+                "TraitLevel": 0,
+                "HasActiveProfessionProgress": true,
+                "ActiveProfessionProgress": {
+                    "ProfessionId": "profession_test_d",
+                    "ProfessionLevel": 1,
+                    "ProfessionExp": 3,
+                    "UnlockedPoolCardIds": [
+                        "bcard_heal"
+                    ],
+                    "ProfessionTraitLevel": 2
+                },
+                "FormationState": {
+                    "Entries": [],
+                    "FormationWindowOpen": false,
+                    "FormationTargetProfessionId": "",
+                    "IsAmbiguous": false
+                },
+                "LifeHistory": {
+                    "Events": []
+                },
+                "Hungry": false,
+                "ConsecutiveUnderfedDays": 0
+            }
+        ],
+        "OwnedCharacterCardIds": [
+            "ccard_001",
+            "ccard_003",
+            "ccard_002",
+            "ccard_004",
+            "ccard_007_guard"
+        ],
+        "OwnedItemCardIds": [],
+        "OwnedCharacterCardOwners": [
+            {
+                "CardId": "ccard_001",
+                "PersonId": "person_c3862250e8f94a1886b61bc3d082848b"
+            },
+            {
+                "CardId": "ccard_003",
+                "PersonId": "person_e65f58c09de546f2bd219176ec1719f4"
+            },
+            {
+                "CardId": "ccard_002",
+                "PersonId": "person_d0a8f62a0b7b4a98a1cbcc6b96a305f9"
+            },
+            {
+                "CardId": "ccard_004",
+                "PersonId": "person_eb659f396d1e4760a1f382b0c5baaca0"
+            },
+            {
+                "CardId": "ccard_007_guard",
+                "PersonId": "person_eaee483819044237ada5a01c8e6f4541"
+            }
+        ]
+    },
+    "SocialWorld": {
+        "RelationalFacts": [],
+        "Relationships": []
+    },
+    "ActivityWorld": {
+        "IntradaySchemaVersion": 1,
+        "PersonActivityStates": [],
+        "ActiveInstances": []
+    },
+    "AutonomousDecisionWorld": {
+        "HasLastResolvedDay": false,
+        "LastResolvedYear": 0,
+        "LastResolvedMonth": 0,
+        "LastResolvedDay": 0,
+        "HasLastOpportunity": false,
+        "LastOpportunityMinute": 0,
+        "LastOpportunityId": ""
+    },
+    "SocialFeedbackWorld": {
+        "Outbox": []
+    },
+    "EventWorld": {
+        "Flags": [],
+        "History": [],
+        "PendingVillageEvent": {
+            "EventInstanceId": "",
+            "EventId": "",
+            "TriggerType": "",
+            "TriggerKey": "",
+            "ResolutionSeed": 0,
+            "RoleBindings": [],
+            "ContextSnapshot": []
+        }
+    },
+    "Village": {
+        "Buildings": {
+            "NextSequence": 8,
+            "Instances": [
+                {
+                    "InstanceId": "building_instance_1",
+                    "BuildingDefinitionId": "building_farm",
+                    "WorldX": -6.0,
+                    "WorldY": -1.2000000476837159,
+                    "LifecycleState": 1,
+                    "ConstructionProjectId": ""
+                },
+                {
+                    "InstanceId": "building_instance_2",
+                    "BuildingDefinitionId": "building_kitchen",
+                    "WorldX": -2.0,
+                    "WorldY": -1.2000000476837159,
+                    "LifecycleState": 1,
+                    "ConstructionProjectId": ""
+                },
+                {
+                    "InstanceId": "building_instance_3",
+                    "BuildingDefinitionId": "building_house",
+                    "WorldX": -8.5,
+                    "WorldY": 4.199999809265137,
+                    "LifecycleState": 1,
+                    "ConstructionProjectId": ""
+                },
+                {
+                    "InstanceId": "building_instance_4",
+                    "BuildingDefinitionId": "building_house",
+                    "WorldX": -5.099999904632568,
+                    "WorldY": 4.199999809265137,
+                    "LifecycleState": 1,
+                    "ConstructionProjectId": ""
+                },
+                {
+                    "InstanceId": "building_instance_5",
+                    "BuildingDefinitionId": "building_house",
+                    "WorldX": -1.7000000476837159,
+                    "WorldY": 4.199999809265137,
+                    "LifecycleState": 1,
+                    "ConstructionProjectId": ""
+                },
+                {
+                    "InstanceId": "building_instance_6",
+                    "BuildingDefinitionId": "building_house",
+                    "WorldX": 1.7000000476837159,
+                    "WorldY": 4.199999809265137,
+                    "LifecycleState": 1,
+                    "ConstructionProjectId": ""
+                },
+                {
+                    "InstanceId": "building_instance_7",
+                    "BuildingDefinitionId": "building_house",
+                    "WorldX": 5.099999904632568,
+                    "WorldY": 4.199999809265137,
+                    "LifecycleState": 1,
+                    "ConstructionProjectId": ""
+                }
+            ]
+        },
+        "IntradayWork": {
+            "SchemaVersion": 1,
+            "LastLunchMinute": -1,
+            "Batches": [],
+            "Evidence": [],
+            "Arrivals": [],
+            "UnderfedAtLunch": []
+        },
+        "Time": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Speed": 1,
+            "SecondsIntoDay": 52.01502227783203,
+            "IntradayTime": {
+                "SchemaVersion": 1,
+                "CurrentWorldMinute": 52,
+                "DriverRemainder": 0.015021575847640634,
+                "LastCompletedDailyBoundaryMinute": 0
+            }
+        },
+        "State": {
+            "TestSurvivalValue": 0
+        },
+        "Assignments": {
+            "Records": [],
+            "TotalTestContribution": 0
+        },
+        "Projects": {
+            "LastAllocatedSequence": 0,
+            "ActiveProjects": []
+        },
+        "Social": {
+            "Facts": []
+        },
+        "Resources": {
+            "Ingredients": 0,
+            "Food": 0
+        },
+        "SocialResponse": {
+            "Fired": [],
+            "Pending": {
+                "EventId": "",
+                "PatternKey": "",
+                "PersonId": "",
+                "Year": 0
+            },
+            "Choices": [],
+            "Rests": []
+        },
+        "PersonRest": [],
+        "World": {
+            "Places": []
+        }
+    }
+}

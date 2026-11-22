@@ -63,13 +63,13 @@ public sealed class PersonDetailView : MonoBehaviour
             }
             if(roster.Count==0)Row(rosterContent,"EmptyRoster","未找到人物",60,null).interactable=false;
         }
-        foreach(var pair in _rows)pair.Value.GetComponent<Image>().color=pair.Key==DisplayedPersonId?new Color(.28f,.43f,.36f,1):new Color(.14f,.24f,.24f,1);
+        foreach(var pair in _rows)pair.Value.GetComponent<Image>().color=pair.Key==DisplayedPersonId?new Color(.92f,.78f,.51f,1):new Color(.88f,.80f,.64f,1);
         var snapshot=PersonDetailReadAdapter.Read(source,DisplayedPersonId,_host.Snapshot);
         title.text="人物 · "+snapshot.Name;
         body.text=snapshot.Pages[(int)ActiveTab];
         growth.gameObject.SetActive(ActiveTab==PersonDetailTab.Growth);growth.interactable=snapshot.CanOpenGrowth&&VillageRuntimeBridge.CanSaveWorld;
         save.interactable=source!=null&&VillageRuntimeBridge.CanSaveWorld&&_shell.GrowthUI?.HasPendingChoice!=true;
-        for(int i=0;i<tabs.Length;i++)tabs[i].GetComponent<Image>().color=i==(int)ActiveTab?new Color(.28f,.43f,.36f,1):new Color(.14f,.24f,.24f,1);
+        for(int i=0;i<tabs.Length;i++)tabs[i].GetComponent<Image>().color=i==(int)ActiveTab?new Color(.92f,.78f,.51f,1):new Color(.88f,.80f,.64f,1);
         string relations=ActiveTab==PersonDetailTab.Relationships?string.Join("|",snapshot.Relations.Select(r=>r.PersonId+r.Text+r.Name+r.CanNavigate)):"";
         if(_relationsKey!=relations)
         {
@@ -99,7 +99,7 @@ public sealed class PersonDetailView : MonoBehaviour
     static Button Row(RectTransform parent,string name,string label,float height,Action action)
     {
         var go=new GameObject(name,typeof(RectTransform),typeof(Image),typeof(Button),typeof(LayoutElement));go.transform.SetParent(parent,false);
-        go.GetComponent<LayoutElement>().preferredHeight=height;go.GetComponent<Image>().color=new Color(.14f,.24f,.24f,1);
+        go.GetComponent<LayoutElement>().preferredHeight=height;go.GetComponent<Image>().color=new Color(.88f,.80f,.64f,1);
         var button=go.GetComponent<Button>();button.onClick.AddListener(()=>action?.Invoke());
         var text=HomeProductUI.Text(go.transform,"Label",Vector2.zero,Vector2.zero,Vector2.zero,label,20);
         var rt=text.rectTransform;rt.anchorMax=Vector2.one;rt.offsetMin=new Vector2(12,6);rt.offsetMax=new Vector2(-12,-6);text.overflowMode=TextOverflowModes.Ellipsis;

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "12 results\nlogType|message\nWarning|The character with Unicode value \\uFF09 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \\u25A1 in text object [SectionActiveLabel].\nWarning|The character with Unicode value \\u7528 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \\u25A1 in text object [SectionActiveLabel].\nWarning|The character with Unicode value \\u5360 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \\u25A1 in text object [SectionActiveLabel].\nWarning|The character with Unicode value \\u9664 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \\u25A1 in text object [SectionActiveLabel].\nWarning|The character with Unicode value \\u89E3 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \\u25A1 in text object [SectionActiveLabel].\nWarning|The character with Unicode value \\u52A8 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \\u25A1 in text object [SectionActiveLabel].\nWarning|The character with Unicode value \\u81EA was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \\u25A1 in text object [SectionActiveLabel].\nWarning|The character with Unicode value \\u540E was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \\u25A1 in text object [SectionActiveLabel].\nWarning|The character with Unicode value \\u6210 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \\u25A1 in text object [SectionActiveLabel].\nWarning|The character with Unicode value \\u5B8C was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \\u25A1 in text object [SectionActiveLabel].\nWarning|The character with Unicode value \\uFF1B was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \\u25A1 in text object [SectionActiveLabel].\nWarning|The character with Unicode value \\u8FDB was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \\u25A1 in text object [SectionActiveLabel]."
+      }
+    ],
+    "isError": false
+  },
+  "id": 14,
+  "jsonrpc": "2.0"
+}

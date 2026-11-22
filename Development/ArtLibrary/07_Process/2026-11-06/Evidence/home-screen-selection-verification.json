@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "System.String: \"PASS: real screen-coordinate picking selects actual farm Building and fixed Tavern Place; no placement/save; frame=12893\""
+      }
+    ],
+    "isError": false
+  },
+  "id": 50,
+  "jsonrpc": "2.0"
+}

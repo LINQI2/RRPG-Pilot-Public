@@ -1,0 +1,39 @@
+{
+  "javascriptSyntax": "PASS",
+  "personSources": [
+    {
+      "file": "person_world_neutral_sw_r1.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 441955
+    },
+    {
+      "file": "person_world_adult_woman_sw_r1.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 475683
+    },
+    {
+      "file": "person_world_older_man_sw_r1.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 439905
+    },
+    {
+      "file": "person_world_sturdy_sw_r1.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 514278
+    }
+  ],
+  "sourceCount": 4,
+  "thumbnailCanvasSizes": [
+    48,
+    72,
+    96
+  ],
+  "hasGrayscaleControl": true,
+  "hasSolidBackgroundControl": true,
+  "browserVisualCheck": "NOT RUN: file URL policy restriction already established; no retry or workaround",
+  "runtimeIntegration": "NOT RUN"
+}

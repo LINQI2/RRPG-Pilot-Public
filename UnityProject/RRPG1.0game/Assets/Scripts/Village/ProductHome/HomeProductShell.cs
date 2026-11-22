@@ -28,6 +28,7 @@ public sealed class HomeProductShell : MonoBehaviour
     private TownUI _town;
     private Canvas _canvas;
     private TMP_Text _date,_resources,_feed,_surfaceTitle,_surfaceBody,_attentionText;
+    private GameObject _feedBackdrop;
     private Button _pause,_speed,_attentionButton;
     private GameObject _surface,_attentionPanel;
     private Button _settingsButton;
@@ -47,7 +48,8 @@ public sealed class HomeProductShell : MonoBehaviour
         _canvas=gameObject.AddComponent<Canvas>();_canvas.renderMode=RenderMode.ScreenSpaceOverlay;_canvas.sortingOrder=70;
         gameObject.AddComponent<GraphicRaycaster>();var scaler=gameObject.AddComponent<CanvasScaler>();
         scaler.uiScaleMode=CanvasScaler.ScaleMode.ScaleWithScreenSize;scaler.referenceResolution=new Vector2(1920,1080);scaler.matchWidthOrHeight=.5f;
-        var top=HomeProductUI.Panel(transform,"TopHUD",new Vector2(.5f,1),new Vector2(0,-16),new Vector2(1872,62),new Color(.03f,.065f,.075f,.87f));
+        var top=HomeProductUI.Panel(transform,"TopHUD",new Vector2(.5f,1),new Vector2(0,-16),new Vector2(-48,62),HomeProductUI.Paper);
+        top.anchorMin=new Vector2(0,1);top.anchorMax=Vector2.one;
         _date=HomeProductUI.Text(top,"DateClock",new Vector2(0,1),new Vector2(18,-17),new Vector2(360,36),"");
         _pause=HomeProductUI.Button(top,"Pause",new Vector2(0,1),new Vector2(385,-11),new Vector2(94,40),"暂停",TogglePause);
         _speed=HomeProductUI.Button(top,"CurrentSpeed",new Vector2(0,1),new Vector2(490,-11),new Vector2(100,40),"1×",CycleSpeed);
@@ -55,7 +57,7 @@ public sealed class HomeProductShell : MonoBehaviour
         _resources=HomeProductUI.Text(top,"Resources",new Vector2(1,1),new Vector2(-294,-17),new Vector2(400,36),"");_resources.alignment=TextAlignmentOptions.TopRight;
         _attentionButton=HomeProductUI.Button(top,"Attention",new Vector2(1,1),new Vector2(-134,-11),new Vector2(150,40),"关注 0",()=>_attentionPanel.SetActive(!_attentionPanel.activeSelf));
         _settingsButton=HomeProductUI.Button(top,"Settings",new Vector2(1,1),new Vector2(-14,-11),new Vector2(110,40),"设置",ToggleSettings);
-        _attentionPanel=HomeProductUI.Panel(transform,"AttentionPanel",Vector2.one,new Vector2(-24,-88),new Vector2(370,185),new Color(.035f,.075f,.095f,.96f)).gameObject;
+        _attentionPanel=HomeProductUI.Panel(transform,"AttentionPanel",Vector2.one,new Vector2(-24,-88),new Vector2(370,185),HomeProductUI.Paper).gameObject;
         _attentionText=HomeProductUI.Text(_attentionPanel.transform,"ActionFacts",new Vector2(0,1),new Vector2(16,-14),new Vector2(338,105),"");
         HomeProductUI.Button(_attentionPanel.transform,"NavigateAttention",new Vector2(0,0),new Vector2(16,14),new Vector2(338,40),"查看下一项",NavigateNextAttention);
         _attentionPanel.SetActive(false);
@@ -64,12 +66,14 @@ public sealed class HomeProductShell : MonoBehaviour
         var settingsRect=_settingsPanel.GetComponent<RectTransform>();
         settingsRect.anchorMin=Vector2.zero;settingsRect.anchorMax=Vector2.one;settingsRect.offsetMin=Vector2.zero;settingsRect.offsetMax=Vector2.zero;
         _settingsPanel.GetComponent<Image>().raycastTarget=true;
-        var menu=HomeProductUI.Panel(_settingsPanel.transform,"SettingsMenu",Vector2.one,new Vector2(-14,-60),new Vector2(260,214),new Color(.035f,.075f,.095f,.98f));
+        var menu=HomeProductUI.Panel(_settingsPanel.transform,"SettingsMenu",Vector2.one,new Vector2(-14,-60),new Vector2(260,214),HomeProductUI.Paper);
         _settingsStatus=HomeProductUI.Text(menu,"SettingsStatus",new Vector2(0,0),new Vector2(14,8),new Vector2(232,40),"",15);
         _settingsActions.Add(HomeProductUI.Button(menu,"SettingsSave",new Vector2(0,1),new Vector2(14,-14),new Vector2(232,40),"保存游戏",()=>SettingsSave(false)));
         _settingsActions.Add(HomeProductUI.Button(menu,"SettingsSaveAndExit",new Vector2(0,1),new Vector2(14,-62),new Vector2(232,40),"保存并返回主菜单",()=>SettingsSave(true)));
         _settingsActions.Add(HomeProductUI.Button(menu,"SettingsClose",new Vector2(0,1),new Vector2(14,-110),new Vector2(232,40),"关闭",CloseSettings));
         _settingsPanel.SetActive(false);
+        var navBackground=HomeProductUI.Panel(transform,"NavigationBackdrop",new Vector2(.5f,0),new Vector2(0,12),new Vector2(1112,74),HomeProductUI.Paper);
+        navBackground.GetComponent<Image>().raycastTarget=false;
         var nav=HomeProductUI.Rect(transform,"ProductNavigation",new Vector2(.5f,0),new Vector2(0,24),new Vector2(1080,50));
         string[] labels={"村庄","人物","管理","卡牌","历史","远征 ↗","建造"};
         for(int i=0;i<labels.Length;i++)
@@ -81,11 +85,14 @@ public sealed class HomeProductShell : MonoBehaviour
         HomeProductUI.Button(transform,"DebugCompatibility",Vector2.zero,new Vector2(24,24),new Vector2(155,38),"调试 / 对照",ToggleCompatibility);
         HomeProductUI.Button(transform,"R2VisualProfile",new Vector2(1,0),new Vector2(-24,24),new Vector2(220,38),"R2 对照：A 白模",()=>{
             _host.SetVisualPrototype(!_host.VisualPrototypeEnabled);
-            transform.Find("R2VisualProfile").GetComponentInChildren<TMP_Text>().text=_host.VisualPrototypeEnabled ? "R2 对照：B 原型" : "R2 对照：A 白模";
+            transform.Find("R2VisualProfile").GetComponentInChildren<TMP_Text>().text=_host.VisualPrototypeEnabled ? "画面：B 美术样板" : "画面：A 原版";
         });
-        HomeProductUI.Text(transform,"R2PrototypeNotice",new Vector2(1,0),new Vector2(-24,68),new Vector2(320,30),"TECHNICAL PROTOTYPE / NOT FINAL ART",13).alignment=TextAlignmentOptions.Right;
-        _feed=HomeProductUI.Text(transform,"VillageFeed",Vector2.zero,new Vector2(24,98),new Vector2(525,108),"",19);
-        _surface=HomeProductUI.Panel(transform,"HomeInternalWhitebox",new Vector2(0,1),new Vector2(24,-105),new Vector2(620,700),new Color(.035f,.07f,.085f,.94f)).gameObject;
+        HomeProductUI.Text(transform,"R2PrototypeNotice",new Vector2(1,0),new Vector2(-24,68),new Vector2(320,30),"村庄美术样板 · 非最终版本",13).alignment=TextAlignmentOptions.Right;
+        _feedBackdrop=HomeProductUI.Panel(transform,"VillageFeedBackdrop",Vector2.zero,new Vector2(24,98),new Vector2(525,124),HomeProductUI.Paper).gameObject;
+        _feedBackdrop.GetComponent<Image>().raycastTarget=false;
+        HomeProductUI.Text(_feedBackdrop.transform,"FeedCaption",new Vector2(0,1),new Vector2(16,-9),new Vector2(490,20),"村庄动态",13).color=HomeProductUI.MutedInk;
+        _feed=HomeProductUI.Text(transform,"VillageFeed",Vector2.zero,new Vector2(40,108),new Vector2(493,82),"",18);
+        _surface=HomeProductUI.Panel(transform,"HomeInternalWhitebox",new Vector2(0,1),new Vector2(24,-105),new Vector2(620,700),HomeProductUI.Paper).gameObject;
         _surfaceTitle=HomeProductUI.Text(_surface.transform,"Title",new Vector2(0,1),new Vector2(24,-24),new Vector2(490,44),"",28);
         HomeProductUI.Button(_surface.transform,"CloseToWorld",Vector2.one,new Vector2(-18,-18),new Vector2(70,40),"关闭",CloseSurface);
         _surfaceBody=HomeProductUI.Text(_surface.transform,"WhiteboxContent",new Vector2(0,1),new Vector2(24,-95),new Vector2(572,540),"",22);
@@ -141,6 +148,13 @@ public sealed class HomeProductShell : MonoBehaviour
     /// <summary>【Editor-only internal】清除未消费的注入（可逆、幂等），恢复生产 Input.GetKeyDown 采样。</summary>
     internal void ClearEscapePressForTests() { _escapePressPendingForTests=false; }
 #endif
+    private string DisplayFeedMessage(string message)
+    {
+        if(string.IsNullOrEmpty(message) || _host.Snapshot==null)return message;
+        foreach(var person in _host.Snapshot.Persons)
+            if(!string.IsNullOrEmpty(person.PersonId) && !string.IsNullOrEmpty(person.DisplayName))message=message.Replace(person.PersonId,person.DisplayName);
+        return message;
+    }
     private void RetirePrototype()
     {
         if(_town?.canvasRoot==null) return;
@@ -152,7 +166,7 @@ public sealed class HomeProductShell : MonoBehaviour
     }
     public void RefreshNow()
     {
-        transform.Find("R2VisualProfile").GetComponentInChildren<TMP_Text>().text=_host.VisualPrototypeEnabled ? "R2 对照：B 原型" : "R2 对照：A 白模";
+        transform.Find("R2VisualProfile").GetComponentInChildren<TMP_Text>().text=_host.VisualPrototypeEnabled ? "画面：B 美术样板" : "画面：A 原版";
         SyncSourceReset();
         Attention=HomeAttentionProjection.Read();
         var clock=VillageRuntimeBridge.Time;var resources=VillageRuntimeBridge.Resources;
@@ -162,7 +176,8 @@ public sealed class HomeProductShell : MonoBehaviour
         _resources.text=$"食物 {resources?.Food ?? 0}     食材 {resources?.Ingredients ?? 0}";
         _attentionButton.GetComponentInChildren<TMP_Text>().text="关注 "+Attention.Count;
         _attentionText.text=Attention.Count==0 ? "当前没有待处理事项" : string.Join("\n",Attention.Take(3).Select(a=>a.Subject+" · "+a.Message));
-        _feed.text=string.Join("\n",Feed.Recent.Select(e=>"· "+e.Message));
+        _feed.text=string.Join("\n",Feed.Recent.Select(e=>"· "+DisplayFeedMessage(e.Message)));
+        _feedBackdrop.SetActive(!string.IsNullOrEmpty(_feed.text));
         var subjects=new HashSet<string>(Attention.Where(a=>a.Intent==HomeAttentionIntent.PersonGrowth).Select(a=>a.SubjectId));
         foreach(var view in _host.PersonViews) view.Value.SetAttention(subjects.Contains(view.Key));
         _surface.SetActive(Router.Surface==HomeSurface.Cards || Router.Surface==HomeSurface.History);
@@ -178,7 +193,7 @@ public sealed class HomeProductShell : MonoBehaviour
         if(SurfaceModalActive) _attentionPanel.SetActive(false);
         _host.Inspector.SetVisible(_host.WorldVisible && Router.Surface==HomeSurface.World);
         foreach(var pair in _navigation.Select((button,index)=>new{button,index}))
-            pair.button.GetComponent<Image>().color=(int)Router.Surface==pair.index ? new Color(.28f,.43f,.36f,.96f) : new Color(.14f,.24f,.24f,.94f);
+            HomeProductUI.ApplyButtonSkin(pair.button,Build.IsOpen ? pair.index==6 : (int)Router.Surface==pair.index);
         RefreshSurface();
     }
     /// <summary>

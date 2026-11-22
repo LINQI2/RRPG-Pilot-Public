@@ -1,0 +1,40 @@
+{
+  "total": 1278,
+  "unchanged": 1273,
+  "changed": [
+    "Docs/DevelopmentSpecs/README.md",
+    "Docs/开发验收交接.md",
+    "Docs/文档地图.md",
+    "Docs/项目日志.md",
+    "Docs/项目状态快照.md"
+  ],
+  "missing": [],
+  "expectedOnly": true,
+  "documents": [
+    {
+      "path": "Docs/项目状态快照.md",
+      "backupMatchesBaseline": true,
+      "originalTextPreserved": true
+    },
+    {
+      "path": "Docs/开发验收交接.md",
+      "backupMatchesBaseline": true,
+      "originalTextPreserved": true
+    },
+    {
+      "path": "Docs/项目日志.md",
+      "backupMatchesBaseline": true,
+      "originalTextPreserved": true
+    },
+    {
+      "path": "Docs/文档地图.md",
+      "backupMatchesBaseline": true,
+      "originalTextPreserved": true
+    },
+    {
+      "path": "Docs/DevelopmentSpecs/README.md",
+      "backupMatchesBaseline": true,
+      "originalTextPreserved": true
+    }
+  ]
+}

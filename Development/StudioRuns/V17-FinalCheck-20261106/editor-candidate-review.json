@@ -1,0 +1,48 @@
+{
+  "generatedUtc": "2026-11-06T06:12:00Z",
+  "head": "4d9ea21ae1799f57a741cae5df58a7685996cc1e",
+  "method": "git diff -U0 逐文件统计 hunk 与 +/- 行，并按关键词（InitialWorld / Management / Tavern / 其他系统）判定混入；未使用笼统 shared 标签。",
+  "note": "本轮现场候选为 39 条（git status -uall 过滤后）；工作包提到的 61/48 来自历史 Dependency-Manifest，两者口径不同，此处以现场实测为准并标注差异。",
+  "classificationLegend": {
+    "v17-product": "已验收 V17 产品闭包内（Runtime/Editor/Prefab/Meta/配置/长期测试）",
+    "v17-shared-real-mix": "同时承载 V17 与他任务的真实混合，需逐 hunk 评审",
+    "test-fixture": "测试夹具/历史基线依赖，建议保留磁盘证据但不入长期回归",
+    "out-of-scope": "与本包无关，保留原样"
+  },
+  "modifiedTracked": [
+    { "path": "UnityProject/RRPG1.0game/Assets/Editor/StaticConfig/StaticConfigBuilder.cs", "add": 75, "del": 11, "hunks": 18, "keywords": ["IW", "OTHER"], "class": "v17-shared-real-mix", "reason": "Initial World Builder 主体 + 与怪物/表现等其他生成段共用同一文件" },
+    { "path": "UnityProject/RRPG1.0game/Assets/Scripts/Core/PlayerCollection.cs", "add": 121, "del": 14, "hunks": 15, "keywords": ["IW"], "class": "v17-product", "reason": "InitializeFromConfiguration 等新游戏入口" },
+    { "path": "UnityProject/RRPG1.0game/Assets/Scripts/Save/SaveSystem.cs", "add": 49, "del": 2, "hunks": 5, "keywords": ["IW", "MGMT"], "class": "v17-shared-real-mix", "reason": "NewGame(config) 与保存结果诊断接缝；两侧共用" },
+    { "path": "UnityProject/RRPG1.0game/Assets/Scripts/StaticConfig/BuildingRegistry.cs", "add": 11, "del": 0, "hunks": 1, "keywords": [], "class": "v17-product", "reason": "单 hunk 新增建筑类别查询，无其他系统关键词" },
+    { "path": "UnityProject/RRPG1.0game/Assets/Scripts/StaticConfig/RRPGStaticConfigRoot.cs", "add": 6, "del": 1, "hunks": 3, "keywords": ["IW"], "class": "v17-product", "reason": "生成根持有 InitialWorld 数据入口" },
+    { "path": "UnityProject/RRPG1.0game/Assets/Scripts/StaticConfig/StaticConfigRegistry.cs", "add": 131, "del": 0, "hunks": 5, "keywords": ["IW"], "class": "v17-product", "reason": "TryGetInitialWorld 等注册表入口" },
+    { "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/HomeBuildingPlacement.cs", "add": 6, "del": 3, "hunks": 4, "keywords": [], "class": "v17-shared-real-mix", "reason": "建造守卫小改，与管理输入链耦合但无 IW 关键词；需人工确认归属" },
+    { "path": "UnityProject/RRPG1.0game/Assets/Scripts/Village/ProductHome/HomeWorldCamera.cs", "add": 54, "del": 6, "hunks": 8, "keywords": [], "class": "v17-shared-real-mix", "reason": "输入采样改动，与管理遮罩验收相关；无 IW 关键词，来源需确认" },
+    { "path": "UnityProject/RRPG1.0game/Assets/Tests/EditMode/Village/ProductHomeFoundationTests.cs", "add": 30, "del": 5, "hunks": 4, "keywords": ["IW", "MGMT"], "class": "v17-product", "reason": "长期 Edit 测试，适配配置驱动" },
+    { "path": "UnityProject/RRPG1.0game/Assets/Tests/PlayMode/Village/ProductHomeFoundationPlayTests.cs", "add": 400, "del": 83, "hunks": 12, "keywords": ["MGMT"], "class": "v17-product", "reason": "长期 Play 测试（管理/HOME 真实入口）" },
+    { "path": "Development/Config/README.md", "add": 24, "del": 1, "hunks": 2, "keywords": ["IW", "OTHER"], "class": "out-of-scope", "reason": "说明文档，非编译依赖，混有其他包说明" },
+    { "path": "Development/Generated/StaticConfig/README.md", "add": 1, "del": 0, "hunks": 1, "keywords": ["IW"], "class": "out-of-scope", "reason": "生成物说明" }
+  ],
+  "untrackedGroups": [
+    { "group": "Management 控制器", "paths": ["Assets/Scripts/Village/ProductHome/ManagementView.cs(+meta)", "ManagementRowView.cs(+meta)", "ManagementReadAdapter.cs(+meta)", "ManagementCommandGateway.cs(+meta)"], "class": "v17-product", "reason": "HomeProductShell 运行时 Resources.Load 必需，Prefab 绑定目标" },
+    { "group": "Management 快照与 Prefab", "paths": ["Assets/Scripts/Village/Runtime/ManagementSnapshot.cs(+meta)", "Assets/Resources/UI/ManagementView.prefab(+meta)"], "class": "v17-product", "reason": "Prefab 已核验 0 missing script、4 行模板齐全" },
+    { "group": "Initial World Runtime", "paths": ["Assets/Scripts/Village/Runtime/InitialWorldConfiguration.cs(+meta)", "Assets/Scripts/StaticConfig/InitialWorldConfigDatabase.cs(+meta)", "Assets/Editor/StaticConfig/InitialWorldMirrorReader.cs(+meta)"], "class": "v17-product", "reason": "Catalog/DB/Reader 闭包" },
+    { "group": "Initial World 配置与 Mirror", "paths": ["Development/Config/RRPG_InitialWorld.xlsx", "Development/Generated/StaticConfig/InitialWorld.json", "InitialPopulation.json", "InitialBuilding.json"], "class": "v17-product", "reason": "三份 Mirror 当前 SHA 与 Registry 可读；XLSX 为唯一人工源" },
+    { "group": "Initial World Compiler 侧", "paths": ["Tools/.../Core/InitialWorldValidator.cs", "InitialWorldWorkbookSeed.cs", "tests/InitialWorldConfigTests.cs", "InitialWorldWorkbookSeedTests.cs"], "class": "v17-product", "reason": "制造人已指示 fe11c40 精确 13 文件已提交；若本组仍为未跟踪需核对是否重复" }
+  ],
+  "testFixtureDecision": {
+    "file": "Assets/Tests/PlayMode/ManagementShellPlayTests.cs",
+    "baselineDependency": "Development/StudioRuns/R3B-20261022/workspace-baseline.json",
+    "baselineTracked": false,
+    "class": "test-fixture",
+    "recommendation": "按工作包：保留磁盘/历史证据，不纳入长期回归；不改测试、不删基线。若纳入产品闭包提交，该测试在新 clone 上 OneTimeSetUp 会因缺基线失败——属已知夹具缺口，不是产品缺陷。",
+    "sourceReferencesOutsideTest": 3,
+    "sourceReferenceNote": "3 处引用均在测试/说明文件内，产品 Runtime 不依赖该测试类型（需主开发复核该计数语义）。"
+  },
+  "remainingTrueGaps": [
+    "HomeBuildingPlacement.cs / HomeWorldCamera.cs 的 +6/-3 与 +54/-6 无 IW 关键词，归属需人工确认，否则闭包不完整或混入他包。",
+    "StaticConfigBuilder.cs 单文件同时含 Initial World 与怪物/表现生成段：整文件纳入会带他任务改动，逐 hunk 拆分风险高。",
+    "Tools 组是否仍需纳入取决于 fe11c40 实际内容（本轮未复核该提交文件清单）。",
+    "ManagementShellPlayTests 的旧基线未跟踪 → 长期回归不可在干净 clone 重跑（已知、已隔离）。"
+  ]
+}

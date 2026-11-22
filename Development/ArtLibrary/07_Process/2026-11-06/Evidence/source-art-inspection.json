@@ -1,0 +1,470 @@
+[
+  {
+    "Path": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\farm_r5_background_rejected.png",
+    "Width": 1536,
+    "Height": 1024,
+    "PixelFormat": "Format32bppArgb",
+    "SHA256": "B90BD7BFDC54E9CA67A41F9446AB6BF9876E21F8490D5CC8E8446BF178667258",
+    "SamplingStride": 4,
+    "FullyTransparentSamples": 56040,
+    "PartialAlphaSamples": 42264,
+    "OpaqueSamples": 0,
+    "MostFrequentAlpha": [
+      {
+        "Alpha": 0,
+        "Samples": 56040
+      },
+      {
+        "Alpha": 252,
+        "Samples": 19535
+      },
+      {
+        "Alpha": 1,
+        "Samples": 14800
+      },
+      {
+        "Alpha": 253,
+        "Samples": 4913
+      },
+      {
+        "Alpha": 251,
+        "Samples": 1130
+      },
+      {
+        "Alpha": 250,
+        "Samples": 355
+      },
+      {
+        "Alpha": 2,
+        "Samples": 223
+      },
+      {
+        "Alpha": 249,
+        "Samples": 191
+      }
+    ],
+    "ApproxBoundsAlphaAbove8": [
+      108,
+      140,
+      1372,
+      832
+    ],
+    "Note": "Sampled alpha/content bounds, not a full pixel scan. No image modified. Runtime scale/pivot not validated."
+  },
+  {
+    "Path": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\farm_r5_candidate.png",
+    "Width": 1536,
+    "Height": 1024,
+    "PixelFormat": "Format32bppArgb",
+    "SHA256": "F4CEE673723348052EAE5D3924F038F1A342B15488344E034144D58E4686FAC3",
+    "SamplingStride": 4,
+    "FullyTransparentSamples": 70094,
+    "PartialAlphaSamples": 28210,
+    "OpaqueSamples": 0,
+    "MostFrequentAlpha": [
+      {
+        "Alpha": 0,
+        "Samples": 70094
+      },
+      {
+        "Alpha": 253,
+        "Samples": 24136
+      },
+      {
+        "Alpha": 252,
+        "Samples": 993
+      },
+      {
+        "Alpha": 1,
+        "Samples": 782
+      },
+      {
+        "Alpha": 254,
+        "Samples": 725
+      },
+      {
+        "Alpha": 251,
+        "Samples": 339
+      },
+      {
+        "Alpha": 250,
+        "Samples": 171
+      },
+      {
+        "Alpha": 2,
+        "Samples": 134
+      }
+    ],
+    "ApproxBoundsAlphaAbove8": [
+      108,
+      136,
+      1372,
+      832
+    ],
+    "Note": "Sampled alpha/content bounds, not a full pixel scan. No image modified. Runtime scale/pivot not validated."
+  },
+  {
+    "Path": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\farm_r5_square_rejected.png",
+    "Width": 1254,
+    "Height": 1254,
+    "PixelFormat": "Format32bppArgb",
+    "SHA256": "1FD795EE23F3634999588338635976B86A16C0D2FD3E4EBDD74A06E6F7152D51",
+    "SamplingStride": 4,
+    "FullyTransparentSamples": 73959,
+    "PartialAlphaSamples": 24624,
+    "OpaqueSamples": 13,
+    "MostFrequentAlpha": [
+      {
+        "Alpha": 0,
+        "Samples": 73959
+      },
+      {
+        "Alpha": 253,
+        "Samples": 18835
+      },
+      {
+        "Alpha": 252,
+        "Samples": 3923
+      },
+      {
+        "Alpha": 251,
+        "Samples": 402
+      },
+      {
+        "Alpha": 1,
+        "Samples": 255
+      },
+      {
+        "Alpha": 250,
+        "Samples": 189
+      },
+      {
+        "Alpha": 249,
+        "Samples": 120
+      },
+      {
+        "Alpha": 2,
+        "Samples": 89
+      }
+    ],
+    "ApproxBoundsAlphaAbove8": [
+      84,
+      308,
+      1176,
+      976
+    ],
+    "Note": "Sampled alpha/content bounds, not a full pixel scan. No image modified. Runtime scale/pivot not validated."
+  },
+  {
+    "Path": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\house_01.png",
+    "Width": 1254,
+    "Height": 1254,
+    "PixelFormat": "Format32bppArgb",
+    "SHA256": "266F1FD8E0AE68544646F3C55C134011CBF170070A1EB2B9250E8FD156595211",
+    "SamplingStride": 4,
+    "FullyTransparentSamples": 44851,
+    "PartialAlphaSamples": 53653,
+    "OpaqueSamples": 92,
+    "MostFrequentAlpha": [
+      {
+        "Alpha": 253,
+        "Samples": 50159
+      },
+      {
+        "Alpha": 0,
+        "Samples": 44851
+      },
+      {
+        "Alpha": 252,
+        "Samples": 1118
+      },
+      {
+        "Alpha": 254,
+        "Samples": 718
+      },
+      {
+        "Alpha": 1,
+        "Samples": 324
+      },
+      {
+        "Alpha": 251,
+        "Samples": 229
+      },
+      {
+        "Alpha": 250,
+        "Samples": 95
+      },
+      {
+        "Alpha": 255,
+        "Samples": 92
+      }
+    ],
+    "ApproxBoundsAlphaAbove8": [
+      60,
+      140,
+      1208,
+      1140
+    ],
+    "Note": "Sampled alpha/content bounds, not a full pixel scan. No image modified. Runtime scale/pivot not validated."
+  },
+  {
+    "Path": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\house_r2_high.png",
+    "Width": 1254,
+    "Height": 1254,
+    "PixelFormat": "Format32bppArgb",
+    "SHA256": "161FF2453BA59953ED0C6EFAFB9536A48BAB72D0A99AFDA5167275B3E741F786",
+    "SamplingStride": 4,
+    "FullyTransparentSamples": 63766,
+    "PartialAlphaSamples": 34819,
+    "OpaqueSamples": 11,
+    "MostFrequentAlpha": [
+      {
+        "Alpha": 0,
+        "Samples": 63766
+      },
+      {
+        "Alpha": 253,
+        "Samples": 31939
+      },
+      {
+        "Alpha": 252,
+        "Samples": 1014
+      },
+      {
+        "Alpha": 254,
+        "Samples": 388
+      },
+      {
+        "Alpha": 1,
+        "Samples": 348
+      },
+      {
+        "Alpha": 251,
+        "Samples": 251
+      },
+      {
+        "Alpha": 250,
+        "Samples": 103
+      },
+      {
+        "Alpha": 2,
+        "Samples": 98
+      }
+    ],
+    "ApproxBoundsAlphaAbove8": [
+      148,
+      144,
+      1108,
+      1140
+    ],
+    "Note": "Sampled alpha/content bounds, not a full pixel scan. No image modified. Runtime scale/pivot not validated."
+  },
+  {
+    "Path": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\house_r3.png",
+    "Width": 1254,
+    "Height": 1254,
+    "PixelFormat": "Format32bppArgb",
+    "SHA256": "C9112ACF460A72653C8CBBC26200EC3391C8C6A1BEFF8BFD9FF0C793F795B42D",
+    "SamplingStride": 4,
+    "FullyTransparentSamples": 69398,
+    "PartialAlphaSamples": 29151,
+    "OpaqueSamples": 47,
+    "MostFrequentAlpha": [
+      {
+        "Alpha": 0,
+        "Samples": 69398
+      },
+      {
+        "Alpha": 253,
+        "Samples": 25278
+      },
+      {
+        "Alpha": 252,
+        "Samples": 1316
+      },
+      {
+        "Alpha": 1,
+        "Samples": 452
+      },
+      {
+        "Alpha": 251,
+        "Samples": 246
+      },
+      {
+        "Alpha": 254,
+        "Samples": 233
+      },
+      {
+        "Alpha": 2,
+        "Samples": 118
+      },
+      {
+        "Alpha": 4,
+        "Samples": 87
+      }
+    ],
+    "ApproxBoundsAlphaAbove8": [
+      224,
+      212,
+      1036,
+      1056
+    ],
+    "Note": "Sampled alpha/content bounds, not a full pixel scan. No image modified. Runtime scale/pivot not validated."
+  },
+  {
+    "Path": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\kitchen_01.png",
+    "Width": 1254,
+    "Height": 1254,
+    "PixelFormat": "Format32bppArgb",
+    "SHA256": "243A8D1ABEAC4EFC8A1A495AEB3494C23ABBF47203B2593E8A8F1138FECE636C",
+    "SamplingStride": 4,
+    "FullyTransparentSamples": 44606,
+    "PartialAlphaSamples": 53929,
+    "OpaqueSamples": 61,
+    "MostFrequentAlpha": [
+      {
+        "Alpha": 253,
+        "Samples": 49814
+      },
+      {
+        "Alpha": 0,
+        "Samples": 44606
+      },
+      {
+        "Alpha": 252,
+        "Samples": 1736
+      },
+      {
+        "Alpha": 254,
+        "Samples": 436
+      },
+      {
+        "Alpha": 1,
+        "Samples": 376
+      },
+      {
+        "Alpha": 251,
+        "Samples": 236
+      },
+      {
+        "Alpha": 250,
+        "Samples": 147
+      },
+      {
+        "Alpha": 249,
+        "Samples": 147
+      }
+    ],
+    "ApproxBoundsAlphaAbove8": [
+      36,
+      116,
+      1224,
+      1140
+    ],
+    "Note": "Sampled alpha/content bounds, not a full pixel scan. No image modified. Runtime scale/pivot not validated."
+  },
+  {
+    "Path": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\kitchen_r2_high.png",
+    "Width": 1254,
+    "Height": 1254,
+    "PixelFormat": "Format32bppArgb",
+    "SHA256": "7EE92A7C60CFB864671FC1FAD279E30FDA737F5F0A450C489EEA51100F6B84FF",
+    "SamplingStride": 4,
+    "FullyTransparentSamples": 60105,
+    "PartialAlphaSamples": 38463,
+    "OpaqueSamples": 28,
+    "MostFrequentAlpha": [
+      {
+        "Alpha": 0,
+        "Samples": 60105
+      },
+      {
+        "Alpha": 253,
+        "Samples": 35154
+      },
+      {
+        "Alpha": 252,
+        "Samples": 1818
+      },
+      {
+        "Alpha": 1,
+        "Samples": 431
+      },
+      {
+        "Alpha": 251,
+        "Samples": 190
+      },
+      {
+        "Alpha": 2,
+        "Samples": 81
+      },
+      {
+        "Alpha": 250,
+        "Samples": 66
+      },
+      {
+        "Alpha": 249,
+        "Samples": 62
+      }
+    ],
+    "ApproxBoundsAlphaAbove8": [
+      124,
+      140,
+      1132,
+      1148
+    ],
+    "Note": "Sampled alpha/content bounds, not a full pixel scan. No image modified. Runtime scale/pivot not validated."
+  },
+  {
+    "Path": "D:\\AI_Agent_Lab\\rrpg_pilot\\repo\\Development\\SourceAssets\\Village\\ArtUpgrade01\\kitchen_r3.png",
+    "Width": 1254,
+    "Height": 1254,
+    "PixelFormat": "Format32bppArgb",
+    "SHA256": "025FA01238BA3A45C08831E7439A2A0335358076965FE4D7489F04D34596E21A",
+    "SamplingStride": 4,
+    "FullyTransparentSamples": 69753,
+    "PartialAlphaSamples": 28825,
+    "OpaqueSamples": 18,
+    "MostFrequentAlpha": [
+      {
+        "Alpha": 0,
+        "Samples": 69753
+      },
+      {
+        "Alpha": 253,
+        "Samples": 26393
+      },
+      {
+        "Alpha": 252,
+        "Samples": 847
+      },
+      {
+        "Alpha": 1,
+        "Samples": 247
+      },
+      {
+        "Alpha": 254,
+        "Samples": 211
+      },
+      {
+        "Alpha": 251,
+        "Samples": 187
+      },
+      {
+        "Alpha": 250,
+        "Samples": 96
+      },
+      {
+        "Alpha": 2,
+        "Samples": 58
+      }
+    ],
+    "ApproxBoundsAlphaAbove8": [
+      224,
+      208,
+      1036,
+      1056
+    ],
+    "Note": "Sampled alpha/content bounds, not a full pixel scan. No image modified. Runtime scale/pivot not validated."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "RRPG_VisualAssets.xlsx",
+    "appendedRows": [
+      27,
+      38
+    ],
+    "allOtherPackagePartsByteIdentical": true,
+    "protectedWorksheetTreeUnchanged": true,
+    "allValuesMatchArtifactOutput": true
+  },
+  {
+    "file": "RRPG_VillagePresentation.xlsx",
+    "appendedRows": [
+      28,
+      39
+    ],
+    "allOtherPackagePartsByteIdentical": true,
+    "protectedWorksheetTreeUnchanged": true,
+    "allValuesMatchArtifactOutput": true
+  }
+]

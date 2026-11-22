@@ -1,0 +1,32 @@
+[
+  {
+    "path": "Docs/DevelopmentSpecs/README.md",
+    "state": "changed",
+    "baseline": "0e59e04f8e15c87fb7f4a20d41948159b56e85bbd2b9cfafa20cd690b20f0cf5",
+    "current": "d8825da8e873829247fc69dd13572ef6035fae4b7337e991f9944f6c517334d9"
+  },
+  {
+    "path": "Docs/开发验收交接.md",
+    "state": "changed",
+    "baseline": "f23f2b8b9c3da4f7ce7369f21d86d18e569d4945f65855e65f6ffdf154690888",
+    "current": "3480d3e1dd243add5e426e5b18fc6a8cabea508ee06d7dc1040b87b3b56470cf"
+  },
+  {
+    "path": "Docs/文档地图.md",
+    "state": "changed",
+    "baseline": "895e782eb17d16fef056490d33d0373220fd47b4eecbbe851c90be9e30e60f33",
+    "current": "d9af9be60a40bf6fb044a9b4c4764c98fdc0b9e1695ff0618bb8422936872f3b"
+  },
+  {
+    "path": "Docs/项目日志.md",
+    "state": "changed",
+    "baseline": "a37b340905a447932e053a4eb5d1db549899df0c80fa4e79b89b64933563b2fa",
+    "current": "f6ffe68958c62863a344358ee43e1ff585462db59ef3cac84bc9f6288f905d6b"
+  },
+  {
+    "path": "Docs/项目状态快照.md",
+    "state": "changed",
+    "baseline": "59ff154c36e81d8d0812a470f248f96d90aef5b0c23c1ef11d39c5584ab8bfff",
+    "current": "ca1eac9f7f80bc341b90ef6ce55fcb6c50dac5b718b902fef6b99a8c64a0a990"
+  }
+]

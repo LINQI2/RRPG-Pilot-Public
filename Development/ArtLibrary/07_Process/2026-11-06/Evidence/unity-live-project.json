@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "<>f__AnonymousType0(System.String,System.String,System.Boolean,System.Boolean): {}\ndataPath: \"D:/AI_Agent_Lab/rrpg_pilot/repo/UnityProject/RRPG1.0game/Assets\"\nunityVersion: 2022.3.62t9\nisCompiling: false\nisUpdating: false"
+      }
+    ],
+    "isError": false
+  },
+  "id": 13,
+  "jsonrpc": "2.0"
+}

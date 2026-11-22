@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Tool execution failed for 'Script / Execute': Execution failed (Runtime): System.Exception: Real Home is not visible\r\n   at HomeArtVerification.Run in snippet.cs:line 52\r\n   at CaptureHomeArt.Run in snippet.cs:line 66"
+      }
+    ],
+    "isError": true
+  },
+  "id": 39,
+  "jsonrpc": "2.0"
+}

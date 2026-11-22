@@ -1,0 +1,78 @@
+{
+  "generatedUtc": "2026-11-06T06:17:30Z",
+  "head": "21004a26e716c6bcdae10b8ada2f329de27e4e81",
+  "branch": "ai/rrpg-r3b-population-pilot",
+  "git": { "staged": 0, "dirty": 134, "recentCommits": ["21004a2", "96db828", "fe11c40"] },
+  "gate": {
+    "label": "v17-postcommit-01",
+    "beginExit": 0,
+    "endExit": 0,
+    "fontSha256": "7b5717b976bac0d90dce70ba65b4dda0995bf78e8b3fd317ea9918058109c016",
+    "records": ["records/20261106T061529Z-v17-postcommit-01-begin.json", "records/20261106T061717Z-v17-postcommit-01-end.json"]
+  },
+  "compilation": {
+    "requestedOnce": true,
+    "method": "CompilationPipeline.RequestScriptCompilation()",
+    "domainReloadCompleted": true,
+    "scriptCompilationFailed": false,
+    "isCompiling": false,
+    "isUpdating": false,
+    "consoleCounts": { "error": 0, "warning": 523, "log": 2 },
+    "consoleCleared": false,
+    "note": "域重载完成且 scriptCompilationFailed=False；不代表产品测试通过，也不等于冷启动重建通过"
+  },
+  "editor": {
+    "project": "D:/AI_Agent_Lab/rrpg_pilot/repo/UnityProject/RRPG1.0game",
+    "version": "2022.3.62t9",
+    "product": "RRPG_AI_Pilot",
+    "isPlaying": false,
+    "assembliesLoaded": 313,
+    "types": { "ManagementView": "Assembly-CSharp", "RRPG.StaticConfig.InitialWorldConfigDatabase": "StaticConfig.Runtime" }
+  },
+  "prefab": {
+    "path": "Assets/Resources/UI/ManagementView.prefab",
+    "transforms": 81,
+    "missingScripts": 0,
+    "guidChecks": [
+      { "guid": "4a7dfebd6d5993c499d4f9a186b7d2c0", "path": "Assets/Scripts/Village/ProductHome/ManagementView.cs", "class": "ManagementView" },
+      { "guid": "f37df54fb96a70c45864d60504325b01", "path": "Assets/Scripts/Village/ProductHome/ManagementRowView.cs", "class": "ManagementRowView" },
+      { "guid": "f9418c72505f4cb41ab51da03f9fd2e0", "path": "Assets/Art/Fonts/SourceHanSansCN/RRPG_SourceHanSansCN_Regular_TMP.asset", "class": "TMP font asset" }
+    ]
+  },
+  "generatedRoot": {
+    "path": "Assets/Generated/StaticConfig/Resources/RRPGStaticConfigRoot.asset",
+    "type": "RRPG.StaticConfig.RRPGStaticConfigRoot",
+    "contentSignature": "78f532b6b58d916d67df6300e26bb0db95fc40ffc02c887c162aa8f7a06168ae",
+    "loaded": true
+  },
+  "mirrors": {
+    "directory": "D:/AI_Agent_Lab/rrpg_pilot/repo/Development/Generated/StaticConfig",
+    "jsonFileCount": 44,
+    "files": [
+      { "name": "InitialWorld.json", "sha256_16": "5af02464bbf359c6", "bytes": 1569 },
+      { "name": "InitialPopulation.json", "sha256_16": "ae0fe5456266ff66", "bytes": 1377 },
+      { "name": "InitialBuilding.json", "sha256_16": "32abb64be5c5fbe7", "bytes": 2209 }
+    ]
+  },
+  "validationApi": {
+    "computeSignature": "ComputeSignature(List`1, BuildOutcome) static private",
+    "isUpToDate": "IsUpToDate(String, Int32, PresentationInput, Payload×4, List`1, Payload, Payload) static private",
+    "invoked": false,
+    "reason": "两者都需要 Build 内部的完整读取管线产物（mirrorFiles 列表与 BuildOutcome/各 Payload）；纯只读构造会复制 Build 大部分逻辑且缺乏无副作用保证，故未调用。Build(false) 在签名不匹配时仍会写资产，禁止执行。",
+    "conclusion": "只能证明『现有生成根可读且带签名』，不能证明『签名与当前配置匹配』或『Build 必然 NoOp』。"
+  },
+  "committedEditorSourcesSha16": {
+    "Assets/Scripts/Village/ProductHome/ManagementView.cs": "6c218dafbea1",
+    "Assets/Scripts/Village/ProductHome/ManagementRowView.cs": "d5a2456ab131",
+    "Assets/Scripts/Village/ProductHome/ManagementReadAdapter.cs": "752c6a2d8ebb",
+    "Assets/Scripts/Village/ProductHome/ManagementCommandGateway.cs": "d912bfc9baea",
+    "Assets/Scripts/Village/Runtime/ManagementSnapshot.cs": "1184f80307e8",
+    "Assets/Resources/UI/ManagementView.prefab": "f750ed83ee1c",
+    "Assets/Art/Fonts/SourceHanSansCN/RRPG_SourceHanSansCN_Regular_TMP.asset": "7b5717b976ba"
+  },
+  "sideEffects": [
+    "1 次 ScriptCompilation（域重载）——工作包明确要求",
+    "门禁 records 2 条",
+    "未 Play、未 Builder、未 Refresh、未 SaveAssets、未改资产/Scene/Save/字体"
+  ]
+}
